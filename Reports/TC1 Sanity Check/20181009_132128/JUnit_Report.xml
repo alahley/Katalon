@@ -1,0 +1,4777 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TC1 Sanity Check" time="181" tests="1" failures="1" errors="0">
+   <testsuite name="TC1 Sanity Check" tests="1" failures="1" errors="0" time="181" timestamp="2018-10-09 13:21:29" hostname="alahley - 172.16.168.46" id="Test Suites/TC1 Sanity Check">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/alahley/Katalon Studio/Analytics/Reports/TC1 Sanity Check/20181009_132128"/>
+         <property name="logFiles" value="/Users/alahley/Katalon Studio/Analytics/Reports/TC1 Sanity Check/20181009_132128/execution0.log"/>
+         <property name="attachments" value="/Users/alahley/Katalon Studio/Analytics/Reports/TC1 Sanity Check/20181009_132128/1539116551055.png, /Users/alahley/Katalon Studio/Analytics/Reports/TC1 Sanity Check/20181009_132128/1539116595160.png"/>
+         <property name="hostName" value="alahley - 172.16.168.46"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="5.7.0.1"/>
+         <property name="browser" value="Firefox 62.0"/>
+         <property name="hostAddress" value="172.16.168.46"/>
+         <property name="sessionId" value="2ccf17a3-ea07-1a4c-a402-890047b60cb3"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/TC1/TC1 - Logging In and Out" classname="Test Cases/TC1/TC1 - Logging In and Out" status="FAILED">
+         <failure type="FAILED" message="(Stack trace: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Overview/div_Live EventsOverviewTotal L' located by 'By.xpath: //div[@id = 'dashboard' and (text() = 'Live EventsOverviewTotal Live EventsAn Error Occurred
+
+  
+  
+  716Total Live Events
+
+
+Average Monthly EventsAn Error Occurred
+
+  
+  
+  129Average Monthly Events
+
+
+Peering EfficiencyAn Error Occurred
+
+  
+  
+  18%82%
+   Peer Bytes Sum Origin Bytes Sum
+
+
+Live ViewsAn Error Occurred
+
+  
+  
+  
+    
+      
+    
+    
+      
+    
+  
+01,0002,0002018-052018-062018-072018-082018-092018-10Monthly Total Views
+
+
+Live EventsAn Error Occurred
+
+  
+  
+  
+    
+      
+    
+    
+      
+    
+  
+0501001502002018-052018-062018-072018-082018-092018-10Monthly Event Totals
+
+
+Unique ViewersAn Error Occurred
+
+  
+  
+  2,925Unique Viewers
+
+
+Average Monthly ViewsAn Error Occurred
+
+  
+  
+  1,316Average Monthly Views
+
+
+Live event ctaAn Error Occurred
+
+  
+  
+  
+        
+              View your detailed Live Event metrics
+        
+           Go to Live Event Summary
+      
+    
+
+
+Videos on DemandOverviewTotal VideosAn Error Occurred
+
+  
+  
+  519Total Videos
+
+
+Total Views OverviewAn Error Occurred
+
+  
+  
+  4,403Total Views
+
+
+VoD Summary Peering EfficiencyAn Error Occurred
+
+  
+  
+  16%84%
+   Peer Bytes Sum Origin Bytes Sum
+
+
+VoD ViewsAn Error Occurred
+
+  
+  
+  
+    
+      
+    
+    
+      
+    
+  
+Session Count05001,0002018-052018-062018-072018-082018-092018-10Month
+
+
+VoD over timeAn Error Occurred
+
+  
+  
+  
+    
+      
+    
+    
+      
+    
+  
+0501001502018-052018-062018-072018-082018-092018-10Start Month
+
+
+Unique Viewers OverviewAn Error Occurred
+
+  
+  
+  1,874Unique Viewers
+
+
+Total Hours WatchedAn Error Occurred
+
+  
+  
+  654Total Hours Watched
+
+
+Video on demand ctaAn Error Occurred
+
+  
+  
+  
+        
+              View your detailed Video on Demand metrics
+        
+           Go to VoD Summary
+      
+    
+
+
+NetworkOverviewUnique Agent CountAn Error Occurred
+
+  
+  
+  3,821Unique Agents
+
+
+Delivery CountAn Error Occurred
+
+  
+  
+  36,813Deliveries
+
+
+Peering EfficiencyAn Error Occurred
+
+  
+  
+  73%Peering Efficiency
+
+
+Deliveries by MonthAn Error Occurred
+
+  
+  
+  
+    
+      
+    
+    
+      
+    
+  
+Deliveries05,00010,0002018-052018-052018-062018-062018-072018-072018-082018-082018-092018-092018-102018-10
+
+  On Demand
+  Live
+  SCCM
+
+GB SavedAn Error Occurred
+
+  
+  
+  4,467Saved GB
+
+
+GB TotalAn Error Occurred
+
+  
+  
+  6,154Total GB
+
+
+Network ctaAn Error Occurred
+
+  
+  
+  
+        
+              View your detailed Network metrics
+        
+           Go to Network Summary
+      
+    
+
+
+' or . = 'Live EventsOverviewTotal Live EventsAn Error Occurred
+
+  
+  
+  716Total Live Events
+
+
+Average Monthly EventsAn Error Occurred
+
+  
+  
+  129Average Monthly Events
+
+
+Peering EfficiencyAn Error Occurred
+
+  
+  
+  18%82%
+   Peer Bytes Sum Origin Bytes Sum
+
+
+Live ViewsAn Error Occurred
+
+  
+  
+  
+    
+      
+    
+    
+      
+    
+  
+01,0002,0002018-052018-062018-072018-082018-092018-10Monthly Total Views
+
+
+Live EventsAn Error Occurred
+
+  
+  
+  
+    
+      
+    
+    
+      
+    
+  
+0501001502002018-052018-062018-072018-082018-092018-10Monthly Event Totals
+
+
+Unique ViewersAn Error Occurred
+
+  
+  
+  2,925Unique Viewers
+
+
+Average Monthly ViewsAn Error Occurred
+
+  
+  
+  1,316Average Monthly Views
+
+
+Live event ctaAn Error Occurred
+
+  
+  
+  
+        
+              View your detailed Live Event metrics
+        
+           Go to Live Event Summary
+      
+    
+
+
+Videos on DemandOverviewTotal VideosAn Error Occurred
+
+  
+  
+  519Total Videos
+
+
+Total Views OverviewAn Error Occurred
+
+  
+  
+  4,403Total Views
+
+
+VoD Summary Peering EfficiencyAn Error Occurred
+
+  
+  
+  16%84%
+   Peer Bytes Sum Origin Bytes Sum
+
+
+VoD ViewsAn Error Occurred
+
+  
+  
+  
+    
+      
+    
+    
+      
+    
+  
+Session Count05001,0002018-052018-062018-072018-082018-092018-10Month
+
+
+VoD over timeAn Error Occurred
+
+  
+  
+  
+    
+      
+    
+    
+      
+    
+  
+0501001502018-052018-062018-072018-082018-092018-10Start Month
+
+
+Unique Viewers OverviewAn Error Occurred
+
+  
+  
+  1,874Unique Viewers
+
+
+Total Hours WatchedAn Error Occurred
+
+  
+  
+  654Total Hours Watched
+
+
+Video on demand ctaAn Error Occurred
+
+  
+  
+  
+        
+              View your detailed Video on Demand metrics
+        
+           Go to VoD Summary
+      
+    
+
+
+NetworkOverviewUnique Agent CountAn Error Occurred
+
+  
+  
+  3,821Unique Agents
+
+
+Delivery CountAn Error Occurred
+
+  
+  
+  36,813Deliveries
+
+
+Peering EfficiencyAn Error Occurred
+
+  
+  
+  73%Peering Efficiency
+
+
+Deliveries by MonthAn Error Occurred
+
+  
+  
+  
+    
+      
+    
+    
+      
+    
+  
+Deliveries05,00010,0002018-052018-052018-062018-062018-072018-072018-082018-082018-092018-092018-102018-10
+
+  On Demand
+  Live
+  SCCM
+
+GB SavedAn Error Occurred
+
+  
+  
+  4,467Saved GB
+
+
+GB TotalAn Error Occurred
+
+  
+  
+  6,154Total GB
+
+
+Network ctaAn Error Occurred
+
+  
+  
+  
+        
+              View your detailed Network metrics
+        
+           Go to Network Summary
+      
+    
+
+
+')]' not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:32)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:21)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1434)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$4.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:133)
+	at Script1538969738297.run(Script1538969738297.groovy:62)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1539116488573.run(TempTestSuite1539116488573.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)"/>
+         <system-out><![CDATA[2018-10-09 13:21:30 - [TEST_CASE][FAILED] - Test Cases/TC1/TC1 - Logging In and Out: Test Cases/TC1/TC1 - Logging In and Out FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Overview/div_Live EventsOverviewTotal L' located by 'By.xpath: //div[@id = 'dashboard' and (text() = 'Live EventsOverviewTotal Live EventsAn Error Occurred
+
+  
+  
+  716Total Live Events
+
+
+Average Monthly EventsAn Error Occurred
+
+  
+  
+  129Average Monthly Events
+
+
+Peering EfficiencyAn Error Occurred
+
+  
+  
+  18%82%
+   Peer Bytes Sum Origin Bytes Sum
+
+
+Live ViewsAn Error Occurred
+
+  
+  
+  
+    
+      
+    
+    
+      
+    
+  
+01,0002,0002018-052018-062018-072018-082018-092018-10Monthly Total Views
+
+
+Live EventsAn Error Occurred
+
+  
+  
+  
+    
+      
+    
+    
+      
+    
+  
+0501001502002018-052018-062018-072018-082018-092018-10Monthly Event Totals
+
+
+Unique ViewersAn Error Occurred
+
+  
+  
+  2,925Unique Viewers
+
+
+Average Monthly ViewsAn Error Occurred
+
+  
+  
+  1,316Average Monthly Views
+
+
+Live event ctaAn Error Occurred
+
+  
+  
+  
+        
+              View your detailed Live Event metrics
+        
+           Go to Live Event Summary
+      
+    
+
+
+Videos on DemandOverviewTotal VideosAn Error Occurred
+
+  
+  
+  519Total Videos
+
+
+Total Views OverviewAn Error Occurred
+
+  
+  
+  4,403Total Views
+
+
+VoD Summary Peering EfficiencyAn Error Occurred
+
+  
+  
+  16%84%
+   Peer Bytes Sum Origin Bytes Sum
+
+
+VoD ViewsAn Error Occurred
+
+  
+  
+  
+    
+      
+    
+    
+      
+    
+  
+Session Count05001,0002018-052018-062018-072018-082018-092018-10Month
+
+
+VoD over timeAn Error Occurred
+
+  
+  
+  
+    
+      
+    
+    
+      
+    
+  
+0501001502018-052018-062018-072018-082018-092018-10Start Month
+
+
+Unique Viewers OverviewAn Error Occurred
+
+  
+  
+  1,874Unique Viewers
+
+
+Total Hours WatchedAn Error Occurred
+
+  
+  
+  654Total Hours Watched
+
+
+Video on demand ctaAn Error Occurred
+
+  
+  
+  
+        
+              View your detailed Video on Demand metrics
+        
+           Go to VoD Summary
+      
+    
+
+
+NetworkOverviewUnique Agent CountAn Error Occurred
+
+  
+  
+  3,821Unique Agents
+
+
+Delivery CountAn Error Occurred
+
+  
+  
+  36,813Deliveries
+
+
+Peering EfficiencyAn Error Occurred
+
+  
+  
+  73%Peering Efficiency
+
+
+Deliveries by MonthAn Error Occurred
+
+  
+  
+  
+    
+      
+    
+    
+      
+    
+  
+Deliveries05,00010,0002018-052018-052018-062018-062018-072018-072018-082018-082018-092018-092018-102018-10
+
+  On Demand
+  Live
+  SCCM
+
+GB SavedAn Error Occurred
+
+  
+  
+  4,467Saved GB
+
+
+GB TotalAn Error Occurred
+
+  
+  
+  6,154Total GB
+
+
+Network ctaAn Error Occurred
+
+  
+  
+  
+        
+              View your detailed Network metrics
+        
+           Go to Network Summary
+      
+    
+
+
+' or . = 'Live EventsOverviewTotal Live EventsAn Error Occurred
+
+  
+  
+  716Total Live Events
+
+
+Average Monthly EventsAn Error Occurred
+
+  
+  
+  129Average Monthly Events
+
+
+Peering EfficiencyAn Error Occurred
+
+  
+  
+  18%82%
+   Peer Bytes Sum Origin Bytes Sum
+
+
+Live ViewsAn Error Occurred
+
+  
+  
+  
+    
+      
+    
+    
+      
+    
+  
+01,0002,0002018-052018-062018-072018-082018-092018-10Monthly Total Views
+
+
+Live EventsAn Error Occurred
+
+  
+  
+  
+    
+      
+    
+    
+      
+    
+  
+0501001502002018-052018-062018-072018-082018-092018-10Monthly Event Totals
+
+
+Unique ViewersAn Error Occurred
+
+  
+  
+  2,925Unique Viewers
+
+
+Average Monthly ViewsAn Error Occurred
+
+  
+  
+  1,316Average Monthly Views
+
+
+Live event ctaAn Error Occurred
+
+  
+  
+  
+        
+              View your detailed Live Event metrics
+        
+           Go to Live Event Summary
+      
+    
+
+
+Videos on DemandOverviewTotal VideosAn Error Occurred
+
+  
+  
+  519Total Videos
+
+
+Total Views OverviewAn Error Occurred
+
+  
+  
+  4,403Total Views
+
+
+VoD Summary Peering EfficiencyAn Error Occurred
+
+  
+  
+  16%84%
+   Peer Bytes Sum Origin Bytes Sum
+
+
+VoD ViewsAn Error Occurred
+
+  
+  
+  
+    
+      
+    
+    
+      
+    
+  
+Session Count05001,0002018-052018-062018-072018-082018-092018-10Month
+
+
+VoD over timeAn Error Occurred
+
+  
+  
+  
+    
+      
+    
+    
+      
+    
+  
+0501001502018-052018-062018-072018-082018-092018-10Start Month
+
+
+Unique Viewers OverviewAn Error Occurred
+
+  
+  
+  1,874Unique Viewers
+
+
+Total Hours WatchedAn Error Occurred
+
+  
+  
+  654Total Hours Watched
+
+
+Video on demand ctaAn Error Occurred
+
+  
+  
+  
+        
+              View your detailed Video on Demand metrics
+        
+           Go to VoD Summary
+      
+    
+
+
+NetworkOverviewUnique Agent CountAn Error Occurred
+
+  
+  
+  3,821Unique Agents
+
+
+Delivery CountAn Error Occurred
+
+  
+  
+  36,813Deliveries
+
+
+Peering EfficiencyAn Error Occurred
+
+  
+  
+  73%Peering Efficiency
+
+
+Deliveries by MonthAn Error Occurred
+
+  
+  
+  
+    
+      
+    
+    
+      
+    
+  
+Deliveries05,00010,0002018-052018-052018-062018-062018-072018-072018-082018-082018-092018-092018-102018-10
+
+  On Demand
+  Live
+  SCCM
+
+GB SavedAn Error Occurred
+
+  
+  
+  4,467Saved GB
+
+
+GB TotalAn Error Occurred
+
+  
+  
+  6,154Total GB
+
+
+Network ctaAn Error Occurred
+
+  
+  
+  
+        
+              View your detailed Network metrics
+        
+           Go to Network Summary
+      
+    
+
+
+')]' not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:32)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:21)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1434)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$4.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:133)
+	at Script1538969738297.run(Script1538969738297.groovy:62)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1539116488573.run(TempTestSuite1539116488573.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)
+
+2018-10-09 13:21:30 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'https://stats.tc1.kontiki.com/login/email'
+
+2018-10-09 13:21:37 - [MESSAGE][PASSED] - Browser is opened with url: 'https://stats.tc1.kontiki.com/login/email'
+
+2018-10-09 13:21:37 - [TEST_STEP][PASSED] - setText: Text 'alahley@kollective.com' is set on object 'Object Repository/Page_Log in/input_email (2)'
+
+2018-10-09 13:21:37 - [MESSAGE][PASSED] - Text 'alahley@kollective.com' is set on object 'Object Repository/Page_Log in/input_email (2)'
+
+2018-10-09 13:21:37 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Page_Log in/input_password (2)'
+
+2018-10-09 13:21:37 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Log in/input_password (2)'
+
+2018-10-09 13:21:37 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Log in/input_remember (2)' is clicked on
+
+2018-10-09 13:21:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Log in/input_remember (2)' is clicked on
+
+2018-10-09 13:21:37 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Log in/input_login-submit (2)' is clicked on
+
+2018-10-09 13:21:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Log in/input_login-submit (2)' is clicked on
+
+2018-10-09 13:21:40 - [TEST_STEP][PASSED] - waitForAngularLoad: Angular is ready.
+
+2018-10-09 13:21:43 - [MESSAGE][PASSED] - Angular is ready.
+
+2018-10-09 13:21:43 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_Overview/a' is present
+
+2018-10-09 13:21:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-10-09 13:21:43 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Overview/a' is present
+
+2018-10-09 13:21:43 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_Overview/div_Release Notes_flyout-backg (1)' is present
+
+2018-10-09 13:21:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-10-09 13:21:43 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Overview/div_Release Notes_flyout-backg (1)' is present
+
+2018-10-09 13:21:43 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_Overview/div_Admin_real-image' is present
+
+2018-10-09 13:21:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-10-09 13:21:43 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Overview/div_Admin_real-image' is present
+
+2018-10-09 13:21:43 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_Overview/div_Release Notes_flyout-backg (1)' is present
+
+2018-10-09 13:21:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-10-09 13:21:43 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Overview/div_Release Notes_flyout-backg (1)' is present
+
+2018-10-09 13:21:43 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_Overview/i_Admin_lk-icon-arrow-down-car' is present
+
+2018-10-09 13:21:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-10-09 13:21:43 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Overview/i_Admin_lk-icon-arrow-down-car' is present
+
+2018-10-09 13:21:43 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_Overview/a' is present
+
+2018-10-09 13:21:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-10-09 13:21:43 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Overview/a' is present
+
+2018-10-09 13:21:43 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_Overview/div_Release Notes_flyout-backg (1)' is present
+
+2018-10-09 13:21:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-10-09 13:21:43 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Overview/div_Release Notes_flyout-backg (1)' is present
+
+2018-10-09 13:21:43 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_Overview/div_Admin_real-image' is present
+
+2018-10-09 13:21:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-10-09 13:21:43 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Overview/div_Admin_real-image' is present
+
+2018-10-09 13:21:43 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_Overview/div_Release Notes_flyout-backg (1)' is present
+
+2018-10-09 13:21:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-10-09 13:21:43 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Overview/div_Release Notes_flyout-backg (1)' is present
+
+2018-10-09 13:21:43 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_Overview/i_Admin_lk-icon-arrow-down-car' is present
+
+2018-10-09 13:21:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-10-09 13:21:43 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Overview/i_Admin_lk-icon-arrow-down-car' is present
+
+2018-10-09 13:21:43 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_Overview/div_Release Notes_flyout-backg (1)' is present
+
+2018-10-09 13:21:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-10-09 13:21:43 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Overview/div_Release Notes_flyout-backg (1)' is present
+
+2018-10-09 13:21:43 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_Overview/div_OverviewNetworkNetwork Sum (1)' is present
+
+2018-10-09 13:21:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-10-09 13:21:43 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Overview/div_OverviewNetworkNetwork Sum (1)' is present
+
+2018-10-09 13:21:43 - [TEST_STEP][NOT_RUN] - verifyElementPresent: NOT_RUN: verifyElementPresent
+
+2018-10-09 13:21:43 - [MESSAGE][NOT_RUN] - NOT_RUN: verifyElementPresent
+
+2018-10-09 13:21:43 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_Overview/div_Live EventsOverview' is present
+
+2018-10-09 13:21:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-10-09 13:21:43 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Overview/div_Live EventsOverview' is present
+
+2018-10-09 13:21:43 - [TEST_STEP][FAILED] - verifyElementPresent: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Overview/div_Live EventsOverviewTotal L' located by 'By.xpath: //div[@id = 'dashboard' and (text() = 'Live EventsOverviewTotal Live EventsAn Error Occurred
+
+  
+  
+  716Total Live Events
+
+
+Average Monthly EventsAn Error Occurred
+
+  
+  
+  129Average Monthly Events
+
+
+Peering EfficiencyAn Error Occurred
+
+  
+  
+  18%82%
+   Peer Bytes Sum Origin Bytes Sum
+
+
+Live ViewsAn Error Occurred
+
+  
+  
+  
+    
+      
+    
+    
+      
+    
+  
+01,0002,0002018-052018-062018-072018-082018-092018-10Monthly Total Views
+
+
+Live EventsAn Error Occurred
+
+  
+  
+  
+    
+      
+    
+    
+      
+    
+  
+0501001502002018-052018-062018-072018-082018-092018-10Monthly Event Totals
+
+
+Unique ViewersAn Error Occurred
+
+  
+  
+  2,925Unique Viewers
+
+
+Average Monthly ViewsAn Error Occurred
+
+  
+  
+  1,316Average Monthly Views
+
+
+Live event ctaAn Error Occurred
+
+  
+  
+  
+        
+              View your detailed Live Event metrics
+        
+           Go to Live Event Summary
+      
+    
+
+
+Videos on DemandOverviewTotal VideosAn Error Occurred
+
+  
+  
+  519Total Videos
+
+
+Total Views OverviewAn Error Occurred
+
+  
+  
+  4,403Total Views
+
+
+VoD Summary Peering EfficiencyAn Error Occurred
+
+  
+  
+  16%84%
+   Peer Bytes Sum Origin Bytes Sum
+
+
+VoD ViewsAn Error Occurred
+
+  
+  
+  
+    
+      
+    
+    
+      
+    
+  
+Session Count05001,0002018-052018-062018-072018-082018-092018-10Month
+
+
+VoD over timeAn Error Occurred
+
+  
+  
+  
+    
+      
+    
+    
+      
+    
+  
+0501001502018-052018-062018-072018-082018-092018-10Start Month
+
+
+Unique Viewers OverviewAn Error Occurred
+
+  
+  
+  1,874Unique Viewers
+
+
+Total Hours WatchedAn Error Occurred
+
+  
+  
+  654Total Hours Watched
+
+
+Video on demand ctaAn Error Occurred
+
+  
+  
+  
+        
+              View your detailed Video on Demand metrics
+        
+           Go to VoD Summary
+      
+    
+
+
+NetworkOverviewUnique Agent CountAn Error Occurred
+
+  
+  
+  3,821Unique Agents
+
+
+Delivery CountAn Error Occurred
+
+  
+  
+  36,813Deliveries
+
+
+Peering EfficiencyAn Error Occurred
+
+  
+  
+  73%Peering Efficiency
+
+
+Deliveries by MonthAn Error Occurred
+
+  
+  
+  
+    
+      
+    
+    
+      
+    
+  
+Deliveries05,00010,0002018-052018-052018-062018-062018-072018-072018-082018-082018-092018-092018-102018-10
+
+  On Demand
+  Live
+  SCCM
+
+GB SavedAn Error Occurred
+
+  
+  
+  4,467Saved GB
+
+
+GB TotalAn Error Occurred
+
+  
+  
+  6,154Total GB
+
+
+Network ctaAn Error Occurred
+
+  
+  
+  
+        
+              View your detailed Network metrics
+        
+           Go to Network Summary
+      
+    
+
+
+' or . = 'Live EventsOverviewTotal Live EventsAn Error Occurred
+
+  
+  
+  716Total Live Events
+
+
+Average Monthly EventsAn Error Occurred
+
+  
+  
+  129Average Monthly Events
+
+
+Peering EfficiencyAn Error Occurred
+
+  
+  
+  18%82%
+   Peer Bytes Sum Origin Bytes Sum
+
+
+Live ViewsAn Error Occurred
+
+  
+  
+  
+    
+      
+    
+    
+      
+    
+  
+01,0002,0002018-052018-062018-072018-082018-092018-10Monthly Total Views
+
+
+Live EventsAn Error Occurred
+
+  
+  
+  
+    
+      
+    
+    
+      
+    
+  
+0501001502002018-052018-062018-072018-082018-092018-10Monthly Event Totals
+
+
+Unique ViewersAn Error Occurred
+
+  
+  
+  2,925Unique Viewers
+
+
+Average Monthly ViewsAn Error Occurred
+
+  
+  
+  1,316Average Monthly Views
+
+
+Live event ctaAn Error Occurred
+
+  
+  
+  
+        
+              View your detailed Live Event metrics
+        
+           Go to Live Event Summary
+      
+    
+
+
+Videos on DemandOverviewTotal VideosAn Error Occurred
+
+  
+  
+  519Total Videos
+
+
+Total Views OverviewAn Error Occurred
+
+  
+  
+  4,403Total Views
+
+
+VoD Summary Peering EfficiencyAn Error Occurred
+
+  
+  
+  16%84%
+   Peer Bytes Sum Origin Bytes Sum
+
+
+VoD ViewsAn Error Occurred
+
+  
+  
+  
+    
+      
+    
+    
+      
+    
+  
+Session Count05001,0002018-052018-062018-072018-082018-092018-10Month
+
+
+VoD over timeAn Error Occurred
+
+  
+  
+  
+    
+      
+    
+    
+      
+    
+  
+0501001502018-052018-062018-072018-082018-092018-10Start Month
+
+
+Unique Viewers OverviewAn Error Occurred
+
+  
+  
+  1,874Unique Viewers
+
+
+Total Hours WatchedAn Error Occurred
+
+  
+  
+  654Total Hours Watched
+
+
+Video on demand ctaAn Error Occurred
+
+  
+  
+  
+        
+              View your detailed Video on Demand metrics
+        
+           Go to VoD Summary
+      
+    
+
+
+NetworkOverviewUnique Agent CountAn Error Occurred
+
+  
+  
+  3,821Unique Agents
+
+
+Delivery CountAn Error Occurred
+
+  
+  
+  36,813Deliveries
+
+
+Peering EfficiencyAn Error Occurred
+
+  
+  
+  73%Peering Efficiency
+
+
+Deliveries by MonthAn Error Occurred
+
+  
+  
+  
+    
+      
+    
+    
+      
+    
+  
+Deliveries05,00010,0002018-052018-052018-062018-062018-072018-072018-082018-082018-092018-092018-102018-10
+
+  On Demand
+  Live
+  SCCM
+
+GB SavedAn Error Occurred
+
+  
+  
+  4,467Saved GB
+
+
+GB TotalAn Error Occurred
+
+  
+  
+  6,154Total GB
+
+
+Network ctaAn Error Occurred
+
+  
+  
+  
+        
+              View your detailed Network metrics
+        
+           Go to Network Summary
+      
+    
+
+
+')]' not found
+
+2018-10-09 13:21:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-10-09 13:22:31 - [MESSAGE][FAILED] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Overview/div_Live EventsOverviewTotal L' located by 'By.xpath: //div[@id = 'dashboard' and (text() = 'Live EventsOverviewTotal Live EventsAn Error Occurred
+
+  
+  
+  716Total Live Events
+
+
+Average Monthly EventsAn Error Occurred
+
+  
+  
+  129Average Monthly Events
+
+
+Peering EfficiencyAn Error Occurred
+
+  
+  
+  18%82%
+   Peer Bytes Sum Origin Bytes Sum
+
+
+Live ViewsAn Error Occurred
+
+  
+  
+  
+    
+      
+    
+    
+      
+    
+  
+01,0002,0002018-052018-062018-072018-082018-092018-10Monthly Total Views
+
+
+Live EventsAn Error Occurred
+
+  
+  
+  
+    
+      
+    
+    
+      
+    
+  
+0501001502002018-052018-062018-072018-082018-092018-10Monthly Event Totals
+
+
+Unique ViewersAn Error Occurred
+
+  
+  
+  2,925Unique Viewers
+
+
+Average Monthly ViewsAn Error Occurred
+
+  
+  
+  1,316Average Monthly Views
+
+
+Live event ctaAn Error Occurred
+
+  
+  
+  
+        
+              View your detailed Live Event metrics
+        
+           Go to Live Event Summary
+      
+    
+
+
+Videos on DemandOverviewTotal VideosAn Error Occurred
+
+  
+  
+  519Total Videos
+
+
+Total Views OverviewAn Error Occurred
+
+  
+  
+  4,403Total Views
+
+
+VoD Summary Peering EfficiencyAn Error Occurred
+
+  
+  
+  16%84%
+   Peer Bytes Sum Origin Bytes Sum
+
+
+VoD ViewsAn Error Occurred
+
+  
+  
+  
+    
+      
+    
+    
+      
+    
+  
+Session Count05001,0002018-052018-062018-072018-082018-092018-10Month
+
+
+VoD over timeAn Error Occurred
+
+  
+  
+  
+    
+      
+    
+    
+      
+    
+  
+0501001502018-052018-062018-072018-082018-092018-10Start Month
+
+
+Unique Viewers OverviewAn Error Occurred
+
+  
+  
+  1,874Unique Viewers
+
+
+Total Hours WatchedAn Error Occurred
+
+  
+  
+  654Total Hours Watched
+
+
+Video on demand ctaAn Error Occurred
+
+  
+  
+  
+        
+              View your detailed Video on Demand metrics
+        
+           Go to VoD Summary
+      
+    
+
+
+NetworkOverviewUnique Agent CountAn Error Occurred
+
+  
+  
+  3,821Unique Agents
+
+
+Delivery CountAn Error Occurred
+
+  
+  
+  36,813Deliveries
+
+
+Peering EfficiencyAn Error Occurred
+
+  
+  
+  73%Peering Efficiency
+
+
+Deliveries by MonthAn Error Occurred
+
+  
+  
+  
+    
+      
+    
+    
+      
+    
+  
+Deliveries05,00010,0002018-052018-052018-062018-062018-072018-072018-082018-082018-092018-092018-102018-10
+
+  On Demand
+  Live
+  SCCM
+
+GB SavedAn Error Occurred
+
+  
+  
+  4,467Saved GB
+
+
+GB TotalAn Error Occurred
+
+  
+  
+  6,154Total GB
+
+
+Network ctaAn Error Occurred
+
+  
+  
+  
+        
+              View your detailed Network metrics
+        
+           Go to Network Summary
+      
+    
+
+
+' or . = 'Live EventsOverviewTotal Live EventsAn Error Occurred
+
+  
+  
+  716Total Live Events
+
+
+Average Monthly EventsAn Error Occurred
+
+  
+  
+  129Average Monthly Events
+
+
+Peering EfficiencyAn Error Occurred
+
+  
+  
+  18%82%
+   Peer Bytes Sum Origin Bytes Sum
+
+
+Live ViewsAn Error Occurred
+
+  
+  
+  
+    
+      
+    
+    
+      
+    
+  
+01,0002,0002018-052018-062018-072018-082018-092018-10Monthly Total Views
+
+
+Live EventsAn Error Occurred
+
+  
+  
+  
+    
+      
+    
+    
+      
+    
+  
+0501001502002018-052018-062018-072018-082018-092018-10Monthly Event Totals
+
+
+Unique ViewersAn Error Occurred
+
+  
+  
+  2,925Unique Viewers
+
+
+Average Monthly ViewsAn Error Occurred
+
+  
+  
+  1,316Average Monthly Views
+
+
+Live event ctaAn Error Occurred
+
+  
+  
+  
+        
+              View your detailed Live Event metrics
+        
+           Go to Live Event Summary
+      
+    
+
+
+Videos on DemandOverviewTotal VideosAn Error Occurred
+
+  
+  
+  519Total Videos
+
+
+Total Views OverviewAn Error Occurred
+
+  
+  
+  4,403Total Views
+
+
+VoD Summary Peering EfficiencyAn Error Occurred
+
+  
+  
+  16%84%
+   Peer Bytes Sum Origin Bytes Sum
+
+
+VoD ViewsAn Error Occurred
+
+  
+  
+  
+    
+      
+    
+    
+      
+    
+  
+Session Count05001,0002018-052018-062018-072018-082018-092018-10Month
+
+
+VoD over timeAn Error Occurred
+
+  
+  
+  
+    
+      
+    
+    
+      
+    
+  
+0501001502018-052018-062018-072018-082018-092018-10Start Month
+
+
+Unique Viewers OverviewAn Error Occurred
+
+  
+  
+  1,874Unique Viewers
+
+
+Total Hours WatchedAn Error Occurred
+
+  
+  
+  654Total Hours Watched
+
+
+Video on demand ctaAn Error Occurred
+
+  
+  
+  
+        
+              View your detailed Video on Demand metrics
+        
+           Go to VoD Summary
+      
+    
+
+
+NetworkOverviewUnique Agent CountAn Error Occurred
+
+  
+  
+  3,821Unique Agents
+
+
+Delivery CountAn Error Occurred
+
+  
+  
+  36,813Deliveries
+
+
+Peering EfficiencyAn Error Occurred
+
+  
+  
+  73%Peering Efficiency
+
+
+Deliveries by MonthAn Error Occurred
+
+  
+  
+  
+    
+      
+    
+    
+      
+    
+  
+Deliveries05,00010,0002018-052018-052018-062018-062018-072018-072018-082018-082018-092018-092018-102018-10
+
+  On Demand
+  Live
+  SCCM
+
+GB SavedAn Error Occurred
+
+  
+  
+  4,467Saved GB
+
+
+GB TotalAn Error Occurred
+
+  
+  
+  6,154Total GB
+
+
+Network ctaAn Error Occurred
+
+  
+  
+  
+        
+              View your detailed Network metrics
+        
+           Go to Network Summary
+      
+    
+
+
+')]' not found
+[[ATTACHMENT|/Users/alahley/Katalon Studio/Analytics/Reports/TC1 Sanity Check/20181009_132128/1539116551055.png]]
+
+2018-10-09 13:22:31 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_Overview/div_View your detailed Network (1)' is present
+
+2018-10-09 13:22:31 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-10-09 13:22:31 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Overview/div_View your detailed Network (1)' is present
+
+2018-10-09 13:22:31 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_Overview/div_NetworkOverview' is present
+
+2018-10-09 13:22:31 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-10-09 13:22:31 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Overview/div_NetworkOverview' is present
+
+2018-10-09 13:22:31 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_Overview/img_Home_img-logo' is present
+
+2018-10-09 13:22:31 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-10-09 13:22:31 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Overview/img_Home_img-logo' is present
+
+2018-10-09 13:22:31 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_Overview/div_Release Notes_flyout-backg (1)' is present
+
+2018-10-09 13:22:31 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-10-09 13:22:31 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Overview/div_Release Notes_flyout-backg (1)' is present
+
+2018-10-09 13:22:31 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_Overview/div_OverviewNetworkNetwork Sum (1)' is present
+
+2018-10-09 13:22:31 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-10-09 13:22:31 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Overview/div_OverviewNetworkNetwork Sum (1)' is present
+
+2018-10-09 13:22:31 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_Overview/div_LookML Dashboards  Dashboa' is present
+
+2018-10-09 13:22:31 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-10-09 13:22:31 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Overview/div_LookML Dashboards  Dashboa' is present
+
+2018-10-09 13:22:31 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_Overview/div_Filters Time Filter is in' is present
+
+2018-10-09 13:22:31 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-10-09 13:22:31 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Overview/div_Filters Time Filter is in' is present
+
+2018-10-09 13:22:31 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_Overview/div_Live EventsOverview' is present
+
+2018-10-09 13:22:31 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-10-09 13:22:31 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Overview/div_Live EventsOverview' is present
+
+2018-10-09 13:22:31 - [TEST_STEP][FAILED] - verifyElementPresent: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Overview/div_Live EventsOverviewTotal L' located by 'By.xpath: //div[@id = 'dashboard' and (text() = 'Live EventsOverviewTotal Live EventsAn Error Occurred
+
+  
+  
+  716Total Live Events
+
+
+Average Monthly EventsAn Error Occurred
+
+  
+  
+  129Average Monthly Events
+
+
+Peering EfficiencyAn Error Occurred
+
+  
+  
+  18%82%
+   Peer Bytes Sum Origin Bytes Sum
+
+
+Live ViewsAn Error Occurred
+
+  
+  
+  
+    
+      
+    
+    
+      
+    
+  
+01,0002,0002018-052018-062018-072018-082018-092018-10Monthly Total Views
+
+
+Live EventsAn Error Occurred
+
+  
+  
+  
+    
+      
+    
+    
+      
+    
+  
+0501001502002018-052018-062018-072018-082018-092018-10Monthly Event Totals
+
+
+Unique ViewersAn Error Occurred
+
+  
+  
+  2,925Unique Viewers
+
+
+Average Monthly ViewsAn Error Occurred
+
+  
+  
+  1,316Average Monthly Views
+
+
+Live event ctaAn Error Occurred
+
+  
+  
+  
+        
+              View your detailed Live Event metrics
+        
+           Go to Live Event Summary
+      
+    
+
+
+Videos on DemandOverviewTotal VideosAn Error Occurred
+
+  
+  
+  519Total Videos
+
+
+Total Views OverviewAn Error Occurred
+
+  
+  
+  4,403Total Views
+
+
+VoD Summary Peering EfficiencyAn Error Occurred
+
+  
+  
+  16%84%
+   Peer Bytes Sum Origin Bytes Sum
+
+
+VoD ViewsAn Error Occurred
+
+  
+  
+  
+    
+      
+    
+    
+      
+    
+  
+Session Count05001,0002018-052018-062018-072018-082018-092018-10Month
+
+
+VoD over timeAn Error Occurred
+
+  
+  
+  
+    
+      
+    
+    
+      
+    
+  
+0501001502018-052018-062018-072018-082018-092018-10Start Month
+
+
+Unique Viewers OverviewAn Error Occurred
+
+  
+  
+  1,874Unique Viewers
+
+
+Total Hours WatchedAn Error Occurred
+
+  
+  
+  654Total Hours Watched
+
+
+Video on demand ctaAn Error Occurred
+
+  
+  
+  
+        
+              View your detailed Video on Demand metrics
+        
+           Go to VoD Summary
+      
+    
+
+
+NetworkOverviewUnique Agent CountAn Error Occurred
+
+  
+  
+  3,821Unique Agents
+
+
+Delivery CountAn Error Occurred
+
+  
+  
+  36,813Deliveries
+
+
+Peering EfficiencyAn Error Occurred
+
+  
+  
+  73%Peering Efficiency
+
+
+Deliveries by MonthAn Error Occurred
+
+  
+  
+  
+    
+      
+    
+    
+      
+    
+  
+Deliveries05,00010,0002018-052018-052018-062018-062018-072018-072018-082018-082018-092018-092018-102018-10
+
+  On Demand
+  Live
+  SCCM
+
+GB SavedAn Error Occurred
+
+  
+  
+  4,467Saved GB
+
+
+GB TotalAn Error Occurred
+
+  
+  
+  6,154Total GB
+
+
+Network ctaAn Error Occurred
+
+  
+  
+  
+        
+              View your detailed Network metrics
+        
+           Go to Network Summary
+      
+    
+
+
+' or . = 'Live EventsOverviewTotal Live EventsAn Error Occurred
+
+  
+  
+  716Total Live Events
+
+
+Average Monthly EventsAn Error Occurred
+
+  
+  
+  129Average Monthly Events
+
+
+Peering EfficiencyAn Error Occurred
+
+  
+  
+  18%82%
+   Peer Bytes Sum Origin Bytes Sum
+
+
+Live ViewsAn Error Occurred
+
+  
+  
+  
+    
+      
+    
+    
+      
+    
+  
+01,0002,0002018-052018-062018-072018-082018-092018-10Monthly Total Views
+
+
+Live EventsAn Error Occurred
+
+  
+  
+  
+    
+      
+    
+    
+      
+    
+  
+0501001502002018-052018-062018-072018-082018-092018-10Monthly Event Totals
+
+
+Unique ViewersAn Error Occurred
+
+  
+  
+  2,925Unique Viewers
+
+
+Average Monthly ViewsAn Error Occurred
+
+  
+  
+  1,316Average Monthly Views
+
+
+Live event ctaAn Error Occurred
+
+  
+  
+  
+        
+              View your detailed Live Event metrics
+        
+           Go to Live Event Summary
+      
+    
+
+
+Videos on DemandOverviewTotal VideosAn Error Occurred
+
+  
+  
+  519Total Videos
+
+
+Total Views OverviewAn Error Occurred
+
+  
+  
+  4,403Total Views
+
+
+VoD Summary Peering EfficiencyAn Error Occurred
+
+  
+  
+  16%84%
+   Peer Bytes Sum Origin Bytes Sum
+
+
+VoD ViewsAn Error Occurred
+
+  
+  
+  
+    
+      
+    
+    
+      
+    
+  
+Session Count05001,0002018-052018-062018-072018-082018-092018-10Month
+
+
+VoD over timeAn Error Occurred
+
+  
+  
+  
+    
+      
+    
+    
+      
+    
+  
+0501001502018-052018-062018-072018-082018-092018-10Start Month
+
+
+Unique Viewers OverviewAn Error Occurred
+
+  
+  
+  1,874Unique Viewers
+
+
+Total Hours WatchedAn Error Occurred
+
+  
+  
+  654Total Hours Watched
+
+
+Video on demand ctaAn Error Occurred
+
+  
+  
+  
+        
+              View your detailed Video on Demand metrics
+        
+           Go to VoD Summary
+      
+    
+
+
+NetworkOverviewUnique Agent CountAn Error Occurred
+
+  
+  
+  3,821Unique Agents
+
+
+Delivery CountAn Error Occurred
+
+  
+  
+  36,813Deliveries
+
+
+Peering EfficiencyAn Error Occurred
+
+  
+  
+  73%Peering Efficiency
+
+
+Deliveries by MonthAn Error Occurred
+
+  
+  
+  
+    
+      
+    
+    
+      
+    
+  
+Deliveries05,00010,0002018-052018-052018-062018-062018-072018-072018-082018-082018-092018-092018-102018-10
+
+  On Demand
+  Live
+  SCCM
+
+GB SavedAn Error Occurred
+
+  
+  
+  4,467Saved GB
+
+
+GB TotalAn Error Occurred
+
+  
+  
+  6,154Total GB
+
+
+Network ctaAn Error Occurred
+
+  
+  
+  
+        
+              View your detailed Network metrics
+        
+           Go to Network Summary
+      
+    
+
+
+')]' not found
+
+2018-10-09 13:22:31 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-10-09 13:23:15 - [MESSAGE][FAILED] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Overview/div_Live EventsOverviewTotal L' located by 'By.xpath: //div[@id = 'dashboard' and (text() = 'Live EventsOverviewTotal Live EventsAn Error Occurred
+
+  
+  
+  716Total Live Events
+
+
+Average Monthly EventsAn Error Occurred
+
+  
+  
+  129Average Monthly Events
+
+
+Peering EfficiencyAn Error Occurred
+
+  
+  
+  18%82%
+   Peer Bytes Sum Origin Bytes Sum
+
+
+Live ViewsAn Error Occurred
+
+  
+  
+  
+    
+      
+    
+    
+      
+    
+  
+01,0002,0002018-052018-062018-072018-082018-092018-10Monthly Total Views
+
+
+Live EventsAn Error Occurred
+
+  
+  
+  
+    
+      
+    
+    
+      
+    
+  
+0501001502002018-052018-062018-072018-082018-092018-10Monthly Event Totals
+
+
+Unique ViewersAn Error Occurred
+
+  
+  
+  2,925Unique Viewers
+
+
+Average Monthly ViewsAn Error Occurred
+
+  
+  
+  1,316Average Monthly Views
+
+
+Live event ctaAn Error Occurred
+
+  
+  
+  
+        
+              View your detailed Live Event metrics
+        
+           Go to Live Event Summary
+      
+    
+
+
+Videos on DemandOverviewTotal VideosAn Error Occurred
+
+  
+  
+  519Total Videos
+
+
+Total Views OverviewAn Error Occurred
+
+  
+  
+  4,403Total Views
+
+
+VoD Summary Peering EfficiencyAn Error Occurred
+
+  
+  
+  16%84%
+   Peer Bytes Sum Origin Bytes Sum
+
+
+VoD ViewsAn Error Occurred
+
+  
+  
+  
+    
+      
+    
+    
+      
+    
+  
+Session Count05001,0002018-052018-062018-072018-082018-092018-10Month
+
+
+VoD over timeAn Error Occurred
+
+  
+  
+  
+    
+      
+    
+    
+      
+    
+  
+0501001502018-052018-062018-072018-082018-092018-10Start Month
+
+
+Unique Viewers OverviewAn Error Occurred
+
+  
+  
+  1,874Unique Viewers
+
+
+Total Hours WatchedAn Error Occurred
+
+  
+  
+  654Total Hours Watched
+
+
+Video on demand ctaAn Error Occurred
+
+  
+  
+  
+        
+              View your detailed Video on Demand metrics
+        
+           Go to VoD Summary
+      
+    
+
+
+NetworkOverviewUnique Agent CountAn Error Occurred
+
+  
+  
+  3,821Unique Agents
+
+
+Delivery CountAn Error Occurred
+
+  
+  
+  36,813Deliveries
+
+
+Peering EfficiencyAn Error Occurred
+
+  
+  
+  73%Peering Efficiency
+
+
+Deliveries by MonthAn Error Occurred
+
+  
+  
+  
+    
+      
+    
+    
+      
+    
+  
+Deliveries05,00010,0002018-052018-052018-062018-062018-072018-072018-082018-082018-092018-092018-102018-10
+
+  On Demand
+  Live
+  SCCM
+
+GB SavedAn Error Occurred
+
+  
+  
+  4,467Saved GB
+
+
+GB TotalAn Error Occurred
+
+  
+  
+  6,154Total GB
+
+
+Network ctaAn Error Occurred
+
+  
+  
+  
+        
+              View your detailed Network metrics
+        
+           Go to Network Summary
+      
+    
+
+
+' or . = 'Live EventsOverviewTotal Live EventsAn Error Occurred
+
+  
+  
+  716Total Live Events
+
+
+Average Monthly EventsAn Error Occurred
+
+  
+  
+  129Average Monthly Events
+
+
+Peering EfficiencyAn Error Occurred
+
+  
+  
+  18%82%
+   Peer Bytes Sum Origin Bytes Sum
+
+
+Live ViewsAn Error Occurred
+
+  
+  
+  
+    
+      
+    
+    
+      
+    
+  
+01,0002,0002018-052018-062018-072018-082018-092018-10Monthly Total Views
+
+
+Live EventsAn Error Occurred
+
+  
+  
+  
+    
+      
+    
+    
+      
+    
+  
+0501001502002018-052018-062018-072018-082018-092018-10Monthly Event Totals
+
+
+Unique ViewersAn Error Occurred
+
+  
+  
+  2,925Unique Viewers
+
+
+Average Monthly ViewsAn Error Occurred
+
+  
+  
+  1,316Average Monthly Views
+
+
+Live event ctaAn Error Occurred
+
+  
+  
+  
+        
+              View your detailed Live Event metrics
+        
+           Go to Live Event Summary
+      
+    
+
+
+Videos on DemandOverviewTotal VideosAn Error Occurred
+
+  
+  
+  519Total Videos
+
+
+Total Views OverviewAn Error Occurred
+
+  
+  
+  4,403Total Views
+
+
+VoD Summary Peering EfficiencyAn Error Occurred
+
+  
+  
+  16%84%
+   Peer Bytes Sum Origin Bytes Sum
+
+
+VoD ViewsAn Error Occurred
+
+  
+  
+  
+    
+      
+    
+    
+      
+    
+  
+Session Count05001,0002018-052018-062018-072018-082018-092018-10Month
+
+
+VoD over timeAn Error Occurred
+
+  
+  
+  
+    
+      
+    
+    
+      
+    
+  
+0501001502018-052018-062018-072018-082018-092018-10Start Month
+
+
+Unique Viewers OverviewAn Error Occurred
+
+  
+  
+  1,874Unique Viewers
+
+
+Total Hours WatchedAn Error Occurred
+
+  
+  
+  654Total Hours Watched
+
+
+Video on demand ctaAn Error Occurred
+
+  
+  
+  
+        
+              View your detailed Video on Demand metrics
+        
+           Go to VoD Summary
+      
+    
+
+
+NetworkOverviewUnique Agent CountAn Error Occurred
+
+  
+  
+  3,821Unique Agents
+
+
+Delivery CountAn Error Occurred
+
+  
+  
+  36,813Deliveries
+
+
+Peering EfficiencyAn Error Occurred
+
+  
+  
+  73%Peering Efficiency
+
+
+Deliveries by MonthAn Error Occurred
+
+  
+  
+  
+    
+      
+    
+    
+      
+    
+  
+Deliveries05,00010,0002018-052018-052018-062018-062018-072018-072018-082018-082018-092018-092018-102018-10
+
+  On Demand
+  Live
+  SCCM
+
+GB SavedAn Error Occurred
+
+  
+  
+  4,467Saved GB
+
+
+GB TotalAn Error Occurred
+
+  
+  
+  6,154Total GB
+
+
+Network ctaAn Error Occurred
+
+  
+  
+  
+        
+              View your detailed Network metrics
+        
+           Go to Network Summary
+      
+    
+
+
+')]' not found
+[[ATTACHMENT|/Users/alahley/Katalon Studio/Analytics/Reports/TC1 Sanity Check/20181009_132128/1539116595160.png]]
+
+2018-10-09 13:23:15 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_Overview/div_View your detailed Network (1)' is present
+
+2018-10-09 13:23:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-10-09 13:23:15 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Overview/div_View your detailed Network (1)' is present
+
+2018-10-09 13:23:15 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_Overview/div_NetworkOverview' is present
+
+2018-10-09 13:23:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-10-09 13:23:15 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Overview/div_NetworkOverview' is present
+
+2018-10-09 13:23:15 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_Overview/img_Home_img-logo' is present
+
+2018-10-09 13:23:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-10-09 13:23:15 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Overview/img_Home_img-logo' is present
+
+2018-10-09 13:23:15 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Overview/a' is clicked on
+
+2018-10-09 13:23:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Overview/a' is clicked on
+
+2018-10-09 13:23:15 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Overview/a_Log Out (3)' is clicked on
+
+2018-10-09 13:23:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Overview/a_Log Out (3)' is clicked on
+
+2018-10-09 13:23:16 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_Log in/div_Logout Successful.' is present
+
+2018-10-09 13:23:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-10-09 13:23:16 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Log in/div_Logout Successful.' is present
+
+2018-10-09 13:23:16 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_Log in/div_Logout Successful.' is present
+
+2018-10-09 13:23:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-10-09 13:23:16 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Log in/div_Logout Successful.' is present
+
+2018-10-09 13:23:16 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Logout Successful.' is present on page 
+
+2018-10-09 13:23:16 - [MESSAGE][PASSED] - Text 'Logout Successful.' is present on page 
+
+2018-10-09 13:23:16 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-10-09 13:23:16 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[2018-10-09 13:21:30 - [TEST_CASE][FAILED] - Test Cases/TC1/TC1 - Logging In and Out: Test Cases/TC1/TC1 - Logging In and Out FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Overview/div_Live EventsOverviewTotal L' located by 'By.xpath: //div[@id = 'dashboard' and (text() = 'Live EventsOverviewTotal Live EventsAn Error Occurred
+
+  
+  
+  716Total Live Events
+
+
+Average Monthly EventsAn Error Occurred
+
+  
+  
+  129Average Monthly Events
+
+
+Peering EfficiencyAn Error Occurred
+
+  
+  
+  18%82%
+   Peer Bytes Sum Origin Bytes Sum
+
+
+Live ViewsAn Error Occurred
+
+  
+  
+  
+    
+      
+    
+    
+      
+    
+  
+01,0002,0002018-052018-062018-072018-082018-092018-10Monthly Total Views
+
+
+Live EventsAn Error Occurred
+
+  
+  
+  
+    
+      
+    
+    
+      
+    
+  
+0501001502002018-052018-062018-072018-082018-092018-10Monthly Event Totals
+
+
+Unique ViewersAn Error Occurred
+
+  
+  
+  2,925Unique Viewers
+
+
+Average Monthly ViewsAn Error Occurred
+
+  
+  
+  1,316Average Monthly Views
+
+
+Live event ctaAn Error Occurred
+
+  
+  
+  
+        
+              View your detailed Live Event metrics
+        
+           Go to Live Event Summary
+      
+    
+
+
+Videos on DemandOverviewTotal VideosAn Error Occurred
+
+  
+  
+  519Total Videos
+
+
+Total Views OverviewAn Error Occurred
+
+  
+  
+  4,403Total Views
+
+
+VoD Summary Peering EfficiencyAn Error Occurred
+
+  
+  
+  16%84%
+   Peer Bytes Sum Origin Bytes Sum
+
+
+VoD ViewsAn Error Occurred
+
+  
+  
+  
+    
+      
+    
+    
+      
+    
+  
+Session Count05001,0002018-052018-062018-072018-082018-092018-10Month
+
+
+VoD over timeAn Error Occurred
+
+  
+  
+  
+    
+      
+    
+    
+      
+    
+  
+0501001502018-052018-062018-072018-082018-092018-10Start Month
+
+
+Unique Viewers OverviewAn Error Occurred
+
+  
+  
+  1,874Unique Viewers
+
+
+Total Hours WatchedAn Error Occurred
+
+  
+  
+  654Total Hours Watched
+
+
+Video on demand ctaAn Error Occurred
+
+  
+  
+  
+        
+              View your detailed Video on Demand metrics
+        
+           Go to VoD Summary
+      
+    
+
+
+NetworkOverviewUnique Agent CountAn Error Occurred
+
+  
+  
+  3,821Unique Agents
+
+
+Delivery CountAn Error Occurred
+
+  
+  
+  36,813Deliveries
+
+
+Peering EfficiencyAn Error Occurred
+
+  
+  
+  73%Peering Efficiency
+
+
+Deliveries by MonthAn Error Occurred
+
+  
+  
+  
+    
+      
+    
+    
+      
+    
+  
+Deliveries05,00010,0002018-052018-052018-062018-062018-072018-072018-082018-082018-092018-092018-102018-10
+
+  On Demand
+  Live
+  SCCM
+
+GB SavedAn Error Occurred
+
+  
+  
+  4,467Saved GB
+
+
+GB TotalAn Error Occurred
+
+  
+  
+  6,154Total GB
+
+
+Network ctaAn Error Occurred
+
+  
+  
+  
+        
+              View your detailed Network metrics
+        
+           Go to Network Summary
+      
+    
+
+
+' or . = 'Live EventsOverviewTotal Live EventsAn Error Occurred
+
+  
+  
+  716Total Live Events
+
+
+Average Monthly EventsAn Error Occurred
+
+  
+  
+  129Average Monthly Events
+
+
+Peering EfficiencyAn Error Occurred
+
+  
+  
+  18%82%
+   Peer Bytes Sum Origin Bytes Sum
+
+
+Live ViewsAn Error Occurred
+
+  
+  
+  
+    
+      
+    
+    
+      
+    
+  
+01,0002,0002018-052018-062018-072018-082018-092018-10Monthly Total Views
+
+
+Live EventsAn Error Occurred
+
+  
+  
+  
+    
+      
+    
+    
+      
+    
+  
+0501001502002018-052018-062018-072018-082018-092018-10Monthly Event Totals
+
+
+Unique ViewersAn Error Occurred
+
+  
+  
+  2,925Unique Viewers
+
+
+Average Monthly ViewsAn Error Occurred
+
+  
+  
+  1,316Average Monthly Views
+
+
+Live event ctaAn Error Occurred
+
+  
+  
+  
+        
+              View your detailed Live Event metrics
+        
+           Go to Live Event Summary
+      
+    
+
+
+Videos on DemandOverviewTotal VideosAn Error Occurred
+
+  
+  
+  519Total Videos
+
+
+Total Views OverviewAn Error Occurred
+
+  
+  
+  4,403Total Views
+
+
+VoD Summary Peering EfficiencyAn Error Occurred
+
+  
+  
+  16%84%
+   Peer Bytes Sum Origin Bytes Sum
+
+
+VoD ViewsAn Error Occurred
+
+  
+  
+  
+    
+      
+    
+    
+      
+    
+  
+Session Count05001,0002018-052018-062018-072018-082018-092018-10Month
+
+
+VoD over timeAn Error Occurred
+
+  
+  
+  
+    
+      
+    
+    
+      
+    
+  
+0501001502018-052018-062018-072018-082018-092018-10Start Month
+
+
+Unique Viewers OverviewAn Error Occurred
+
+  
+  
+  1,874Unique Viewers
+
+
+Total Hours WatchedAn Error Occurred
+
+  
+  
+  654Total Hours Watched
+
+
+Video on demand ctaAn Error Occurred
+
+  
+  
+  
+        
+              View your detailed Video on Demand metrics
+        
+           Go to VoD Summary
+      
+    
+
+
+NetworkOverviewUnique Agent CountAn Error Occurred
+
+  
+  
+  3,821Unique Agents
+
+
+Delivery CountAn Error Occurred
+
+  
+  
+  36,813Deliveries
+
+
+Peering EfficiencyAn Error Occurred
+
+  
+  
+  73%Peering Efficiency
+
+
+Deliveries by MonthAn Error Occurred
+
+  
+  
+  
+    
+      
+    
+    
+      
+    
+  
+Deliveries05,00010,0002018-052018-052018-062018-062018-072018-072018-082018-082018-092018-092018-102018-10
+
+  On Demand
+  Live
+  SCCM
+
+GB SavedAn Error Occurred
+
+  
+  
+  4,467Saved GB
+
+
+GB TotalAn Error Occurred
+
+  
+  
+  6,154Total GB
+
+
+Network ctaAn Error Occurred
+
+  
+  
+  
+        
+              View your detailed Network metrics
+        
+           Go to Network Summary
+      
+    
+
+
+')]' not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:32)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:21)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1434)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$4.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:133)
+	at Script1538969738297.run(Script1538969738297.groovy:62)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1539116488573.run(TempTestSuite1539116488573.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC1/TC1 - Navigation and CTAs" classname="Test Cases/TC1/TC1 - Navigation and CTAs" status="PASSED">
+         <system-out><![CDATA[2018-10-09 13:23:17 - [TEST_CASE][PASSED] - Test Cases/TC1/TC1 - Navigation and CTAs: Test Cases/TC1/TC1 - Navigation and CTAs
+
+2018-10-09 13:23:17 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'https://stats.tc1.kontiki.com/login/email'
+
+2018-10-09 13:23:21 - [MESSAGE][PASSED] - Browser is opened with url: 'https://stats.tc1.kontiki.com/login/email'
+
+2018-10-09 13:23:21 - [TEST_STEP][PASSED] - setText: Text 'alahley@kollective.com' is set on object 'Object Repository/Page_Log in/input_email (2)'
+
+2018-10-09 13:23:21 - [MESSAGE][PASSED] - Text 'alahley@kollective.com' is set on object 'Object Repository/Page_Log in/input_email (2)'
+
+2018-10-09 13:23:21 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Page_Log in/input_password (2)'
+
+2018-10-09 13:23:21 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Log in/input_password (2)'
+
+2018-10-09 13:23:21 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Log in/input_remember (2)' is clicked on
+
+2018-10-09 13:23:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Log in/input_remember (2)' is clicked on
+
+2018-10-09 13:23:22 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Log in/input_login-submit (2)' is clicked on
+
+2018-10-09 13:23:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Log in/input_login-submit (2)' is clicked on
+
+2018-10-09 13:23:25 - [TEST_STEP][PASSED] - waitForAngularLoad: Angular is ready.
+
+2018-10-09 13:23:26 - [MESSAGE][PASSED] - Angular is ready.
+
+2018-10-09 13:23:26 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/Page_Network Summary/a_Overview' is visible
+
+2018-10-09 13:23:27 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Network Summary/a_Overview' is visible
+
+2018-10-09 13:23:27 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/Page_Overview/a_Go to Live Event Summary' is visible
+
+2018-10-09 13:23:27 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Overview/a_Go to Live Event Summary' is visible
+
+2018-10-09 13:23:27 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Overview/a_Go to Live Event Summary' is clicked on
+
+2018-10-09 13:23:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Overview/a_Go to Live Event Summary' is clicked on
+
+2018-10-09 13:23:30 - [TEST_STEP][PASSED] - waitForAngularLoad: Angular is ready.
+
+2018-10-09 13:23:32 - [MESSAGE][PASSED] - Angular is ready.
+
+2018-10-09 13:23:32 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page_Live Event Summary/div_LookML Dashboards  Dashboa' are matched.
+
+2018-10-09 13:23:33 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Live Event Summary/div_LookML Dashboards  Dashboa' are matched.
+
+2018-10-09 13:23:33 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Network Summary/a_Overview' is clicked on
+
+2018-10-09 13:23:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Network Summary/a_Overview' is clicked on
+
+2018-10-09 13:23:35 - [TEST_STEP][PASSED] - waitForAngularLoad: Angular is ready.
+
+2018-10-09 13:23:37 - [MESSAGE][PASSED] - Angular is ready.
+
+2018-10-09 13:23:37 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/Page_Overview/a_Go to VoD Summary' is visible
+
+2018-10-09 13:23:38 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Overview/a_Go to VoD Summary' is visible
+
+2018-10-09 13:23:38 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Overview/a_Go to VoD Summary' is clicked on
+
+2018-10-09 13:23:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Overview/a_Go to VoD Summary' is clicked on
+
+2018-10-09 13:23:40 - [TEST_STEP][PASSED] - waitForAngularLoad: Angular is ready.
+
+2018-10-09 13:23:42 - [MESSAGE][PASSED] - Angular is ready.
+
+2018-10-09 13:23:42 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page_Video on Demand Summary/div_LookML Dashboards  Dashboa' are matched.
+
+2018-10-09 13:23:42 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Video on Demand Summary/div_LookML Dashboards  Dashboa' are matched.
+
+2018-10-09 13:23:42 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Network Summary/a_Overview' is clicked on
+
+2018-10-09 13:23:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Network Summary/a_Overview' is clicked on
+
+2018-10-09 13:23:45 - [TEST_STEP][PASSED] - waitForAngularLoad: Angular is ready.
+
+2018-10-09 13:23:47 - [MESSAGE][PASSED] - Angular is ready.
+
+2018-10-09 13:23:47 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/Page_Overview/a_Go to Network Summary' is visible
+
+2018-10-09 13:23:47 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Overview/a_Go to Network Summary' is visible
+
+2018-10-09 13:23:47 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Overview/a_Go to Network Summary' is clicked on
+
+2018-10-09 13:23:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Overview/a_Go to Network Summary' is clicked on
+
+2018-10-09 13:23:49 - [TEST_STEP][PASSED] - waitForAngularLoad: Angular is ready.
+
+2018-10-09 13:23:54 - [MESSAGE][PASSED] - Angular is ready.
+
+2018-10-09 13:23:54 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page_Network Summary/div_LookML Dashboards  Dashboa' are matched.
+
+2018-10-09 13:23:56 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Network Summary/div_LookML Dashboards  Dashboa' are matched.
+
+2018-10-09 13:23:56 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Network Summary/a_Overview' is clicked on
+
+2018-10-09 13:23:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Network Summary/a_Overview' is clicked on
+
+2018-10-09 13:23:58 - [TEST_STEP][PASSED] - waitForAngularLoad: Angular is ready.
+
+2018-10-09 13:24:00 - [MESSAGE][PASSED] - Angular is ready.
+
+2018-10-09 13:24:00 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Overview/a_Network' is clicked on
+
+2018-10-09 13:24:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Overview/a_Network' is clicked on
+
+2018-10-09 13:24:01 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_Overview/a_Network Summary' is present
+
+2018-10-09 13:24:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-10-09 13:24:01 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Overview/a_Network Summary' is present
+
+2018-10-09 13:24:01 - [TEST_STEP][PASSED] - verifyElementClickable: Object 'Object Repository/Page_Overview/a_Network Summary' is clickable
+
+2018-10-09 13:24:01 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Overview/a_Network Summary' is clickable
+
+2018-10-09 13:24:01 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Overview/a_Network Summary' is clicked on
+
+2018-10-09 13:24:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Overview/a_Network Summary' is clicked on
+
+2018-10-09 13:24:03 - [TEST_STEP][PASSED] - waitForAngularLoad: Angular is ready.
+
+2018-10-09 13:24:07 - [MESSAGE][PASSED] - Angular is ready.
+
+2018-10-09 13:24:07 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Overview/a_Network' is clicked on
+
+2018-10-09 13:24:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Overview/a_Network' is clicked on
+
+2018-10-09 13:24:08 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_Network Summary/a_Network Content' is present
+
+2018-10-09 13:24:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-10-09 13:24:10 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Network Summary/a_Network Content' is present
+
+2018-10-09 13:24:10 - [TEST_STEP][PASSED] - verifyElementClickable: Object 'Object Repository/Page_Network Summary/a_Network Content' is clickable
+
+2018-10-09 13:24:10 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Network Summary/a_Network Content' is clickable
+
+2018-10-09 13:24:10 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Network Summary/a_Network Content' is clicked on
+
+2018-10-09 13:24:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Network Summary/a_Network Content' is clicked on
+
+2018-10-09 13:24:13 - [TEST_STEP][PASSED] - waitForAngularLoad: Angular is ready.
+
+2018-10-09 13:24:14 - [MESSAGE][PASSED] - Angular is ready.
+
+2018-10-09 13:24:14 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Overview/a_Network' is clicked on
+
+2018-10-09 13:24:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Overview/a_Network' is clicked on
+
+2018-10-09 13:24:15 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_Network Content/a_Network Locality' is present
+
+2018-10-09 13:24:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-10-09 13:24:15 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Network Content/a_Network Locality' is present
+
+2018-10-09 13:24:15 - [TEST_STEP][PASSED] - verifyElementClickable: Object 'Object Repository/Page_Network Content/a_Network Locality' is clickable
+
+2018-10-09 13:24:15 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Network Content/a_Network Locality' is clickable
+
+2018-10-09 13:24:15 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Network Content/a_Network Locality' is clicked on
+
+2018-10-09 13:24:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Network Content/a_Network Locality' is clicked on
+
+2018-10-09 13:24:17 - [TEST_STEP][PASSED] - waitForAngularLoad: Angular is ready.
+
+2018-10-09 13:24:20 - [MESSAGE][PASSED] - Angular is ready.
+
+2018-10-09 13:24:20 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Network Locality/a_Live Events' is clicked on
+
+2018-10-09 13:24:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Network Locality/a_Live Events' is clicked on
+
+2018-10-09 13:24:21 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_Network Locality/a_Live Event Summary' is present
+
+2018-10-09 13:24:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-10-09 13:24:21 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Network Locality/a_Live Event Summary' is present
+
+2018-10-09 13:24:21 - [TEST_STEP][PASSED] - verifyElementClickable: Object 'Object Repository/Page_Network Locality/a_Live Event Summary' is clickable
+
+2018-10-09 13:24:21 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Network Locality/a_Live Event Summary' is clickable
+
+2018-10-09 13:24:21 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_Live Event Summary/a_Live Event' is present
+
+2018-10-09 13:24:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-10-09 13:24:21 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Live Event Summary/a_Live Event' is present
+
+2018-10-09 13:24:21 - [TEST_STEP][PASSED] - verifyElementClickable: Object 'Object Repository/Page_Live Event Summary/a_Live Event' is clickable
+
+2018-10-09 13:24:21 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Live Event Summary/a_Live Event' is clickable
+
+2018-10-09 13:24:21 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_Live Event/a_Live (In Progress) Event' is present
+
+2018-10-09 13:24:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-10-09 13:24:21 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Live Event/a_Live (In Progress) Event' is present
+
+2018-10-09 13:24:21 - [TEST_STEP][PASSED] - verifyElementClickable: Object 'Object Repository/Page_Live Event/a_Live (In Progress) Event' is clickable
+
+2018-10-09 13:24:21 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Live Event/a_Live (In Progress) Event' is clickable
+
+2018-10-09 13:24:21 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Live (In Progress) Event/a_Video on Demand' is clicked on
+
+2018-10-09 13:24:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Live (In Progress) Event/a_Video on Demand' is clicked on
+
+2018-10-09 13:24:22 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_Live (In Progress) Event/a_Video on Demand Summary' is present
+
+2018-10-09 13:24:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-10-09 13:24:22 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Live (In Progress) Event/a_Video on Demand Summary' is present
+
+2018-10-09 13:24:22 - [TEST_STEP][PASSED] - verifyElementClickable: Object 'Object Repository/Page_Live (In Progress) Event/a_Video on Demand Summary' is clickable
+
+2018-10-09 13:24:22 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Live (In Progress) Event/a_Video on Demand Summary' is clickable
+
+2018-10-09 13:24:22 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_Video on Demand Summary/a_Video on Demand_1' is present
+
+2018-10-09 13:24:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-10-09 13:24:22 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Video on Demand Summary/a_Video on Demand_1' is present
+
+2018-10-09 13:24:22 - [TEST_STEP][PASSED] - verifyElementClickable: Object 'Object Repository/Page_Video on Demand Summary/a_Video on Demand_1' is clickable
+
+2018-10-09 13:24:22 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Video on Demand Summary/a_Video on Demand_1' is clickable
+
+2018-10-09 13:24:22 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_Video on Demand/a_SCCM' is present
+
+2018-10-09 13:24:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-10-09 13:24:22 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Video on Demand/a_SCCM' is present
+
+2018-10-09 13:24:22 - [TEST_STEP][PASSED] - verifyElementClickable: Object 'Object Repository/Page_Video on Demand/a_SCCM' is clickable
+
+2018-10-09 13:24:22 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Video on Demand/a_SCCM' is clickable
+
+2018-10-09 13:24:22 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Video on Demand/a_SCCM' is clicked on
+
+2018-10-09 13:24:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Video on Demand/a_SCCM' is clicked on
+
+2018-10-09 13:24:25 - [TEST_STEP][PASSED] - waitForAngularLoad: Angular is ready.
+
+2018-10-09 13:24:29 - [MESSAGE][PASSED] - Angular is ready.
+
+2018-10-09 13:24:29 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_SCCM Summary/div_OverviewNetworkNetwork Sum' is clicked on
+
+2018-10-09 13:24:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_SCCM Summary/div_OverviewNetworkNetwork Sum' is clicked on
+
+2018-10-09 13:24:29 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Overview/a' is clicked on
+
+2018-10-09 13:24:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Overview/a' is clicked on
+
+2018-10-09 13:24:30 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Overview/a_Log Out (3)' is clicked on
+
+2018-10-09 13:24:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Overview/a_Log Out (3)' is clicked on
+
+2018-10-09 13:24:31 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_Log in/div_Logout Successful.' is present
+
+2018-10-09 13:24:31 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-10-09 13:24:31 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Log in/div_Logout Successful.' is present
+
+2018-10-09 13:24:31 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_Log in/div_Logout Successful.' is present
+
+2018-10-09 13:24:31 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-10-09 13:24:31 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Log in/div_Logout Successful.' is present
+
+2018-10-09 13:24:31 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Logout Successful.' is present on page 
+
+2018-10-09 13:24:31 - [MESSAGE][PASSED] - Text 'Logout Successful.' is present on page 
+
+2018-10-09 13:24:31 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-10-09 13:24:31 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-10-09 13:21:29 - [TEST_SUITE][FAILED] - TC1 Sanity Check: Test Cases/TC1/TC1 - Logging In and Out FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Overview/div_Live EventsOverviewTotal L' located by 'By.xpath: //div[@id = 'dashboard' and (text() = 'Live EventsOverviewTotal Live EventsAn Error Occurred
+
+  
+  
+  716Total Live Events
+
+
+Average Monthly EventsAn Error Occurred
+
+  
+  
+  129Average Monthly Events
+
+
+Peering EfficiencyAn Error Occurred
+
+  
+  
+  18%82%
+   Peer Bytes Sum Origin Bytes Sum
+
+
+Live ViewsAn Error Occurred
+
+  
+  
+  
+    
+      
+    
+    
+      
+    
+  
+01,0002,0002018-052018-062018-072018-082018-092018-10Monthly Total Views
+
+
+Live EventsAn Error Occurred
+
+  
+  
+  
+    
+      
+    
+    
+      
+    
+  
+0501001502002018-052018-062018-072018-082018-092018-10Monthly Event Totals
+
+
+Unique ViewersAn Error Occurred
+
+  
+  
+  2,925Unique Viewers
+
+
+Average Monthly ViewsAn Error Occurred
+
+  
+  
+  1,316Average Monthly Views
+
+
+Live event ctaAn Error Occurred
+
+  
+  
+  
+        
+              View your detailed Live Event metrics
+        
+           Go to Live Event Summary
+      
+    
+
+
+Videos on DemandOverviewTotal VideosAn Error Occurred
+
+  
+  
+  519Total Videos
+
+
+Total Views OverviewAn Error Occurred
+
+  
+  
+  4,403Total Views
+
+
+VoD Summary Peering EfficiencyAn Error Occurred
+
+  
+  
+  16%84%
+   Peer Bytes Sum Origin Bytes Sum
+
+
+VoD ViewsAn Error Occurred
+
+  
+  
+  
+    
+      
+    
+    
+      
+    
+  
+Session Count05001,0002018-052018-062018-072018-082018-092018-10Month
+
+
+VoD over timeAn Error Occurred
+
+  
+  
+  
+    
+      
+    
+    
+      
+    
+  
+0501001502018-052018-062018-072018-082018-092018-10Start Month
+
+
+Unique Viewers OverviewAn Error Occurred
+
+  
+  
+  1,874Unique Viewers
+
+
+Total Hours WatchedAn Error Occurred
+
+  
+  
+  654Total Hours Watched
+
+
+Video on demand ctaAn Error Occurred
+
+  
+  
+  
+        
+              View your detailed Video on Demand metrics
+        
+           Go to VoD Summary
+      
+    
+
+
+NetworkOverviewUnique Agent CountAn Error Occurred
+
+  
+  
+  3,821Unique Agents
+
+
+Delivery CountAn Error Occurred
+
+  
+  
+  36,813Deliveries
+
+
+Peering EfficiencyAn Error Occurred
+
+  
+  
+  73%Peering Efficiency
+
+
+Deliveries by MonthAn Error Occurred
+
+  
+  
+  
+    
+      
+    
+    
+      
+    
+  
+Deliveries05,00010,0002018-052018-052018-062018-062018-072018-072018-082018-082018-092018-092018-102018-10
+
+  On Demand
+  Live
+  SCCM
+
+GB SavedAn Error Occurred
+
+  
+  
+  4,467Saved GB
+
+
+GB TotalAn Error Occurred
+
+  
+  
+  6,154Total GB
+
+
+Network ctaAn Error Occurred
+
+  
+  
+  
+        
+              View your detailed Network metrics
+        
+           Go to Network Summary
+      
+    
+
+
+' or . = 'Live EventsOverviewTotal Live EventsAn Error Occurred
+
+  
+  
+  716Total Live Events
+
+
+Average Monthly EventsAn Error Occurred
+
+  
+  
+  129Average Monthly Events
+
+
+Peering EfficiencyAn Error Occurred
+
+  
+  
+  18%82%
+   Peer Bytes Sum Origin Bytes Sum
+
+
+Live ViewsAn Error Occurred
+
+  
+  
+  
+    
+      
+    
+    
+      
+    
+  
+01,0002,0002018-052018-062018-072018-082018-092018-10Monthly Total Views
+
+
+Live EventsAn Error Occurred
+
+  
+  
+  
+    
+      
+    
+    
+      
+    
+  
+0501001502002018-052018-062018-072018-082018-092018-10Monthly Event Totals
+
+
+Unique ViewersAn Error Occurred
+
+  
+  
+  2,925Unique Viewers
+
+
+Average Monthly ViewsAn Error Occurred
+
+  
+  
+  1,316Average Monthly Views
+
+
+Live event ctaAn Error Occurred
+
+  
+  
+  
+        
+              View your detailed Live Event metrics
+        
+           Go to Live Event Summary
+      
+    
+
+
+Videos on DemandOverviewTotal VideosAn Error Occurred
+
+  
+  
+  519Total Videos
+
+
+Total Views OverviewAn Error Occurred
+
+  
+  
+  4,403Total Views
+
+
+VoD Summary Peering EfficiencyAn Error Occurred
+
+  
+  
+  16%84%
+   Peer Bytes Sum Origin Bytes Sum
+
+
+VoD ViewsAn Error Occurred
+
+  
+  
+  
+    
+      
+    
+    
+      
+    
+  
+Session Count05001,0002018-052018-062018-072018-082018-092018-10Month
+
+
+VoD over timeAn Error Occurred
+
+  
+  
+  
+    
+      
+    
+    
+      
+    
+  
+0501001502018-052018-062018-072018-082018-092018-10Start Month
+
+
+Unique Viewers OverviewAn Error Occurred
+
+  
+  
+  1,874Unique Viewers
+
+
+Total Hours WatchedAn Error Occurred
+
+  
+  
+  654Total Hours Watched
+
+
+Video on demand ctaAn Error Occurred
+
+  
+  
+  
+        
+              View your detailed Video on Demand metrics
+        
+           Go to VoD Summary
+      
+    
+
+
+NetworkOverviewUnique Agent CountAn Error Occurred
+
+  
+  
+  3,821Unique Agents
+
+
+Delivery CountAn Error Occurred
+
+  
+  
+  36,813Deliveries
+
+
+Peering EfficiencyAn Error Occurred
+
+  
+  
+  73%Peering Efficiency
+
+
+Deliveries by MonthAn Error Occurred
+
+  
+  
+  
+    
+      
+    
+    
+      
+    
+  
+Deliveries05,00010,0002018-052018-052018-062018-062018-072018-072018-082018-082018-092018-092018-102018-10
+
+  On Demand
+  Live
+  SCCM
+
+GB SavedAn Error Occurred
+
+  
+  
+  4,467Saved GB
+
+
+GB TotalAn Error Occurred
+
+  
+  
+  6,154Total GB
+
+
+Network ctaAn Error Occurred
+
+  
+  
+  
+        
+              View your detailed Network metrics
+        
+           Go to Network Summary
+      
+    
+
+
+')]' not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:32)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:21)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1434)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$4.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:133)
+	at Script1538969738297.run(Script1538969738297.groovy:62)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1539116488573.run(TempTestSuite1539116488573.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)]]></system-out>
+      <system-err><![CDATA[2018-10-09 13:21:29 - [TEST_SUITE][FAILED] - TC1 Sanity Check: Test Cases/TC1/TC1 - Logging In and Out FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Overview/div_Live EventsOverviewTotal L' located by 'By.xpath: //div[@id = 'dashboard' and (text() = 'Live EventsOverviewTotal Live EventsAn Error Occurred
+
+  
+  
+  716Total Live Events
+
+
+Average Monthly EventsAn Error Occurred
+
+  
+  
+  129Average Monthly Events
+
+
+Peering EfficiencyAn Error Occurred
+
+  
+  
+  18%82%
+   Peer Bytes Sum Origin Bytes Sum
+
+
+Live ViewsAn Error Occurred
+
+  
+  
+  
+    
+      
+    
+    
+      
+    
+  
+01,0002,0002018-052018-062018-072018-082018-092018-10Monthly Total Views
+
+
+Live EventsAn Error Occurred
+
+  
+  
+  
+    
+      
+    
+    
+      
+    
+  
+0501001502002018-052018-062018-072018-082018-092018-10Monthly Event Totals
+
+
+Unique ViewersAn Error Occurred
+
+  
+  
+  2,925Unique Viewers
+
+
+Average Monthly ViewsAn Error Occurred
+
+  
+  
+  1,316Average Monthly Views
+
+
+Live event ctaAn Error Occurred
+
+  
+  
+  
+        
+              View your detailed Live Event metrics
+        
+           Go to Live Event Summary
+      
+    
+
+
+Videos on DemandOverviewTotal VideosAn Error Occurred
+
+  
+  
+  519Total Videos
+
+
+Total Views OverviewAn Error Occurred
+
+  
+  
+  4,403Total Views
+
+
+VoD Summary Peering EfficiencyAn Error Occurred
+
+  
+  
+  16%84%
+   Peer Bytes Sum Origin Bytes Sum
+
+
+VoD ViewsAn Error Occurred
+
+  
+  
+  
+    
+      
+    
+    
+      
+    
+  
+Session Count05001,0002018-052018-062018-072018-082018-092018-10Month
+
+
+VoD over timeAn Error Occurred
+
+  
+  
+  
+    
+      
+    
+    
+      
+    
+  
+0501001502018-052018-062018-072018-082018-092018-10Start Month
+
+
+Unique Viewers OverviewAn Error Occurred
+
+  
+  
+  1,874Unique Viewers
+
+
+Total Hours WatchedAn Error Occurred
+
+  
+  
+  654Total Hours Watched
+
+
+Video on demand ctaAn Error Occurred
+
+  
+  
+  
+        
+              View your detailed Video on Demand metrics
+        
+           Go to VoD Summary
+      
+    
+
+
+NetworkOverviewUnique Agent CountAn Error Occurred
+
+  
+  
+  3,821Unique Agents
+
+
+Delivery CountAn Error Occurred
+
+  
+  
+  36,813Deliveries
+
+
+Peering EfficiencyAn Error Occurred
+
+  
+  
+  73%Peering Efficiency
+
+
+Deliveries by MonthAn Error Occurred
+
+  
+  
+  
+    
+      
+    
+    
+      
+    
+  
+Deliveries05,00010,0002018-052018-052018-062018-062018-072018-072018-082018-082018-092018-092018-102018-10
+
+  On Demand
+  Live
+  SCCM
+
+GB SavedAn Error Occurred
+
+  
+  
+  4,467Saved GB
+
+
+GB TotalAn Error Occurred
+
+  
+  
+  6,154Total GB
+
+
+Network ctaAn Error Occurred
+
+  
+  
+  
+        
+              View your detailed Network metrics
+        
+           Go to Network Summary
+      
+    
+
+
+' or . = 'Live EventsOverviewTotal Live EventsAn Error Occurred
+
+  
+  
+  716Total Live Events
+
+
+Average Monthly EventsAn Error Occurred
+
+  
+  
+  129Average Monthly Events
+
+
+Peering EfficiencyAn Error Occurred
+
+  
+  
+  18%82%
+   Peer Bytes Sum Origin Bytes Sum
+
+
+Live ViewsAn Error Occurred
+
+  
+  
+  
+    
+      
+    
+    
+      
+    
+  
+01,0002,0002018-052018-062018-072018-082018-092018-10Monthly Total Views
+
+
+Live EventsAn Error Occurred
+
+  
+  
+  
+    
+      
+    
+    
+      
+    
+  
+0501001502002018-052018-062018-072018-082018-092018-10Monthly Event Totals
+
+
+Unique ViewersAn Error Occurred
+
+  
+  
+  2,925Unique Viewers
+
+
+Average Monthly ViewsAn Error Occurred
+
+  
+  
+  1,316Average Monthly Views
+
+
+Live event ctaAn Error Occurred
+
+  
+  
+  
+        
+              View your detailed Live Event metrics
+        
+           Go to Live Event Summary
+      
+    
+
+
+Videos on DemandOverviewTotal VideosAn Error Occurred
+
+  
+  
+  519Total Videos
+
+
+Total Views OverviewAn Error Occurred
+
+  
+  
+  4,403Total Views
+
+
+VoD Summary Peering EfficiencyAn Error Occurred
+
+  
+  
+  16%84%
+   Peer Bytes Sum Origin Bytes Sum
+
+
+VoD ViewsAn Error Occurred
+
+  
+  
+  
+    
+      
+    
+    
+      
+    
+  
+Session Count05001,0002018-052018-062018-072018-082018-092018-10Month
+
+
+VoD over timeAn Error Occurred
+
+  
+  
+  
+    
+      
+    
+    
+      
+    
+  
+0501001502018-052018-062018-072018-082018-092018-10Start Month
+
+
+Unique Viewers OverviewAn Error Occurred
+
+  
+  
+  1,874Unique Viewers
+
+
+Total Hours WatchedAn Error Occurred
+
+  
+  
+  654Total Hours Watched
+
+
+Video on demand ctaAn Error Occurred
+
+  
+  
+  
+        
+              View your detailed Video on Demand metrics
+        
+           Go to VoD Summary
+      
+    
+
+
+NetworkOverviewUnique Agent CountAn Error Occurred
+
+  
+  
+  3,821Unique Agents
+
+
+Delivery CountAn Error Occurred
+
+  
+  
+  36,813Deliveries
+
+
+Peering EfficiencyAn Error Occurred
+
+  
+  
+  73%Peering Efficiency
+
+
+Deliveries by MonthAn Error Occurred
+
+  
+  
+  
+    
+      
+    
+    
+      
+    
+  
+Deliveries05,00010,0002018-052018-052018-062018-062018-072018-072018-082018-082018-092018-092018-102018-10
+
+  On Demand
+  Live
+  SCCM
+
+GB SavedAn Error Occurred
+
+  
+  
+  4,467Saved GB
+
+
+GB TotalAn Error Occurred
+
+  
+  
+  6,154Total GB
+
+
+Network ctaAn Error Occurred
+
+  
+  
+  
+        
+              View your detailed Network metrics
+        
+           Go to Network Summary
+      
+    
+
+
+')]' not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:32)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:21)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1434)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$4.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:133)
+	at Script1538969738297.run(Script1538969738297.groovy:62)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1539116488573.run(TempTestSuite1539116488573.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)]]></system-err>
+   </testsuite>
+</testsuites>

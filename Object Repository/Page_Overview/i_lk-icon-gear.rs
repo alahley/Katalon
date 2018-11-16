@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>i_lk-icon-gear</name>
+   <tag></tag>
+   <elementGuidId>2c336e95-1c7f-41be-afc2-7cece7831b11</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>lk-icon-gear</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;lk-title&quot;)/div[@class=&quot;lk-title-controls-container&quot;]/div[@class=&quot;lk-title-controls ng-scope&quot;]/div[@class=&quot;dashboard-dropdown ng-scope dropdown&quot;]/div[@class=&quot;dropdown-toggle button-xs&quot;]/i[@class=&quot;lk-icon-gear&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>

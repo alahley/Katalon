@@ -1,0 +1,60 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TC1 Sanity Check,Firefox 62.0,This is a sanity check for the TC1 DMS.  It is a basic set of tests that will raise confidence that the deploy was successful.,2018-10-07 20:54:21,2018-10-07 20:54:52,31.547s,PASSED
+,,,,,,
+Test Cases/TC1 - Fixture Data Validation,Firefox 62.0,,2018-10-07 20:54:21,2018-10-07 20:54:52,31.143s,PASSED
+openBrowser,Firefox 62.0,"Fires up the browser
+",2018-10-07 20:54:22,2018-10-07 20:54:32,10.126s,PASSED
+setText,Firefox 62.0,Filling out login info (username),2018-10-07 20:54:32,2018-10-07 20:54:32,0.149s,PASSED
+setEncryptedText,Firefox 62.0,Filling out login info (password),2018-10-07 20:54:32,2018-10-07 20:54:32,0.104s,PASSED
+click,Firefox 62.0,Clicks the Stay Logged In button,2018-10-07 20:54:32,2018-10-07 20:54:32,0.247s,PASSED
+click,Firefox 62.0,Clicks the Submit button to login,2018-10-07 20:54:32,2018-10-07 20:54:36,3.270s,PASSED
+waitForAngularLoad,Firefox 62.0,Waits for all angular elements on the landing page to load,2018-10-07 20:54:36,2018-10-07 20:54:38,2.099s,PASSED
+click,Firefox 62.0,,2018-10-07 20:54:38,2018-10-07 20:54:38,0.594s,PASSED
+selectOptionByValue,Firefox 62.0,,2018-10-07 20:54:38,2018-10-07 20:54:39,0.720s,PASSED
+setText,Firefox 62.0,,2018-10-07 20:54:39,2018-10-07 20:54:39,0.116s,PASSED
+waitForAngularLoad,Firefox 62.0,Waits for all angular elements on the landing page to load,2018-10-07 20:54:39,2018-10-07 20:54:39,0.015s,PASSED
+click,Firefox 62.0,,2018-10-07 20:54:39,2018-10-07 20:54:39,0.320s,PASSED
+waitForAngularLoad,Firefox 62.0,Waits for all angular elements on the landing page to load,2018-10-07 20:54:39,2018-10-07 20:54:42,2.735s,PASSED
+click,Firefox 62.0,,2018-10-07 20:54:42,2018-10-07 20:54:42,0.280s,PASSED
+click,Firefox 62.0,,2018-10-07 20:54:42,2018-10-07 20:54:43,0.381s,PASSED
+waitForAngularLoad,Firefox 62.0,Waits for all angular elements on the landing page to load,2018-10-07 20:54:43,2018-10-07 20:54:51,8.336s,PASSED
+waitForAngularLoad,Firefox 62.0,Waits for all angular elements on the landing page to load,2018-10-07 20:54:51,2018-10-07 20:54:51,0.016s,PASSED
+verifyElementText,Firefox 62.0,"Verify ""Total Live Events"" widget is on the page",2018-10-07 20:54:51,2018-10-07 20:54:51,0.058s,PASSED
+verifyElementText,Firefox 62.0,"FIXTURE DATA - Verify Total Live Events widget has a value of 2,563",2018-10-07 20:54:51,2018-10-07 20:54:51,0.038s,PASSED
+verifyElementText,Firefox 62.0,"Verify ""Average Monthly Events"" widget is on the page",2018-10-07 20:54:51,2018-10-07 20:54:51,0.028s,PASSED
+verifyElementText,Firefox 62.0,FIXTURE DATA - Verify Average Monthly Events widget has a value of 226,2018-10-07 20:54:51,2018-10-07 20:54:51,0.038s,PASSED
+verifyElementText,Firefox 62.0,"Verify ""Unique Viewers"" widget is on the page",2018-10-07 20:54:51,2018-10-07 20:54:51,0.041s,PASSED
+verifyElementText,Firefox 62.0,"FIXTURE DATA - Verify Unique Viewers widget has a value of 10,079",2018-10-07 20:54:51,2018-10-07 20:54:51,0.032s,PASSED
+verifyElementText,Firefox 62.0,Verify Average Monthly Viewers widget exists on page,2018-10-07 20:54:51,2018-10-07 20:54:51,0.027s,PASSED
+verifyElementText,Firefox 62.0,"FIXTURE DATA - Verify Average Monthly Views widget has a value of 7,762",2018-10-07 20:54:51,2018-10-07 20:54:51,0.035s,PASSED
+verifyElementText,Firefox 62.0,Verify Total Videos widget exists on page,2018-10-07 20:54:51,2018-10-07 20:54:52,0.030s,PASSED
+verifyElementText,Firefox 62.0,"FIXTURE DATA - Verify Total Videos widget has a value of 1,585",2018-10-07 20:54:52,2018-10-07 20:54:52,0.038s,PASSED
+verifyElementText,Firefox 62.0,Verify Total Views widget exists on page,2018-10-07 20:54:52,2018-10-07 20:54:52,0.042s,PASSED
+verifyElementText,Firefox 62.0,"FIXTURE DATA - Verify Unique Viewers widget has a value of 17,443",2018-10-07 20:54:52,2018-10-07 20:54:52,0.040s,PASSED
+verifyElementText,Firefox 62.0,Verify Unique Viewers widget exists on page,2018-10-07 20:54:52,2018-10-07 20:54:52,0.030s,PASSED
+verifyElementText,Firefox 62.0,"FIXTURE DATA - Verify Total Views widget has a value of 8,261",2018-10-07 20:54:52,2018-10-07 20:54:52,0.034s,PASSED
+verifyElementText,Firefox 62.0,Verify Total Hours Watched widget exists on page,2018-10-07 20:54:52,2018-10-07 20:54:52,0.027s,PASSED
+verifyElementText,Firefox 62.0,"FIXTURE DATA - Verify Total Hours Watched widget has a value of 1,404",2018-10-07 20:54:52,2018-10-07 20:54:52,0.033s,PASSED
+verifyElementText,Firefox 62.0,Verify Unique Agent widget exists on page,2018-10-07 20:54:52,2018-10-07 20:54:52,0.032s,PASSED
+verifyElementText,Firefox 62.0,"FIXTURE DATA - Verify Unique Agents widget has a value of 10,905",2018-10-07 20:54:52,2018-10-07 20:54:52,0.031s,PASSED
+verifyElementText,Firefox 62.0,Verify Deliveries widget exists on page,2018-10-07 20:54:52,2018-10-07 20:54:52,0.033s,PASSED
+verifyElementText,Firefox 62.0,"FIXTURE DATA - Verify Delivery widget has a value of 67,512",2018-10-07 20:54:52,2018-10-07 20:54:52,0.030s,PASSED
+verifyElementText,Firefox 62.0,Verify Saved GB widget exists on page,2018-10-07 20:54:52,2018-10-07 20:54:52,0.028s,PASSED
+verifyElementText,Firefox 62.0,"FIXTURE DATA - Verify Saved GB widget has a value of 1,573",2018-10-07 20:54:52,2018-10-07 20:54:52,0.029s,PASSED
+verifyElementText,Firefox 62.0,Verify Total GB widget exists on page,2018-10-07 20:54:52,2018-10-07 20:54:52,0.034s,PASSED
+verifyElementText,Firefox 62.0,"FIXTURE DATA - Verify Total GB widget has a value of 3,865",2018-10-07 20:54:52,2018-10-07 20:54:52,0.043s,PASSED
+verifyElementPresent,Firefox 62.0,Verify the Peering Efficiency widget appears on page,2018-10-07 20:54:52,2018-10-07 20:54:52,0.021s,PASSED
+verifyElementPresent,Firefox 62.0,Verify the Peering Efficiency widget appears on page and has a value of 41%,2018-10-07 20:54:52,2018-10-07 20:54:52,0.012s,PASSED
+verifyElementPresent,Firefox 62.0,Verify the VoD Summary Peering Efficiency widget appears on page,2018-10-07 20:54:52,2018-10-07 20:54:52,0.013s,PASSED
+verifyElementPresent,Firefox 62.0,Verify the VoD Summary widget appears on page,2018-10-07 20:54:52,2018-10-07 20:54:52,0.010s,PASSED
+verifyElementPresent,Firefox 62.0,Verify the Peering Efficiency donut chart appears on page,2018-10-07 20:54:52,2018-10-07 20:54:52,0.013s,PASSED
+verifyElementPresent,Firefox 62.0,Verify the Peering Efficiency widget appears on page and has a value of 66% in the donut chart,2018-10-07 20:54:52,2018-10-07 20:54:52,0.012s,PASSED
+verifyElementPresent,Firefox 62.0,Verify the Live Views widget appears on page,2018-10-07 20:54:52,2018-10-07 20:54:52,0.012s,PASSED
+verifyElementPresent,Firefox 62.0,Verify the Live Events widget appears on page,2018-10-07 20:54:52,2018-10-07 20:54:52,0.013s,PASSED
+verifyElementPresent,Firefox 62.0,Verify the VoD Views widget appears on page,2018-10-07 20:54:52,2018-10-07 20:54:52,0.010s,PASSED
+verifyElementPresent,Firefox 62.0,Verify the VoD over time widget appears on page,2018-10-07 20:54:52,2018-10-07 20:54:52,0.011s,PASSED
+verifyElementPresent,Firefox 62.0,Verify the Deliveries by Month widget appears on page,2018-10-07 20:54:52,2018-10-07 20:54:52,0.012s,PASSED
+verifyElementPresent,Firefox 62.0,Verify the Live Event Summary CTA appears on page,2018-10-07 20:54:52,2018-10-07 20:54:52,0.010s,PASSED
+verifyElementPresent,Firefox 62.0,Verify the VoD Summary CTA appears on page,2018-10-07 20:54:52,2018-10-07 20:54:52,0.009s,PASSED
+verifyElementPresent,Firefox 62.0,Verify the Network Summary CTA appears on page,2018-10-07 20:54:52,2018-10-07 20:54:52,0.011s,PASSED
+closeBrowser,Firefox 62.0,,2018-10-07 20:54:52,2018-10-07 20:54:52,0.245s,PASSED

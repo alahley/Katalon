@@ -1,0 +1,288 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Eval Sanity Check,Chrome 70.0.3538.77,,2018-10-31 14:56:12,2018-10-31 15:01:31,5m - 19.274s,FAILED
+,,,,,,
+Test Cases/Eval/Eval - Logging In and Out,Chrome 70.0.3538.77,This will cover primarily the log in process and validation of Sudoing as a different user,2018-10-31 14:56:12,2018-10-31 14:56:24,11.622s,PASSED
+openBrowser,Chrome 70.0.3538.77,"Fires up the browser
+",2018-10-31 14:56:12,2018-10-31 14:56:17,4.336s,PASSED
+setText,Chrome 70.0.3538.77,Filling out login info (username),2018-10-31 14:56:17,2018-10-31 14:56:17,0.225s,PASSED
+setEncryptedText,Chrome 70.0.3538.77,Filling out login info (password),2018-10-31 14:56:17,2018-10-31 14:56:17,0.180s,PASSED
+click,Chrome 70.0.3538.77,Clicks the Stay Logged In button,2018-10-31 14:56:17,2018-10-31 14:56:17,0.090s,PASSED
+click,Chrome 70.0.3538.77,Clicks the Submit button to login,2018-10-31 14:56:17,2018-10-31 14:56:19,2.371s,PASSED
+waitForAngularLoad,Chrome 70.0.3538.77,"10 second Threshold: Waits for all angular elements on the landing page to load in 10 seconds or less
+",2018-10-31 14:56:19,2018-10-31 14:56:22,2.737s,PASSED
+verifyElementPresent,Chrome 70.0.3538.77,,2018-10-31 14:56:22,2018-10-31 14:56:22,0.039s,PASSED
+verifyElementPresent,Chrome 70.0.3538.77,,2018-10-31 14:56:22,2018-10-31 14:56:22,0.028s,PASSED
+verifyElementPresent,Chrome 70.0.3538.77,,2018-10-31 14:56:22,2018-10-31 14:56:22,0.023s,PASSED
+verifyElementPresent,Chrome 70.0.3538.77,,2018-10-31 14:56:22,2018-10-31 14:56:22,0.018s,PASSED
+verifyElementPresent,Chrome 70.0.3538.77,,2018-10-31 14:56:22,2018-10-31 14:56:22,0.030s,PASSED
+verifyElementPresent,Chrome 70.0.3538.77,,2018-10-31 14:56:22,2018-10-31 14:56:22,0.019s,PASSED
+verifyElementPresent,Chrome 70.0.3538.77,,2018-10-31 14:56:22,2018-10-31 14:56:22,0.016s,PASSED
+verifyElementPresent,Chrome 70.0.3538.77,,2018-10-31 14:56:22,2018-10-31 14:56:22,0.019s,PASSED
+verifyElementPresent,Chrome 70.0.3538.77,,2018-10-31 14:56:22,2018-10-31 14:56:22,0.017s,PASSED
+verifyElementPresent,Chrome 70.0.3538.77,,2018-10-31 14:56:22,2018-10-31 14:56:22,0.017s,PASSED
+verifyElementPresent,Chrome 70.0.3538.77,,2018-10-31 14:56:22,2018-10-31 14:56:22,0.016s,PASSED
+verifyElementPresent,Chrome 70.0.3538.77,,2018-10-31 14:56:22,2018-10-31 14:56:22,0.027s,PASSED
+verifyElementPresent,Chrome 70.0.3538.77,,2018-10-31 14:56:22,2018-10-31 14:56:23,0.026s,PASSED
+verifyElementPresent,Chrome 70.0.3538.77,,2018-10-31 14:56:23,2018-10-31 14:56:23,0.025s,PASSED
+verifyElementPresent,Chrome 70.0.3538.77,,2018-10-31 14:56:23,2018-10-31 14:56:23,0.023s,PASSED
+verifyElementPresent,Chrome 70.0.3538.77,,2018-10-31 14:56:23,2018-10-31 14:56:23,0.021s,PASSED
+verifyElementPresent,Chrome 70.0.3538.77,,2018-10-31 14:56:23,2018-10-31 14:56:23,0.016s,PASSED
+verifyElementPresent,Chrome 70.0.3538.77,,2018-10-31 14:56:23,2018-10-31 14:56:23,0.012s,PASSED
+verifyElementPresent,Chrome 70.0.3538.77,,2018-10-31 14:56:23,2018-10-31 14:56:23,0.022s,PASSED
+verifyElementPresent,Chrome 70.0.3538.77,,2018-10-31 14:56:23,2018-10-31 14:56:23,0.020s,PASSED
+verifyElementPresent,Chrome 70.0.3538.77,,2018-10-31 14:56:23,2018-10-31 14:56:23,0.018s,PASSED
+verifyElementPresent,Chrome 70.0.3538.77,,2018-10-31 14:56:23,2018-10-31 14:56:23,0.016s,PASSED
+verifyElementPresent,Chrome 70.0.3538.77,,2018-10-31 14:56:23,2018-10-31 14:56:23,0.017s,PASSED
+verifyElementPresent,Chrome 70.0.3538.77,,2018-10-31 14:56:23,2018-10-31 14:56:23,0.019s,PASSED
+click,Chrome 70.0.3538.77,,2018-10-31 14:56:23,2018-10-31 14:56:23,0.120s,PASSED
+click,Chrome 70.0.3538.77,,2018-10-31 14:56:23,2018-10-31 14:56:23,0.576s,PASSED
+verifyElementPresent,Chrome 70.0.3538.77,,2018-10-31 14:56:23,2018-10-31 14:56:23,0.019s,PASSED
+verifyElementPresent,Chrome 70.0.3538.77,,2018-10-31 14:56:23,2018-10-31 14:56:23,0.024s,PASSED
+verifyTextPresent,Chrome 70.0.3538.77,,2018-10-31 14:56:23,2018-10-31 14:56:24,0.047s,PASSED
+closeBrowser,Chrome 70.0.3538.77,,2018-10-31 14:56:24,2018-10-31 14:56:24,0.116s,PASSED
+,,,,,,
+Test Cases/Eval/Eval - Summary and Detail pages,Chrome 70.0.3538.77,"This will cover all ""main"" Summary pages
+-Live Events Summary
+-Network Summary
+-VoD Summary",2018-10-31 14:56:24,2018-10-31 14:57:29,1m - 5.400s,PASSED
+openBrowser,Chrome 70.0.3538.77,"Fires up the browser
+",2018-10-31 14:56:24,2018-10-31 14:56:26,2.630s,PASSED
+setText,Chrome 70.0.3538.77,Filling out login info (username),2018-10-31 14:56:26,2018-10-31 14:56:27,0.169s,PASSED
+setEncryptedText,Chrome 70.0.3538.77,Filling out login info (password),2018-10-31 14:56:27,2018-10-31 14:56:27,0.096s,PASSED
+click,Chrome 70.0.3538.77,Clicks the Stay Logged In button,2018-10-31 14:56:27,2018-10-31 14:56:27,0.073s,PASSED
+click,Chrome 70.0.3538.77,Clicks the Submit button to login,2018-10-31 14:56:27,2018-10-31 14:56:29,2.286s,PASSED
+waitForAngularLoad,Chrome 70.0.3538.77,"Overview / Landing Page: 10 second Threshold: Waits for all angular elements on the landing page to load in 10 seconds or less
+",2018-10-31 14:56:29,2018-10-31 14:56:31,1.995s,PASSED
+waitForPageLoad,Chrome 70.0.3538.77,,2018-10-31 14:56:31,2018-10-31 14:56:31,0.017s,PASSED
+navigateToUrl,Chrome 70.0.3538.77,Network Summary,2018-10-31 14:56:31,2018-10-31 14:56:32,1.042s,PASSED
+waitForAngularLoad,Chrome 70.0.3538.77,"10 second Threshold: Waits for all angular elements on the landing page to load in 10 seconds or less
+",2018-10-31 14:56:32,2018-10-31 14:56:39,6.659s,PASSED
+waitForPageLoad,Chrome 70.0.3538.77,,2018-10-31 14:56:39,2018-10-31 14:56:40,0.921s,PASSED
+navigateToUrl,Chrome 70.0.3538.77,Network Content,2018-10-31 14:56:40,2018-10-31 14:56:41,1.539s,PASSED
+waitForAngularLoad,Chrome 70.0.3538.77,"10 second Threshold: Waits for all angular elements on the landing page to load in 10 seconds or less
+",2018-10-31 14:56:41,2018-10-31 14:56:41,0.016s,PASSED
+waitForPageLoad,Chrome 70.0.3538.77,,2018-10-31 14:56:41,2018-10-31 14:56:41,0.079s,PASSED
+navigateToUrl,Chrome 70.0.3538.77,Network Locality,2018-10-31 14:56:41,2018-10-31 14:56:43,1.688s,PASSED
+waitForAngularLoad,Chrome 70.0.3538.77,"10 second Threshold: Waits for all angular elements on the landing page to load in 10 seconds or less
+",2018-10-31 14:56:43,2018-10-31 14:56:47,4.441s,PASSED
+waitForPageLoad,Chrome 70.0.3538.77,,2018-10-31 14:56:47,2018-10-31 14:56:47,0.007s,PASSED
+navigateToUrl,Chrome 70.0.3538.77,Live Event Summary,2018-10-31 14:56:47,2018-10-31 14:56:49,1.782s,PASSED
+waitForAngularLoad,Chrome 70.0.3538.77,"10 second Threshold: Waits for all angular elements on the landing page to load in 10 seconds or less
+",2018-10-31 14:56:49,2018-10-31 14:56:52,2.461s,PASSED
+waitForPageLoad,Chrome 70.0.3538.77,,2018-10-31 14:56:52,2018-10-31 14:56:52,0.030s,PASSED
+navigateToUrl,Chrome 70.0.3538.77,Live Event,2018-10-31 14:56:52,2018-10-31 14:56:53,1.518s,PASSED
+waitForAngularLoad,Chrome 70.0.3538.77,"10 second Threshold: Waits for all angular elements on the landing page to load in 10 seconds or less
+",2018-10-31 14:56:53,2018-10-31 14:56:53,0.022s,PASSED
+waitForPageLoad,Chrome 70.0.3538.77,,2018-10-31 14:56:53,2018-10-31 14:56:53,0.168s,PASSED
+navigateToUrl,Chrome 70.0.3538.77,Live (in progress) Event (filtered on last 2 weeks),2018-10-31 14:56:53,2018-10-31 14:56:55,1.470s,PASSED
+waitForAngularLoad,Chrome 70.0.3538.77,"10 second Threshold: Waits for all angular elements on the landing page to load in 10 seconds or less
+",2018-10-31 14:56:55,2018-10-31 14:56:55,0.021s,PASSED
+waitForPageLoad,Chrome 70.0.3538.77,,2018-10-31 14:56:55,2018-10-31 14:56:55,0.010s,PASSED
+navigateToUrl,Chrome 70.0.3538.77,VoD Summary,2018-10-31 14:56:55,2018-10-31 14:56:57,1.912s,PASSED
+waitForAngularLoad,Chrome 70.0.3538.77,"10 second Threshold: Waits for all angular elements on the landing page to load in 10 seconds or less
+",2018-10-31 14:56:57,2018-10-31 14:56:59,2.609s,PASSED
+waitForPageLoad,Chrome 70.0.3538.77,,2018-10-31 14:56:59,2018-10-31 14:56:59,0.007s,PASSED
+verifyTextNotPresent,Chrome 70.0.3538.77,"Ensure that ""No Results"" does not appear anywhere on the page.  This can happen on certain widgets but should NEVER happen in the table data.",2018-10-31 14:56:59,2018-10-31 14:57:00,0.972s,PASSED
+navigateToUrl,Chrome 70.0.3538.77,"Navigate to a VoD Content page to ensure ""No Results"" does not appear in the table data",2018-10-31 14:57:00,2018-10-31 14:57:02,1.204s,PASSED
+waitForAngularLoad,Chrome 70.0.3538.77,"10 second Threshold: Waits for all angular elements on the landing page to load in 10 seconds or less
+",2018-10-31 14:57:02,2018-10-31 14:57:06,4.072s,PASSED
+waitForPageLoad,Chrome 70.0.3538.77,,2018-10-31 14:57:06,2018-10-31 14:57:06,0.007s,PASSED
+verifyTextNotPresent,Chrome 70.0.3538.77,"Ensure that ""No Results"" does not appear anywhere on the page.  This can happen on certain widgets but should NEVER happen in the table data.",2018-10-31 14:57:06,2018-10-31 14:57:17,10.841s,PASSED
+navigateToUrl,Chrome 70.0.3538.77,Video on Demand,2018-10-31 14:57:17,2018-10-31 14:57:18,1.275s,PASSED
+waitForAngularLoad,Chrome 70.0.3538.77,"10 second Threshold: Waits for all angular elements on the landing page to load in 10 seconds or less
+",2018-10-31 14:57:18,2018-10-31 14:57:18,0.299s,PASSED
+waitForPageLoad,Chrome 70.0.3538.77,,2018-10-31 14:57:18,2018-10-31 14:57:18,0.008s,PASSED
+navigateToUrl,Chrome 70.0.3538.77,SCCM,2018-10-31 14:57:18,2018-10-31 14:57:19,1.225s,PASSED
+waitForAngularLoad,Chrome 70.0.3538.77,"10 second Threshold: Waits for all angular elements on the landing page to load in 10 seconds or less
+",2018-10-31 14:57:19,2018-10-31 14:57:20,0.277s,PASSED
+waitForPageLoad,Chrome 70.0.3538.77,,2018-10-31 14:57:20,2018-10-31 14:57:20,0.084s,PASSED
+navigateToUrl,Chrome 70.0.3538.77,,2018-10-31 14:57:20,2018-10-31 14:57:21,1.369s,PASSED
+waitForPageLoad,Chrome 70.0.3538.77,,2018-10-31 14:57:21,2018-10-31 14:57:21,0.103s,PASSED
+waitForAngularLoad,Chrome 70.0.3538.77,,2018-10-31 14:57:21,2018-10-31 14:57:28,6.778s,PASSED
+verifyElementNotVisible,Chrome 70.0.3538.77,,2018-10-31 14:57:28,2018-10-31 14:57:28,0.061s,PASSED
+click,Chrome 70.0.3538.77,,2018-10-31 14:57:28,2018-10-31 14:57:28,0.178s,PASSED
+click,Chrome 70.0.3538.77,,2018-10-31 14:57:28,2018-10-31 14:57:29,0.635s,PASSED
+waitForAngularLoad,Chrome 70.0.3538.77,"10 second Threshold: Waits for all angular elements on the landing page to load in 10 seconds or less
+",2018-10-31 14:57:29,2018-10-31 14:57:29,0.019s,PASSED
+waitForPageLoad,Chrome 70.0.3538.77,,2018-10-31 14:57:29,2018-10-31 14:57:29,0.007s,PASSED
+verifyElementPresent,Chrome 70.0.3538.77,,2018-10-31 14:57:29,2018-10-31 14:57:29,0.021s,PASSED
+verifyTextPresent,Chrome 70.0.3538.77,,2018-10-31 14:57:29,2018-10-31 14:57:29,0.044s,PASSED
+closeBrowser,Chrome 70.0.3538.77,,2018-10-31 14:57:29,2018-10-31 14:57:29,0.123s,PASSED
+,,,,,,
+Test Cases/Eval/Eval - Navigation and CTAs,Chrome 70.0.3538.77,"This will cover testing of Paul's new navigation and dropdown menus, as well as the three main Calls To Action on the Overview page",2018-10-31 14:57:29,2018-10-31 15:00:51,3m - 22.383s,FAILED
+openBrowser,Chrome 70.0.3538.77,"Fires up the browser
+",2018-10-31 14:57:29,2018-10-31 14:57:34,4.404s,PASSED
+setText,Chrome 70.0.3538.77,Filling out login info (username),2018-10-31 14:57:34,2018-10-31 14:57:34,0.177s,PASSED
+setEncryptedText,Chrome 70.0.3538.77,Filling out login info (password),2018-10-31 14:57:34,2018-10-31 14:57:34,0.088s,PASSED
+click,Chrome 70.0.3538.77,Clicks the Stay Logged In button,2018-10-31 14:57:34,2018-10-31 14:57:34,0.091s,PASSED
+click,Chrome 70.0.3538.77,Clicks the Submit button to login,2018-10-31 14:57:34,2018-10-31 14:57:36,2.360s,PASSED
+waitForAngularLoad,Chrome 70.0.3538.77,"10 second Threshold: Waits for all angular elements on the landing page to load in 10 seconds or less
+",2018-10-31 14:57:36,2018-10-31 14:57:38,1.559s,PASSED
+waitForPageLoad,Chrome 70.0.3538.77,,2018-10-31 14:57:38,2018-10-31 14:57:38,0.008s,PASSED
+verifyElementVisible,Chrome 70.0.3538.77,,2018-10-31 14:57:38,2018-10-31 14:57:38,0.041s,PASSED
+verifyElementVisible,Chrome 70.0.3538.77,,2018-10-31 14:57:38,2018-10-31 14:57:38,0.048s,PASSED
+click,Chrome 70.0.3538.77,"Use the Live Event Summary CTA
+",2018-10-31 14:57:38,2018-10-31 14:57:39,1.241s,PASSED
+waitForAngularLoad,Chrome 70.0.3538.77,"10 second Threshold: Waits for all angular elements on the landing page to load in 10 seconds or less
+",2018-10-31 14:57:39,2018-10-31 14:57:39,0.011s,PASSED
+verifyElementText,Chrome 70.0.3538.77,Verify we are on the Live Event Summary page by looking for the Live Event Summary title,2018-10-31 14:57:39,2018-10-31 14:57:40,0.758s,FAILED
+click,Chrome 70.0.3538.77,"Go back to the Landing page via Overview in the nav
+",2018-10-31 14:57:40,2018-10-31 14:57:41,1.439s,FAILED
+waitForAngularLoad,Chrome 70.0.3538.77,"10 second Threshold: Waits for all angular elements on the landing page to load in 10 seconds or less
+",2018-10-31 14:57:41,2018-10-31 14:57:41,0.010s,PASSED
+verifyElementVisible,Chrome 70.0.3538.77,,2018-10-31 14:57:41,2018-10-31 14:58:32,51.006s,FAILED
+click,Chrome 70.0.3538.77,Use the VoD Summary CTA,2018-10-31 14:58:32,2018-10-31 14:59:23,50.948s,FAILED
+waitForAngularLoad,Chrome 70.0.3538.77,"10 second Threshold: Waits for all angular elements on the landing page to load in 10 seconds or less
+",2018-10-31 14:59:23,2018-10-31 14:59:23,0.020s,PASSED
+verifyElementText,Chrome 70.0.3538.77,Verify we are on the Video on Demand Summary page by looking for the Video on Demand Summary title,2018-10-31 14:59:23,2018-10-31 15:00:17,53.206s,FAILED
+click,Chrome 70.0.3538.77,"Go back to the Landing page via Overview in the nav
+",2018-10-31 15:00:17,2018-10-31 15:00:18,1.809s,PASSED
+waitForAngularLoad,Chrome 70.0.3538.77,"10 second Threshold: Waits for all angular elements on the landing page to load in 10 seconds or less
+",2018-10-31 15:00:18,2018-10-31 15:00:20,1.983s,PASSED
+verifyElementVisible,Chrome 70.0.3538.77,,2018-10-31 15:00:20,2018-10-31 15:00:20,0.042s,PASSED
+click,Chrome 70.0.3538.77,Use the Network Summary CTA,2018-10-31 15:00:20,2018-10-31 15:00:21,0.972s,PASSED
+waitForAngularLoad,Chrome 70.0.3538.77,"10 second Threshold: Waits for all angular elements on the landing page to load in 10 seconds or less
+",2018-10-31 15:00:21,2018-10-31 15:00:25,3.988s,PASSED
+verifyElementText,Chrome 70.0.3538.77,Verify we are on the Network Summary page by looking for the Network Summary title,2018-10-31 15:00:25,2018-10-31 15:00:26,0.430s,PASSED
+click,Chrome 70.0.3538.77,"Go back to the Landing page via Overview in the nav
+",2018-10-31 15:00:26,2018-10-31 15:00:27,1.075s,PASSED
+waitForAngularLoad,Chrome 70.0.3538.77,"10 second Threshold: Waits for all angular elements on the landing page to load in 10 seconds or less
+",2018-10-31 15:00:27,2018-10-31 15:00:29,2.315s,PASSED
+click,Chrome 70.0.3538.77,Interact with the Network dropdown and verify all elements are present and clickable,2018-10-31 15:00:29,2018-10-31 15:00:29,0.088s,PASSED
+verifyElementPresent,Chrome 70.0.3538.77,,2018-10-31 15:00:29,2018-10-31 15:00:29,0.022s,PASSED
+verifyElementClickable,Chrome 70.0.3538.77,,2018-10-31 15:00:29,2018-10-31 15:00:29,0.035s,PASSED
+click,Chrome 70.0.3538.77,Use the Network Summary element within the Network dropdown,2018-10-31 15:00:29,2018-10-31 15:00:31,1.313s,PASSED
+waitForAngularLoad,Chrome 70.0.3538.77,"10 second Threshold: Waits for all angular elements on the landing page to load in 10 seconds or less
+",2018-10-31 15:00:31,2018-10-31 15:00:32,1.643s,PASSED
+click,Chrome 70.0.3538.77,Interact with the Network dropdown and verify all elements are present and clickable,2018-10-31 15:00:32,2018-10-31 15:00:35,2.228s,PASSED
+verifyElementPresent,Chrome 70.0.3538.77,,2018-10-31 15:00:35,2018-10-31 15:00:35,0.063s,PASSED
+verifyElementClickable,Chrome 70.0.3538.77,,2018-10-31 15:00:35,2018-10-31 15:00:35,0.036s,PASSED
+click,Chrome 70.0.3538.77,Use the Network Content element within the Network dropdown,2018-10-31 15:00:35,2018-10-31 15:00:36,1.594s,PASSED
+waitForAngularLoad,Chrome 70.0.3538.77,"10 second Threshold: Waits for all angular elements on the landing page to load in 10 seconds or less
+",2018-10-31 15:00:36,2018-10-31 15:00:38,2.262s,PASSED
+click,Chrome 70.0.3538.77,Interact with the Network dropdown and verify all elements are present and clickable,2018-10-31 15:00:38,2018-10-31 15:00:39,0.066s,PASSED
+verifyElementPresent,Chrome 70.0.3538.77,,2018-10-31 15:00:39,2018-10-31 15:00:39,0.030s,PASSED
+verifyElementClickable,Chrome 70.0.3538.77,,2018-10-31 15:00:39,2018-10-31 15:00:39,0.027s,PASSED
+click,Chrome 70.0.3538.77,Use the Network Locality element within the Network dropdown,2018-10-31 15:00:39,2018-10-31 15:00:40,1.288s,PASSED
+waitForAngularLoad,Chrome 70.0.3538.77,"10 second Threshold: Waits for all angular elements on the landing page to load in 10 seconds or less
+",2018-10-31 15:00:40,2018-10-31 15:00:43,2.881s,PASSED
+click,Chrome 70.0.3538.77,Interact with the Live Events dropdown and verify all elements are present and clickable,2018-10-31 15:00:43,2018-10-31 15:00:43,0.094s,PASSED
+verifyElementPresent,Chrome 70.0.3538.77,,2018-10-31 15:00:43,2018-10-31 15:00:43,0.094s,PASSED
+verifyElementClickable,Chrome 70.0.3538.77,,2018-10-31 15:00:43,2018-10-31 15:00:43,0.035s,PASSED
+verifyElementPresent,Chrome 70.0.3538.77,,2018-10-31 15:00:43,2018-10-31 15:00:43,0.035s,PASSED
+verifyElementClickable,Chrome 70.0.3538.77,,2018-10-31 15:00:43,2018-10-31 15:00:43,0.032s,PASSED
+verifyElementPresent,Chrome 70.0.3538.77,,2018-10-31 15:00:43,2018-10-31 15:00:43,0.030s,PASSED
+verifyElementClickable,Chrome 70.0.3538.77,,2018-10-31 15:00:43,2018-10-31 15:00:43,0.034s,PASSED
+click,Chrome 70.0.3538.77,Interact with the Video on Demand dropdown and verify all elements are present and clickable,2018-10-31 15:00:43,2018-10-31 15:00:43,0.077s,PASSED
+verifyElementPresent,Chrome 70.0.3538.77,,2018-10-31 15:00:43,2018-10-31 15:00:43,0.049s,PASSED
+verifyElementClickable,Chrome 70.0.3538.77,,2018-10-31 15:00:43,2018-10-31 15:00:43,0.032s,PASSED
+verifyElementPresent,Chrome 70.0.3538.77,,2018-10-31 15:00:43,2018-10-31 15:00:43,0.029s,PASSED
+verifyElementClickable,Chrome 70.0.3538.77,,2018-10-31 15:00:43,2018-10-31 15:00:43,0.032s,PASSED
+verifyElementPresent,Chrome 70.0.3538.77,,2018-10-31 15:00:43,2018-10-31 15:00:43,0.030s,PASSED
+verifyElementClickable,Chrome 70.0.3538.77,,2018-10-31 15:00:43,2018-10-31 15:00:43,0.034s,PASSED
+click,Chrome 70.0.3538.77,Interact with the SCCM dropdown and verify all elements are present and clickable,2018-10-31 15:00:43,2018-10-31 15:00:45,1.105s,PASSED
+waitForAngularLoad,Chrome 70.0.3538.77,"20 second Threshold: Waits for all angular elements on the landing page to load in 10 seconds or less
+",2018-10-31 15:00:45,2018-10-31 15:00:50,5.698s,PASSED
+waitForPageLoad,Chrome 70.0.3538.77,,2018-10-31 15:00:50,2018-10-31 15:00:50,0.066s,PASSED
+click,Chrome 70.0.3538.77,,2018-10-31 15:00:50,2018-10-31 15:00:50,0.179s,PASSED
+click,Chrome 70.0.3538.77,Logout process,2018-10-31 15:00:50,2018-10-31 15:00:51,0.724s,PASSED
+verifyElementPresent,Chrome 70.0.3538.77,Verify logout was successfull by targeting some elements on the log out page,2018-10-31 15:00:51,2018-10-31 15:00:51,0.025s,PASSED
+verifyTextPresent,Chrome 70.0.3538.77,Verify logout was successfull by targeting some elements on the log out page,2018-10-31 15:00:51,2018-10-31 15:00:51,0.083s,PASSED
+closeBrowser,Chrome 70.0.3538.77,Close session,2018-10-31 15:00:51,2018-10-31 15:00:51,0.132s,PASSED
+,,,,,,
+"Test Cases/Eval/Eval - Overview, or Landing Page",Chrome 70.0.3538.77,"This will cover the Overview page, and if this is used on a DMS with no Overview page (Pre Analytics 10.7) if will test the Landing page after logging in.",2018-10-31 15:00:51,2018-10-31 15:01:09,17.718s,PASSED
+openBrowser,Chrome 70.0.3538.77,"Fires up the browser
+",2018-10-31 15:00:52,2018-10-31 15:00:55,3.906s,PASSED
+setText,Chrome 70.0.3538.77,Filling out login info (username),2018-10-31 15:00:55,2018-10-31 15:00:56,0.165s,PASSED
+setEncryptedText,Chrome 70.0.3538.77,Filling out login info (password),2018-10-31 15:00:56,2018-10-31 15:00:56,0.100s,PASSED
+click,Chrome 70.0.3538.77,Clicks the Stay Logged In button,2018-10-31 15:00:56,2018-10-31 15:00:56,0.071s,PASSED
+click,Chrome 70.0.3538.77,Clicks the Submit button to login,2018-10-31 15:00:56,2018-10-31 15:00:57,1.694s,PASSED
+waitForAngularLoad,Chrome 70.0.3538.77,"10 second Threshold: Waits for all angular elements on the landing page to load in 10 seconds or less
+",2018-10-31 15:00:57,2018-10-31 15:01:00,2.629s,PASSED
+click,Chrome 70.0.3538.77,Clicks the filter to access options,2018-10-31 15:01:00,2018-10-31 15:01:00,0.136s,PASSED
+selectOptionByValue,Chrome 70.0.3538.77,"Use the filter dropdown to set a Time Filter of ""Is in the year""",2018-10-31 15:01:00,2018-10-31 15:01:01,0.373s,PASSED
+setText,Chrome 70.0.3538.77,"Set 2017 in the ""Is in the year"" field",2018-10-31 15:01:01,2018-10-31 15:01:01,0.150s,PASSED
+waitForAngularLoad,Chrome 70.0.3538.77,"10 second Threshold: Waits for all angular elements on the landing page to load in 10 seconds or less
+",2018-10-31 15:01:01,2018-10-31 15:01:01,0.011s,PASSED
+click,Chrome 70.0.3538.77,Clicks the Run button,2018-10-31 15:01:01,2018-10-31 15:01:01,0.184s,PASSED
+waitForAngularLoad,Chrome 70.0.3538.77,"10 second Threshold: Waits for all angular elements on the landing page to load in 10 seconds or less
+",2018-10-31 15:01:01,2018-10-31 15:01:04,3.269s,PASSED
+click,Chrome 70.0.3538.77,Clicks the gear icon to access Clear Cache and Refresh option,2018-10-31 15:01:04,2018-10-31 15:01:04,0.136s,PASSED
+click,Chrome 70.0.3538.77,Clear cache and refresh to get clean data,2018-10-31 15:01:04,2018-10-31 15:01:05,0.266s,PASSED
+waitForAngularLoad,Chrome 70.0.3538.77,"10 second Threshold: Waits for all angular elements on the landing page to load in 10 seconds or less
+",2018-10-31 15:01:05,2018-10-31 15:01:08,3.199s,PASSED
+waitForPageLoad,Chrome 70.0.3538.77,,2018-10-31 15:01:08,2018-10-31 15:01:08,0.006s,PASSED
+verifyElementText,Chrome 70.0.3538.77,"Verify ""Total Live Events"" widget is on the page",2018-10-31 15:01:08,2018-10-31 15:01:08,0.043s,PASSED
+verifyElementText,Chrome 70.0.3538.77,"FIXTURE DATA - Verify Total Live Events widget has a value of 2,563",2018-10-31 15:01:08,2018-10-31 15:01:08,0.041s,PASSED
+verifyElementText,Chrome 70.0.3538.77,"Verify ""Average Monthly Events"" widget is on the page",2018-10-31 15:01:08,2018-10-31 15:01:08,0.041s,PASSED
+verifyElementText,Chrome 70.0.3538.77,FIXTURE DATA - Verify Average Monthly Events widget has a value of 226,2018-10-31 15:01:08,2018-10-31 15:01:08,0.041s,PASSED
+verifyElementText,Chrome 70.0.3538.77,"Verify ""Unique Viewers"" widget is on the page",2018-10-31 15:01:08,2018-10-31 15:01:08,0.038s,PASSED
+verifyElementText,Chrome 70.0.3538.77,"FIXTURE DATA - Verify Unique Viewers widget has a value of 10,079",2018-10-31 15:01:08,2018-10-31 15:01:08,0.039s,PASSED
+verifyElementText,Chrome 70.0.3538.77,Verify Average Monthly Viewers widget exists on page,2018-10-31 15:01:08,2018-10-31 15:01:08,0.035s,PASSED
+verifyElementText,Chrome 70.0.3538.77,"FIXTURE DATA - Verify Average Monthly Views widget has a value of 7,762",2018-10-31 15:01:08,2018-10-31 15:01:08,0.042s,PASSED
+verifyElementText,Chrome 70.0.3538.77,Verify Total Videos widget exists on page,2018-10-31 15:01:08,2018-10-31 15:01:08,0.038s,PASSED
+verifyElementText,Chrome 70.0.3538.77,"FIXTURE DATA - Verify Total Videos widget has a value of 1,585",2018-10-31 15:01:08,2018-10-31 15:01:08,0.042s,PASSED
+verifyElementText,Chrome 70.0.3538.77,Verify Total Views widget exists on page,2018-10-31 15:01:08,2018-10-31 15:01:08,0.041s,PASSED
+verifyElementText,Chrome 70.0.3538.77,"FIXTURE DATA - Verify Unique Viewers widget has a value of 17,443",2018-10-31 15:01:08,2018-10-31 15:01:08,0.045s,PASSED
+verifyElementText,Chrome 70.0.3538.77,Verify Unique Viewers widget exists on page,2018-10-31 15:01:08,2018-10-31 15:01:08,0.023s,PASSED
+verifyElementText,Chrome 70.0.3538.77,"FIXTURE DATA - Verify Total Views widget has a value of 8,261",2018-10-31 15:01:08,2018-10-31 15:01:08,0.042s,PASSED
+verifyElementText,Chrome 70.0.3538.77,Verify Total Hours Watched widget exists on page,2018-10-31 15:01:08,2018-10-31 15:01:08,0.037s,PASSED
+verifyElementText,Chrome 70.0.3538.77,"FIXTURE DATA - Verify Total Hours Watched widget has a value of 1,404",2018-10-31 15:01:08,2018-10-31 15:01:08,0.039s,PASSED
+verifyElementText,Chrome 70.0.3538.77,Verify Unique Agent widget exists on page,2018-10-31 15:01:08,2018-10-31 15:01:08,0.039s,PASSED
+verifyElementText,Chrome 70.0.3538.77,"FIXTURE DATA - Verify Unique Agents widget has a value of 10,905",2018-10-31 15:01:08,2018-10-31 15:01:09,0.038s,PASSED
+verifyElementText,Chrome 70.0.3538.77,Verify Deliveries widget exists on page,2018-10-31 15:01:09,2018-10-31 15:01:09,0.038s,PASSED
+verifyElementText,Chrome 70.0.3538.77,"FIXTURE DATA - Verify Delivery widget has a value of 67,512",2018-10-31 15:01:09,2018-10-31 15:01:09,0.039s,PASSED
+verifyElementText,Chrome 70.0.3538.77,Verify Saved GB widget exists on page,2018-10-31 15:01:09,2018-10-31 15:01:09,0.040s,PASSED
+verifyElementText,Chrome 70.0.3538.77,"FIXTURE DATA - Verify Saved GB widget has a value of 1,573",2018-10-31 15:01:09,2018-10-31 15:01:09,0.038s,PASSED
+verifyElementText,Chrome 70.0.3538.77,Verify Total GB widget exists on page,2018-10-31 15:01:09,2018-10-31 15:01:09,0.040s,PASSED
+verifyElementText,Chrome 70.0.3538.77,"FIXTURE DATA - Verify Total GB widget has a value of 3,865",2018-10-31 15:01:09,2018-10-31 15:01:09,0.037s,PASSED
+verifyElementPresent,Chrome 70.0.3538.77,Verify the Peering Efficiency widget appears on page,2018-10-31 15:01:09,2018-10-31 15:01:09,0.020s,PASSED
+verifyElementPresent,Chrome 70.0.3538.77,Verify the Peering Efficiency widget appears on page and has a value of 41%,2018-10-31 15:01:09,2018-10-31 15:01:09,0.019s,PASSED
+verifyElementPresent,Chrome 70.0.3538.77,Verify the VoD Summary Peering Efficiency widget appears on page,2018-10-31 15:01:09,2018-10-31 15:01:09,0.021s,PASSED
+verifyElementPresent,Chrome 70.0.3538.77,Verify the VoD Summary widget appears on page,2018-10-31 15:01:09,2018-10-31 15:01:09,0.018s,PASSED
+verifyElementPresent,Chrome 70.0.3538.77,Verify the Peering Efficiency donut chart appears on page,2018-10-31 15:01:09,2018-10-31 15:01:09,0.014s,PASSED
+verifyElementPresent,Chrome 70.0.3538.77,Verify the Peering Efficiency widget appears on page and has a value of 66% in the donut chart,2018-10-31 15:01:09,2018-10-31 15:01:09,0.012s,PASSED
+verifyElementPresent,Chrome 70.0.3538.77,Verify the Live Views widget appears on page,2018-10-31 15:01:09,2018-10-31 15:01:09,0.021s,PASSED
+verifyElementPresent,Chrome 70.0.3538.77,Verify the Live Events widget appears on page,2018-10-31 15:01:09,2018-10-31 15:01:09,0.019s,PASSED
+verifyElementPresent,Chrome 70.0.3538.77,Verify the VoD Views widget appears on page,2018-10-31 15:01:09,2018-10-31 15:01:09,0.019s,PASSED
+verifyElementPresent,Chrome 70.0.3538.77,Verify the VoD over time widget appears on page,2018-10-31 15:01:09,2018-10-31 15:01:09,0.021s,PASSED
+verifyElementPresent,Chrome 70.0.3538.77,Verify the Deliveries by Month widget appears on page,2018-10-31 15:01:09,2018-10-31 15:01:09,0.020s,PASSED
+verifyElementPresent,Chrome 70.0.3538.77,Verify the Live Event Summary CTA appears on page,2018-10-31 15:01:09,2018-10-31 15:01:09,0.019s,PASSED
+verifyElementPresent,Chrome 70.0.3538.77,Verify the VoD Summary CTA appears on page,2018-10-31 15:01:09,2018-10-31 15:01:09,0.013s,PASSED
+verifyElementPresent,Chrome 70.0.3538.77,Verify the Network Summary CTA appears on page,2018-10-31 15:01:09,2018-10-31 15:01:09,0.022s,PASSED
+closeBrowser,Chrome 70.0.3538.77,,2018-10-31 15:01:09,2018-10-31 15:01:09,0.112s,PASSED
+,,,,,,
+Test Cases/Eval/Eval - Fixture Data Validation,Chrome 70.0.3538.77,,2018-10-31 15:01:09,2018-10-31 15:01:31,21.857s,PASSED
+openBrowser,Chrome 70.0.3538.77,"Fires up the browser
+",2018-10-31 15:01:09,2018-10-31 15:01:14,5.067s,PASSED
+setText,Chrome 70.0.3538.77,Filling out login info (username),2018-10-31 15:01:14,2018-10-31 15:01:14,0.164s,PASSED
+setEncryptedText,Chrome 70.0.3538.77,Filling out login info (password),2018-10-31 15:01:14,2018-10-31 15:01:15,0.090s,PASSED
+click,Chrome 70.0.3538.77,Clicks the Stay Logged In button,2018-10-31 15:01:15,2018-10-31 15:01:15,0.066s,PASSED
+click,Chrome 70.0.3538.77,Clicks the Submit button to login,2018-10-31 15:01:15,2018-10-31 15:01:17,2.261s,PASSED
+waitForAngularLoad,Chrome 70.0.3538.77,"10 second Threshold: Waits for all angular elements on the landing page to load in 10 seconds or less
+",2018-10-31 15:01:17,2018-10-31 15:01:19,1.746s,PASSED
+waitForPageLoad,Chrome 70.0.3538.77,,2018-10-31 15:01:19,2018-10-31 15:01:19,0.006s,PASSED
+navigateToUrl,Chrome 70.0.3538.77,,2018-10-31 15:01:19,2018-10-31 15:01:20,1.150s,PASSED
+waitForAngularLoad,Chrome 70.0.3538.77,Waits for all angular elements on the landing page to load,2018-10-31 15:01:20,2018-10-31 15:01:20,0.581s,PASSED
+click,Chrome 70.0.3538.77,,2018-10-31 15:01:20,2018-10-31 15:01:22,1.183s,PASSED
+waitForPageLoad,Chrome 70.0.3538.77,,2018-10-31 15:01:22,2018-10-31 15:01:22,0.005s,PASSED
+waitForAngularLoad,Chrome 70.0.3538.77,Waits for all angular elements on the landing page to load,2018-10-31 15:01:22,2018-10-31 15:01:26,4.275s,PASSED
+verifyElementText,Chrome 70.0.3538.77,,2018-10-31 15:01:26,2018-10-31 15:01:26,0.044s,PASSED
+click,Chrome 70.0.3538.77,,2018-10-31 15:01:26,2018-10-31 15:01:26,0.093s,PASSED
+click,Chrome 70.0.3538.77,,2018-10-31 15:01:26,2018-10-31 15:01:26,0.260s,PASSED
+waitForAngularLoad,Chrome 70.0.3538.77,,2018-10-31 15:01:26,2018-10-31 15:01:30,4.144s,PASSED
+waitForPageLoad,Chrome 70.0.3538.77,,2018-10-31 15:01:30,2018-10-31 15:01:30,0.006s,PASSED
+verifyElementText,Chrome 70.0.3538.77,Verify the Total Live Events widget has a value of 14,2018-10-31 15:01:30,2018-10-31 15:01:30,0.048s,PASSED
+verifyElementText,Chrome 70.0.3538.77,Verify the Average Monthly Events widget has a value of 4,2018-10-31 15:01:30,2018-10-31 15:01:30,0.041s,PASSED
+verifyElementText,Chrome 70.0.3538.77,"Verify the Unique Viewers widget has a value of 65,282",2018-10-31 15:01:30,2018-10-31 15:01:31,0.038s,PASSED
+verifyElementText,Chrome 70.0.3538.77,"Verify the Average Monthly Views widget has a value of 16,748",2018-10-31 15:01:31,2018-10-31 15:01:31,0.035s,PASSED
+verifyElementText,Chrome 70.0.3538.77,Verify the Total Videos widget has a value of 15,2018-10-31 15:01:31,2018-10-31 15:01:31,0.038s,PASSED
+verifyElementText,Chrome 70.0.3538.77,"Verify the Total Views widget has a value of 185,239",2018-10-31 15:01:31,2018-10-31 15:01:31,0.038s,PASSED
+verifyElementText,Chrome 70.0.3538.77,"Verify the Unique Viewers widget has a value of 114,063",2018-10-31 15:01:31,2018-10-31 15:01:31,0.038s,PASSED
+verifyElementText,Chrome 70.0.3538.77,"Verify the Total Hours Watched widget has a value of 15,421.6",2018-10-31 15:01:31,2018-10-31 15:01:31,0.038s,PASSED
+verifyElementText,Chrome 70.0.3538.77,"Verify the Unique Agents widget has a value of 364,941",2018-10-31 15:01:31,2018-10-31 15:01:31,0.037s,PASSED
+verifyElementText,Chrome 70.0.3538.77,"Verify the Deliveries widget has a value of 717,419",2018-10-31 15:01:31,2018-10-31 15:01:31,0.041s,PASSED
+verifyElementText,Chrome 70.0.3538.77,"Verify the Saved GB widget has a value of 22,536",2018-10-31 15:01:31,2018-10-31 15:01:31,0.036s,PASSED
+verifyElementText,Chrome 70.0.3538.77,"Verify the Total GB widget has a value of 24,669.05",2018-10-31 15:01:31,2018-10-31 15:01:31,0.034s,PASSED
+verifyElementText,Chrome 70.0.3538.77,Verify the Peering Efficiency widget has a value of 91%,2018-10-31 15:01:31,2018-10-31 15:01:31,0.039s,PASSED
+closeBrowser,Chrome 70.0.3538.77,,2018-10-31 15:01:31,2018-10-31 15:01:31,0.113s,PASSED

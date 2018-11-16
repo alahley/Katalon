@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>This will cover the Overview page, and if this is used on a DMS with no Overview page (Pre Analytics 10.7) if will test the Landing page after logging in.</description>
+   <name>Prod 3 - Overview, or Landing Page</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f987b90f-da76-4ca6-a750-d0d041ee75e0</testCaseGuid>
+</TestCaseEntity>

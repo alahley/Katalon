@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>This will cover primarily the log in process and validation of Sudoing as a different user</description>
+   <name>BofA - Logging In and Out</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>300301ae-b27c-48e1-be17-fa28380ce70d</testCaseGuid>
+</TestCaseEntity>

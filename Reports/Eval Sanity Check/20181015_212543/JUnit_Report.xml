@@ -1,0 +1,1376 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Eval Sanity Check" time="4" tests="0" failures="2" errors="0">
+   <testsuite name="Eval Sanity Check" tests="0" failures="2" errors="0" time="4" timestamp="2018-10-15 21:25:45" hostname="alahley - 192.168.0.37" id="Test Suites/Eval Sanity Check">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/alahley/Katalon Studio/Analytics/Reports/Eval Sanity Check/20181015_212543"/>
+         <property name="logFiles" value="/Users/alahley/Katalon Studio/Analytics/Reports/Eval Sanity Check/20181015_212543/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="alahley - 192.168.0.37"/>
+         <property name="hostAddress" value="192.168.0.37"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="5.7.0.1"/>
+      </properties>
+      <testcase name="Test Cases/Eval/Eval - Logging In and Out" classname="Test Cases/Eval/Eval - Logging In and Out" status="FAILED">
+         <failure type="FAILED" message="(Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to open browser with url: 'https://stats.eval.kontiki.com/login/email' (Root cause: org.openqa.selenium.SessionNotCreatedException: Could not create a session: You must enable the 'Allow Remote Automation' option in Safari's Develop menu to control Safari via WebDriver.
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Adams-MacBook-Right.local', ip: 'fe80:0:0:0:105f:a069:7b01:739b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: driver.version: CSafariDriver
+remote stacktrace: )
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:32)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$openBrowser.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at Script1539660818074.run(Script1539660818074.groovy:17)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1539663943539.run(TempTestSuite1539663943539.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)"/>
+         <system-out><![CDATA[2018-10-15 21:25:45 - [TEST_CASE][FAILED] - Test Cases/Eval/Eval - Logging In and Out: Test Cases/Eval/Eval - Logging In and Out FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to open browser with url: 'https://stats.eval.kontiki.com/login/email' (Root cause: org.openqa.selenium.SessionNotCreatedException: Could not create a session: You must enable the 'Allow Remote Automation' option in Safari's Develop menu to control Safari via WebDriver.
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Adams-MacBook-Right.local', ip: 'fe80:0:0:0:105f:a069:7b01:739b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: driver.version: CSafariDriver
+remote stacktrace: )
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:32)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$openBrowser.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at Script1539660818074.run(Script1539660818074.groovy:17)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1539663943539.run(TempTestSuite1539663943539.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)
+
+2018-10-15 21:25:46 - [TEST_STEP][FAILED] - openBrowser: Unable to open browser with url: 'https://stats.eval.kontiki.com/login/email' (Root cause: org.openqa.selenium.SessionNotCreatedException: Could not create a session: You must enable the 'Allow Remote Automation' option in Safari's Develop menu to control Safari via WebDriver.
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Adams-MacBook-Right.local', ip: 'fe80:0:0:0:105f:a069:7b01:739b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: driver.version: CSafariDriver
+remote stacktrace: )
+
+2018-10-15 21:25:48 - [MESSAGE][FAILED] - Unable to open browser with url: 'https://stats.eval.kontiki.com/login/email' (Root cause: org.openqa.selenium.SessionNotCreatedException: Could not create a session: You must enable the 'Allow Remote Automation' option in Safari's Develop menu to control Safari via WebDriver.
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Adams-MacBook-Right.local', ip: 'fe80:0:0:0:105f:a069:7b01:739b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: driver.version: CSafariDriver
+remote stacktrace: )
+
+2018-10-15 21:25:48 - [TEST_STEP][FAILED] - setText: Unable to set text 'alahley@kollective.com' of object 'Object Repository/Page_Log in/input_email (2)' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Adams-MacBook-Right.local', ip: 'fe80:0:0:0:105f:a069:7b01:739b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+
+2018-10-15 21:25:48 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-10-15 21:25:48 - [MESSAGE][FAILED] - Unable to set text 'alahley@kollective.com' of object 'Object Repository/Page_Log in/input_email (2)' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Adams-MacBook-Right.local', ip: 'fe80:0:0:0:105f:a069:7b01:739b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+
+2018-10-15 21:25:48 - [TEST_STEP][FAILED] - setEncryptedText: Unable to set encrypted text for object 'Object Repository/Page_Log in/input_password (2)' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Adams-MacBook-Right.local', ip: 'fe80:0:0:0:105f:a069:7b01:739b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+
+2018-10-15 21:25:48 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-10-15 21:25:48 - [MESSAGE][FAILED] - Unable to set encrypted text for object 'Object Repository/Page_Log in/input_password (2)' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Adams-MacBook-Right.local', ip: 'fe80:0:0:0:105f:a069:7b01:739b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+
+2018-10-15 21:25:48 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Page_Log in/input_remember (2)' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Adams-MacBook-Right.local', ip: 'fe80:0:0:0:105f:a069:7b01:739b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+
+2018-10-15 21:25:48 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-10-15 21:25:48 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Page_Log in/input_remember (2)' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Adams-MacBook-Right.local', ip: 'fe80:0:0:0:105f:a069:7b01:739b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+
+2018-10-15 21:25:48 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Page_Log in/input_login-submit (2)' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Adams-MacBook-Right.local', ip: 'fe80:0:0:0:105f:a069:7b01:739b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+
+2018-10-15 21:25:48 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-10-15 21:25:48 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Page_Log in/input_login-submit (2)' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Adams-MacBook-Right.local', ip: 'fe80:0:0:0:105f:a069:7b01:739b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+
+2018-10-15 21:25:48 - [TEST_STEP][FAILED] - waitForAngularLoad: Unable to wait for Angular to load. (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Adams-MacBook-Right.local', ip: 'fe80:0:0:0:105f:a069:7b01:739b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+
+2018-10-15 21:25:48 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-10-15 21:25:48 - [MESSAGE][FAILED] - Unable to wait for Angular to load. (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Adams-MacBook-Right.local', ip: 'fe80:0:0:0:105f:a069:7b01:739b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+
+2018-10-15 21:25:48 - [TEST_STEP][FAILED] - verifyElementPresent: Unable to verify object 'Object Repository/Page_Overview/a' is present (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Adams-MacBook-Right.local', ip: 'fe80:0:0:0:105f:a069:7b01:739b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+
+2018-10-15 21:25:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-10-15 21:25:48 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-10-15 21:25:48 - [MESSAGE][FAILED] - Unable to verify object 'Object Repository/Page_Overview/a' is present (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Adams-MacBook-Right.local', ip: 'fe80:0:0:0:105f:a069:7b01:739b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+
+2018-10-15 21:25:48 - [TEST_STEP][FAILED] - verifyElementPresent: Unable to verify object 'Object Repository/Page_Overview/div_Release Notes_flyout-backg (1)' is present (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Adams-MacBook-Right.local', ip: 'fe80:0:0:0:105f:a069:7b01:739b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+
+2018-10-15 21:25:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-10-15 21:25:48 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-10-15 21:25:48 - [MESSAGE][FAILED] - Unable to verify object 'Object Repository/Page_Overview/div_Release Notes_flyout-backg (1)' is present (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Adams-MacBook-Right.local', ip: 'fe80:0:0:0:105f:a069:7b01:739b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+
+2018-10-15 21:25:48 - [TEST_STEP][FAILED] - verifyElementPresent: Unable to verify object 'Object Repository/Page_Overview/div_Admin_real-image' is present (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Adams-MacBook-Right.local', ip: 'fe80:0:0:0:105f:a069:7b01:739b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+
+2018-10-15 21:25:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-10-15 21:25:48 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-10-15 21:25:48 - [MESSAGE][FAILED] - Unable to verify object 'Object Repository/Page_Overview/div_Admin_real-image' is present (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Adams-MacBook-Right.local', ip: 'fe80:0:0:0:105f:a069:7b01:739b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+
+2018-10-15 21:25:48 - [TEST_STEP][FAILED] - verifyElementPresent: Unable to verify object 'Object Repository/Page_Overview/div_Release Notes_flyout-backg (1)' is present (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Adams-MacBook-Right.local', ip: 'fe80:0:0:0:105f:a069:7b01:739b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+
+2018-10-15 21:25:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-10-15 21:25:48 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-10-15 21:25:48 - [MESSAGE][FAILED] - Unable to verify object 'Object Repository/Page_Overview/div_Release Notes_flyout-backg (1)' is present (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Adams-MacBook-Right.local', ip: 'fe80:0:0:0:105f:a069:7b01:739b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+
+2018-10-15 21:25:48 - [TEST_STEP][FAILED] - verifyElementPresent: Unable to verify object 'Object Repository/Page_Overview/i_Admin_lk-icon-arrow-down-car' is present (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Adams-MacBook-Right.local', ip: 'fe80:0:0:0:105f:a069:7b01:739b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+
+2018-10-15 21:25:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-10-15 21:25:48 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-10-15 21:25:48 - [MESSAGE][FAILED] - Unable to verify object 'Object Repository/Page_Overview/i_Admin_lk-icon-arrow-down-car' is present (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Adams-MacBook-Right.local', ip: 'fe80:0:0:0:105f:a069:7b01:739b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+
+2018-10-15 21:25:48 - [TEST_STEP][FAILED] - verifyElementPresent: Unable to verify object 'Object Repository/Page_Overview/a' is present (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Adams-MacBook-Right.local', ip: 'fe80:0:0:0:105f:a069:7b01:739b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+
+2018-10-15 21:25:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-10-15 21:25:48 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-10-15 21:25:48 - [MESSAGE][FAILED] - Unable to verify object 'Object Repository/Page_Overview/a' is present (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Adams-MacBook-Right.local', ip: 'fe80:0:0:0:105f:a069:7b01:739b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+
+2018-10-15 21:25:48 - [TEST_STEP][FAILED] - verifyElementPresent: Unable to verify object 'Object Repository/Page_Overview/div_Release Notes_flyout-backg (1)' is present (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Adams-MacBook-Right.local', ip: 'fe80:0:0:0:105f:a069:7b01:739b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+
+2018-10-15 21:25:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-10-15 21:25:48 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-10-15 21:25:48 - [MESSAGE][FAILED] - Unable to verify object 'Object Repository/Page_Overview/div_Release Notes_flyout-backg (1)' is present (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Adams-MacBook-Right.local', ip: 'fe80:0:0:0:105f:a069:7b01:739b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+
+2018-10-15 21:25:48 - [TEST_STEP][FAILED] - verifyElementPresent: Unable to verify object 'Object Repository/Page_Overview/div_Admin_real-image' is present (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Adams-MacBook-Right.local', ip: 'fe80:0:0:0:105f:a069:7b01:739b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+
+2018-10-15 21:25:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-10-15 21:25:48 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-10-15 21:25:48 - [MESSAGE][FAILED] - Unable to verify object 'Object Repository/Page_Overview/div_Admin_real-image' is present (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Adams-MacBook-Right.local', ip: 'fe80:0:0:0:105f:a069:7b01:739b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+
+2018-10-15 21:25:48 - [TEST_STEP][FAILED] - verifyElementPresent: Unable to verify object 'Object Repository/Page_Overview/div_Release Notes_flyout-backg (1)' is present (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Adams-MacBook-Right.local', ip: 'fe80:0:0:0:105f:a069:7b01:739b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+
+2018-10-15 21:25:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-10-15 21:25:48 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-10-15 21:25:48 - [MESSAGE][FAILED] - Unable to verify object 'Object Repository/Page_Overview/div_Release Notes_flyout-backg (1)' is present (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Adams-MacBook-Right.local', ip: 'fe80:0:0:0:105f:a069:7b01:739b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+
+2018-10-15 21:25:48 - [TEST_STEP][FAILED] - verifyElementPresent: Unable to verify object 'Object Repository/Page_Overview/i_Admin_lk-icon-arrow-down-car' is present (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Adams-MacBook-Right.local', ip: 'fe80:0:0:0:105f:a069:7b01:739b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+
+2018-10-15 21:25:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-10-15 21:25:48 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-10-15 21:25:48 - [MESSAGE][FAILED] - Unable to verify object 'Object Repository/Page_Overview/i_Admin_lk-icon-arrow-down-car' is present (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Adams-MacBook-Right.local', ip: 'fe80:0:0:0:105f:a069:7b01:739b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+
+2018-10-15 21:25:48 - [TEST_STEP][FAILED] - verifyElementPresent: Unable to verify object 'Object Repository/Page_Overview/div_Release Notes_flyout-backg (1)' is present (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Adams-MacBook-Right.local', ip: 'fe80:0:0:0:105f:a069:7b01:739b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+
+2018-10-15 21:25:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-10-15 21:25:48 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-10-15 21:25:48 - [MESSAGE][FAILED] - Unable to verify object 'Object Repository/Page_Overview/div_Release Notes_flyout-backg (1)' is present (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Adams-MacBook-Right.local', ip: 'fe80:0:0:0:105f:a069:7b01:739b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+
+2018-10-15 21:25:48 - [TEST_STEP][FAILED] - verifyElementPresent: Unable to verify object 'Object Repository/Page_Overview/div_OverviewNetworkNetwork Sum (1)' is present (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Adams-MacBook-Right.local', ip: 'fe80:0:0:0:105f:a069:7b01:739b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+
+2018-10-15 21:25:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-10-15 21:25:48 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-10-15 21:25:48 - [MESSAGE][FAILED] - Unable to verify object 'Object Repository/Page_Overview/div_OverviewNetworkNetwork Sum (1)' is present (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Adams-MacBook-Right.local', ip: 'fe80:0:0:0:105f:a069:7b01:739b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+
+2018-10-15 21:25:48 - [TEST_STEP][FAILED] - verifyElementPresent: Unable to verify object 'Object Repository/Page_Overview/div_Live EventsOverview' is present (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Adams-MacBook-Right.local', ip: 'fe80:0:0:0:105f:a069:7b01:739b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+
+2018-10-15 21:25:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-10-15 21:25:48 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-10-15 21:25:48 - [MESSAGE][FAILED] - Unable to verify object 'Object Repository/Page_Overview/div_Live EventsOverview' is present (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Adams-MacBook-Right.local', ip: 'fe80:0:0:0:105f:a069:7b01:739b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+
+2018-10-15 21:25:48 - [TEST_STEP][FAILED] - verifyElementPresent: Unable to verify object 'Object Repository/Page_Overview/div_View your detailed Network (1)' is present (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Adams-MacBook-Right.local', ip: 'fe80:0:0:0:105f:a069:7b01:739b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+
+2018-10-15 21:25:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-10-15 21:25:48 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-10-15 21:25:48 - [MESSAGE][FAILED] - Unable to verify object 'Object Repository/Page_Overview/div_View your detailed Network (1)' is present (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Adams-MacBook-Right.local', ip: 'fe80:0:0:0:105f:a069:7b01:739b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+
+2018-10-15 21:25:48 - [TEST_STEP][FAILED] - verifyElementPresent: Unable to verify object 'Object Repository/Page_Overview/div_NetworkOverview' is present (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Adams-MacBook-Right.local', ip: 'fe80:0:0:0:105f:a069:7b01:739b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+
+2018-10-15 21:25:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-10-15 21:25:48 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-10-15 21:25:48 - [MESSAGE][FAILED] - Unable to verify object 'Object Repository/Page_Overview/div_NetworkOverview' is present (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Adams-MacBook-Right.local', ip: 'fe80:0:0:0:105f:a069:7b01:739b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+
+2018-10-15 21:25:48 - [TEST_STEP][FAILED] - verifyElementPresent: Unable to verify object 'Object Repository/Page_Overview/img_Home_img-logo' is present (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Adams-MacBook-Right.local', ip: 'fe80:0:0:0:105f:a069:7b01:739b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+
+2018-10-15 21:25:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-10-15 21:25:48 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-10-15 21:25:48 - [MESSAGE][FAILED] - Unable to verify object 'Object Repository/Page_Overview/img_Home_img-logo' is present (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Adams-MacBook-Right.local', ip: 'fe80:0:0:0:105f:a069:7b01:739b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+
+2018-10-15 21:25:48 - [TEST_STEP][FAILED] - verifyElementPresent: Unable to verify object 'Object Repository/Page_Overview/div_Release Notes_flyout-backg (1)' is present (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Adams-MacBook-Right.local', ip: 'fe80:0:0:0:105f:a069:7b01:739b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+
+2018-10-15 21:25:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-10-15 21:25:48 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-10-15 21:25:48 - [MESSAGE][FAILED] - Unable to verify object 'Object Repository/Page_Overview/div_Release Notes_flyout-backg (1)' is present (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Adams-MacBook-Right.local', ip: 'fe80:0:0:0:105f:a069:7b01:739b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+
+2018-10-15 21:25:48 - [TEST_STEP][FAILED] - verifyElementPresent: Unable to verify object 'Object Repository/Page_Overview/div_OverviewNetworkNetwork Sum (1)' is present (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Adams-MacBook-Right.local', ip: 'fe80:0:0:0:105f:a069:7b01:739b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+
+2018-10-15 21:25:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-10-15 21:25:48 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-10-15 21:25:48 - [MESSAGE][FAILED] - Unable to verify object 'Object Repository/Page_Overview/div_OverviewNetworkNetwork Sum (1)' is present (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Adams-MacBook-Right.local', ip: 'fe80:0:0:0:105f:a069:7b01:739b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+
+2018-10-15 21:25:48 - [TEST_STEP][FAILED] - verifyElementPresent: Unable to verify object 'Object Repository/Page_Overview/div_LookML Dashboards  Dashboa' is present (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Adams-MacBook-Right.local', ip: 'fe80:0:0:0:105f:a069:7b01:739b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+
+2018-10-15 21:25:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-10-15 21:25:48 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-10-15 21:25:48 - [MESSAGE][FAILED] - Unable to verify object 'Object Repository/Page_Overview/div_LookML Dashboards  Dashboa' is present (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Adams-MacBook-Right.local', ip: 'fe80:0:0:0:105f:a069:7b01:739b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+
+2018-10-15 21:25:48 - [TEST_STEP][FAILED] - verifyElementPresent: Unable to verify object 'Object Repository/Page_Overview/div_Filters Time Filter is in' is present (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Adams-MacBook-Right.local', ip: 'fe80:0:0:0:105f:a069:7b01:739b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+
+2018-10-15 21:25:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-10-15 21:25:48 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-10-15 21:25:48 - [MESSAGE][FAILED] - Unable to verify object 'Object Repository/Page_Overview/div_Filters Time Filter is in' is present (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Adams-MacBook-Right.local', ip: 'fe80:0:0:0:105f:a069:7b01:739b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+
+2018-10-15 21:25:48 - [TEST_STEP][FAILED] - verifyElementPresent: Unable to verify object 'Object Repository/Page_Overview/div_Live EventsOverview' is present (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Adams-MacBook-Right.local', ip: 'fe80:0:0:0:105f:a069:7b01:739b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+
+2018-10-15 21:25:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-10-15 21:25:48 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-10-15 21:25:48 - [MESSAGE][FAILED] - Unable to verify object 'Object Repository/Page_Overview/div_Live EventsOverview' is present (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Adams-MacBook-Right.local', ip: 'fe80:0:0:0:105f:a069:7b01:739b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+
+2018-10-15 21:25:48 - [TEST_STEP][FAILED] - verifyElementPresent: Unable to verify object 'Object Repository/Page_Overview/div_View your detailed Network (1)' is present (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Adams-MacBook-Right.local', ip: 'fe80:0:0:0:105f:a069:7b01:739b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+
+2018-10-15 21:25:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-10-15 21:25:48 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-10-15 21:25:48 - [MESSAGE][FAILED] - Unable to verify object 'Object Repository/Page_Overview/div_View your detailed Network (1)' is present (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Adams-MacBook-Right.local', ip: 'fe80:0:0:0:105f:a069:7b01:739b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+
+2018-10-15 21:25:48 - [TEST_STEP][FAILED] - verifyElementPresent: Unable to verify object 'Object Repository/Page_Overview/div_NetworkOverview' is present (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Adams-MacBook-Right.local', ip: 'fe80:0:0:0:105f:a069:7b01:739b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+
+2018-10-15 21:25:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-10-15 21:25:48 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-10-15 21:25:48 - [MESSAGE][FAILED] - Unable to verify object 'Object Repository/Page_Overview/div_NetworkOverview' is present (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Adams-MacBook-Right.local', ip: 'fe80:0:0:0:105f:a069:7b01:739b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+
+2018-10-15 21:25:48 - [TEST_STEP][FAILED] - verifyElementPresent: Unable to verify object 'Object Repository/Page_Overview/img_Home_img-logo' is present (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Adams-MacBook-Right.local', ip: 'fe80:0:0:0:105f:a069:7b01:739b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+
+2018-10-15 21:25:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-10-15 21:25:48 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-10-15 21:25:48 - [MESSAGE][FAILED] - Unable to verify object 'Object Repository/Page_Overview/img_Home_img-logo' is present (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Adams-MacBook-Right.local', ip: 'fe80:0:0:0:105f:a069:7b01:739b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+
+2018-10-15 21:25:48 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Page_Overview/a' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Adams-MacBook-Right.local', ip: 'fe80:0:0:0:105f:a069:7b01:739b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+
+2018-10-15 21:25:48 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-10-15 21:25:48 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Page_Overview/a' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Adams-MacBook-Right.local', ip: 'fe80:0:0:0:105f:a069:7b01:739b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+
+2018-10-15 21:25:48 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Page_Overview/a_Log Out (3)' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Adams-MacBook-Right.local', ip: 'fe80:0:0:0:105f:a069:7b01:739b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+
+2018-10-15 21:25:48 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-10-15 21:25:48 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Page_Overview/a_Log Out (3)' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Adams-MacBook-Right.local', ip: 'fe80:0:0:0:105f:a069:7b01:739b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+
+2018-10-15 21:25:48 - [TEST_STEP][FAILED] - verifyElementPresent: Unable to verify object 'Object Repository/Page_Log in/div_Logout Successful.' is present (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Adams-MacBook-Right.local', ip: 'fe80:0:0:0:105f:a069:7b01:739b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+
+2018-10-15 21:25:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-10-15 21:25:48 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-10-15 21:25:48 - [MESSAGE][FAILED] - Unable to verify object 'Object Repository/Page_Log in/div_Logout Successful.' is present (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Adams-MacBook-Right.local', ip: 'fe80:0:0:0:105f:a069:7b01:739b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+
+2018-10-15 21:25:48 - [TEST_STEP][FAILED] - verifyElementPresent: Unable to verify object 'Object Repository/Page_Log in/div_Logout Successful.' is present (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Adams-MacBook-Right.local', ip: 'fe80:0:0:0:105f:a069:7b01:739b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+
+2018-10-15 21:25:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-10-15 21:25:48 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-10-15 21:25:48 - [MESSAGE][FAILED] - Unable to verify object 'Object Repository/Page_Log in/div_Logout Successful.' is present (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Adams-MacBook-Right.local', ip: 'fe80:0:0:0:105f:a069:7b01:739b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+
+2018-10-15 21:25:48 - [TEST_STEP][FAILED] - verifyTextPresent: Unable to verify text 'Logout Successful.' is present  (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Adams-MacBook-Right.local', ip: 'fe80:0:0:0:105f:a069:7b01:739b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+
+2018-10-15 21:25:48 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-10-15 21:25:48 - [MESSAGE][FAILED] - Unable to verify text 'Logout Successful.' is present  (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Adams-MacBook-Right.local', ip: 'fe80:0:0:0:105f:a069:7b01:739b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+
+2018-10-15 21:25:48 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-10-15 21:25:48 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[2018-10-15 21:25:45 - [TEST_CASE][FAILED] - Test Cases/Eval/Eval - Logging In and Out: Test Cases/Eval/Eval - Logging In and Out FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to open browser with url: 'https://stats.eval.kontiki.com/login/email' (Root cause: org.openqa.selenium.SessionNotCreatedException: Could not create a session: You must enable the 'Allow Remote Automation' option in Safari's Develop menu to control Safari via WebDriver.
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Adams-MacBook-Right.local', ip: 'fe80:0:0:0:105f:a069:7b01:739b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: driver.version: CSafariDriver
+remote stacktrace: )
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:32)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$openBrowser.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at Script1539660818074.run(Script1539660818074.groovy:17)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1539663943539.run(TempTestSuite1539663943539.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Eval/Eval - Summary and Detail pages" classname="Test Cases/Eval/Eval - Summary and Detail pages" status="FAILED">
+         <failure type="FAILED" message="(Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to open browser with url: 'https://stats.eval.kontiki.com/login/email' (Root cause: org.openqa.selenium.SessionNotCreatedException: Could not create a session: You must enable the 'Allow Remote Automation' option in Safari's Develop menu to control Safari via WebDriver.
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Adams-MacBook-Right.local', ip: 'fe80:0:0:0:105f:a069:7b01:739b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: driver.version: CSafariDriver
+remote stacktrace: )
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:32)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$openBrowser.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at Script1539662311177.run(Script1539662311177.groovy:17)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1539663943539.run(TempTestSuite1539663943539.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)"/>
+         <system-out><![CDATA[2018-10-15 21:25:48 - [TEST_CASE][FAILED] - Test Cases/Eval/Eval - Summary and Detail pages: Test Cases/Eval/Eval - Summary and Detail pages FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to open browser with url: 'https://stats.eval.kontiki.com/login/email' (Root cause: org.openqa.selenium.SessionNotCreatedException: Could not create a session: You must enable the 'Allow Remote Automation' option in Safari's Develop menu to control Safari via WebDriver.
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Adams-MacBook-Right.local', ip: 'fe80:0:0:0:105f:a069:7b01:739b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: driver.version: CSafariDriver
+remote stacktrace: )
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:32)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$openBrowser.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at Script1539662311177.run(Script1539662311177.groovy:17)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1539663943539.run(TempTestSuite1539663943539.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)
+
+2018-10-15 21:25:48 - [TEST_STEP][FAILED] - openBrowser: Unable to open browser with url: 'https://stats.eval.kontiki.com/login/email' (Root cause: org.openqa.selenium.SessionNotCreatedException: Could not create a session: You must enable the 'Allow Remote Automation' option in Safari's Develop menu to control Safari via WebDriver.
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Adams-MacBook-Right.local', ip: 'fe80:0:0:0:105f:a069:7b01:739b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: driver.version: CSafariDriver
+remote stacktrace: )
+
+2018-10-15 21:25:49 - [MESSAGE][FAILED] - Unable to open browser with url: 'https://stats.eval.kontiki.com/login/email' (Root cause: org.openqa.selenium.SessionNotCreatedException: Could not create a session: You must enable the 'Allow Remote Automation' option in Safari's Develop menu to control Safari via WebDriver.
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Adams-MacBook-Right.local', ip: 'fe80:0:0:0:105f:a069:7b01:739b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: driver.version: CSafariDriver
+remote stacktrace: )
+
+2018-10-15 21:25:49 - [TEST_STEP][FAILED] - setText: Unable to set text 'alahley@kollective.com' of object 'Object Repository/Page_Log in/input_email (2)' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Adams-MacBook-Right.local', ip: 'fe80:0:0:0:105f:a069:7b01:739b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+
+2018-10-15 21:25:49 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-10-15 21:25:49 - [MESSAGE][FAILED] - Unable to set text 'alahley@kollective.com' of object 'Object Repository/Page_Log in/input_email (2)' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Adams-MacBook-Right.local', ip: 'fe80:0:0:0:105f:a069:7b01:739b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+
+2018-10-15 21:25:49 - [TEST_STEP][FAILED] - setEncryptedText: Unable to set encrypted text for object 'Object Repository/Page_Log in/input_password (2)' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Adams-MacBook-Right.local', ip: 'fe80:0:0:0:105f:a069:7b01:739b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+
+2018-10-15 21:25:49 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-10-15 21:25:49 - [MESSAGE][FAILED] - Unable to set encrypted text for object 'Object Repository/Page_Log in/input_password (2)' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Adams-MacBook-Right.local', ip: 'fe80:0:0:0:105f:a069:7b01:739b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+
+2018-10-15 21:25:49 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Page_Log in/input_remember (2)' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Adams-MacBook-Right.local', ip: 'fe80:0:0:0:105f:a069:7b01:739b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+
+2018-10-15 21:25:49 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-10-15 21:25:49 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Page_Log in/input_remember (2)' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Adams-MacBook-Right.local', ip: 'fe80:0:0:0:105f:a069:7b01:739b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+
+2018-10-15 21:25:49 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Page_Log in/input_login-submit (2)' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Adams-MacBook-Right.local', ip: 'fe80:0:0:0:105f:a069:7b01:739b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+
+2018-10-15 21:25:49 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-10-15 21:25:49 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Page_Log in/input_login-submit (2)' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Adams-MacBook-Right.local', ip: 'fe80:0:0:0:105f:a069:7b01:739b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+
+2018-10-15 21:25:49 - [TEST_STEP][FAILED] - waitForAngularLoad: Unable to wait for Angular to load. (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Adams-MacBook-Right.local', ip: 'fe80:0:0:0:105f:a069:7b01:739b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+
+2018-10-15 21:25:49 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-10-15 21:25:49 - [MESSAGE][FAILED] - Unable to wait for Angular to load. (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Adams-MacBook-Right.local', ip: 'fe80:0:0:0:105f:a069:7b01:739b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+
+2018-10-15 21:25:49 - [TEST_STEP][FAILED] - waitForPageLoad: Unable to wait for page load (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Adams-MacBook-Right.local', ip: 'fe80:0:0:0:105f:a069:7b01:739b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+
+2018-10-15 21:25:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-10-15 21:25:49 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-10-15 21:25:49 - [MESSAGE][FAILED] - Unable to wait for page load (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Adams-MacBook-Right.local', ip: 'fe80:0:0:0:105f:a069:7b01:739b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+
+2018-10-15 21:25:49 - [TEST_STEP][FAILED] - navigateToUrl: Unable to navigate to 'https://stats.eval.kontiki.com/dashboards/analytics_external::network_summary?time_filter=6%20months&filter_config=%7B%22time_filter%22:%5B%7B%22type%22:%22past%22,%22values%22:%5B%7B%22constant%22:%226%22,%22unit%22:%22mo%22%7D,%7B%7D%5D,%22id%22:1%7D%5D%7D' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Adams-MacBook-Right.local', ip: 'fe80:0:0:0:105f:a069:7b01:739b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+
+2018-10-15 21:25:49 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-10-15 21:25:49 - [MESSAGE][FAILED] - Unable to navigate to 'https://stats.eval.kontiki.com/dashboards/analytics_external::network_summary?time_filter=6%20months&filter_config=%7B%22time_filter%22:%5B%7B%22type%22:%22past%22,%22values%22:%5B%7B%22constant%22:%226%22,%22unit%22:%22mo%22%7D,%7B%7D%5D,%22id%22:1%7D%5D%7D' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Adams-MacBook-Right.local', ip: 'fe80:0:0:0:105f:a069:7b01:739b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+
+2018-10-15 21:25:49 - [TEST_STEP][FAILED] - waitForAngularLoad: Unable to wait for Angular to load. (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Adams-MacBook-Right.local', ip: 'fe80:0:0:0:105f:a069:7b01:739b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+
+2018-10-15 21:25:49 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-10-15 21:25:49 - [MESSAGE][FAILED] - Unable to wait for Angular to load. (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Adams-MacBook-Right.local', ip: 'fe80:0:0:0:105f:a069:7b01:739b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+
+2018-10-15 21:25:49 - [TEST_STEP][FAILED] - waitForPageLoad: Unable to wait for page load (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Adams-MacBook-Right.local', ip: 'fe80:0:0:0:105f:a069:7b01:739b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+
+2018-10-15 21:25:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-10-15 21:25:49 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-10-15 21:25:49 - [MESSAGE][FAILED] - Unable to wait for page load (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Adams-MacBook-Right.local', ip: 'fe80:0:0:0:105f:a069:7b01:739b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+
+2018-10-15 21:25:49 - [TEST_STEP][FAILED] - navigateToUrl: Unable to navigate to 'https://stats.eval.kontiki.com/dashboards/analytics_external::network_content?content_moid_filter=f1baef84-b596-4931-bf4d-412956c0e805&format_moid_filter=&time_filter=&filter_config=%7B%22content_moid_filter%22:%5B%7B%22type%22:%22%3D%22,%22values%22:%5B%7B%22constant%22:%22f1baef84-b596-4931-bf4d-412956c0e805%22%7D,%7B%7D%5D,%22id%22:0%7D%5D,%22format_moid_filter%22:%5B%7B%22type%22:%22%3D%22,%22values%22:%5B%7B%22constant%22:%22%22%7D,%7B%7D%5D,%22id%22:1%7D%5D,%22time_filter%22:%5B%7B%22type%22:%22advanced%22,%22values%22:%5B%7B%22constant%22:null%7D,%7B%7D%5D,%22id%22:2%7D%5D%7D' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Adams-MacBook-Right.local', ip: 'fe80:0:0:0:105f:a069:7b01:739b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+
+2018-10-15 21:25:49 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-10-15 21:25:49 - [MESSAGE][FAILED] - Unable to navigate to 'https://stats.eval.kontiki.com/dashboards/analytics_external::network_content?content_moid_filter=f1baef84-b596-4931-bf4d-412956c0e805&format_moid_filter=&time_filter=&filter_config=%7B%22content_moid_filter%22:%5B%7B%22type%22:%22%3D%22,%22values%22:%5B%7B%22constant%22:%22f1baef84-b596-4931-bf4d-412956c0e805%22%7D,%7B%7D%5D,%22id%22:0%7D%5D,%22format_moid_filter%22:%5B%7B%22type%22:%22%3D%22,%22values%22:%5B%7B%22constant%22:%22%22%7D,%7B%7D%5D,%22id%22:1%7D%5D,%22time_filter%22:%5B%7B%22type%22:%22advanced%22,%22values%22:%5B%7B%22constant%22:null%7D,%7B%7D%5D,%22id%22:2%7D%5D%7D' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Adams-MacBook-Right.local', ip: 'fe80:0:0:0:105f:a069:7b01:739b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+
+2018-10-15 21:25:49 - [TEST_STEP][FAILED] - waitForAngularLoad: Unable to wait for Angular to load. (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Adams-MacBook-Right.local', ip: 'fe80:0:0:0:105f:a069:7b01:739b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+
+2018-10-15 21:25:49 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-10-15 21:25:49 - [MESSAGE][FAILED] - Unable to wait for Angular to load. (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Adams-MacBook-Right.local', ip: 'fe80:0:0:0:105f:a069:7b01:739b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+
+2018-10-15 21:25:49 - [TEST_STEP][FAILED] - waitForPageLoad: Unable to wait for page load (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Adams-MacBook-Right.local', ip: 'fe80:0:0:0:105f:a069:7b01:739b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+
+2018-10-15 21:25:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-10-15 21:25:49 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-10-15 21:25:49 - [MESSAGE][FAILED] - Unable to wait for page load (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Adams-MacBook-Right.local', ip: 'fe80:0:0:0:105f:a069:7b01:739b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+
+2018-10-15 21:25:49 - [TEST_STEP][FAILED] - navigateToUrl: Unable to navigate to 'https://stats.eval.kontiki.com/dashboards/analytics_external::network_locality?Last%20Delivery%20Time=6%20months&Last%20Report%20Time=&Locality=&External%20IP=&filter_config=%7B%22Last%20Delivery%20Time%22:%5B%7B%22type%22:%22past%22,%22values%22:%5B%7B%22constant%22:%226%22,%22unit%22:%22mo%22%7D,%7B%7D%5D,%22id%22:8%7D%5D,%22Last%20Report%20Time%22:%5B%7B%22type%22:%22anytime%22,%22values%22:%5B%7B%7D,%7B%7D%5D,%22id%22:9%7D%5D,%22Locality%22:%5B%7B%22type%22:%22%3D%22,%22values%22:%5B%7B%22constant%22:%22%22%7D,%7B%7D%5D,%22id%22:10%7D%5D,%22External%20IP%22:%5B%7B%22type%22:%22%3D%22,%22values%22:%5B%7B%22constant%22:%22%22%7D,%7B%7D%5D,%22id%22:11%7D%5D%7D' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Adams-MacBook-Right.local', ip: 'fe80:0:0:0:105f:a069:7b01:739b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+
+2018-10-15 21:25:49 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-10-15 21:25:49 - [MESSAGE][FAILED] - Unable to navigate to 'https://stats.eval.kontiki.com/dashboards/analytics_external::network_locality?Last%20Delivery%20Time=6%20months&Last%20Report%20Time=&Locality=&External%20IP=&filter_config=%7B%22Last%20Delivery%20Time%22:%5B%7B%22type%22:%22past%22,%22values%22:%5B%7B%22constant%22:%226%22,%22unit%22:%22mo%22%7D,%7B%7D%5D,%22id%22:8%7D%5D,%22Last%20Report%20Time%22:%5B%7B%22type%22:%22anytime%22,%22values%22:%5B%7B%7D,%7B%7D%5D,%22id%22:9%7D%5D,%22Locality%22:%5B%7B%22type%22:%22%3D%22,%22values%22:%5B%7B%22constant%22:%22%22%7D,%7B%7D%5D,%22id%22:10%7D%5D,%22External%20IP%22:%5B%7B%22type%22:%22%3D%22,%22values%22:%5B%7B%22constant%22:%22%22%7D,%7B%7D%5D,%22id%22:11%7D%5D%7D' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Adams-MacBook-Right.local', ip: 'fe80:0:0:0:105f:a069:7b01:739b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+
+2018-10-15 21:25:49 - [TEST_STEP][FAILED] - waitForAngularLoad: Unable to wait for Angular to load. (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Adams-MacBook-Right.local', ip: 'fe80:0:0:0:105f:a069:7b01:739b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+
+2018-10-15 21:25:49 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-10-15 21:25:49 - [MESSAGE][FAILED] - Unable to wait for Angular to load. (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Adams-MacBook-Right.local', ip: 'fe80:0:0:0:105f:a069:7b01:739b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+
+2018-10-15 21:25:49 - [TEST_STEP][FAILED] - waitForPageLoad: Unable to wait for page load (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Adams-MacBook-Right.local', ip: 'fe80:0:0:0:105f:a069:7b01:739b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+
+2018-10-15 21:25:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-10-15 21:25:49 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-10-15 21:25:49 - [MESSAGE][FAILED] - Unable to wait for page load (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Adams-MacBook-Right.local', ip: 'fe80:0:0:0:105f:a069:7b01:739b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+
+2018-10-15 21:25:49 - [TEST_STEP][FAILED] - navigateToUrl: Unable to navigate to 'https://stats.eval.kontiki.com/dashboards/analytics_external::live_event_summary?time_filter=6%20months&title_filter=&filter_config=%7B%22time_filter%22:%5B%7B%22type%22:%22past%22,%22values%22:%5B%7B%22constant%22:%226%22,%22unit%22:%22mo%22%7D,%7B%7D%5D,%22id%22:4%7D%5D,%22title_filter%22:%5B%7B%22type%22:%22%3D%22,%22values%22:%5B%7B%22constant%22:%22%22%7D,%7B%7D%5D,%22id%22:5%7D%5D%7D' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Adams-MacBook-Right.local', ip: 'fe80:0:0:0:105f:a069:7b01:739b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+
+2018-10-15 21:25:49 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-10-15 21:25:49 - [MESSAGE][FAILED] - Unable to navigate to 'https://stats.eval.kontiki.com/dashboards/analytics_external::live_event_summary?time_filter=6%20months&title_filter=&filter_config=%7B%22time_filter%22:%5B%7B%22type%22:%22past%22,%22values%22:%5B%7B%22constant%22:%226%22,%22unit%22:%22mo%22%7D,%7B%7D%5D,%22id%22:4%7D%5D,%22title_filter%22:%5B%7B%22type%22:%22%3D%22,%22values%22:%5B%7B%22constant%22:%22%22%7D,%7B%7D%5D,%22id%22:5%7D%5D%7D' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Adams-MacBook-Right.local', ip: 'fe80:0:0:0:105f:a069:7b01:739b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+
+2018-10-15 21:25:49 - [TEST_STEP][FAILED] - waitForAngularLoad: Unable to wait for Angular to load. (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Adams-MacBook-Right.local', ip: 'fe80:0:0:0:105f:a069:7b01:739b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+
+2018-10-15 21:25:49 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-10-15 21:25:49 - [MESSAGE][FAILED] - Unable to wait for Angular to load. (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Adams-MacBook-Right.local', ip: 'fe80:0:0:0:105f:a069:7b01:739b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+
+2018-10-15 21:25:49 - [TEST_STEP][FAILED] - waitForPageLoad: Unable to wait for page load (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Adams-MacBook-Right.local', ip: 'fe80:0:0:0:105f:a069:7b01:739b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+
+2018-10-15 21:25:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-10-15 21:25:49 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-10-15 21:25:49 - [MESSAGE][FAILED] - Unable to wait for page load (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Adams-MacBook-Right.local', ip: 'fe80:0:0:0:105f:a069:7b01:739b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+
+2018-10-15 21:25:49 - [TEST_STEP][FAILED] - navigateToUrl: Unable to navigate to 'https://stats.eval.kontiki.com/dashboards/analytics_external::live_event?content_moid_filter=3725f032-f9cf-4df4-96ed-674be4ab0938&format_moid_filter=&time_filter=&filter_config=%7B%22content_moid_filter%22:%5B%7B%22type%22:%22%3D%22,%22values%22:%5B%7B%22constant%22:%223725f032-f9cf-4df4-96ed-674be4ab0938%22%7D,%7B%7D%5D,%22id%22:0%7D%5D,%22format_moid_filter%22:%5B%7B%22type%22:%22%3D%22,%22values%22:%5B%7B%22constant%22:%22%22%7D,%7B%7D%5D,%22id%22:1%7D%5D,%22time_filter%22:%5B%7B%22type%22:%22advanced%22,%22values%22:%5B%7B%22constant%22:null%7D,%7B%7D%5D,%22id%22:2%7D%5D%7D' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Adams-MacBook-Right.local', ip: 'fe80:0:0:0:105f:a069:7b01:739b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+
+2018-10-15 21:25:49 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-10-15 21:25:49 - [MESSAGE][FAILED] - Unable to navigate to 'https://stats.eval.kontiki.com/dashboards/analytics_external::live_event?content_moid_filter=3725f032-f9cf-4df4-96ed-674be4ab0938&format_moid_filter=&time_filter=&filter_config=%7B%22content_moid_filter%22:%5B%7B%22type%22:%22%3D%22,%22values%22:%5B%7B%22constant%22:%223725f032-f9cf-4df4-96ed-674be4ab0938%22%7D,%7B%7D%5D,%22id%22:0%7D%5D,%22format_moid_filter%22:%5B%7B%22type%22:%22%3D%22,%22values%22:%5B%7B%22constant%22:%22%22%7D,%7B%7D%5D,%22id%22:1%7D%5D,%22time_filter%22:%5B%7B%22type%22:%22advanced%22,%22values%22:%5B%7B%22constant%22:null%7D,%7B%7D%5D,%22id%22:2%7D%5D%7D' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Adams-MacBook-Right.local', ip: 'fe80:0:0:0:105f:a069:7b01:739b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+
+2018-10-15 21:25:49 - [TEST_STEP][FAILED] - waitForAngularLoad: Unable to wait for Angular to load. (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Adams-MacBook-Right.local', ip: 'fe80:0:0:0:105f:a069:7b01:739b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+
+2018-10-15 21:25:49 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-10-15 21:25:49 - [MESSAGE][FAILED] - Unable to wait for Angular to load. (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Adams-MacBook-Right.local', ip: 'fe80:0:0:0:105f:a069:7b01:739b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+
+2018-10-15 21:25:49 - [TEST_STEP][FAILED] - waitForPageLoad: Unable to wait for page load (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Adams-MacBook-Right.local', ip: 'fe80:0:0:0:105f:a069:7b01:739b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+
+2018-10-15 21:25:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-10-15 21:25:49 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-10-15 21:25:49 - [MESSAGE][FAILED] - Unable to wait for page load (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Adams-MacBook-Right.local', ip: 'fe80:0:0:0:105f:a069:7b01:739b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+
+2018-10-15 21:25:49 - [TEST_STEP][FAILED] - navigateToUrl: Unable to navigate to 'https://stats.eval.kontiki.com/dashboards/analytics_external::live_event_in_progress?content_moid_filter=&format_moid_filter=&time_filter=2%20weeks&filter_config=%7B%22content_moid_filter%22:%5B%7B%22type%22:%22%3D%22,%22values%22:%5B%7B%22constant%22:%22%22%7D,%7B%7D%5D,%22id%22:6%7D%5D,%22format_moid_filter%22:%5B%7B%22type%22:%22%3D%22,%22values%22:%5B%7B%22constant%22:%22%22%7D,%7B%7D%5D,%22id%22:7%7D%5D,%22time_filter%22:%5B%7B%22type%22:%22past%22,%22values%22:%5B%7B%22constant%22:%222%22,%22unit%22:%22wk%22%7D%5D,%22id%22:8%7D%5D%7D' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Adams-MacBook-Right.local', ip: 'fe80:0:0:0:105f:a069:7b01:739b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+
+2018-10-15 21:25:49 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-10-15 21:25:49 - [MESSAGE][FAILED] - Unable to navigate to 'https://stats.eval.kontiki.com/dashboards/analytics_external::live_event_in_progress?content_moid_filter=&format_moid_filter=&time_filter=2%20weeks&filter_config=%7B%22content_moid_filter%22:%5B%7B%22type%22:%22%3D%22,%22values%22:%5B%7B%22constant%22:%22%22%7D,%7B%7D%5D,%22id%22:6%7D%5D,%22format_moid_filter%22:%5B%7B%22type%22:%22%3D%22,%22values%22:%5B%7B%22constant%22:%22%22%7D,%7B%7D%5D,%22id%22:7%7D%5D,%22time_filter%22:%5B%7B%22type%22:%22past%22,%22values%22:%5B%7B%22constant%22:%222%22,%22unit%22:%22wk%22%7D%5D,%22id%22:8%7D%5D%7D' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Adams-MacBook-Right.local', ip: 'fe80:0:0:0:105f:a069:7b01:739b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+
+2018-10-15 21:25:49 - [TEST_STEP][FAILED] - waitForAngularLoad: Unable to wait for Angular to load. (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Adams-MacBook-Right.local', ip: 'fe80:0:0:0:105f:a069:7b01:739b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+
+2018-10-15 21:25:49 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-10-15 21:25:49 - [MESSAGE][FAILED] - Unable to wait for Angular to load. (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Adams-MacBook-Right.local', ip: 'fe80:0:0:0:105f:a069:7b01:739b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+
+2018-10-15 21:25:49 - [TEST_STEP][FAILED] - waitForPageLoad: Unable to wait for page load (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Adams-MacBook-Right.local', ip: 'fe80:0:0:0:105f:a069:7b01:739b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+
+2018-10-15 21:25:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-10-15 21:25:49 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-10-15 21:25:49 - [MESSAGE][FAILED] - Unable to wait for page load (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Adams-MacBook-Right.local', ip: 'fe80:0:0:0:105f:a069:7b01:739b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+
+2018-10-15 21:25:49 - [TEST_STEP][FAILED] - navigateToUrl: Unable to navigate to 'https://stats.eval.kontiki.com/dashboards/analytics_external::vod_summary?time_filter=6%20months&event_filter=&filter_config=%7B%22time_filter%22:%5B%7B%22type%22:%22past%22,%22values%22:%5B%7B%22constant%22:%226%22,%22unit%22:%22mo%22%7D,%7B%7D%5D,%22id%22:4%7D%5D,%22event_filter%22:%5B%7B%22type%22:%22%3D%22,%22values%22:%5B%7B%22constant%22:%22%22%7D,%7B%7D%5D,%22id%22:5%7D%5D%7D' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Adams-MacBook-Right.local', ip: 'fe80:0:0:0:105f:a069:7b01:739b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+
+2018-10-15 21:25:49 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-10-15 21:25:49 - [MESSAGE][FAILED] - Unable to navigate to 'https://stats.eval.kontiki.com/dashboards/analytics_external::vod_summary?time_filter=6%20months&event_filter=&filter_config=%7B%22time_filter%22:%5B%7B%22type%22:%22past%22,%22values%22:%5B%7B%22constant%22:%226%22,%22unit%22:%22mo%22%7D,%7B%7D%5D,%22id%22:4%7D%5D,%22event_filter%22:%5B%7B%22type%22:%22%3D%22,%22values%22:%5B%7B%22constant%22:%22%22%7D,%7B%7D%5D,%22id%22:5%7D%5D%7D' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Adams-MacBook-Right.local', ip: 'fe80:0:0:0:105f:a069:7b01:739b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+
+2018-10-15 21:25:49 - [TEST_STEP][FAILED] - waitForAngularLoad: Unable to wait for Angular to load. (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Adams-MacBook-Right.local', ip: 'fe80:0:0:0:105f:a069:7b01:739b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+
+2018-10-15 21:25:49 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-10-15 21:25:49 - [MESSAGE][FAILED] - Unable to wait for Angular to load. (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Adams-MacBook-Right.local', ip: 'fe80:0:0:0:105f:a069:7b01:739b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+
+2018-10-15 21:25:49 - [TEST_STEP][FAILED] - waitForPageLoad: Unable to wait for page load (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Adams-MacBook-Right.local', ip: 'fe80:0:0:0:105f:a069:7b01:739b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+
+2018-10-15 21:25:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-10-15 21:25:49 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-10-15 21:25:49 - [MESSAGE][FAILED] - Unable to wait for page load (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Adams-MacBook-Right.local', ip: 'fe80:0:0:0:105f:a069:7b01:739b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+
+2018-10-15 21:25:49 - [TEST_STEP][FAILED] - navigateToUrl: Unable to navigate to 'https://stats.eval.kontiki.com/dashboards/analytics_external::vod_performance?content_moid_filter=c3605b39-9d22-4413-8718-98abacc81044&time_filter=&filter_config=%7B%22content_moid_filter%22:%5B%7B%22type%22:%22%3D%22,%22values%22:%5B%7B%22constant%22:%22c3605b39-9d22-4413-8718-98abacc81044%22%7D,%7B%7D%5D,%22id%22:0%7D%5D,%22time_filter%22:%5B%7B%22type%22:%22advanced%22,%22values%22:%5B%7B%22constant%22:null%7D,%7B%7D%5D,%22id%22:1%7D%5D%7D' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Adams-MacBook-Right.local', ip: 'fe80:0:0:0:105f:a069:7b01:739b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+
+2018-10-15 21:25:49 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-10-15 21:25:49 - [MESSAGE][FAILED] - Unable to navigate to 'https://stats.eval.kontiki.com/dashboards/analytics_external::vod_performance?content_moid_filter=c3605b39-9d22-4413-8718-98abacc81044&time_filter=&filter_config=%7B%22content_moid_filter%22:%5B%7B%22type%22:%22%3D%22,%22values%22:%5B%7B%22constant%22:%22c3605b39-9d22-4413-8718-98abacc81044%22%7D,%7B%7D%5D,%22id%22:0%7D%5D,%22time_filter%22:%5B%7B%22type%22:%22advanced%22,%22values%22:%5B%7B%22constant%22:null%7D,%7B%7D%5D,%22id%22:1%7D%5D%7D' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Adams-MacBook-Right.local', ip: 'fe80:0:0:0:105f:a069:7b01:739b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+
+2018-10-15 21:25:49 - [TEST_STEP][FAILED] - waitForAngularLoad: Unable to wait for Angular to load. (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Adams-MacBook-Right.local', ip: 'fe80:0:0:0:105f:a069:7b01:739b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+
+2018-10-15 21:25:49 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-10-15 21:25:49 - [MESSAGE][FAILED] - Unable to wait for Angular to load. (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Adams-MacBook-Right.local', ip: 'fe80:0:0:0:105f:a069:7b01:739b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+
+2018-10-15 21:25:49 - [TEST_STEP][FAILED] - waitForPageLoad: Unable to wait for page load (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Adams-MacBook-Right.local', ip: 'fe80:0:0:0:105f:a069:7b01:739b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+
+2018-10-15 21:25:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-10-15 21:25:49 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-10-15 21:25:49 - [MESSAGE][FAILED] - Unable to wait for page load (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Adams-MacBook-Right.local', ip: 'fe80:0:0:0:105f:a069:7b01:739b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+
+2018-10-15 21:25:49 - [TEST_STEP][FAILED] - navigateToUrl: Unable to navigate to 'https://stats.eval.kontiki.com/dashboards/sccm_users::sccm_summary?time_filter=6%20months&filter_config=%7B%22time_filter%22:%5B%7B%22type%22:%22past%22,%22values%22:%5B%7B%22constant%22:%226%22,%22unit%22:%22mo%22%7D,%7B%7D%5D,%22id%22:2%7D%5D%7D' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Adams-MacBook-Right.local', ip: 'fe80:0:0:0:105f:a069:7b01:739b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+
+2018-10-15 21:25:49 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-10-15 21:25:49 - [MESSAGE][FAILED] - Unable to navigate to 'https://stats.eval.kontiki.com/dashboards/sccm_users::sccm_summary?time_filter=6%20months&filter_config=%7B%22time_filter%22:%5B%7B%22type%22:%22past%22,%22values%22:%5B%7B%22constant%22:%226%22,%22unit%22:%22mo%22%7D,%7B%7D%5D,%22id%22:2%7D%5D%7D' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Adams-MacBook-Right.local', ip: 'fe80:0:0:0:105f:a069:7b01:739b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+
+2018-10-15 21:25:49 - [TEST_STEP][FAILED] - waitForAngularLoad: Unable to wait for Angular to load. (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Adams-MacBook-Right.local', ip: 'fe80:0:0:0:105f:a069:7b01:739b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+
+2018-10-15 21:25:49 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-10-15 21:25:49 - [MESSAGE][FAILED] - Unable to wait for Angular to load. (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Adams-MacBook-Right.local', ip: 'fe80:0:0:0:105f:a069:7b01:739b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+
+2018-10-15 21:25:49 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Page_Overview/a' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Adams-MacBook-Right.local', ip: 'fe80:0:0:0:105f:a069:7b01:739b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+
+2018-10-15 21:25:49 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-10-15 21:25:49 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Page_Overview/a' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Adams-MacBook-Right.local', ip: 'fe80:0:0:0:105f:a069:7b01:739b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+
+2018-10-15 21:25:49 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Page_Overview/a_Log Out (3)' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Adams-MacBook-Right.local', ip: 'fe80:0:0:0:105f:a069:7b01:739b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+
+2018-10-15 21:25:49 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-10-15 21:25:49 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Page_Overview/a_Log Out (3)' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Adams-MacBook-Right.local', ip: 'fe80:0:0:0:105f:a069:7b01:739b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+
+2018-10-15 21:25:49 - [TEST_STEP][FAILED] - waitForPageLoad: Unable to wait for page load (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Adams-MacBook-Right.local', ip: 'fe80:0:0:0:105f:a069:7b01:739b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+
+2018-10-15 21:25:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-10-15 21:25:49 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-10-15 21:25:49 - [MESSAGE][FAILED] - Unable to wait for page load (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Adams-MacBook-Right.local', ip: 'fe80:0:0:0:105f:a069:7b01:739b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+
+2018-10-15 21:25:49 - [TEST_STEP][FAILED] - verifyElementPresent: Unable to verify object 'Object Repository/Page_Log in/div_Logout Successful.' is present (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Adams-MacBook-Right.local', ip: 'fe80:0:0:0:105f:a069:7b01:739b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+
+2018-10-15 21:25:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-10-15 21:25:49 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-10-15 21:25:49 - [MESSAGE][FAILED] - Unable to verify object 'Object Repository/Page_Log in/div_Logout Successful.' is present (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Adams-MacBook-Right.local', ip: 'fe80:0:0:0:105f:a069:7b01:739b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+
+2018-10-15 21:25:49 - [TEST_STEP][FAILED] - verifyElementPresent: Unable to verify object 'Object Repository/Page_Log in/div_Logout Successful.' is present (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Adams-MacBook-Right.local', ip: 'fe80:0:0:0:105f:a069:7b01:739b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+
+2018-10-15 21:25:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-10-15 21:25:49 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-10-15 21:25:49 - [MESSAGE][FAILED] - Unable to verify object 'Object Repository/Page_Log in/div_Logout Successful.' is present (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Adams-MacBook-Right.local', ip: 'fe80:0:0:0:105f:a069:7b01:739b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+
+2018-10-15 21:25:49 - [TEST_STEP][FAILED] - verifyTextPresent: Unable to verify text 'Logout Successful.' is present  (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Adams-MacBook-Right.local', ip: 'fe80:0:0:0:105f:a069:7b01:739b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+
+2018-10-15 21:25:49 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-10-15 21:25:49 - [MESSAGE][FAILED] - Unable to verify text 'Logout Successful.' is present  (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Adams-MacBook-Right.local', ip: 'fe80:0:0:0:105f:a069:7b01:739b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+
+2018-10-15 21:25:49 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-10-15 21:25:49 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[2018-10-15 21:25:48 - [TEST_CASE][FAILED] - Test Cases/Eval/Eval - Summary and Detail pages: Test Cases/Eval/Eval - Summary and Detail pages FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to open browser with url: 'https://stats.eval.kontiki.com/login/email' (Root cause: org.openqa.selenium.SessionNotCreatedException: Could not create a session: You must enable the 'Allow Remote Automation' option in Safari's Develop menu to control Safari via WebDriver.
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Adams-MacBook-Right.local', ip: 'fe80:0:0:0:105f:a069:7b01:739b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: driver.version: CSafariDriver
+remote stacktrace: )
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:32)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$openBrowser.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at Script1539662311177.run(Script1539662311177.groovy:17)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1539663943539.run(TempTestSuite1539663943539.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-10-15 21:25:45 - [TEST_SUITE][FAILED] - Eval Sanity Check: Test Cases/Eval/Eval - Logging In and Out FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to open browser with url: 'https://stats.eval.kontiki.com/login/email' (Root cause: org.openqa.selenium.SessionNotCreatedException: Could not create a session: You must enable the 'Allow Remote Automation' option in Safari's Develop menu to control Safari via WebDriver.
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Adams-MacBook-Right.local', ip: 'fe80:0:0:0:105f:a069:7b01:739b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: driver.version: CSafariDriver
+remote stacktrace: )
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:32)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$openBrowser.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at Script1539660818074.run(Script1539660818074.groovy:17)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1539663943539.run(TempTestSuite1539663943539.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)]]></system-out>
+      <system-err><![CDATA[2018-10-15 21:25:45 - [TEST_SUITE][FAILED] - Eval Sanity Check: Test Cases/Eval/Eval - Logging In and Out FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to open browser with url: 'https://stats.eval.kontiki.com/login/email' (Root cause: org.openqa.selenium.SessionNotCreatedException: Could not create a session: You must enable the 'Allow Remote Automation' option in Safari's Develop menu to control Safari via WebDriver.
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Adams-MacBook-Right.local', ip: 'fe80:0:0:0:105f:a069:7b01:739b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: driver.version: CSafariDriver
+remote stacktrace: )
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:32)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$openBrowser.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at Script1539660818074.run(Script1539660818074.groovy:17)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1539663943539.run(TempTestSuite1539663943539.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)]]></system-err>
+   </testsuite>
+</testsuites>

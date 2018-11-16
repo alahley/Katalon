@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>This will cover testing of Paul's new navigation and dropdown menus, as well as the three main Calls To Action on the Overview page</description>
+   <name>TC1 - Navigation and CTAs</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b14bda34-a9cb-442e-be09-e0d7211e739f</testCaseGuid>
+</TestCaseEntity>

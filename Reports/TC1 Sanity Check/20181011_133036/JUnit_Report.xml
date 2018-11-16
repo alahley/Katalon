@@ -1,0 +1,825 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TC1 Sanity Check" time="149" tests="3" failures="0" errors="0">
+   <testsuite name="TC1 Sanity Check" tests="3" failures="0" errors="0" time="149" timestamp="2018-10-11 13:30:38" hostname="alahley - 172.16.168.46" id="Test Suites/TC1 Sanity Check">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/alahley/Katalon Studio/Analytics/Reports/TC1 Sanity Check/20181011_133036"/>
+         <property name="logFiles" value="/Users/alahley/Katalon Studio/Analytics/Reports/TC1 Sanity Check/20181011_133036/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="alahley - 172.16.168.46"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="5.7.0.1"/>
+         <property name="browser" value="Firefox 62.0"/>
+         <property name="hostAddress" value="172.16.168.46"/>
+         <property name="sessionId" value="78f88ed8-f731-5f4f-a7da-87ba51f9ae97"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/TC1/TC1 - Fixture Data Validation" classname="Test Cases/TC1/TC1 - Fixture Data Validation" status="PASSED">
+         <system-out><![CDATA[2018-10-11 13:30:38 - [TEST_CASE][PASSED] - Test Cases/TC1/TC1 - Fixture Data Validation: Test Cases/TC1/TC1 - Fixture Data Validation
+
+2018-10-11 13:30:38 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'https://stats.tc1.kontiki.com/login/email'
+
+2018-10-11 13:30:47 - [MESSAGE][PASSED] - Browser is opened with url: 'https://stats.tc1.kontiki.com/login/email'
+
+2018-10-11 13:30:47 - [TEST_STEP][PASSED] - setText: Text 'alahley@kollective.com' is set on object 'Object Repository/Page_Log in/input_email'
+
+2018-10-11 13:30:47 - [MESSAGE][PASSED] - Text 'alahley@kollective.com' is set on object 'Object Repository/Page_Log in/input_email'
+
+2018-10-11 13:30:47 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Page_Log in/input_password'
+
+2018-10-11 13:30:47 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Log in/input_password'
+
+2018-10-11 13:30:47 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Log in/input_remember' is clicked on
+
+2018-10-11 13:30:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Log in/input_remember' is clicked on
+
+2018-10-11 13:30:47 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Log in/input_login-submit' is clicked on
+
+2018-10-11 13:30:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Log in/input_login-submit' is clicked on
+
+2018-10-11 13:30:52 - [TEST_STEP][PASSED] - waitForAngularLoad: Angular is ready.
+
+2018-10-11 13:30:54 - [MESSAGE][PASSED] - Angular is ready.
+
+2018-10-11 13:30:54 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Overview/strong_Filters' is clicked on
+
+2018-10-11 13:30:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Overview/strong_Filters' is clicked on
+
+2018-10-11 13:30:55 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'string:year' are selected in object 'Object Repository/Page_Overview/select_is in the pastis on the'  using regular expression
+
+2018-10-11 13:30:56 - [MESSAGE][PASSED] - All options with value 'string:year' are selected in object 'Object Repository/Page_Overview/select_is in the pastis on the'  using regular expression
+
+2018-10-11 13:30:56 - [TEST_STEP][PASSED] - setText: Text '2017' is set on object 'Object Repository/Page_Overview/input_Time Filter_form-control'
+
+2018-10-11 13:30:56 - [MESSAGE][PASSED] - Text '2017' is set on object 'Object Repository/Page_Overview/input_Time Filter_form-control'
+
+2018-10-11 13:30:56 - [TEST_STEP][PASSED] - waitForAngularLoad: Angular is ready.
+
+2018-10-11 13:30:56 - [MESSAGE][PASSED] - Angular is ready.
+
+2018-10-11 13:30:56 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Overview/button_Run' is clicked on
+
+2018-10-11 13:30:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Overview/button_Run' is clicked on
+
+2018-10-11 13:30:56 - [TEST_STEP][PASSED] - waitForAngularLoad: Angular is ready.
+
+2018-10-11 13:31:00 - [MESSAGE][PASSED] - Angular is ready.
+
+2018-10-11 13:31:00 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Overview/i_Stop_lk-icon-gear' is clicked on
+
+2018-10-11 13:31:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Overview/i_Stop_lk-icon-gear' is clicked on
+
+2018-10-11 13:31:01 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Overview/a_Clear Cache  Refresh' is clicked on
+
+2018-10-11 13:31:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Overview/a_Clear Cache  Refresh' is clicked on
+
+2018-10-11 13:31:01 - [TEST_STEP][PASSED] - waitForAngularLoad: Angular is ready.
+
+2018-10-11 13:31:09 - [MESSAGE][PASSED] - Angular is ready.
+
+2018-10-11 13:31:09 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-10-11 13:31:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-10-11 13:31:09 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-10-11 13:31:09 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page_Overview/div_Total Live Events' are matched.
+
+2018-10-11 13:31:09 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Overview/div_Total Live Events' are matched.
+
+2018-10-11 13:31:09 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page_Overview/div_2563' are matched.
+
+2018-10-11 13:31:09 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Overview/div_2563' are matched.
+
+2018-10-11 13:31:09 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page_Live Event Summary/div_Average Monthly Events' are matched.
+
+2018-10-11 13:31:09 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Live Event Summary/div_Average Monthly Events' are matched.
+
+2018-10-11 13:31:09 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page_Overview/div_226' are matched.
+
+2018-10-11 13:31:09 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Overview/div_226' are matched.
+
+2018-10-11 13:31:09 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page_Overview/div_Unique Viewers' are matched.
+
+2018-10-11 13:31:09 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Overview/div_Unique Viewers' are matched.
+
+2018-10-11 13:31:09 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page_Overview/div_10079' are matched.
+
+2018-10-11 13:31:09 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Overview/div_10079' are matched.
+
+2018-10-11 13:31:09 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page_Live Event Summary/div_Average Monthly Views' are matched.
+
+2018-10-11 13:31:10 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Live Event Summary/div_Average Monthly Views' are matched.
+
+2018-10-11 13:31:10 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page_Overview/div_7762' are matched.
+
+2018-10-11 13:31:10 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Overview/div_7762' are matched.
+
+2018-10-11 13:31:10 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page_Overview/div_Total Videos' are matched.
+
+2018-10-11 13:31:10 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Overview/div_Total Videos' are matched.
+
+2018-10-11 13:31:10 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page_Overview/div_1585' are matched.
+
+2018-10-11 13:31:10 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Overview/div_1585' are matched.
+
+2018-10-11 13:31:10 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page_Overview/div_Total Views' are matched.
+
+2018-10-11 13:31:10 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Overview/div_Total Views' are matched.
+
+2018-10-11 13:31:10 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page_Overview/div_17443' are matched.
+
+2018-10-11 13:31:10 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Overview/div_17443' are matched.
+
+2018-10-11 13:31:10 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page_Overview/div_Unique Viewers' are matched.
+
+2018-10-11 13:31:10 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Overview/div_Unique Viewers' are matched.
+
+2018-10-11 13:31:10 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page_Overview/div_8261' are matched.
+
+2018-10-11 13:31:10 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Overview/div_8261' are matched.
+
+2018-10-11 13:31:10 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page_Overview/div_Total Hours Watched' are matched.
+
+2018-10-11 13:31:10 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Overview/div_Total Hours Watched' are matched.
+
+2018-10-11 13:31:10 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page_Overview/div_1404' are matched.
+
+2018-10-11 13:31:10 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Overview/div_1404' are matched.
+
+2018-10-11 13:31:10 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page_Overview/div_Unique Agents' are matched.
+
+2018-10-11 13:31:10 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Overview/div_Unique Agents' are matched.
+
+2018-10-11 13:31:10 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page_Overview/div_10905' are matched.
+
+2018-10-11 13:31:10 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Overview/div_10905' are matched.
+
+2018-10-11 13:31:10 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page_Overview/div_Deliveries' are matched.
+
+2018-10-11 13:31:10 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Overview/div_Deliveries' are matched.
+
+2018-10-11 13:31:10 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page_Overview/div_67512' are matched.
+
+2018-10-11 13:31:10 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Overview/div_67512' are matched.
+
+2018-10-11 13:31:10 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page_Overview/div_Saved GB' are matched.
+
+2018-10-11 13:31:10 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Overview/div_Saved GB' are matched.
+
+2018-10-11 13:31:10 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page_Overview/div_1573' are matched.
+
+2018-10-11 13:31:10 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Overview/div_1573' are matched.
+
+2018-10-11 13:31:10 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page_Overview/div_Total GB' are matched.
+
+2018-10-11 13:31:10 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Overview/div_Total GB' are matched.
+
+2018-10-11 13:31:10 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page_Overview/div_3865' are matched.
+
+2018-10-11 13:31:10 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Overview/div_3865' are matched.
+
+2018-10-11 13:31:10 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_Overview/div_Peering Efficiency' is present
+
+2018-10-11 13:31:10 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-10-11 13:31:10 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Overview/div_Peering Efficiency' is present
+
+2018-10-11 13:31:10 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_Overview/div_41' is present
+
+2018-10-11 13:31:10 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-10-11 13:31:10 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Overview/div_41' is present
+
+2018-10-11 13:31:10 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_Overview/div_VoD Summary Peering Effici' is present
+
+2018-10-11 13:31:10 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-10-11 13:31:10 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Overview/div_VoD Summary Peering Effici' is present
+
+2018-10-11 13:31:10 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_Overview/a_Go to VoD Summary (1)' is present
+
+2018-10-11 13:31:10 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-10-11 13:31:10 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Overview/a_Go to VoD Summary (1)' is present
+
+2018-10-11 13:31:10 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_Overview/div_Peering Efficiency' is present
+
+2018-10-11 13:31:10 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-10-11 13:31:10 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Overview/div_Peering Efficiency' is present
+
+2018-10-11 13:31:10 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_Overview/div_Peering Efficiency (1)' is present
+
+2018-10-11 13:31:10 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-10-11 13:31:10 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Overview/div_Peering Efficiency (1)' is present
+
+2018-10-11 13:31:10 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_Overview/div_Live Views' is present
+
+2018-10-11 13:31:10 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-10-11 13:31:10 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Overview/div_Live Views' is present
+
+2018-10-11 13:31:10 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_Overview/div_Live Events' is present
+
+2018-10-11 13:31:10 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-10-11 13:31:10 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Overview/div_Live Events' is present
+
+2018-10-11 13:31:10 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_Overview/span_VoD Views' is present
+
+2018-10-11 13:31:10 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-10-11 13:31:10 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Overview/span_VoD Views' is present
+
+2018-10-11 13:31:10 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_Overview/div_VoD over time' is present
+
+2018-10-11 13:31:10 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-10-11 13:31:10 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Overview/div_VoD over time' is present
+
+2018-10-11 13:31:10 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_Overview/span_Deliveries by Month' is present
+
+2018-10-11 13:31:10 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-10-11 13:31:10 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Overview/span_Deliveries by Month' is present
+
+2018-10-11 13:31:10 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_Overview/a_Go to Live Event Summary' is present
+
+2018-10-11 13:31:10 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-10-11 13:31:10 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Overview/a_Go to Live Event Summary' is present
+
+2018-10-11 13:31:10 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_Overview/a_Go to VoD Summary' is present
+
+2018-10-11 13:31:10 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-10-11 13:31:10 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Overview/a_Go to VoD Summary' is present
+
+2018-10-11 13:31:10 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_Overview/a_Go to Network Summary' is present
+
+2018-10-11 13:31:10 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-10-11 13:31:10 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Overview/a_Go to Network Summary' is present
+
+2018-10-11 13:31:10 - [TEST_STEP][PASSED] - waitForAngularLoad: Angular is ready.
+
+2018-10-11 13:31:10 - [MESSAGE][PASSED] - Angular is ready.
+
+2018-10-11 13:31:10 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://stats.tc1.kontiki.com/admin/users?sorts=last_name%20asc&name=demo' successfully
+
+2018-10-11 13:31:13 - [MESSAGE][PASSED] - Navigate to 'https://stats.tc1.kontiki.com/admin/users?sorts=last_name%20asc&name=demo' successfully
+
+2018-10-11 13:31:13 - [TEST_STEP][PASSED] - waitForAngularLoad: Angular is ready.
+
+2018-10-11 13:31:14 - [MESSAGE][PASSED] - Angular is ready.
+
+2018-10-11 13:31:14 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Users/a_Sudo' is clicked on
+
+2018-10-11 13:31:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Users/a_Sudo' is clicked on
+
+2018-10-11 13:31:17 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-10-11 13:31:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-10-11 13:31:17 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-10-11 13:31:17 - [TEST_STEP][PASSED] - waitForAngularLoad: Angular is ready.
+
+2018-10-11 13:31:18 - [MESSAGE][PASSED] - Angular is ready.
+
+2018-10-11 13:31:18 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page_Overview/span_You are sudoing as Demo U' are matched.
+
+2018-10-11 13:31:19 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Overview/span_You are sudoing as Demo U' are matched.
+
+2018-10-11 13:31:19 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Overview/i_Run_lk-icon-gear' is clicked on
+
+2018-10-11 13:31:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Overview/i_Run_lk-icon-gear' is clicked on
+
+2018-10-11 13:31:19 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Overview/a_Clear Cache  Refresh' is clicked on
+
+2018-10-11 13:31:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Overview/a_Clear Cache  Refresh' is clicked on
+
+2018-10-11 13:31:20 - [TEST_STEP][PASSED] - waitForAngularLoad: Angular is ready.
+
+2018-10-11 13:31:27 - [MESSAGE][PASSED] - Angular is ready.
+
+2018-10-11 13:31:27 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-10-11 13:31:27 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-10-11 13:31:27 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-10-11 13:31:27 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page_Overview/div_14' are matched.
+
+2018-10-11 13:31:27 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Overview/div_14' are matched.
+
+2018-10-11 13:31:27 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page_Overview/div_4' are matched.
+
+2018-10-11 13:31:27 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Overview/div_4' are matched.
+
+2018-10-11 13:31:27 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page_Overview/div_66458' are matched.
+
+2018-10-11 13:31:27 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Overview/div_66458' are matched.
+
+2018-10-11 13:31:27 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page_Overview/div_16748' are matched.
+
+2018-10-11 13:31:27 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Overview/div_16748' are matched.
+
+2018-10-11 13:31:27 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page_Overview/div_15' are matched.
+
+2018-10-11 13:31:27 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Overview/div_15' are matched.
+
+2018-10-11 13:31:27 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page_Overview/div_185239' are matched.
+
+2018-10-11 13:31:27 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Overview/div_185239' are matched.
+
+2018-10-11 13:31:27 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page_Overview/div_126177' are matched.
+
+2018-10-11 13:31:27 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Overview/div_126177' are matched.
+
+2018-10-11 13:31:27 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page_Overview/div_15422' are matched.
+
+2018-10-11 13:31:27 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Overview/div_15422' are matched.
+
+2018-10-11 13:31:27 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page_Overview/div_364941' are matched.
+
+2018-10-11 13:31:27 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Overview/div_364941' are matched.
+
+2018-10-11 13:31:27 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page_Overview/div_717419' are matched.
+
+2018-10-11 13:31:27 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Overview/div_717419' are matched.
+
+2018-10-11 13:31:27 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page_Overview/div_22536' are matched.
+
+2018-10-11 13:31:27 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Overview/div_22536' are matched.
+
+2018-10-11 13:31:27 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page_Overview/div_24669' are matched.
+
+2018-10-11 13:31:27 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Overview/div_24669' are matched.
+
+2018-10-11 13:31:27 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page_Overview/div_91' are matched.
+
+2018-10-11 13:31:27 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Overview/div_91' are matched.
+
+2018-10-11 13:31:27 - [TEST_STEP][NOT_RUN] - closeBrowser: NOT_RUN: closeBrowser
+
+2018-10-11 13:31:27 - [MESSAGE][NOT_RUN] - NOT_RUN: closeBrowser]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC1/TC1 - Summary and Detail pages" classname="Test Cases/TC1/TC1 - Summary and Detail pages" status="PASSED">
+         <system-out><![CDATA[2018-10-11 13:31:27 - [TEST_CASE][PASSED] - Test Cases/TC1/TC1 - Summary and Detail pages: Test Cases/TC1/TC1 - Summary and Detail pages
+
+2018-10-11 13:31:27 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'https://stats.tc1.kontiki.com/login/email'
+
+2018-10-11 13:31:27 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-10-11 13:31:33 - [MESSAGE][PASSED] - Browser is opened with url: 'https://stats.tc1.kontiki.com/login/email'
+
+2018-10-11 13:31:33 - [TEST_STEP][PASSED] - setText: Text 'alahley@kollective.com' is set on object 'Object Repository/Page_Log in/input_email (2)'
+
+2018-10-11 13:31:33 - [MESSAGE][PASSED] - Text 'alahley@kollective.com' is set on object 'Object Repository/Page_Log in/input_email (2)'
+
+2018-10-11 13:31:33 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Page_Log in/input_password (2)'
+
+2018-10-11 13:31:34 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Log in/input_password (2)'
+
+2018-10-11 13:31:34 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Log in/input_remember (2)' is clicked on
+
+2018-10-11 13:31:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Log in/input_remember (2)' is clicked on
+
+2018-10-11 13:31:34 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Log in/input_login-submit (2)' is clicked on
+
+2018-10-11 13:31:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Log in/input_login-submit (2)' is clicked on
+
+2018-10-11 13:31:37 - [TEST_STEP][PASSED] - waitForAngularLoad: Angular is ready.
+
+2018-10-11 13:31:40 - [MESSAGE][PASSED] - Angular is ready.
+
+2018-10-11 13:31:40 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-10-11 13:31:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-10-11 13:31:40 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-10-11 13:31:40 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://stats.tc1.kontiki.com/dashboards/analytics_external::network_summary?time_filter=6%20months&filter_config=%7B%22time_filter%22:%5B%7B%22type%22:%22past%22,%22values%22:%5B%7B%22constant%22:%226%22,%22unit%22:%22mo%22%7D,%7B%7D%5D,%22id%22:2%7D%5D%7D' successfully
+
+2018-10-11 13:31:42 - [MESSAGE][PASSED] - Navigate to 'https://stats.tc1.kontiki.com/dashboards/analytics_external::network_summary?time_filter=6%20months&filter_config=%7B%22time_filter%22:%5B%7B%22type%22:%22past%22,%22values%22:%5B%7B%22constant%22:%226%22,%22unit%22:%22mo%22%7D,%7B%7D%5D,%22id%22:2%7D%5D%7D' successfully
+
+2018-10-11 13:31:42 - [TEST_STEP][PASSED] - waitForAngularLoad: Angular is ready.
+
+2018-10-11 13:31:48 - [MESSAGE][PASSED] - Angular is ready.
+
+2018-10-11 13:31:48 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-10-11 13:31:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-10-11 13:31:48 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-10-11 13:31:48 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://stats.tc1.kontiki.com/dashboards/analytics_external::network_content?content_moid_filter=9970298c-d6fd-4739-8cb6-01c7a003a5fb&format_moid_filter=&time_filter=&filter_config=%7B%22content_moid_filter%22:%5B%7B%22type%22:%22%3D%22,%22values%22:%5B%7B%22constant%22:%229970298c-d6fd-4739-8cb6-01c7a003a5fb%22%7D,%7B%7D%5D,%22id%22:0%7D%5D,%22format_moid_filter%22:%5B%7B%22type%22:%22%3D%22,%22values%22:%5B%7B%22constant%22:%22%22%7D,%7B%7D%5D,%22id%22:1%7D%5D,%22time_filter%22:%5B%7B%22type%22:%22advanced%22,%22values%22:%5B%7B%22constant%22:null%7D,%7B%7D%5D,%22id%22:2%7D%5D%7D' successfully
+
+2018-10-11 13:31:52 - [MESSAGE][PASSED] - Navigate to 'https://stats.tc1.kontiki.com/dashboards/analytics_external::network_content?content_moid_filter=9970298c-d6fd-4739-8cb6-01c7a003a5fb&format_moid_filter=&time_filter=&filter_config=%7B%22content_moid_filter%22:%5B%7B%22type%22:%22%3D%22,%22values%22:%5B%7B%22constant%22:%229970298c-d6fd-4739-8cb6-01c7a003a5fb%22%7D,%7B%7D%5D,%22id%22:0%7D%5D,%22format_moid_filter%22:%5B%7B%22type%22:%22%3D%22,%22values%22:%5B%7B%22constant%22:%22%22%7D,%7B%7D%5D,%22id%22:1%7D%5D,%22time_filter%22:%5B%7B%22type%22:%22advanced%22,%22values%22:%5B%7B%22constant%22:null%7D,%7B%7D%5D,%22id%22:2%7D%5D%7D' successfully
+
+2018-10-11 13:31:52 - [TEST_STEP][PASSED] - waitForAngularLoad: Angular is ready.
+
+2018-10-11 13:31:54 - [MESSAGE][PASSED] - Angular is ready.
+
+2018-10-11 13:31:54 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-10-11 13:31:54 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-10-11 13:31:55 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-10-11 13:31:55 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://stats.tc1.kontiki.com/dashboards/analytics_external::network_locality?Locality=Network%203&Last%20Delivery%20Time=6%20months&Last%20Report%20Time=&External%20IP=&filter_config=%7B%22Last%20Delivery%20Time%22:%5B%7B%22type%22:%22past%22,%22values%22:%5B%7B%22constant%22:%226%22,%22unit%22:%22mo%22%7D,%7B%7D%5D,%22id%22:0%7D%5D,%22Last%20Report%20Time%22:%5B%7B%22type%22:%22anytime%22,%22values%22:%5B%7B%7D,%7B%7D%5D,%22id%22:1%7D%5D,%22Locality%22:%5B%7B%22type%22:%22%3D%22,%22values%22:%5B%7B%22constant%22:%22Network%203%22%7D,%7B%7D%5D,%22id%22:2%7D%5D,%22External%20IP%22:%5B%7B%22type%22:%22%3D%22,%22values%22:%5B%7B%22constant%22:%22%22%7D,%7B%7D%5D,%22id%22:3%7D%5D%7D' successfully
+
+2018-10-11 13:31:58 - [MESSAGE][PASSED] - Navigate to 'https://stats.tc1.kontiki.com/dashboards/analytics_external::network_locality?Locality=Network%203&Last%20Delivery%20Time=6%20months&Last%20Report%20Time=&External%20IP=&filter_config=%7B%22Last%20Delivery%20Time%22:%5B%7B%22type%22:%22past%22,%22values%22:%5B%7B%22constant%22:%226%22,%22unit%22:%22mo%22%7D,%7B%7D%5D,%22id%22:0%7D%5D,%22Last%20Report%20Time%22:%5B%7B%22type%22:%22anytime%22,%22values%22:%5B%7B%7D,%7B%7D%5D,%22id%22:1%7D%5D,%22Locality%22:%5B%7B%22type%22:%22%3D%22,%22values%22:%5B%7B%22constant%22:%22Network%203%22%7D,%7B%7D%5D,%22id%22:2%7D%5D,%22External%20IP%22:%5B%7B%22type%22:%22%3D%22,%22values%22:%5B%7B%22constant%22:%22%22%7D,%7B%7D%5D,%22id%22:3%7D%5D%7D' successfully
+
+2018-10-11 13:31:58 - [TEST_STEP][PASSED] - waitForAngularLoad: Angular is ready.
+
+2018-10-11 13:32:01 - [MESSAGE][PASSED] - Angular is ready.
+
+2018-10-11 13:32:01 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-10-11 13:32:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-10-11 13:32:01 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-10-11 13:32:01 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://stats.tc1.kontiki.com/dashboards/analytics_external::live_event_summary?time_filter=6%20months&title_filter=&filter_config=%7B%22time_filter%22:%5B%7B%22type%22:%22past%22,%22values%22:%5B%7B%22constant%22:%226%22,%22unit%22:%22mo%22%7D,%7B%7D%5D,%22id%22:4%7D%5D,%22title_filter%22:%5B%7B%22type%22:%22%3D%22,%22values%22:%5B%7B%22constant%22:%22%22%7D,%7B%7D%5D,%22id%22:5%7D%5D%7D' successfully
+
+2018-10-11 13:32:03 - [MESSAGE][PASSED] - Navigate to 'https://stats.tc1.kontiki.com/dashboards/analytics_external::live_event_summary?time_filter=6%20months&title_filter=&filter_config=%7B%22time_filter%22:%5B%7B%22type%22:%22past%22,%22values%22:%5B%7B%22constant%22:%226%22,%22unit%22:%22mo%22%7D,%7B%7D%5D,%22id%22:4%7D%5D,%22title_filter%22:%5B%7B%22type%22:%22%3D%22,%22values%22:%5B%7B%22constant%22:%22%22%7D,%7B%7D%5D,%22id%22:5%7D%5D%7D' successfully
+
+2018-10-11 13:32:03 - [TEST_STEP][PASSED] - waitForAngularLoad: Angular is ready.
+
+2018-10-11 13:32:08 - [MESSAGE][PASSED] - Angular is ready.
+
+2018-10-11 13:32:08 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-10-11 13:32:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-10-11 13:32:08 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-10-11 13:32:08 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://stats.tc1.kontiki.com/dashboards/analytics_external::live_event?content_moid_filter=19327ed2-fa1b-4412-8acd-0fccfcef56b8&time_filter=&filter_config=%7B%22content_moid_filter%22:%5B%7B%22type%22:%22%3D%22,%22values%22:%5B%7B%22constant%22:%2219327ed2-fa1b-4412-8acd-0fccfcef56b8%22%7D,%7B%7D%5D,%22id%22:0%7D%5D,%22time_filter%22:%5B%7B%22type%22:%22advanced%22,%22values%22:%5B%7B%22constant%22:null%7D,%7B%7D%5D,%22id%22:1%7D%5D%7D' successfully
+
+2018-10-11 13:32:10 - [MESSAGE][PASSED] - Navigate to 'https://stats.tc1.kontiki.com/dashboards/analytics_external::live_event?content_moid_filter=19327ed2-fa1b-4412-8acd-0fccfcef56b8&time_filter=&filter_config=%7B%22content_moid_filter%22:%5B%7B%22type%22:%22%3D%22,%22values%22:%5B%7B%22constant%22:%2219327ed2-fa1b-4412-8acd-0fccfcef56b8%22%7D,%7B%7D%5D,%22id%22:0%7D%5D,%22time_filter%22:%5B%7B%22type%22:%22advanced%22,%22values%22:%5B%7B%22constant%22:null%7D,%7B%7D%5D,%22id%22:1%7D%5D%7D' successfully
+
+2018-10-11 13:32:10 - [TEST_STEP][PASSED] - waitForAngularLoad: Angular is ready.
+
+2018-10-11 13:32:12 - [MESSAGE][PASSED] - Angular is ready.
+
+2018-10-11 13:32:12 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-10-11 13:32:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-10-11 13:32:12 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-10-11 13:32:12 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://stats.tc1.kontiki.com/dashboards/analytics_external::live_event_in_progress?content_moid_filter=&time_filter=2%20weeks&filter_config=%7B%22content_moid_filter%22:%5B%7B%22type%22:%22%3D%22,%22values%22:%5B%7B%22constant%22:%22%22%7D,%7B%7D%5D,%22id%22:0%7D%5D,%22time_filter%22:%5B%7B%22type%22:%22past%22,%22values%22:%5B%7B%22constant%22:%222%22,%22unit%22:%22wk%22%7D%5D,%22id%22:1%7D%5D%7D' successfully
+
+2018-10-11 13:32:16 - [MESSAGE][PASSED] - Navigate to 'https://stats.tc1.kontiki.com/dashboards/analytics_external::live_event_in_progress?content_moid_filter=&time_filter=2%20weeks&filter_config=%7B%22content_moid_filter%22:%5B%7B%22type%22:%22%3D%22,%22values%22:%5B%7B%22constant%22:%22%22%7D,%7B%7D%5D,%22id%22:0%7D%5D,%22time_filter%22:%5B%7B%22type%22:%22past%22,%22values%22:%5B%7B%22constant%22:%222%22,%22unit%22:%22wk%22%7D%5D,%22id%22:1%7D%5D%7D' successfully
+
+2018-10-11 13:32:16 - [TEST_STEP][PASSED] - waitForAngularLoad: Angular is ready.
+
+2018-10-11 13:32:18 - [MESSAGE][PASSED] - Angular is ready.
+
+2018-10-11 13:32:18 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-10-11 13:32:18 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-10-11 13:32:18 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-10-11 13:32:18 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://stats.tc1.kontiki.com/dashboards/analytics_external::vod_summary?time_filter=6%20months&event_filter=&filter_config=%7B%22time_filter%22:%5B%7B%22type%22:%22past%22,%22values%22:%5B%7B%22constant%22:%226%22,%22unit%22:%22mo%22%7D,%7B%7D%5D,%22id%22:4%7D%5D,%22event_filter%22:%5B%7B%22type%22:%22%3D%22,%22values%22:%5B%7B%22constant%22:%22%22%7D,%7B%7D%5D,%22id%22:5%7D%5D%7D' successfully
+
+2018-10-11 13:32:22 - [MESSAGE][PASSED] - Navigate to 'https://stats.tc1.kontiki.com/dashboards/analytics_external::vod_summary?time_filter=6%20months&event_filter=&filter_config=%7B%22time_filter%22:%5B%7B%22type%22:%22past%22,%22values%22:%5B%7B%22constant%22:%226%22,%22unit%22:%22mo%22%7D,%7B%7D%5D,%22id%22:4%7D%5D,%22event_filter%22:%5B%7B%22type%22:%22%3D%22,%22values%22:%5B%7B%22constant%22:%22%22%7D,%7B%7D%5D,%22id%22:5%7D%5D%7D' successfully
+
+2018-10-11 13:32:22 - [TEST_STEP][PASSED] - waitForAngularLoad: Angular is ready.
+
+2018-10-11 13:32:24 - [MESSAGE][PASSED] - Angular is ready.
+
+2018-10-11 13:32:24 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-10-11 13:32:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-10-11 13:32:24 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-10-11 13:32:24 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://stats.tc1.kontiki.com/dashboards/analytics_external::vod_performance?content_moid_filter=0949aa27-9641-47c9-9df5-26c15ddab3fc&time_filter=&filter_config=%7B%22content_moid_filter%22:%5B%7B%22type%22:%22%3D%22,%22values%22:%5B%7B%22constant%22:%220949aa27-9641-47c9-9df5-26c15ddab3fc%22%7D,%7B%7D%5D,%22id%22:0%7D%5D,%22time_filter%22:%5B%7B%22type%22:%22advanced%22,%22values%22:%5B%7B%22constant%22:null%7D,%7B%7D%5D,%22id%22:1%7D%5D%7D' successfully
+
+2018-10-11 13:32:26 - [MESSAGE][PASSED] - Navigate to 'https://stats.tc1.kontiki.com/dashboards/analytics_external::vod_performance?content_moid_filter=0949aa27-9641-47c9-9df5-26c15ddab3fc&time_filter=&filter_config=%7B%22content_moid_filter%22:%5B%7B%22type%22:%22%3D%22,%22values%22:%5B%7B%22constant%22:%220949aa27-9641-47c9-9df5-26c15ddab3fc%22%7D,%7B%7D%5D,%22id%22:0%7D%5D,%22time_filter%22:%5B%7B%22type%22:%22advanced%22,%22values%22:%5B%7B%22constant%22:null%7D,%7B%7D%5D,%22id%22:1%7D%5D%7D' successfully
+
+2018-10-11 13:32:26 - [TEST_STEP][PASSED] - waitForAngularLoad: Angular is ready.
+
+2018-10-11 13:32:29 - [MESSAGE][PASSED] - Angular is ready.
+
+2018-10-11 13:32:29 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-10-11 13:32:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-10-11 13:32:29 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-10-11 13:32:29 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://stats.tc1.kontiki.com/dashboards/sccm_users::sccm_summary?time_filter=6%20months&filter_config=%7B%22time_filter%22:%5B%7B%22type%22:%22past%22,%22values%22:%5B%7B%22constant%22:%226%22,%22unit%22:%22mo%22%7D,%7B%7D%5D,%22id%22:2%7D%5D%7D' successfully
+
+2018-10-11 13:32:32 - [MESSAGE][PASSED] - Navigate to 'https://stats.tc1.kontiki.com/dashboards/sccm_users::sccm_summary?time_filter=6%20months&filter_config=%7B%22time_filter%22:%5B%7B%22type%22:%22past%22,%22values%22:%5B%7B%22constant%22:%226%22,%22unit%22:%22mo%22%7D,%7B%7D%5D,%22id%22:2%7D%5D%7D' successfully
+
+2018-10-11 13:32:32 - [TEST_STEP][PASSED] - waitForAngularLoad: Angular is ready.
+
+2018-10-11 13:32:38 - [MESSAGE][PASSED] - Angular is ready.
+
+2018-10-11 13:32:38 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Overview/a' is clicked on
+
+2018-10-11 13:32:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Overview/a' is clicked on
+
+2018-10-11 13:32:38 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Overview/a_Log Out (3)' is clicked on
+
+2018-10-11 13:32:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Overview/a_Log Out (3)' is clicked on
+
+2018-10-11 13:32:39 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-10-11 13:32:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-10-11 13:32:39 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-10-11 13:32:39 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_Log in/div_Logout Successful.' is present
+
+2018-10-11 13:32:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-10-11 13:32:39 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Log in/div_Logout Successful.' is present
+
+2018-10-11 13:32:39 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_Log in/div_Logout Successful.' is present
+
+2018-10-11 13:32:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-10-11 13:32:39 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Log in/div_Logout Successful.' is present
+
+2018-10-11 13:32:39 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Logout Successful.' is present on page 
+
+2018-10-11 13:32:39 - [MESSAGE][PASSED] - Text 'Logout Successful.' is present on page 
+
+2018-10-11 13:32:39 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-10-11 13:32:40 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC1/TC1 - Overview, or Landing Page" classname="Test Cases/TC1/TC1 - Overview, or Landing Page" status="PASSED">
+         <system-out><![CDATA[2018-10-11 13:32:40 - [TEST_CASE][PASSED] - Test Cases/TC1/TC1 - Overview, or Landing Page: Test Cases/TC1/TC1 - Overview, or Landing Page
+
+2018-10-11 13:32:40 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'https://stats.tc1.kontiki.com/login/email'
+
+2018-10-11 13:32:46 - [MESSAGE][PASSED] - Browser is opened with url: 'https://stats.tc1.kontiki.com/login/email'
+
+2018-10-11 13:32:46 - [TEST_STEP][PASSED] - setText: Text 'alahley@kollective.com' is set on object 'Object Repository/Page_Log in/input_email'
+
+2018-10-11 13:32:46 - [MESSAGE][PASSED] - Text 'alahley@kollective.com' is set on object 'Object Repository/Page_Log in/input_email'
+
+2018-10-11 13:32:46 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Page_Log in/input_password'
+
+2018-10-11 13:32:46 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Log in/input_password'
+
+2018-10-11 13:32:46 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Log in/input_remember' is clicked on
+
+2018-10-11 13:32:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Log in/input_remember' is clicked on
+
+2018-10-11 13:32:47 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Log in/input_login-submit' is clicked on
+
+2018-10-11 13:32:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Log in/input_login-submit' is clicked on
+
+2018-10-11 13:32:50 - [TEST_STEP][PASSED] - waitForAngularLoad: Angular is ready.
+
+2018-10-11 13:32:53 - [MESSAGE][PASSED] - Angular is ready.
+
+2018-10-11 13:32:53 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Overview/strong_Filters' is clicked on
+
+2018-10-11 13:32:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Overview/strong_Filters' is clicked on
+
+2018-10-11 13:32:53 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'string:year' are selected in object 'Object Repository/Page_Overview/select_is in the pastis on the'  using regular expression
+
+2018-10-11 13:32:54 - [MESSAGE][PASSED] - All options with value 'string:year' are selected in object 'Object Repository/Page_Overview/select_is in the pastis on the'  using regular expression
+
+2018-10-11 13:32:54 - [TEST_STEP][PASSED] - setText: Text '2017' is set on object 'Object Repository/Page_Overview/input_Time Filter_form-control'
+
+2018-10-11 13:32:54 - [MESSAGE][PASSED] - Text '2017' is set on object 'Object Repository/Page_Overview/input_Time Filter_form-control'
+
+2018-10-11 13:32:54 - [TEST_STEP][PASSED] - waitForAngularLoad: Angular is ready.
+
+2018-10-11 13:32:54 - [MESSAGE][PASSED] - Angular is ready.
+
+2018-10-11 13:32:54 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Overview/button_Run' is clicked on
+
+2018-10-11 13:32:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Overview/button_Run' is clicked on
+
+2018-10-11 13:32:54 - [TEST_STEP][PASSED] - waitForAngularLoad: Angular is ready.
+
+2018-10-11 13:32:57 - [MESSAGE][PASSED] - Angular is ready.
+
+2018-10-11 13:32:57 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Overview/i_Stop_lk-icon-gear' is clicked on
+
+2018-10-11 13:32:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Overview/i_Stop_lk-icon-gear' is clicked on
+
+2018-10-11 13:32:57 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Overview/a_Clear Cache  Refresh' is clicked on
+
+2018-10-11 13:32:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Overview/a_Clear Cache  Refresh' is clicked on
+
+2018-10-11 13:32:58 - [TEST_STEP][PASSED] - waitForAngularLoad: Angular is ready.
+
+2018-10-11 13:33:06 - [MESSAGE][PASSED] - Angular is ready.
+
+2018-10-11 13:33:06 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-10-11 13:33:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-10-11 13:33:06 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-10-11 13:33:06 - [TEST_STEP][NOT_RUN] - waitForAngularLoad: NOT_RUN: waitForAngularLoad
+
+2018-10-11 13:33:06 - [MESSAGE][NOT_RUN] - NOT_RUN: waitForAngularLoad
+
+2018-10-11 13:33:06 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page_Overview/div_Total Live Events' are matched.
+
+2018-10-11 13:33:06 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Overview/div_Total Live Events' are matched.
+
+2018-10-11 13:33:06 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page_Overview/div_2563' are matched.
+
+2018-10-11 13:33:06 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Overview/div_2563' are matched.
+
+2018-10-11 13:33:06 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page_Live Event Summary/div_Average Monthly Events' are matched.
+
+2018-10-11 13:33:06 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Live Event Summary/div_Average Monthly Events' are matched.
+
+2018-10-11 13:33:06 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page_Overview/div_226' are matched.
+
+2018-10-11 13:33:06 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Overview/div_226' are matched.
+
+2018-10-11 13:33:06 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page_Overview/div_Unique Viewers' are matched.
+
+2018-10-11 13:33:06 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Overview/div_Unique Viewers' are matched.
+
+2018-10-11 13:33:06 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page_Overview/div_10079' are matched.
+
+2018-10-11 13:33:06 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Overview/div_10079' are matched.
+
+2018-10-11 13:33:06 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page_Live Event Summary/div_Average Monthly Views' are matched.
+
+2018-10-11 13:33:06 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Live Event Summary/div_Average Monthly Views' are matched.
+
+2018-10-11 13:33:06 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page_Overview/div_7762' are matched.
+
+2018-10-11 13:33:06 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Overview/div_7762' are matched.
+
+2018-10-11 13:33:06 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page_Overview/div_Total Videos' are matched.
+
+2018-10-11 13:33:06 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Overview/div_Total Videos' are matched.
+
+2018-10-11 13:33:06 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page_Overview/div_1585' are matched.
+
+2018-10-11 13:33:06 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Overview/div_1585' are matched.
+
+2018-10-11 13:33:06 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page_Overview/div_Total Views' are matched.
+
+2018-10-11 13:33:06 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Overview/div_Total Views' are matched.
+
+2018-10-11 13:33:06 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page_Overview/div_17443' are matched.
+
+2018-10-11 13:33:06 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Overview/div_17443' are matched.
+
+2018-10-11 13:33:06 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page_Overview/div_Unique Viewers' are matched.
+
+2018-10-11 13:33:06 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Overview/div_Unique Viewers' are matched.
+
+2018-10-11 13:33:06 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page_Overview/div_8261' are matched.
+
+2018-10-11 13:33:06 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Overview/div_8261' are matched.
+
+2018-10-11 13:33:06 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page_Overview/div_Total Hours Watched' are matched.
+
+2018-10-11 13:33:06 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Overview/div_Total Hours Watched' are matched.
+
+2018-10-11 13:33:06 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page_Overview/div_1404' are matched.
+
+2018-10-11 13:33:06 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Overview/div_1404' are matched.
+
+2018-10-11 13:33:06 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page_Overview/div_Unique Agents' are matched.
+
+2018-10-11 13:33:06 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Overview/div_Unique Agents' are matched.
+
+2018-10-11 13:33:06 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page_Overview/div_10905' are matched.
+
+2018-10-11 13:33:06 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Overview/div_10905' are matched.
+
+2018-10-11 13:33:06 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page_Overview/div_Deliveries' are matched.
+
+2018-10-11 13:33:06 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Overview/div_Deliveries' are matched.
+
+2018-10-11 13:33:06 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page_Overview/div_67512' are matched.
+
+2018-10-11 13:33:06 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Overview/div_67512' are matched.
+
+2018-10-11 13:33:06 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page_Overview/div_Saved GB' are matched.
+
+2018-10-11 13:33:06 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Overview/div_Saved GB' are matched.
+
+2018-10-11 13:33:06 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page_Overview/div_1573' are matched.
+
+2018-10-11 13:33:06 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Overview/div_1573' are matched.
+
+2018-10-11 13:33:06 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page_Overview/div_Total GB' are matched.
+
+2018-10-11 13:33:06 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Overview/div_Total GB' are matched.
+
+2018-10-11 13:33:06 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page_Overview/div_3865' are matched.
+
+2018-10-11 13:33:06 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Overview/div_3865' are matched.
+
+2018-10-11 13:33:06 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_Overview/div_Peering Efficiency' is present
+
+2018-10-11 13:33:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-10-11 13:33:07 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Overview/div_Peering Efficiency' is present
+
+2018-10-11 13:33:07 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_Overview/div_41' is present
+
+2018-10-11 13:33:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-10-11 13:33:07 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Overview/div_41' is present
+
+2018-10-11 13:33:07 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_Overview/div_VoD Summary Peering Effici' is present
+
+2018-10-11 13:33:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-10-11 13:33:07 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Overview/div_VoD Summary Peering Effici' is present
+
+2018-10-11 13:33:07 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_Overview/a_Go to VoD Summary (1)' is present
+
+2018-10-11 13:33:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-10-11 13:33:07 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Overview/a_Go to VoD Summary (1)' is present
+
+2018-10-11 13:33:07 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_Overview/div_Peering Efficiency' is present
+
+2018-10-11 13:33:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-10-11 13:33:07 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Overview/div_Peering Efficiency' is present
+
+2018-10-11 13:33:07 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_Overview/div_Peering Efficiency (1)' is present
+
+2018-10-11 13:33:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-10-11 13:33:07 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Overview/div_Peering Efficiency (1)' is present
+
+2018-10-11 13:33:07 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_Overview/div_Live Views' is present
+
+2018-10-11 13:33:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-10-11 13:33:07 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Overview/div_Live Views' is present
+
+2018-10-11 13:33:07 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_Overview/div_Live Events' is present
+
+2018-10-11 13:33:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-10-11 13:33:07 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Overview/div_Live Events' is present
+
+2018-10-11 13:33:07 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_Overview/span_VoD Views' is present
+
+2018-10-11 13:33:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-10-11 13:33:07 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Overview/span_VoD Views' is present
+
+2018-10-11 13:33:07 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_Overview/div_VoD over time' is present
+
+2018-10-11 13:33:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-10-11 13:33:07 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Overview/div_VoD over time' is present
+
+2018-10-11 13:33:07 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_Overview/span_Deliveries by Month' is present
+
+2018-10-11 13:33:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-10-11 13:33:07 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Overview/span_Deliveries by Month' is present
+
+2018-10-11 13:33:07 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_Overview/a_Go to Live Event Summary' is present
+
+2018-10-11 13:33:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-10-11 13:33:07 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Overview/a_Go to Live Event Summary' is present
+
+2018-10-11 13:33:07 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_Overview/a_Go to VoD Summary' is present
+
+2018-10-11 13:33:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-10-11 13:33:07 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Overview/a_Go to VoD Summary' is present
+
+2018-10-11 13:33:07 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_Overview/a_Go to Network Summary' is present
+
+2018-10-11 13:33:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-10-11 13:33:07 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Overview/a_Go to Network Summary' is present
+
+2018-10-11 13:33:07 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-10-11 13:33:07 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-10-11 13:30:38 - [TEST_SUITE][PASSED] - TC1 Sanity Check: Test Cases/TC1/TC1 - Overview, or Landing Page]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

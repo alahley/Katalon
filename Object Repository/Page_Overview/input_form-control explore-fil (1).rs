@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_form-control explore-fil (1)</name>
+   <tag></tag>
+   <elementGuidId>6e4db73e-a57f-4927-8a97-a01045a3958a</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>form-control explore-filter-field date ng-pristine ng-untouched ng-valid ng-isolate-scope ng-not-empty ng-valid-date</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>datepicker-append-to-body</name>
+      <type>Main</type>
+      <value>true</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>datepicker-options</name>
+      <type>Main</type>
+      <value>{'show_weeks': 'false'}</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>is-open</name>
+      <type>Main</type>
+      <value>$ctrl.calendarOpened[clause.id][$index]</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>lk-enter</name>
+      <type>Main</type>
+      <value>$ctrl.toggleCalendar($index, clause.id)</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>lk-key-broadcast</name>
+      <type>Main</type>
+      <value>{'mod+enter': 'lkRunQuery'}</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-change</name>
+      <type>Main</type>
+      <value>$ctrl.updateFilterClauseValue(clause.id, $index, 'date', clause.values[$index])</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-model</name>
+      <type>Main</type>
+      <value>$ctrl.timezoneConvertingGetterSetterForDateClauseValue(clause.values[$index])</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-model-options</name>
+      <type>Main</type>
+      <value>{updateOn: 'blur', getterSetter: true}</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>show-button-bar</name>
+      <type>Main</type>
+      <value>false</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>text</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>uib-datepicker-popup</name>
+      <type>Main</type>
+      <value>yyyy-MM-dd</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-invalid</name>
+      <type>Main</type>
+      <value>false</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;dashboard-filter-section&quot;)/div[@class=&quot;filters clearfix&quot;]/table[@class=&quot;explore-filters clearfix&quot;]/tbody[1]/tr[@class=&quot;ng-scope&quot;]/td[@class=&quot;filter-editor&quot;]/lk-dashboard-filter[@class=&quot;ng-isolate-scope&quot;]/lk-filter[@class=&quot;ng-isolate-scope&quot;]/table[@class=&quot;filter-clauses&quot;]/tbody[1]/tr[@class=&quot;clause ng-scope&quot;]/td[@class=&quot;clause-filter&quot;]/span[@class=&quot;ng-scope&quot;]/span[@class=&quot;outer-span uib-datepicker ng-scope&quot;]/input[@class=&quot;form-control explore-filter-field date ng-pristine ng-untouched ng-valid ng-isolate-scope ng-not-empty ng-valid-date&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>

@@ -1,0 +1,98 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Eval Sanity Check,Firefox 62.0,,2018-10-16 08:21:04,2018-10-16 08:22:44,1m - 39.648s,PASSED
+,,,,,,
+Test Cases/Eval/Eval - Logging In and Out,Firefox 62.0,This will cover primarily the log in process and validation of Sudoing as a different user,2018-10-16 08:21:05,2018-10-16 08:21:23,18.422s,PASSED
+openBrowser,Firefox 62.0,"Fires up the browser
+",2018-10-16 08:21:05,2018-10-16 08:21:14,8.482s,PASSED
+setText,Firefox 62.0,Filling out login info (username),2018-10-16 08:21:14,2018-10-16 08:21:14,0.263s,PASSED
+setEncryptedText,Firefox 62.0,Filling out login info (password),2018-10-16 08:21:14,2018-10-16 08:21:14,0.287s,PASSED
+click,Firefox 62.0,Clicks the Stay Logged In button,2018-10-16 08:21:14,2018-10-16 08:21:14,0.271s,PASSED
+click,Firefox 62.0,Clicks the Submit button to login,2018-10-16 08:21:14,2018-10-16 08:21:18,3.267s,PASSED
+waitForAngularLoad,Firefox 62.0,"10 second Threshold: Waits for all angular elements on the landing page to load in 10 seconds or less
+",2018-10-16 08:21:18,2018-10-16 08:21:20,2.455s,PASSED
+verifyElementPresent,Firefox 62.0,,2018-10-16 08:21:20,2018-10-16 08:21:20,0.178s,PASSED
+verifyElementPresent,Firefox 62.0,,2018-10-16 08:21:20,2018-10-16 08:21:20,0.112s,PASSED
+verifyElementPresent,Firefox 62.0,,2018-10-16 08:21:20,2018-10-16 08:21:21,0.154s,PASSED
+verifyElementPresent,Firefox 62.0,,2018-10-16 08:21:21,2018-10-16 08:21:21,0.104s,PASSED
+verifyElementPresent,Firefox 62.0,,2018-10-16 08:21:21,2018-10-16 08:21:21,0.155s,PASSED
+verifyElementPresent,Firefox 62.0,,2018-10-16 08:21:21,2018-10-16 08:21:21,0.016s,PASSED
+verifyElementPresent,Firefox 62.0,,2018-10-16 08:21:21,2018-10-16 08:21:21,0.017s,PASSED
+verifyElementPresent,Firefox 62.0,,2018-10-16 08:21:21,2018-10-16 08:21:21,0.015s,PASSED
+verifyElementPresent,Firefox 62.0,,2018-10-16 08:21:21,2018-10-16 08:21:21,0.019s,PASSED
+verifyElementPresent,Firefox 62.0,,2018-10-16 08:21:21,2018-10-16 08:21:21,0.014s,PASSED
+verifyElementPresent,Firefox 62.0,,2018-10-16 08:21:21,2018-10-16 08:21:21,0.018s,PASSED
+verifyElementPresent,Firefox 62.0,,2018-10-16 08:21:21,2018-10-16 08:21:21,0.025s,PASSED
+verifyElementPresent,Firefox 62.0,,2018-10-16 08:21:21,2018-10-16 08:21:21,0.034s,PASSED
+verifyElementPresent,Firefox 62.0,,2018-10-16 08:21:21,2018-10-16 08:21:21,0.027s,PASSED
+verifyElementPresent,Firefox 62.0,,2018-10-16 08:21:21,2018-10-16 08:21:21,0.037s,PASSED
+verifyElementPresent,Firefox 62.0,,2018-10-16 08:21:21,2018-10-16 08:21:21,0.030s,PASSED
+verifyElementPresent,Firefox 62.0,,2018-10-16 08:21:21,2018-10-16 08:21:21,0.013s,PASSED
+verifyElementPresent,Firefox 62.0,,2018-10-16 08:21:21,2018-10-16 08:21:21,0.017s,PASSED
+verifyElementPresent,Firefox 62.0,,2018-10-16 08:21:21,2018-10-16 08:21:21,0.035s,PASSED
+verifyElementPresent,Firefox 62.0,,2018-10-16 08:21:21,2018-10-16 08:21:21,0.024s,PASSED
+verifyElementPresent,Firefox 62.0,,2018-10-16 08:21:21,2018-10-16 08:21:21,0.018s,PASSED
+verifyElementPresent,Firefox 62.0,,2018-10-16 08:21:21,2018-10-16 08:21:21,0.016s,PASSED
+verifyElementPresent,Firefox 62.0,,2018-10-16 08:21:21,2018-10-16 08:21:21,0.025s,PASSED
+verifyElementPresent,Firefox 62.0,,2018-10-16 08:21:21,2018-10-16 08:21:21,0.018s,PASSED
+click,Firefox 62.0,,2018-10-16 08:21:21,2018-10-16 08:21:22,0.391s,PASSED
+click,Firefox 62.0,,2018-10-16 08:21:22,2018-10-16 08:21:23,1.190s,PASSED
+verifyElementPresent,Firefox 62.0,,2018-10-16 08:21:23,2018-10-16 08:21:23,0.090s,PASSED
+verifyElementPresent,Firefox 62.0,,2018-10-16 08:21:23,2018-10-16 08:21:23,0.014s,PASSED
+verifyTextPresent,Firefox 62.0,,2018-10-16 08:21:23,2018-10-16 08:21:23,0.085s,PASSED
+closeBrowser,Firefox 62.0,,2018-10-16 08:21:23,2018-10-16 08:21:23,0.252s,PASSED
+,,,,,,
+Test Cases/Eval/Eval - Summary and Detail pages,Firefox 62.0,"This will cover all ""main"" Summary pages
+-Live Events Summary
+-Network Summary
+-VoD Summary",2018-10-16 08:21:23,2018-10-16 08:22:44,1m - 20.771s,PASSED
+openBrowser,Firefox 62.0,"Fires up the browser
+",2018-10-16 08:21:24,2018-10-16 08:21:28,4.431s,PASSED
+setText,Firefox 62.0,Filling out login info (username),2018-10-16 08:21:28,2018-10-16 08:21:28,0.116s,PASSED
+setEncryptedText,Firefox 62.0,Filling out login info (password),2018-10-16 08:21:28,2018-10-16 08:21:28,0.061s,PASSED
+click,Firefox 62.0,Clicks the Stay Logged In button,2018-10-16 08:21:28,2018-10-16 08:21:28,0.243s,PASSED
+click,Firefox 62.0,Clicks the Submit button to login,2018-10-16 08:21:28,2018-10-16 08:21:32,3.479s,PASSED
+waitForAngularLoad,Firefox 62.0,"Overview / Landing Page: 10 second Threshold: Waits for all angular elements on the landing page to load in 10 seconds or less
+",2018-10-16 08:21:32,2018-10-16 08:21:34,2.356s,PASSED
+waitForPageLoad,Firefox 62.0,,2018-10-16 08:21:34,2018-10-16 08:21:34,0.133s,PASSED
+navigateToUrl,Firefox 62.0,Network Summary,2018-10-16 08:21:34,2018-10-16 08:21:37,2.502s,PASSED
+waitForAngularLoad,Firefox 62.0,"10 second Threshold: Waits for all angular elements on the landing page to load in 10 seconds or less
+",2018-10-16 08:21:37,2018-10-16 08:21:46,9.169s,PASSED
+waitForPageLoad,Firefox 62.0,,2018-10-16 08:21:46,2018-10-16 08:21:47,0.844s,PASSED
+navigateToUrl,Firefox 62.0,Network Content,2018-10-16 08:21:47,2018-10-16 08:21:49,2.149s,PASSED
+waitForAngularLoad,Firefox 62.0,"10 second Threshold: Waits for all angular elements on the landing page to load in 10 seconds or less
+",2018-10-16 08:21:49,2018-10-16 08:21:54,4.581s,PASSED
+waitForPageLoad,Firefox 62.0,,2018-10-16 08:21:54,2018-10-16 08:21:54,0.025s,PASSED
+navigateToUrl,Firefox 62.0,Network Locality,2018-10-16 08:21:54,2018-10-16 08:21:56,2.152s,PASSED
+waitForAngularLoad,Firefox 62.0,"10 second Threshold: Waits for all angular elements on the landing page to load in 10 seconds or less
+",2018-10-16 08:21:56,2018-10-16 08:22:00,4.380s,PASSED
+waitForPageLoad,Firefox 62.0,,2018-10-16 08:22:00,2018-10-16 08:22:00,0.036s,PASSED
+navigateToUrl,Firefox 62.0,Live Event Summary,2018-10-16 08:22:00,2018-10-16 08:22:03,2.885s,PASSED
+waitForAngularLoad,Firefox 62.0,"10 second Threshold: Waits for all angular elements on the landing page to load in 10 seconds or less
+",2018-10-16 08:22:03,2018-10-16 08:22:06,2.578s,PASSED
+waitForPageLoad,Firefox 62.0,,2018-10-16 08:22:06,2018-10-16 08:22:06,0.012s,PASSED
+navigateToUrl,Firefox 62.0,Live Event,2018-10-16 08:22:06,2018-10-16 08:22:08,2.166s,PASSED
+waitForAngularLoad,Firefox 62.0,"10 second Threshold: Waits for all angular elements on the landing page to load in 10 seconds or less
+",2018-10-16 08:22:08,2018-10-16 08:22:13,5.101s,PASSED
+waitForPageLoad,Firefox 62.0,,2018-10-16 08:22:13,2018-10-16 08:22:13,0.007s,PASSED
+navigateToUrl,Firefox 62.0,Live (in progress) Event (filtered on last 2 weeks),2018-10-16 08:22:13,2018-10-16 08:22:15,2.068s,PASSED
+waitForAngularLoad,Firefox 62.0,"10 second Threshold: Waits for all angular elements on the landing page to load in 10 seconds or less
+",2018-10-16 08:22:15,2018-10-16 08:22:22,6.529s,PASSED
+waitForPageLoad,Firefox 62.0,,2018-10-16 08:22:22,2018-10-16 08:22:22,0.007s,PASSED
+navigateToUrl,Firefox 62.0,VoD Summary,2018-10-16 08:22:22,2018-10-16 08:22:24,1.983s,PASSED
+waitForAngularLoad,Firefox 62.0,"10 second Threshold: Waits for all angular elements on the landing page to load in 10 seconds or less
+",2018-10-16 08:22:24,2018-10-16 08:22:27,3.260s,PASSED
+waitForPageLoad,Firefox 62.0,,2018-10-16 08:22:27,2018-10-16 08:22:27,0.009s,PASSED
+navigateToUrl,Firefox 62.0,Video on Demand,2018-10-16 08:22:27,2018-10-16 08:22:30,3.638s,PASSED
+waitForAngularLoad,Firefox 62.0,"10 second Threshold: Waits for all angular elements on the landing page to load in 10 seconds or less
+",2018-10-16 08:22:30,2018-10-16 08:22:33,2.119s,PASSED
+waitForPageLoad,Firefox 62.0,,2018-10-16 08:22:33,2018-10-16 08:22:33,0.107s,PASSED
+navigateToUrl,Firefox 62.0,SCCM,2018-10-16 08:22:33,2018-10-16 08:22:36,3.258s,PASSED
+waitForAngularLoad,Firefox 62.0,"10 second Threshold: Waits for all angular elements on the landing page to load in 10 seconds or less
+",2018-10-16 08:22:36,2018-10-16 08:22:41,5.270s,PASSED
+click,Firefox 62.0,,2018-10-16 08:22:41,2018-10-16 08:22:43,1.674s,PASSED
+click,Firefox 62.0,,2018-10-16 08:22:43,2018-10-16 08:22:44,0.787s,PASSED
+waitForPageLoad,Firefox 62.0,,2018-10-16 08:22:44,2018-10-16 08:22:44,0.016s,PASSED
+verifyElementPresent,Firefox 62.0,,2018-10-16 08:22:44,2018-10-16 08:22:44,0.017s,PASSED
+verifyElementPresent,Firefox 62.0,,2018-10-16 08:22:44,2018-10-16 08:22:44,0.015s,PASSED
+verifyTextPresent,Firefox 62.0,,2018-10-16 08:22:44,2018-10-16 08:22:44,0.123s,PASSED
+closeBrowser,Firefox 62.0,,2018-10-16 08:22:44,2018-10-16 08:22:44,0.270s,PASSED

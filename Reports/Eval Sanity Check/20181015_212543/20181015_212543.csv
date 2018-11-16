@@ -1,0 +1,98 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Eval Sanity Check,,,2018-10-15 21:25:45,2018-10-15 21:25:49,4.035s,FAILED
+,,,,,,
+Test Cases/Eval/Eval - Logging In and Out,,This will cover primarily the log in process and validation of Sudoing as a different user,2018-10-15 21:25:45,2018-10-15 21:25:48,3.010s,FAILED
+openBrowser,,"Fires up the browser
+",2018-10-15 21:25:46,2018-10-15 21:25:48,2.142s,FAILED
+setText,,Filling out login info (username),2018-10-15 21:25:48,2018-10-15 21:25:48,0.051s,FAILED
+setEncryptedText,,Filling out login info (password),2018-10-15 21:25:48,2018-10-15 21:25:48,0.078s,FAILED
+click,,Clicks the Stay Logged In button,2018-10-15 21:25:48,2018-10-15 21:25:48,0.016s,FAILED
+click,,Clicks the Submit button to login,2018-10-15 21:25:48,2018-10-15 21:25:48,0.012s,FAILED
+waitForAngularLoad,,"10 second Threshold: Waits for all angular elements on the landing page to load in 10 seconds or less
+",2018-10-15 21:25:48,2018-10-15 21:25:48,0.019s,FAILED
+verifyElementPresent,,,2018-10-15 21:25:48,2018-10-15 21:25:48,0.025s,FAILED
+verifyElementPresent,,,2018-10-15 21:25:48,2018-10-15 21:25:48,0.013s,FAILED
+verifyElementPresent,,,2018-10-15 21:25:48,2018-10-15 21:25:48,0.009s,FAILED
+verifyElementPresent,,,2018-10-15 21:25:48,2018-10-15 21:25:48,0.013s,FAILED
+verifyElementPresent,,,2018-10-15 21:25:48,2018-10-15 21:25:48,0.010s,FAILED
+verifyElementPresent,,,2018-10-15 21:25:48,2018-10-15 21:25:48,0.021s,FAILED
+verifyElementPresent,,,2018-10-15 21:25:48,2018-10-15 21:25:48,0.011s,FAILED
+verifyElementPresent,,,2018-10-15 21:25:48,2018-10-15 21:25:48,0.046s,FAILED
+verifyElementPresent,,,2018-10-15 21:25:48,2018-10-15 21:25:48,0.008s,FAILED
+verifyElementPresent,,,2018-10-15 21:25:48,2018-10-15 21:25:48,0.009s,FAILED
+verifyElementPresent,,,2018-10-15 21:25:48,2018-10-15 21:25:48,0.016s,FAILED
+verifyElementPresent,,,2018-10-15 21:25:48,2018-10-15 21:25:48,0.010s,FAILED
+verifyElementPresent,,,2018-10-15 21:25:48,2018-10-15 21:25:48,0.007s,FAILED
+verifyElementPresent,,,2018-10-15 21:25:48,2018-10-15 21:25:48,0.012s,FAILED
+verifyElementPresent,,,2018-10-15 21:25:48,2018-10-15 21:25:48,0.009s,FAILED
+verifyElementPresent,,,2018-10-15 21:25:48,2018-10-15 21:25:48,0.007s,FAILED
+verifyElementPresent,,,2018-10-15 21:25:48,2018-10-15 21:25:48,0.008s,FAILED
+verifyElementPresent,,,2018-10-15 21:25:48,2018-10-15 21:25:48,0.007s,FAILED
+verifyElementPresent,,,2018-10-15 21:25:48,2018-10-15 21:25:48,0.010s,FAILED
+verifyElementPresent,,,2018-10-15 21:25:48,2018-10-15 21:25:48,0.009s,FAILED
+verifyElementPresent,,,2018-10-15 21:25:48,2018-10-15 21:25:48,0.007s,FAILED
+verifyElementPresent,,,2018-10-15 21:25:48,2018-10-15 21:25:48,0.006s,FAILED
+verifyElementPresent,,,2018-10-15 21:25:48,2018-10-15 21:25:48,0.006s,FAILED
+verifyElementPresent,,,2018-10-15 21:25:48,2018-10-15 21:25:48,0.020s,FAILED
+click,,,2018-10-15 21:25:48,2018-10-15 21:25:48,0.014s,FAILED
+click,,,2018-10-15 21:25:48,2018-10-15 21:25:48,0.005s,FAILED
+verifyElementPresent,,,2018-10-15 21:25:48,2018-10-15 21:25:48,0.007s,FAILED
+verifyElementPresent,,,2018-10-15 21:25:48,2018-10-15 21:25:48,0.006s,FAILED
+verifyTextPresent,,,2018-10-15 21:25:48,2018-10-15 21:25:48,0.015s,FAILED
+closeBrowser,,,2018-10-15 21:25:48,2018-10-15 21:25:48,0.011s,PASSED
+,,,,,,
+Test Cases/Eval/Eval - Summary and Detail pages,,"This will cover all ""main"" Summary pages
+-Live Events Summary
+-Network Summary
+-VoD Summary",2018-10-15 21:25:48,2018-10-15 21:25:49,0.651s,FAILED
+openBrowser,,"Fires up the browser
+",2018-10-15 21:25:48,2018-10-15 21:25:49,0.325s,FAILED
+setText,,Filling out login info (username),2018-10-15 21:25:49,2018-10-15 21:25:49,0.004s,FAILED
+setEncryptedText,,Filling out login info (password),2018-10-15 21:25:49,2018-10-15 21:25:49,0.006s,FAILED
+click,,Clicks the Stay Logged In button,2018-10-15 21:25:49,2018-10-15 21:25:49,0.005s,FAILED
+click,,Clicks the Submit button to login,2018-10-15 21:25:49,2018-10-15 21:25:49,0.005s,FAILED
+waitForAngularLoad,,"Overview / Landing Page: 10 second Threshold: Waits for all angular elements on the landing page to load in 10 seconds or less
+",2018-10-15 21:25:49,2018-10-15 21:25:49,0.002s,FAILED
+waitForPageLoad,,,2018-10-15 21:25:49,2018-10-15 21:25:49,0.009s,FAILED
+navigateToUrl,,Network Summary,2018-10-15 21:25:49,2018-10-15 21:25:49,0.010s,FAILED
+waitForAngularLoad,,"10 second Threshold: Waits for all angular elements on the landing page to load in 10 seconds or less
+",2018-10-15 21:25:49,2018-10-15 21:25:49,0.002s,FAILED
+waitForPageLoad,,,2018-10-15 21:25:49,2018-10-15 21:25:49,0.003s,FAILED
+navigateToUrl,,Network Content,2018-10-15 21:25:49,2018-10-15 21:25:49,0.004s,FAILED
+waitForAngularLoad,,"10 second Threshold: Waits for all angular elements on the landing page to load in 10 seconds or less
+",2018-10-15 21:25:49,2018-10-15 21:25:49,0.002s,FAILED
+waitForPageLoad,,,2018-10-15 21:25:49,2018-10-15 21:25:49,0.003s,FAILED
+navigateToUrl,,Network Locality,2018-10-15 21:25:49,2018-10-15 21:25:49,0.003s,FAILED
+waitForAngularLoad,,"10 second Threshold: Waits for all angular elements on the landing page to load in 10 seconds or less
+",2018-10-15 21:25:49,2018-10-15 21:25:49,0.001s,FAILED
+waitForPageLoad,,,2018-10-15 21:25:49,2018-10-15 21:25:49,0.002s,FAILED
+navigateToUrl,,Live Event Summary,2018-10-15 21:25:49,2018-10-15 21:25:49,0.002s,FAILED
+waitForAngularLoad,,"10 second Threshold: Waits for all angular elements on the landing page to load in 10 seconds or less
+",2018-10-15 21:25:49,2018-10-15 21:25:49,0.001s,FAILED
+waitForPageLoad,,,2018-10-15 21:25:49,2018-10-15 21:25:49,0.001s,FAILED
+navigateToUrl,,Live Event,2018-10-15 21:25:49,2018-10-15 21:25:49,0.002s,FAILED
+waitForAngularLoad,,"10 second Threshold: Waits for all angular elements on the landing page to load in 10 seconds or less
+",2018-10-15 21:25:49,2018-10-15 21:25:49,0.002s,FAILED
+waitForPageLoad,,,2018-10-15 21:25:49,2018-10-15 21:25:49,0.002s,FAILED
+navigateToUrl,,Live (in progress) Event (filtered on last 2 weeks),2018-10-15 21:25:49,2018-10-15 21:25:49,0.002s,FAILED
+waitForAngularLoad,,"10 second Threshold: Waits for all angular elements on the landing page to load in 10 seconds or less
+",2018-10-15 21:25:49,2018-10-15 21:25:49,0.002s,FAILED
+waitForPageLoad,,,2018-10-15 21:25:49,2018-10-15 21:25:49,0.002s,FAILED
+navigateToUrl,,VoD Summary,2018-10-15 21:25:49,2018-10-15 21:25:49,0.003s,FAILED
+waitForAngularLoad,,"10 second Threshold: Waits for all angular elements on the landing page to load in 10 seconds or less
+",2018-10-15 21:25:49,2018-10-15 21:25:49,0.001s,FAILED
+waitForPageLoad,,,2018-10-15 21:25:49,2018-10-15 21:25:49,0.002s,FAILED
+navigateToUrl,,Video on Demand,2018-10-15 21:25:49,2018-10-15 21:25:49,0.002s,FAILED
+waitForAngularLoad,,"10 second Threshold: Waits for all angular elements on the landing page to load in 10 seconds or less
+",2018-10-15 21:25:49,2018-10-15 21:25:49,0.001s,FAILED
+waitForPageLoad,,,2018-10-15 21:25:49,2018-10-15 21:25:49,0.002s,FAILED
+navigateToUrl,,SCCM,2018-10-15 21:25:49,2018-10-15 21:25:49,0.001s,FAILED
+waitForAngularLoad,,"10 second Threshold: Waits for all angular elements on the landing page to load in 10 seconds or less
+",2018-10-15 21:25:49,2018-10-15 21:25:49,0.001s,FAILED
+click,,,2018-10-15 21:25:49,2018-10-15 21:25:49,0.004s,FAILED
+click,,,2018-10-15 21:25:49,2018-10-15 21:25:49,0.005s,FAILED
+waitForPageLoad,,,2018-10-15 21:25:49,2018-10-15 21:25:49,0.002s,FAILED
+verifyElementPresent,,,2018-10-15 21:25:49,2018-10-15 21:25:49,0.005s,FAILED
+verifyElementPresent,,,2018-10-15 21:25:49,2018-10-15 21:25:49,0.005s,FAILED
+verifyTextPresent,,,2018-10-15 21:25:49,2018-10-15 21:25:49,0.001s,FAILED
+closeBrowser,,,2018-10-15 21:25:49,2018-10-15 21:25:49,0.000s,PASSED

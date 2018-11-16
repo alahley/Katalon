@@ -1,0 +1,931 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TC1 Sanity Check" time="239" tests="2" failures="1" errors="0">
+   <testsuite name="TC1 Sanity Check" tests="2" failures="1" errors="0" time="239" timestamp="2018-10-10 10:54:15" hostname="alahley - 172.16.168.46" id="Test Suites/TC1 Sanity Check">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/alahley/Katalon Studio/Analytics/Reports/TC1 Sanity Check/20181010_105413"/>
+         <property name="logFiles" value="/Users/alahley/Katalon Studio/Analytics/Reports/TC1 Sanity Check/20181010_105413/execution0.log"/>
+         <property name="attachments" value="/Users/alahley/Katalon Studio/Analytics/Reports/TC1 Sanity Check/20181010_105413/1539194263376.png, /Users/alahley/Katalon Studio/Analytics/Reports/TC1 Sanity Check/20181010_105413/1539194294554.png"/>
+         <property name="hostName" value="alahley - 172.16.168.46"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="5.7.0.1"/>
+         <property name="browser" value="Firefox 62.0"/>
+         <property name="hostAddress" value="172.16.168.46"/>
+         <property name="sessionId" value="28677c54-3c9a-4e4d-bca4-fe6bba1a3182"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/TC1/TC1 - Logging In and Out" classname="Test Cases/TC1/TC1 - Logging In and Out" status="PASSED">
+         <system-out><![CDATA[2018-10-10 10:54:15 - [TEST_CASE][PASSED] - Test Cases/TC1/TC1 - Logging In and Out: Test Cases/TC1/TC1 - Logging In and Out
+
+2018-10-10 10:54:15 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'https://stats.tc1.kontiki.com/login/email'
+
+2018-10-10 10:54:23 - [MESSAGE][PASSED] - Browser is opened with url: 'https://stats.tc1.kontiki.com/login/email'
+
+2018-10-10 10:54:23 - [TEST_STEP][PASSED] - setText: Text 'alahley@kollective.com' is set on object 'Object Repository/Page_Log in/input_email (2)'
+
+2018-10-10 10:54:23 - [MESSAGE][PASSED] - Text 'alahley@kollective.com' is set on object 'Object Repository/Page_Log in/input_email (2)'
+
+2018-10-10 10:54:23 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Page_Log in/input_password (2)'
+
+2018-10-10 10:54:23 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Log in/input_password (2)'
+
+2018-10-10 10:54:23 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Log in/input_remember (2)' is clicked on
+
+2018-10-10 10:54:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Log in/input_remember (2)' is clicked on
+
+2018-10-10 10:54:23 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Log in/input_login-submit (2)' is clicked on
+
+2018-10-10 10:54:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Log in/input_login-submit (2)' is clicked on
+
+2018-10-10 10:54:26 - [TEST_STEP][PASSED] - waitForAngularLoad: Angular is ready.
+
+2018-10-10 10:54:28 - [MESSAGE][PASSED] - Angular is ready.
+
+2018-10-10 10:54:28 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_Overview/a' is present
+
+2018-10-10 10:54:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-10-10 10:54:28 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Overview/a' is present
+
+2018-10-10 10:54:28 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_Overview/div_Release Notes_flyout-backg (1)' is present
+
+2018-10-10 10:54:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-10-10 10:54:28 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Overview/div_Release Notes_flyout-backg (1)' is present
+
+2018-10-10 10:54:28 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_Overview/div_Admin_real-image' is present
+
+2018-10-10 10:54:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-10-10 10:54:28 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Overview/div_Admin_real-image' is present
+
+2018-10-10 10:54:28 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_Overview/div_Release Notes_flyout-backg (1)' is present
+
+2018-10-10 10:54:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-10-10 10:54:29 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Overview/div_Release Notes_flyout-backg (1)' is present
+
+2018-10-10 10:54:29 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_Overview/i_Admin_lk-icon-arrow-down-car' is present
+
+2018-10-10 10:54:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-10-10 10:54:29 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Overview/i_Admin_lk-icon-arrow-down-car' is present
+
+2018-10-10 10:54:29 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_Overview/a' is present
+
+2018-10-10 10:54:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-10-10 10:54:29 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Overview/a' is present
+
+2018-10-10 10:54:29 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_Overview/div_Release Notes_flyout-backg (1)' is present
+
+2018-10-10 10:54:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-10-10 10:54:29 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Overview/div_Release Notes_flyout-backg (1)' is present
+
+2018-10-10 10:54:29 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_Overview/div_Admin_real-image' is present
+
+2018-10-10 10:54:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-10-10 10:54:29 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Overview/div_Admin_real-image' is present
+
+2018-10-10 10:54:29 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_Overview/div_Release Notes_flyout-backg (1)' is present
+
+2018-10-10 10:54:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-10-10 10:54:29 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Overview/div_Release Notes_flyout-backg (1)' is present
+
+2018-10-10 10:54:29 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_Overview/i_Admin_lk-icon-arrow-down-car' is present
+
+2018-10-10 10:54:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-10-10 10:54:29 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Overview/i_Admin_lk-icon-arrow-down-car' is present
+
+2018-10-10 10:54:29 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_Overview/div_Release Notes_flyout-backg (1)' is present
+
+2018-10-10 10:54:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-10-10 10:54:29 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Overview/div_Release Notes_flyout-backg (1)' is present
+
+2018-10-10 10:54:29 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_Overview/div_OverviewNetworkNetwork Sum (1)' is present
+
+2018-10-10 10:54:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-10-10 10:54:29 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Overview/div_OverviewNetworkNetwork Sum (1)' is present
+
+2018-10-10 10:54:29 - [TEST_STEP][NOT_RUN] - verifyElementPresent: NOT_RUN: verifyElementPresent
+
+2018-10-10 10:54:29 - [MESSAGE][NOT_RUN] - NOT_RUN: verifyElementPresent
+
+2018-10-10 10:54:29 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_Overview/div_Live EventsOverview' is present
+
+2018-10-10 10:54:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-10-10 10:54:29 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Overview/div_Live EventsOverview' is present
+
+2018-10-10 10:54:29 - [TEST_STEP][NOT_RUN] - verifyElementPresent: NOT_RUN: verifyElementPresent
+
+2018-10-10 10:54:29 - [MESSAGE][NOT_RUN] - NOT_RUN: verifyElementPresent
+
+2018-10-10 10:54:29 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_Overview/div_View your detailed Network (1)' is present
+
+2018-10-10 10:54:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-10-10 10:54:29 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Overview/div_View your detailed Network (1)' is present
+
+2018-10-10 10:54:29 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_Overview/div_NetworkOverview' is present
+
+2018-10-10 10:54:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-10-10 10:54:29 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Overview/div_NetworkOverview' is present
+
+2018-10-10 10:54:29 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_Overview/img_Home_img-logo' is present
+
+2018-10-10 10:54:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-10-10 10:54:29 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Overview/img_Home_img-logo' is present
+
+2018-10-10 10:54:29 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_Overview/div_Release Notes_flyout-backg (1)' is present
+
+2018-10-10 10:54:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-10-10 10:54:29 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Overview/div_Release Notes_flyout-backg (1)' is present
+
+2018-10-10 10:54:29 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_Overview/div_OverviewNetworkNetwork Sum (1)' is present
+
+2018-10-10 10:54:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-10-10 10:54:29 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Overview/div_OverviewNetworkNetwork Sum (1)' is present
+
+2018-10-10 10:54:29 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_Overview/div_LookML Dashboards  Dashboa' is present
+
+2018-10-10 10:54:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-10-10 10:54:29 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Overview/div_LookML Dashboards  Dashboa' is present
+
+2018-10-10 10:54:29 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_Overview/div_Filters Time Filter is in' is present
+
+2018-10-10 10:54:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-10-10 10:54:29 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Overview/div_Filters Time Filter is in' is present
+
+2018-10-10 10:54:29 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_Overview/div_Live EventsOverview' is present
+
+2018-10-10 10:54:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-10-10 10:54:29 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Overview/div_Live EventsOverview' is present
+
+2018-10-10 10:54:29 - [TEST_STEP][NOT_RUN] - verifyElementPresent: NOT_RUN: verifyElementPresent
+
+2018-10-10 10:54:29 - [MESSAGE][NOT_RUN] - NOT_RUN: verifyElementPresent
+
+2018-10-10 10:54:29 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_Overview/div_View your detailed Network (1)' is present
+
+2018-10-10 10:54:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-10-10 10:54:29 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Overview/div_View your detailed Network (1)' is present
+
+2018-10-10 10:54:29 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_Overview/div_NetworkOverview' is present
+
+2018-10-10 10:54:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-10-10 10:54:29 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Overview/div_NetworkOverview' is present
+
+2018-10-10 10:54:29 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_Overview/img_Home_img-logo' is present
+
+2018-10-10 10:54:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-10-10 10:54:29 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Overview/img_Home_img-logo' is present
+
+2018-10-10 10:54:29 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Overview/a' is clicked on
+
+2018-10-10 10:54:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Overview/a' is clicked on
+
+2018-10-10 10:54:29 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Overview/a_Log Out (3)' is clicked on
+
+2018-10-10 10:54:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Overview/a_Log Out (3)' is clicked on
+
+2018-10-10 10:54:30 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_Log in/div_Logout Successful.' is present
+
+2018-10-10 10:54:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-10-10 10:54:30 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Log in/div_Logout Successful.' is present
+
+2018-10-10 10:54:30 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_Log in/div_Logout Successful.' is present
+
+2018-10-10 10:54:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-10-10 10:54:30 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Log in/div_Logout Successful.' is present
+
+2018-10-10 10:54:30 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Logout Successful.' is present on page 
+
+2018-10-10 10:54:30 - [MESSAGE][PASSED] - Text 'Logout Successful.' is present on page 
+
+2018-10-10 10:54:30 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-10-10 10:54:31 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC1/TC1 - Navigation and CTAs" classname="Test Cases/TC1/TC1 - Navigation and CTAs" status="PASSED">
+         <system-out><![CDATA[2018-10-10 10:54:31 - [TEST_CASE][PASSED] - Test Cases/TC1/TC1 - Navigation and CTAs: Test Cases/TC1/TC1 - Navigation and CTAs
+
+2018-10-10 10:54:31 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'https://stats.tc1.kontiki.com/login/email'
+
+2018-10-10 10:54:38 - [MESSAGE][PASSED] - Browser is opened with url: 'https://stats.tc1.kontiki.com/login/email'
+
+2018-10-10 10:54:38 - [TEST_STEP][PASSED] - setText: Text 'alahley@kollective.com' is set on object 'Object Repository/Page_Log in/input_email (2)'
+
+2018-10-10 10:54:38 - [MESSAGE][PASSED] - Text 'alahley@kollective.com' is set on object 'Object Repository/Page_Log in/input_email (2)'
+
+2018-10-10 10:54:38 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Page_Log in/input_password (2)'
+
+2018-10-10 10:54:38 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Log in/input_password (2)'
+
+2018-10-10 10:54:38 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Log in/input_remember (2)' is clicked on
+
+2018-10-10 10:54:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Log in/input_remember (2)' is clicked on
+
+2018-10-10 10:54:38 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Log in/input_login-submit (2)' is clicked on
+
+2018-10-10 10:54:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Log in/input_login-submit (2)' is clicked on
+
+2018-10-10 10:54:42 - [TEST_STEP][PASSED] - waitForAngularLoad: Angular is ready.
+
+2018-10-10 10:54:44 - [MESSAGE][PASSED] - Angular is ready.
+
+2018-10-10 10:54:44 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-10-10 10:54:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-10-10 10:54:44 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-10-10 10:54:44 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/Page_Network Summary/a_Overview' is visible
+
+2018-10-10 10:54:44 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Network Summary/a_Overview' is visible
+
+2018-10-10 10:54:44 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/Page_Overview/a_Go to Live Event Summary' is visible
+
+2018-10-10 10:54:44 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Overview/a_Go to Live Event Summary' is visible
+
+2018-10-10 10:54:44 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Overview/a_Go to Live Event Summary' is clicked on
+
+2018-10-10 10:54:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Overview/a_Go to Live Event Summary' is clicked on
+
+2018-10-10 10:54:47 - [TEST_STEP][PASSED] - waitForAngularLoad: Angular is ready.
+
+2018-10-10 10:54:50 - [MESSAGE][PASSED] - Angular is ready.
+
+2018-10-10 10:54:50 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page_Live Event Summary/div_LookML Dashboards  Dashboa' are matched.
+
+2018-10-10 10:54:50 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Live Event Summary/div_LookML Dashboards  Dashboa' are matched.
+
+2018-10-10 10:54:50 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Network Summary/a_Overview' is clicked on
+
+2018-10-10 10:54:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Network Summary/a_Overview' is clicked on
+
+2018-10-10 10:54:52 - [TEST_STEP][PASSED] - waitForAngularLoad: Angular is ready.
+
+2018-10-10 10:54:54 - [MESSAGE][PASSED] - Angular is ready.
+
+2018-10-10 10:54:54 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/Page_Overview/a_Go to VoD Summary' is visible
+
+2018-10-10 10:54:55 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Overview/a_Go to VoD Summary' is visible
+
+2018-10-10 10:54:55 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Overview/a_Go to VoD Summary' is clicked on
+
+2018-10-10 10:54:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Overview/a_Go to VoD Summary' is clicked on
+
+2018-10-10 10:54:56 - [TEST_STEP][PASSED] - waitForAngularLoad: Angular is ready.
+
+2018-10-10 10:55:00 - [MESSAGE][PASSED] - Angular is ready.
+
+2018-10-10 10:55:00 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page_Video on Demand Summary/div_LookML Dashboards  Dashboa' are matched.
+
+2018-10-10 10:55:00 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Video on Demand Summary/div_LookML Dashboards  Dashboa' are matched.
+
+2018-10-10 10:55:00 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Network Summary/a_Overview' is clicked on
+
+2018-10-10 10:55:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Network Summary/a_Overview' is clicked on
+
+2018-10-10 10:55:03 - [TEST_STEP][PASSED] - waitForAngularLoad: Angular is ready.
+
+2018-10-10 10:55:04 - [MESSAGE][PASSED] - Angular is ready.
+
+2018-10-10 10:55:04 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/Page_Overview/a_Go to Network Summary' is visible
+
+2018-10-10 10:55:05 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Overview/a_Go to Network Summary' is visible
+
+2018-10-10 10:55:05 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Overview/a_Go to Network Summary' is clicked on
+
+2018-10-10 10:55:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Overview/a_Go to Network Summary' is clicked on
+
+2018-10-10 10:55:07 - [TEST_STEP][PASSED] - waitForAngularLoad: Angular is ready.
+
+2018-10-10 10:55:18 - [MESSAGE][PASSED] - Angular is ready.
+
+2018-10-10 10:55:18 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page_Network Summary/div_LookML Dashboards  Dashboa' are matched.
+
+2018-10-10 10:55:19 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Network Summary/div_LookML Dashboards  Dashboa' are matched.
+
+2018-10-10 10:55:19 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Network Summary/a_Overview' is clicked on
+
+2018-10-10 10:55:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Network Summary/a_Overview' is clicked on
+
+2018-10-10 10:55:21 - [TEST_STEP][PASSED] - waitForAngularLoad: Angular is ready.
+
+2018-10-10 10:55:23 - [MESSAGE][PASSED] - Angular is ready.
+
+2018-10-10 10:55:23 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Overview/a_Network' is clicked on
+
+2018-10-10 10:55:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Overview/a_Network' is clicked on
+
+2018-10-10 10:55:25 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_Overview/a_Network Summary' is present
+
+2018-10-10 10:55:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-10-10 10:55:25 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Overview/a_Network Summary' is present
+
+2018-10-10 10:55:25 - [TEST_STEP][PASSED] - verifyElementClickable: Object 'Object Repository/Page_Overview/a_Network Summary' is clickable
+
+2018-10-10 10:55:25 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Overview/a_Network Summary' is clickable
+
+2018-10-10 10:55:25 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Overview/a_Network Summary' is clicked on
+
+2018-10-10 10:55:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Overview/a_Network Summary' is clicked on
+
+2018-10-10 10:55:27 - [TEST_STEP][PASSED] - waitForAngularLoad: Angular is ready.
+
+2018-10-10 10:55:32 - [MESSAGE][PASSED] - Angular is ready.
+
+2018-10-10 10:55:32 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Overview/a_Network' is clicked on
+
+2018-10-10 10:55:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Overview/a_Network' is clicked on
+
+2018-10-10 10:55:35 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_Network Summary/a_Network Content' is present
+
+2018-10-10 10:55:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-10-10 10:55:35 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Network Summary/a_Network Content' is present
+
+2018-10-10 10:55:35 - [TEST_STEP][PASSED] - verifyElementClickable: Object 'Object Repository/Page_Network Summary/a_Network Content' is clickable
+
+2018-10-10 10:55:35 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Network Summary/a_Network Content' is clickable
+
+2018-10-10 10:55:35 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Network Summary/a_Network Content' is clicked on
+
+2018-10-10 10:55:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Network Summary/a_Network Content' is clicked on
+
+2018-10-10 10:55:39 - [TEST_STEP][PASSED] - waitForAngularLoad: Angular is ready.
+
+2018-10-10 10:55:41 - [MESSAGE][PASSED] - Angular is ready.
+
+2018-10-10 10:55:41 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Overview/a_Network' is clicked on
+
+2018-10-10 10:55:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Overview/a_Network' is clicked on
+
+2018-10-10 10:55:42 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_Network Content/a_Network Locality' is present
+
+2018-10-10 10:55:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-10-10 10:55:42 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Network Content/a_Network Locality' is present
+
+2018-10-10 10:55:42 - [TEST_STEP][PASSED] - verifyElementClickable: Object 'Object Repository/Page_Network Content/a_Network Locality' is clickable
+
+2018-10-10 10:55:42 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Network Content/a_Network Locality' is clickable
+
+2018-10-10 10:55:42 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Network Content/a_Network Locality' is clicked on
+
+2018-10-10 10:55:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Network Content/a_Network Locality' is clicked on
+
+2018-10-10 10:55:45 - [TEST_STEP][PASSED] - waitForAngularLoad: Angular is ready.
+
+2018-10-10 10:55:51 - [MESSAGE][PASSED] - Angular is ready.
+
+2018-10-10 10:55:51 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Network Locality/a_Live Events' is clicked on
+
+2018-10-10 10:55:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Network Locality/a_Live Events' is clicked on
+
+2018-10-10 10:55:52 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_Network Locality/a_Live Event Summary' is present
+
+2018-10-10 10:55:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-10-10 10:55:52 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Network Locality/a_Live Event Summary' is present
+
+2018-10-10 10:55:52 - [TEST_STEP][PASSED] - verifyElementClickable: Object 'Object Repository/Page_Network Locality/a_Live Event Summary' is clickable
+
+2018-10-10 10:55:52 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Network Locality/a_Live Event Summary' is clickable
+
+2018-10-10 10:55:52 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_Live Event Summary/a_Live Event' is present
+
+2018-10-10 10:55:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-10-10 10:55:52 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Live Event Summary/a_Live Event' is present
+
+2018-10-10 10:55:52 - [TEST_STEP][PASSED] - verifyElementClickable: Object 'Object Repository/Page_Live Event Summary/a_Live Event' is clickable
+
+2018-10-10 10:55:52 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Live Event Summary/a_Live Event' is clickable
+
+2018-10-10 10:55:52 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_Live Event/a_Live (In Progress) Event' is present
+
+2018-10-10 10:55:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-10-10 10:55:52 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Live Event/a_Live (In Progress) Event' is present
+
+2018-10-10 10:55:52 - [TEST_STEP][PASSED] - verifyElementClickable: Object 'Object Repository/Page_Live Event/a_Live (In Progress) Event' is clickable
+
+2018-10-10 10:55:52 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Live Event/a_Live (In Progress) Event' is clickable
+
+2018-10-10 10:55:52 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Live (In Progress) Event/a_Video on Demand' is clicked on
+
+2018-10-10 10:55:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Live (In Progress) Event/a_Video on Demand' is clicked on
+
+2018-10-10 10:55:52 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_Live (In Progress) Event/a_Video on Demand Summary' is present
+
+2018-10-10 10:55:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-10-10 10:55:52 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Live (In Progress) Event/a_Video on Demand Summary' is present
+
+2018-10-10 10:55:52 - [TEST_STEP][PASSED] - verifyElementClickable: Object 'Object Repository/Page_Live (In Progress) Event/a_Video on Demand Summary' is clickable
+
+2018-10-10 10:55:53 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Live (In Progress) Event/a_Video on Demand Summary' is clickable
+
+2018-10-10 10:55:53 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_Video on Demand Summary/a_Video on Demand_1' is present
+
+2018-10-10 10:55:53 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-10-10 10:55:53 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Video on Demand Summary/a_Video on Demand_1' is present
+
+2018-10-10 10:55:53 - [TEST_STEP][PASSED] - verifyElementClickable: Object 'Object Repository/Page_Video on Demand Summary/a_Video on Demand_1' is clickable
+
+2018-10-10 10:55:53 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Video on Demand Summary/a_Video on Demand_1' is clickable
+
+2018-10-10 10:55:53 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_Video on Demand/a_SCCM' is present
+
+2018-10-10 10:55:53 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-10-10 10:55:53 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Video on Demand/a_SCCM' is present
+
+2018-10-10 10:55:53 - [TEST_STEP][PASSED] - verifyElementClickable: Object 'Object Repository/Page_Video on Demand/a_SCCM' is clickable
+
+2018-10-10 10:55:53 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Video on Demand/a_SCCM' is clickable
+
+2018-10-10 10:55:53 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Video on Demand/a_SCCM' is clicked on
+
+2018-10-10 10:55:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Video on Demand/a_SCCM' is clicked on
+
+2018-10-10 10:55:55 - [TEST_STEP][PASSED] - waitForAngularLoad: Angular is ready.
+
+2018-10-10 10:55:59 - [MESSAGE][PASSED] - Angular is ready.
+
+2018-10-10 10:55:59 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_SCCM Summary/div_OverviewNetworkNetwork Sum' is clicked on
+
+2018-10-10 10:56:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_SCCM Summary/div_OverviewNetworkNetwork Sum' is clicked on
+
+2018-10-10 10:56:00 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Overview/a' is clicked on
+
+2018-10-10 10:56:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Overview/a' is clicked on
+
+2018-10-10 10:56:01 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Overview/a_Log Out (3)' is clicked on
+
+2018-10-10 10:56:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Overview/a_Log Out (3)' is clicked on
+
+2018-10-10 10:56:01 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_Log in/div_Logout Successful.' is present
+
+2018-10-10 10:56:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-10-10 10:56:01 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Log in/div_Logout Successful.' is present
+
+2018-10-10 10:56:01 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_Log in/div_Logout Successful.' is present
+
+2018-10-10 10:56:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-10-10 10:56:02 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Log in/div_Logout Successful.' is present
+
+2018-10-10 10:56:02 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Logout Successful.' is present on page 
+
+2018-10-10 10:56:02 - [MESSAGE][PASSED] - Text 'Logout Successful.' is present on page 
+
+2018-10-10 10:56:02 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-10-10 10:56:02 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC1/TC1 - Summary and Detail pages" classname="Test Cases/TC1/TC1 - Summary and Detail pages" status="FAILED">
+         <failure type="FAILED" message="(Stack trace: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Log in/div_Logout Successful.' located by 'By.xpath: //div[(text() = 'Logout Successful.' or . = 'Logout Successful.')]' not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:32)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:21)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1434)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$4.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:133)
+	at Script1539119950567.run(Script1539119950567.groovy:109)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1539194053908.run(TempTestSuite1539194053908.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)"/>
+         <system-out><![CDATA[2018-10-10 10:56:02 - [TEST_CASE][FAILED] - Test Cases/TC1/TC1 - Summary and Detail pages: Test Cases/TC1/TC1 - Summary and Detail pages FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Log in/div_Logout Successful.' located by 'By.xpath: //div[(text() = 'Logout Successful.' or . = 'Logout Successful.')]' not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:32)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:21)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1434)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$4.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:133)
+	at Script1539119950567.run(Script1539119950567.groovy:109)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1539194053908.run(TempTestSuite1539194053908.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)
+
+2018-10-10 10:56:02 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'https://stats.tc1.kontiki.com/login/email'
+
+2018-10-10 10:56:10 - [MESSAGE][PASSED] - Browser is opened with url: 'https://stats.tc1.kontiki.com/login/email'
+
+2018-10-10 10:56:10 - [TEST_STEP][PASSED] - setText: Text 'alahley@kollective.com' is set on object 'Object Repository/Page_Log in/input_email (2)'
+
+2018-10-10 10:56:10 - [MESSAGE][PASSED] - Text 'alahley@kollective.com' is set on object 'Object Repository/Page_Log in/input_email (2)'
+
+2018-10-10 10:56:10 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Page_Log in/input_password (2)'
+
+2018-10-10 10:56:10 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Log in/input_password (2)'
+
+2018-10-10 10:56:10 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Log in/input_remember (2)' is clicked on
+
+2018-10-10 10:56:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Log in/input_remember (2)' is clicked on
+
+2018-10-10 10:56:10 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Log in/input_login-submit (2)' is clicked on
+
+2018-10-10 10:56:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Log in/input_login-submit (2)' is clicked on
+
+2018-10-10 10:56:14 - [TEST_STEP][PASSED] - waitForAngularLoad: Angular is ready.
+
+2018-10-10 10:56:16 - [MESSAGE][PASSED] - Angular is ready.
+
+2018-10-10 10:56:16 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-10-10 10:56:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-10-10 10:56:16 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-10-10 10:56:16 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://stats.tc1.kontiki.com/dashboards/analytics_external::network_summary?time_filter=6%20months&filter_config=%7B%22time_filter%22:%5B%7B%22type%22:%22past%22,%22values%22:%5B%7B%22constant%22:%226%22,%22unit%22:%22mo%22%7D,%7B%7D%5D,%22id%22:2%7D%5D%7D' successfully
+
+2018-10-10 10:56:18 - [MESSAGE][PASSED] - Navigate to 'https://stats.tc1.kontiki.com/dashboards/analytics_external::network_summary?time_filter=6%20months&filter_config=%7B%22time_filter%22:%5B%7B%22type%22:%22past%22,%22values%22:%5B%7B%22constant%22:%226%22,%22unit%22:%22mo%22%7D,%7B%7D%5D,%22id%22:2%7D%5D%7D' successfully
+
+2018-10-10 10:56:18 - [TEST_STEP][PASSED] - waitForAngularLoad: Angular is ready.
+
+2018-10-10 10:56:23 - [MESSAGE][PASSED] - Angular is ready.
+
+2018-10-10 10:56:23 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-10-10 10:56:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-10-10 10:56:23 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-10-10 10:56:23 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://stats.tc1.kontiki.com/dashboards/analytics_external::network_content?content_moid_filter=9970298c-d6fd-4739-8cb6-01c7a003a5fb&format_moid_filter=&time_filter=&filter_config=%7B%22content_moid_filter%22:%5B%7B%22type%22:%22%3D%22,%22values%22:%5B%7B%22constant%22:%229970298c-d6fd-4739-8cb6-01c7a003a5fb%22%7D,%7B%7D%5D,%22id%22:0%7D%5D,%22format_moid_filter%22:%5B%7B%22type%22:%22%3D%22,%22values%22:%5B%7B%22constant%22:%22%22%7D,%7B%7D%5D,%22id%22:1%7D%5D,%22time_filter%22:%5B%7B%22type%22:%22advanced%22,%22values%22:%5B%7B%22constant%22:null%7D,%7B%7D%5D,%22id%22:2%7D%5D%7D' successfully
+
+2018-10-10 10:56:26 - [MESSAGE][PASSED] - Navigate to 'https://stats.tc1.kontiki.com/dashboards/analytics_external::network_content?content_moid_filter=9970298c-d6fd-4739-8cb6-01c7a003a5fb&format_moid_filter=&time_filter=&filter_config=%7B%22content_moid_filter%22:%5B%7B%22type%22:%22%3D%22,%22values%22:%5B%7B%22constant%22:%229970298c-d6fd-4739-8cb6-01c7a003a5fb%22%7D,%7B%7D%5D,%22id%22:0%7D%5D,%22format_moid_filter%22:%5B%7B%22type%22:%22%3D%22,%22values%22:%5B%7B%22constant%22:%22%22%7D,%7B%7D%5D,%22id%22:1%7D%5D,%22time_filter%22:%5B%7B%22type%22:%22advanced%22,%22values%22:%5B%7B%22constant%22:null%7D,%7B%7D%5D,%22id%22:2%7D%5D%7D' successfully
+
+2018-10-10 10:56:26 - [TEST_STEP][PASSED] - waitForAngularLoad: Angular is ready.
+
+2018-10-10 10:56:34 - [MESSAGE][PASSED] - Angular is ready.
+
+2018-10-10 10:56:34 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-10-10 10:56:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-10-10 10:56:34 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-10-10 10:56:34 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://stats.tc1.kontiki.com/dashboards/analytics_external::network_locality?Locality=Network%203&Last%20Delivery%20Time=6%20months&Last%20Report%20Time=&External%20IP=&filter_config=%7B%22Last%20Delivery%20Time%22:%5B%7B%22type%22:%22past%22,%22values%22:%5B%7B%22constant%22:%226%22,%22unit%22:%22mo%22%7D,%7B%7D%5D,%22id%22:0%7D%5D,%22Last%20Report%20Time%22:%5B%7B%22type%22:%22anytime%22,%22values%22:%5B%7B%7D,%7B%7D%5D,%22id%22:1%7D%5D,%22Locality%22:%5B%7B%22type%22:%22%3D%22,%22values%22:%5B%7B%22constant%22:%22Network%203%22%7D,%7B%7D%5D,%22id%22:2%7D%5D,%22External%20IP%22:%5B%7B%22type%22:%22%3D%22,%22values%22:%5B%7B%22constant%22:%22%22%7D,%7B%7D%5D,%22id%22:3%7D%5D%7D' successfully
+
+2018-10-10 10:56:36 - [MESSAGE][PASSED] - Navigate to 'https://stats.tc1.kontiki.com/dashboards/analytics_external::network_locality?Locality=Network%203&Last%20Delivery%20Time=6%20months&Last%20Report%20Time=&External%20IP=&filter_config=%7B%22Last%20Delivery%20Time%22:%5B%7B%22type%22:%22past%22,%22values%22:%5B%7B%22constant%22:%226%22,%22unit%22:%22mo%22%7D,%7B%7D%5D,%22id%22:0%7D%5D,%22Last%20Report%20Time%22:%5B%7B%22type%22:%22anytime%22,%22values%22:%5B%7B%7D,%7B%7D%5D,%22id%22:1%7D%5D,%22Locality%22:%5B%7B%22type%22:%22%3D%22,%22values%22:%5B%7B%22constant%22:%22Network%203%22%7D,%7B%7D%5D,%22id%22:2%7D%5D,%22External%20IP%22:%5B%7B%22type%22:%22%3D%22,%22values%22:%5B%7B%22constant%22:%22%22%7D,%7B%7D%5D,%22id%22:3%7D%5D%7D' successfully
+
+2018-10-10 10:56:36 - [TEST_STEP][PASSED] - waitForAngularLoad: Angular is ready.
+
+2018-10-10 10:56:38 - [MESSAGE][PASSED] - Angular is ready.
+
+2018-10-10 10:56:38 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-10-10 10:56:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-10-10 10:56:39 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-10-10 10:56:39 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://stats.tc1.kontiki.com/dashboards/analytics_external::live_event_summary?time_filter=6%20months&title_filter=&filter_config=%7B%22time_filter%22:%5B%7B%22type%22:%22past%22,%22values%22:%5B%7B%22constant%22:%226%22,%22unit%22:%22mo%22%7D,%7B%7D%5D,%22id%22:4%7D%5D,%22title_filter%22:%5B%7B%22type%22:%22%3D%22,%22values%22:%5B%7B%22constant%22:%22%22%7D,%7B%7D%5D,%22id%22:5%7D%5D%7D' successfully
+
+2018-10-10 10:56:42 - [MESSAGE][PASSED] - Navigate to 'https://stats.tc1.kontiki.com/dashboards/analytics_external::live_event_summary?time_filter=6%20months&title_filter=&filter_config=%7B%22time_filter%22:%5B%7B%22type%22:%22past%22,%22values%22:%5B%7B%22constant%22:%226%22,%22unit%22:%22mo%22%7D,%7B%7D%5D,%22id%22:4%7D%5D,%22title_filter%22:%5B%7B%22type%22:%22%3D%22,%22values%22:%5B%7B%22constant%22:%22%22%7D,%7B%7D%5D,%22id%22:5%7D%5D%7D' successfully
+
+2018-10-10 10:56:42 - [TEST_STEP][PASSED] - waitForAngularLoad: Angular is ready.
+
+2018-10-10 10:56:45 - [MESSAGE][PASSED] - Angular is ready.
+
+2018-10-10 10:56:45 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-10-10 10:56:45 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-10-10 10:56:45 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-10-10 10:56:45 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://stats.tc1.kontiki.com/dashboards/analytics_external::live_event?content_moid_filter=19327ed2-fa1b-4412-8acd-0fccfcef56b8&time_filter=&filter_config=%7B%22content_moid_filter%22:%5B%7B%22type%22:%22%3D%22,%22values%22:%5B%7B%22constant%22:%2219327ed2-fa1b-4412-8acd-0fccfcef56b8%22%7D,%7B%7D%5D,%22id%22:0%7D%5D,%22time_filter%22:%5B%7B%22type%22:%22advanced%22,%22values%22:%5B%7B%22constant%22:null%7D,%7B%7D%5D,%22id%22:1%7D%5D%7D' successfully
+
+2018-10-10 10:56:47 - [MESSAGE][PASSED] - Navigate to 'https://stats.tc1.kontiki.com/dashboards/analytics_external::live_event?content_moid_filter=19327ed2-fa1b-4412-8acd-0fccfcef56b8&time_filter=&filter_config=%7B%22content_moid_filter%22:%5B%7B%22type%22:%22%3D%22,%22values%22:%5B%7B%22constant%22:%2219327ed2-fa1b-4412-8acd-0fccfcef56b8%22%7D,%7B%7D%5D,%22id%22:0%7D%5D,%22time_filter%22:%5B%7B%22type%22:%22advanced%22,%22values%22:%5B%7B%22constant%22:null%7D,%7B%7D%5D,%22id%22:1%7D%5D%7D' successfully
+
+2018-10-10 10:56:47 - [TEST_STEP][PASSED] - waitForAngularLoad: Angular is ready.
+
+2018-10-10 10:56:50 - [MESSAGE][PASSED] - Angular is ready.
+
+2018-10-10 10:56:50 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-10-10 10:56:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-10-10 10:56:50 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-10-10 10:56:50 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://stats.tc1.kontiki.com/dashboards/analytics_external::live_event_in_progress?content_moid_filter=&time_filter=2%20weeks&filter_config=%7B%22content_moid_filter%22:%5B%7B%22type%22:%22%3D%22,%22values%22:%5B%7B%22constant%22:%22%22%7D,%7B%7D%5D,%22id%22:0%7D%5D,%22time_filter%22:%5B%7B%22type%22:%22past%22,%22values%22:%5B%7B%22constant%22:%222%22,%22unit%22:%22wk%22%7D%5D,%22id%22:1%7D%5D%7D' successfully
+
+2018-10-10 10:56:52 - [MESSAGE][PASSED] - Navigate to 'https://stats.tc1.kontiki.com/dashboards/analytics_external::live_event_in_progress?content_moid_filter=&time_filter=2%20weeks&filter_config=%7B%22content_moid_filter%22:%5B%7B%22type%22:%22%3D%22,%22values%22:%5B%7B%22constant%22:%22%22%7D,%7B%7D%5D,%22id%22:0%7D%5D,%22time_filter%22:%5B%7B%22type%22:%22past%22,%22values%22:%5B%7B%22constant%22:%222%22,%22unit%22:%22wk%22%7D%5D,%22id%22:1%7D%5D%7D' successfully
+
+2018-10-10 10:56:52 - [TEST_STEP][PASSED] - waitForAngularLoad: Angular is ready.
+
+2018-10-10 10:56:54 - [MESSAGE][PASSED] - Angular is ready.
+
+2018-10-10 10:56:54 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-10-10 10:56:54 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-10-10 10:56:54 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-10-10 10:56:54 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://stats.tc1.kontiki.com/dashboards/analytics_external::vod_summary?time_filter=6%20months&event_filter=&filter_config=%7B%22time_filter%22:%5B%7B%22type%22:%22past%22,%22values%22:%5B%7B%22constant%22:%226%22,%22unit%22:%22mo%22%7D,%7B%7D%5D,%22id%22:4%7D%5D,%22event_filter%22:%5B%7B%22type%22:%22%3D%22,%22values%22:%5B%7B%22constant%22:%22%22%7D,%7B%7D%5D,%22id%22:5%7D%5D%7D' successfully
+
+2018-10-10 10:56:56 - [MESSAGE][PASSED] - Navigate to 'https://stats.tc1.kontiki.com/dashboards/analytics_external::vod_summary?time_filter=6%20months&event_filter=&filter_config=%7B%22time_filter%22:%5B%7B%22type%22:%22past%22,%22values%22:%5B%7B%22constant%22:%226%22,%22unit%22:%22mo%22%7D,%7B%7D%5D,%22id%22:4%7D%5D,%22event_filter%22:%5B%7B%22type%22:%22%3D%22,%22values%22:%5B%7B%22constant%22:%22%22%7D,%7B%7D%5D,%22id%22:5%7D%5D%7D' successfully
+
+2018-10-10 10:56:56 - [TEST_STEP][PASSED] - waitForAngularLoad: Angular is ready.
+
+2018-10-10 10:56:58 - [MESSAGE][PASSED] - Angular is ready.
+
+2018-10-10 10:56:58 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-10-10 10:56:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-10-10 10:56:59 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-10-10 10:56:59 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://stats.tc1.kontiki.com/dashboards/analytics_external::vod_performance?content_moid_filter=0949aa27-9641-47c9-9df5-26c15ddab3fc&time_filter=&filter_config=%7B%22content_moid_filter%22:%5B%7B%22type%22:%22%3D%22,%22values%22:%5B%7B%22constant%22:%220949aa27-9641-47c9-9df5-26c15ddab3fc%22%7D,%7B%7D%5D,%22id%22:0%7D%5D,%22time_filter%22:%5B%7B%22type%22:%22advanced%22,%22values%22:%5B%7B%22constant%22:null%7D,%7B%7D%5D,%22id%22:1%7D%5D%7D' successfully
+
+2018-10-10 10:57:01 - [MESSAGE][PASSED] - Navigate to 'https://stats.tc1.kontiki.com/dashboards/analytics_external::vod_performance?content_moid_filter=0949aa27-9641-47c9-9df5-26c15ddab3fc&time_filter=&filter_config=%7B%22content_moid_filter%22:%5B%7B%22type%22:%22%3D%22,%22values%22:%5B%7B%22constant%22:%220949aa27-9641-47c9-9df5-26c15ddab3fc%22%7D,%7B%7D%5D,%22id%22:0%7D%5D,%22time_filter%22:%5B%7B%22type%22:%22advanced%22,%22values%22:%5B%7B%22constant%22:null%7D,%7B%7D%5D,%22id%22:1%7D%5D%7D' successfully
+
+2018-10-10 10:57:01 - [TEST_STEP][PASSED] - waitForAngularLoad: Angular is ready.
+
+2018-10-10 10:57:04 - [MESSAGE][PASSED] - Angular is ready.
+
+2018-10-10 10:57:04 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-10-10 10:57:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-10-10 10:57:04 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-10-10 10:57:04 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://stats.tc1.kontiki.com/dashboards/sccm_users::sccm_summary?time_filter=6%20months&filter_config=%7B%22time_filter%22:%5B%7B%22type%22:%22past%22,%22values%22:%5B%7B%22constant%22:%226%22,%22unit%22:%22mo%22%7D,%7B%7D%5D,%22id%22:2%7D%5D%7D' successfully
+
+2018-10-10 10:57:07 - [MESSAGE][PASSED] - Navigate to 'https://stats.tc1.kontiki.com/dashboards/sccm_users::sccm_summary?time_filter=6%20months&filter_config=%7B%22time_filter%22:%5B%7B%22type%22:%22past%22,%22values%22:%5B%7B%22constant%22:%226%22,%22unit%22:%22mo%22%7D,%7B%7D%5D,%22id%22:2%7D%5D%7D' successfully
+
+2018-10-10 10:57:07 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Overview/a' is clicked on
+
+2018-10-10 10:57:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Overview/a' is clicked on
+
+2018-10-10 10:57:08 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Overview/a_Log Out (3)' is clicked on
+
+2018-10-10 10:57:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Overview/a_Log Out (3)' is clicked on
+
+2018-10-10 10:57:11 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-10-10 10:57:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-10-10 10:57:12 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-10-10 10:57:12 - [TEST_STEP][FAILED] - verifyElementPresent: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Log in/div_Logout Successful.' located by 'By.xpath: //div[(text() = 'Logout Successful.' or . = 'Logout Successful.')]' not found
+
+2018-10-10 10:57:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-10-10 10:57:43 - [MESSAGE][FAILED] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Log in/div_Logout Successful.' located by 'By.xpath: //div[(text() = 'Logout Successful.' or . = 'Logout Successful.')]' not found
+[[ATTACHMENT|/Users/alahley/Katalon Studio/Analytics/Reports/TC1 Sanity Check/20181010_105413/1539194263376.png]]
+
+2018-10-10 10:57:43 - [TEST_STEP][FAILED] - verifyElementPresent: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Log in/div_Logout Successful.' located by 'By.xpath: //div[(text() = 'Logout Successful.' or . = 'Logout Successful.')]' not found
+
+2018-10-10 10:57:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-10-10 10:58:14 - [MESSAGE][FAILED] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Log in/div_Logout Successful.' located by 'By.xpath: //div[(text() = 'Logout Successful.' or . = 'Logout Successful.')]' not found
+[[ATTACHMENT|/Users/alahley/Katalon Studio/Analytics/Reports/TC1 Sanity Check/20181010_105413/1539194294554.png]]
+
+2018-10-10 10:58:14 - [TEST_STEP][FAILED] - verifyTextPresent: Text 'Logout Successful.' is not present on page 
+
+2018-10-10 10:58:14 - [MESSAGE][FAILED] - Text 'Logout Successful.' is not present on page 
+
+2018-10-10 10:58:14 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-10-10 10:58:14 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[2018-10-10 10:56:02 - [TEST_CASE][FAILED] - Test Cases/TC1/TC1 - Summary and Detail pages: Test Cases/TC1/TC1 - Summary and Detail pages FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Log in/div_Logout Successful.' located by 'By.xpath: //div[(text() = 'Logout Successful.' or . = 'Logout Successful.')]' not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:32)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:21)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1434)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$4.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:133)
+	at Script1539119950567.run(Script1539119950567.groovy:109)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1539194053908.run(TempTestSuite1539194053908.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-10-10 10:54:15 - [TEST_SUITE][FAILED] - TC1 Sanity Check: Test Cases/TC1/TC1 - Summary and Detail pages FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Log in/div_Logout Successful.' located by 'By.xpath: //div[(text() = 'Logout Successful.' or . = 'Logout Successful.')]' not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:32)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:21)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1434)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$4.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:133)
+	at Script1539119950567.run(Script1539119950567.groovy:109)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1539194053908.run(TempTestSuite1539194053908.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)]]></system-out>
+      <system-err><![CDATA[2018-10-10 10:54:15 - [TEST_SUITE][FAILED] - TC1 Sanity Check: Test Cases/TC1/TC1 - Summary and Detail pages FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Log in/div_Logout Successful.' located by 'By.xpath: //div[(text() = 'Logout Successful.' or . = 'Logout Successful.')]' not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:32)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:21)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1434)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$4.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:133)
+	at Script1539119950567.run(Script1539119950567.groovy:109)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1539194053908.run(TempTestSuite1539194053908.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)]]></system-err>
+   </testsuite>
+</testsuites>

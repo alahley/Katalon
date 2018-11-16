@@ -1,0 +1,42 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TC1 Sanity Check,Firefox 62.0,This is a sanity check for the TC1 DMS.  It is a basic set of tests that will raise confidence that the deploy was successful.,2018-10-02 15:28:52,2018-10-02 15:32:08,3m - 15.685s,FAILED
+,,,,,,
+Test Cases/Analytics Sanity Check,Firefox 62.0,"Just a sanity check to ensure all widgets on all dashboards are loading, with sensible data.",2018-10-02 15:28:52,2018-10-02 15:29:51,58.634s,FAILED
+openBrowser,Firefox 62.0,,2018-10-02 15:28:52,2018-10-02 15:28:56,3.918s,PASSED
+navigateToUrl,Firefox 62.0,,2018-10-02 15:28:56,2018-10-02 15:29:04,7.639s,PASSED
+click,Firefox 62.0,,2018-10-02 15:29:04,2018-10-02 15:29:04,0.307s,PASSED
+setText,Firefox 62.0,,2018-10-02 15:29:04,2018-10-02 15:29:05,0.147s,PASSED
+setEncryptedText,Firefox 62.0,,2018-10-02 15:29:05,2018-10-02 15:29:05,0.164s,PASSED
+click,Firefox 62.0,,2018-10-02 15:29:05,2018-10-02 15:29:08,3.415s,PASSED
+verifyElementText,Firefox 62.0,,2018-10-02 15:29:08,2018-10-02 15:29:49,40.632s,FAILED
+click,Firefox 62.0,,2018-10-02 15:29:49,2018-10-02 15:29:49,0.437s,PASSED
+click,Firefox 62.0,,2018-10-02 15:29:49,2018-10-02 15:29:51,1.500s,PASSED
+closeBrowser,Firefox 62.0,,2018-10-02 15:29:51,2018-10-02 15:29:51,0.246s,PASSED
+,,,,,,
+Test Cases/Navigation,Firefox 62.0,,2018-10-02 15:29:51,2018-10-02 15:32:07,2m - 16.519s,FAILED
+openBrowser,Firefox 62.0,"Fires up the browser
+",2018-10-02 15:29:51,2018-10-02 15:29:57,5.928s,PASSED
+setText,Firefox 62.0,Filling out login info (username),2018-10-02 15:29:57,2018-10-02 15:29:57,0.114s,PASSED
+setEncryptedText,Firefox 62.0,Filling out login info (password),2018-10-02 15:29:57,2018-10-02 15:29:57,0.057s,PASSED
+click,Firefox 62.0,Clicks the Stay Logged In button,2018-10-02 15:29:57,2018-10-02 15:29:57,0.237s,PASSED
+click,Firefox 62.0,Clicks the Submit button to login,2018-10-02 15:29:57,2018-10-02 15:30:01,3.274s,PASSED
+waitForAngularLoad,Firefox 62.0,Waits for all angular elements on the landing page to load,2018-10-02 15:30:01,2018-10-02 15:30:03,2.229s,PASSED
+click,Firefox 62.0,"Clicks the Overview button to make sure the page will refresh in a timely manner
+
+//this is probably redundant here and can potentially be removed.",2018-10-02 15:30:03,2018-10-02 15:30:04,0.735s,PASSED
+waitForAngularLoad,Firefox 62.0,"Wait
+",2018-10-02 15:30:04,2018-10-02 15:30:04,0.112s,PASSED
+verifyElementVisibleInViewport,Firefox 62.0,Landing Page | Verify if elemets are visable to confirm page load,2018-10-02 15:30:04,2018-10-02 15:30:04,0.086s,PASSED
+verifyElementPresent,Firefox 62.0,,2018-10-02 15:30:04,2018-10-02 15:30:04,0.028s,PASSED
+click,Firefox 62.0,,2018-10-02 15:30:04,2018-10-02 15:30:04,0.248s,PASSED
+click,Firefox 62.0,Navigate to Network Summary,2018-10-02 15:30:04,2018-10-02 15:30:07,2.494s,PASSED
+waitForAngularLoad,Firefox 62.0,,2018-10-02 15:30:07,2018-10-02 15:30:14,7.657s,PASSED
+click,Firefox 62.0,,2018-10-02 15:30:14,2018-10-02 15:30:16,1.446s,PASSED
+click,Firefox 62.0,Navigate to Network Content,2018-10-02 15:30:16,2018-10-02 15:30:18,2.467s,PASSED
+waitForAngularLoad,Firefox 62.0,,2018-10-02 15:30:18,2018-10-02 15:30:29,10.673s,PASSED
+click,Firefox 62.0,,2018-10-02 15:30:29,2018-10-02 15:30:29,0.436s,PASSED
+click,Firefox 62.0,Navigate to Network Locality,2018-10-02 15:30:29,2018-10-02 15:30:31,2.181s,PASSED
+waitForAngularLoad,Firefox 62.0,,2018-10-02 15:30:31,2018-10-02 15:30:37,5.680s,PASSED
+click,Firefox 62.0,,2018-10-02 15:30:37,2018-10-02 15:30:37,0.259s,PASSED
+waitForAngularLoad,Firefox 62.0,,2018-10-02 15:30:37,2018-10-02 15:30:37,0.009s,PASSED
+click,Firefox 62.0,,2018-10-02 15:30:37,2018-10-02 15:32:07,1m - 30.039s,FAILED

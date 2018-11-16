@@ -1,0 +1,60 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TC1 Sanity Check,Chrome 69.0.3497.100,This is a sanity check for the TC1 DMS.  It is a basic set of tests that will raise confidence that the deploy was successful.,2018-10-07 21:00:45,2018-10-07 21:01:23,37.621s,FAILED
+,,,,,,
+Test Cases/TC1 - Fixture Data Validation,Chrome 69.0.3497.100,,2018-10-07 21:00:46,2018-10-07 21:01:23,36.701s,FAILED
+openBrowser,Chrome 69.0.3497.100,"Fires up the browser
+",2018-10-07 21:00:47,2018-10-07 21:00:58,10.483s,PASSED
+setText,Chrome 69.0.3497.100,Filling out login info (username),2018-10-07 21:00:58,2018-10-07 21:00:58,0.250s,PASSED
+setEncryptedText,Chrome 69.0.3497.100,Filling out login info (password),2018-10-07 21:00:58,2018-10-07 21:00:58,0.181s,PASSED
+click,Chrome 69.0.3497.100,Clicks the Stay Logged In button,2018-10-07 21:00:58,2018-10-07 21:00:58,0.097s,PASSED
+click,Chrome 69.0.3497.100,Clicks the Submit button to login,2018-10-07 21:00:58,2018-10-07 21:01:02,3.459s,PASSED
+waitForAngularLoad,Chrome 69.0.3497.100,Waits for all angular elements on the landing page to load,2018-10-07 21:01:02,2018-10-07 21:01:05,3.205s,FAILED
+click,Chrome 69.0.3497.100,,2018-10-07 21:01:05,2018-10-07 21:01:05,0.135s,PASSED
+selectOptionByValue,Chrome 69.0.3497.100,,2018-10-07 21:01:05,2018-10-07 21:01:06,0.714s,PASSED
+setText,Chrome 69.0.3497.100,,2018-10-07 21:01:06,2018-10-07 21:01:06,0.167s,PASSED
+waitForAngularLoad,Chrome 69.0.3497.100,Waits for all angular elements on the landing page to load,2018-10-07 21:01:06,2018-10-07 21:01:07,1.099s,PASSED
+click,Chrome 69.0.3497.100,,2018-10-07 21:01:07,2018-10-07 21:01:07,0.230s,PASSED
+waitForAngularLoad,Chrome 69.0.3497.100,Waits for all angular elements on the landing page to load,2018-10-07 21:01:07,2018-10-07 21:01:09,1.761s,PASSED
+click,Chrome 69.0.3497.100,,2018-10-07 21:01:09,2018-10-07 21:01:09,0.136s,PASSED
+click,Chrome 69.0.3497.100,,2018-10-07 21:01:09,2018-10-07 21:01:10,0.272s,PASSED
+waitForAngularLoad,Chrome 69.0.3497.100,Waits for all angular elements on the landing page to load,2018-10-07 21:01:10,2018-10-07 21:01:21,11.098s,FAILED
+waitForAngularLoad,Chrome 69.0.3497.100,Waits for all angular elements on the landing page to load,2018-10-07 21:01:21,2018-10-07 21:01:21,0.095s,PASSED
+verifyElementText,Chrome 69.0.3497.100,"Verify ""Total Live Events"" widget is on the page",2018-10-07 21:01:21,2018-10-07 21:01:22,0.696s,FAILED
+verifyElementText,Chrome 69.0.3497.100,"FIXTURE DATA - Verify Total Live Events widget has a value of 2,563",2018-10-07 21:01:22,2018-10-07 21:01:22,0.088s,PASSED
+verifyElementText,Chrome 69.0.3497.100,"Verify ""Average Monthly Events"" widget is on the page",2018-10-07 21:01:22,2018-10-07 21:01:22,0.054s,PASSED
+verifyElementText,Chrome 69.0.3497.100,FIXTURE DATA - Verify Average Monthly Events widget has a value of 226,2018-10-07 21:01:22,2018-10-07 21:01:22,0.052s,PASSED
+verifyElementText,Chrome 69.0.3497.100,"Verify ""Unique Viewers"" widget is on the page",2018-10-07 21:01:22,2018-10-07 21:01:22,0.042s,PASSED
+verifyElementText,Chrome 69.0.3497.100,"FIXTURE DATA - Verify Unique Viewers widget has a value of 10,079",2018-10-07 21:01:22,2018-10-07 21:01:22,0.040s,PASSED
+verifyElementText,Chrome 69.0.3497.100,Verify Average Monthly Viewers widget exists on page,2018-10-07 21:01:22,2018-10-07 21:01:22,0.055s,PASSED
+verifyElementText,Chrome 69.0.3497.100,"FIXTURE DATA - Verify Average Monthly Views widget has a value of 7,762",2018-10-07 21:01:22,2018-10-07 21:01:22,0.055s,PASSED
+verifyElementText,Chrome 69.0.3497.100,Verify Total Videos widget exists on page,2018-10-07 21:01:22,2018-10-07 21:01:22,0.040s,PASSED
+verifyElementText,Chrome 69.0.3497.100,"FIXTURE DATA - Verify Total Videos widget has a value of 1,585",2018-10-07 21:01:22,2018-10-07 21:01:22,0.045s,PASSED
+verifyElementText,Chrome 69.0.3497.100,Verify Total Views widget exists on page,2018-10-07 21:01:22,2018-10-07 21:01:22,0.044s,PASSED
+verifyElementText,Chrome 69.0.3497.100,"FIXTURE DATA - Verify Unique Viewers widget has a value of 17,443",2018-10-07 21:01:22,2018-10-07 21:01:22,0.042s,PASSED
+verifyElementText,Chrome 69.0.3497.100,Verify Unique Viewers widget exists on page,2018-10-07 21:01:22,2018-10-07 21:01:22,0.030s,PASSED
+verifyElementText,Chrome 69.0.3497.100,"FIXTURE DATA - Verify Total Views widget has a value of 8,261",2018-10-07 21:01:22,2018-10-07 21:01:22,0.044s,PASSED
+verifyElementText,Chrome 69.0.3497.100,Verify Total Hours Watched widget exists on page,2018-10-07 21:01:22,2018-10-07 21:01:22,0.038s,PASSED
+verifyElementText,Chrome 69.0.3497.100,"FIXTURE DATA - Verify Total Hours Watched widget has a value of 1,404",2018-10-07 21:01:22,2018-10-07 21:01:22,0.043s,PASSED
+verifyElementText,Chrome 69.0.3497.100,Verify Unique Agent widget exists on page,2018-10-07 21:01:22,2018-10-07 21:01:22,0.051s,PASSED
+verifyElementText,Chrome 69.0.3497.100,"FIXTURE DATA - Verify Unique Agents widget has a value of 10,905",2018-10-07 21:01:22,2018-10-07 21:01:22,0.044s,PASSED
+verifyElementText,Chrome 69.0.3497.100,Verify Deliveries widget exists on page,2018-10-07 21:01:22,2018-10-07 21:01:22,0.048s,PASSED
+verifyElementText,Chrome 69.0.3497.100,"FIXTURE DATA - Verify Delivery widget has a value of 67,512",2018-10-07 21:01:22,2018-10-07 21:01:22,0.043s,PASSED
+verifyElementText,Chrome 69.0.3497.100,Verify Saved GB widget exists on page,2018-10-07 21:01:22,2018-10-07 21:01:22,0.042s,PASSED
+verifyElementText,Chrome 69.0.3497.100,"FIXTURE DATA - Verify Saved GB widget has a value of 1,573",2018-10-07 21:01:22,2018-10-07 21:01:23,0.050s,PASSED
+verifyElementText,Chrome 69.0.3497.100,Verify Total GB widget exists on page,2018-10-07 21:01:23,2018-10-07 21:01:23,0.042s,PASSED
+verifyElementText,Chrome 69.0.3497.100,"FIXTURE DATA - Verify Total GB widget has a value of 3,865",2018-10-07 21:01:23,2018-10-07 21:01:23,0.050s,PASSED
+verifyElementPresent,Chrome 69.0.3497.100,Verify the Peering Efficiency widget appears on page,2018-10-07 21:01:23,2018-10-07 21:01:23,0.032s,PASSED
+verifyElementPresent,Chrome 69.0.3497.100,Verify the Peering Efficiency widget appears on page and has a value of 41%,2018-10-07 21:01:23,2018-10-07 21:01:23,0.021s,PASSED
+verifyElementPresent,Chrome 69.0.3497.100,Verify the VoD Summary Peering Efficiency widget appears on page,2018-10-07 21:01:23,2018-10-07 21:01:23,0.022s,PASSED
+verifyElementPresent,Chrome 69.0.3497.100,Verify the VoD Summary widget appears on page,2018-10-07 21:01:23,2018-10-07 21:01:23,0.022s,PASSED
+verifyElementPresent,Chrome 69.0.3497.100,Verify the Peering Efficiency donut chart appears on page,2018-10-07 21:01:23,2018-10-07 21:01:23,0.017s,PASSED
+verifyElementPresent,Chrome 69.0.3497.100,Verify the Peering Efficiency widget appears on page and has a value of 66% in the donut chart,2018-10-07 21:01:23,2018-10-07 21:01:23,0.017s,PASSED
+verifyElementPresent,Chrome 69.0.3497.100,Verify the Live Views widget appears on page,2018-10-07 21:01:23,2018-10-07 21:01:23,0.022s,PASSED
+verifyElementPresent,Chrome 69.0.3497.100,Verify the Live Events widget appears on page,2018-10-07 21:01:23,2018-10-07 21:01:23,0.021s,PASSED
+verifyElementPresent,Chrome 69.0.3497.100,Verify the VoD Views widget appears on page,2018-10-07 21:01:23,2018-10-07 21:01:23,0.020s,PASSED
+verifyElementPresent,Chrome 69.0.3497.100,Verify the VoD over time widget appears on page,2018-10-07 21:01:23,2018-10-07 21:01:23,0.028s,PASSED
+verifyElementPresent,Chrome 69.0.3497.100,Verify the Deliveries by Month widget appears on page,2018-10-07 21:01:23,2018-10-07 21:01:23,0.021s,PASSED
+verifyElementPresent,Chrome 69.0.3497.100,Verify the Live Event Summary CTA appears on page,2018-10-07 21:01:23,2018-10-07 21:01:23,0.018s,PASSED
+verifyElementPresent,Chrome 69.0.3497.100,Verify the VoD Summary CTA appears on page,2018-10-07 21:01:23,2018-10-07 21:01:23,0.015s,PASSED
+verifyElementPresent,Chrome 69.0.3497.100,Verify the Network Summary CTA appears on page,2018-10-07 21:01:23,2018-10-07 21:01:23,0.021s,PASSED
+closeBrowser,Chrome 69.0.3497.100,,2018-10-07 21:01:23,2018-10-07 21:01:23,0.132s,PASSED

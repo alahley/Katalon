@@ -1,0 +1,249 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Eval Sanity Check,Firefox 62.0,,2018-10-30 11:02:55,2018-10-30 11:09:20,6m - 25.243s,FAILED
+,,,,,,
+Test Cases/Eval/Eval - Logging In and Out,Firefox 62.0,This will cover primarily the log in process and validation of Sudoing as a different user,2018-10-30 11:02:55,2018-10-30 11:04:56,2m - 0.606s,FAILED
+openBrowser,Firefox 62.0,"Fires up the browser
+",2018-10-30 11:02:55,2018-10-30 11:03:05,9.763s,PASSED
+setText,Firefox 62.0,Filling out login info (username),2018-10-30 11:03:05,2018-10-30 11:03:05,0.163s,PASSED
+setEncryptedText,Firefox 62.0,Filling out login info (password),2018-10-30 11:03:05,2018-10-30 11:03:05,0.109s,PASSED
+click,Firefox 62.0,Clicks the Stay Logged In button,2018-10-30 11:03:05,2018-10-30 11:03:06,0.255s,PASSED
+click,Firefox 62.0,Clicks the Submit button to login,2018-10-30 11:03:06,2018-10-30 11:03:09,3.352s,PASSED
+waitForAngularLoad,Firefox 62.0,"10 second Threshold: Waits for all angular elements on the landing page to load in 10 seconds or less
+",2018-10-30 11:03:09,2018-10-30 11:03:13,3.696s,PASSED
+verifyElementPresent,Firefox 62.0,,2018-10-30 11:03:13,2018-10-30 11:03:13,0.069s,PASSED
+verifyElementPresent,Firefox 62.0,,2018-10-30 11:03:13,2018-10-30 11:03:13,0.025s,PASSED
+verifyElementPresent,Firefox 62.0,,2018-10-30 11:03:13,2018-10-30 11:03:13,0.016s,PASSED
+verifyElementPresent,Firefox 62.0,,2018-10-30 11:03:13,2018-10-30 11:03:13,0.019s,PASSED
+verifyElementPresent,Firefox 62.0,,2018-10-30 11:03:13,2018-10-30 11:03:13,0.016s,PASSED
+verifyElementPresent,Firefox 62.0,,2018-10-30 11:03:13,2018-10-30 11:03:13,0.013s,PASSED
+verifyElementPresent,Firefox 62.0,,2018-10-30 11:03:13,2018-10-30 11:03:13,0.013s,PASSED
+verifyElementPresent,Firefox 62.0,,2018-10-30 11:03:13,2018-10-30 11:03:13,0.013s,PASSED
+verifyElementPresent,Firefox 62.0,,2018-10-30 11:03:13,2018-10-30 11:03:13,0.014s,PASSED
+verifyElementPresent,Firefox 62.0,,2018-10-30 11:03:13,2018-10-30 11:03:13,0.016s,PASSED
+verifyElementPresent,Firefox 62.0,,2018-10-30 11:03:13,2018-10-30 11:03:13,0.017s,PASSED
+verifyElementPresent,Firefox 62.0,,2018-10-30 11:03:13,2018-10-30 11:03:13,0.020s,PASSED
+verifyElementPresent,Firefox 62.0,,2018-10-30 11:03:13,2018-10-30 11:03:13,0.017s,PASSED
+verifyElementPresent,Firefox 62.0,,2018-10-30 11:03:13,2018-10-30 11:03:13,0.016s,PASSED
+verifyElementPresent,Firefox 62.0,,2018-10-30 11:03:13,2018-10-30 11:03:13,0.019s,PASSED
+verifyElementPresent,Firefox 62.0,,2018-10-30 11:03:13,2018-10-30 11:03:13,0.019s,PASSED
+verifyElementPresent,Firefox 62.0,,2018-10-30 11:03:13,2018-10-30 11:03:13,0.013s,PASSED
+verifyElementPresent,Firefox 62.0,,2018-10-30 11:03:13,2018-10-30 11:03:13,0.012s,PASSED
+verifyElementPresent,Firefox 62.0,,2018-10-30 11:03:13,2018-10-30 11:03:13,0.014s,PASSED
+verifyElementPresent,Firefox 62.0,,2018-10-30 11:03:13,2018-10-30 11:03:13,0.014s,PASSED
+verifyElementPresent,Firefox 62.0,,2018-10-30 11:03:13,2018-10-30 11:03:13,0.017s,PASSED
+verifyElementPresent,Firefox 62.0,,2018-10-30 11:03:13,2018-10-30 11:03:13,0.016s,PASSED
+verifyElementPresent,Firefox 62.0,,2018-10-30 11:03:13,2018-10-30 11:03:13,0.018s,PASSED
+verifyElementPresent,Firefox 62.0,,2018-10-30 11:03:13,2018-10-30 11:03:13,0.012s,PASSED
+click,Firefox 62.0,,2018-10-30 11:03:13,2018-10-30 11:03:13,0.353s,PASSED
+click,Firefox 62.0,,2018-10-30 11:03:13,2018-10-30 11:03:14,0.235s,FAILED
+verifyElementPresent,Firefox 62.0,,2018-10-30 11:03:14,2018-10-30 11:04:04,50.216s,FAILED
+verifyElementPresent,Firefox 62.0,,2018-10-30 11:04:04,2018-10-30 11:04:52,48.409s,FAILED
+verifyTextPresent,Firefox 62.0,,2018-10-30 11:04:52,2018-10-30 11:04:55,3.067s,FAILED
+closeBrowser,Firefox 62.0,,2018-10-30 11:04:55,2018-10-30 11:04:56,0.275s,PASSED
+,,,,,,
+Test Cases/Eval/Eval - Summary and Detail pages,Firefox 62.0,"This will cover all ""main"" Summary pages
+-Live Events Summary
+-Network Summary
+-VoD Summary",2018-10-30 11:04:56,2018-10-30 11:07:36,2m - 40.767s,PASSED
+openBrowser,Firefox 62.0,"Fires up the browser
+",2018-10-30 11:04:56,2018-10-30 11:05:01,5.742s,PASSED
+setText,Firefox 62.0,Filling out login info (username),2018-10-30 11:05:01,2018-10-30 11:05:02,0.124s,PASSED
+setEncryptedText,Firefox 62.0,Filling out login info (password),2018-10-30 11:05:02,2018-10-30 11:05:02,0.051s,PASSED
+click,Firefox 62.0,Clicks the Stay Logged In button,2018-10-30 11:05:02,2018-10-30 11:05:02,0.236s,PASSED
+click,Firefox 62.0,Clicks the Submit button to login,2018-10-30 11:05:02,2018-10-30 11:05:05,3.421s,PASSED
+waitForAngularLoad,Firefox 62.0,"Overview / Landing Page: 10 second Threshold: Waits for all angular elements on the landing page to load in 10 seconds or less
+",2018-10-30 11:05:05,2018-10-30 11:05:07,1.944s,PASSED
+waitForPageLoad,Firefox 62.0,,2018-10-30 11:05:07,2018-10-30 11:05:07,0.117s,PASSED
+navigateToUrl,Firefox 62.0,Network Summary,2018-10-30 11:05:07,2018-10-30 11:05:09,1.276s,PASSED
+waitForAngularLoad,Firefox 62.0,"10 second Threshold: Waits for all angular elements on the landing page to load in 10 seconds or less
+",2018-10-30 11:05:09,2018-10-30 11:05:19,10.526s,PASSED
+waitForPageLoad,Firefox 62.0,,2018-10-30 11:05:19,2018-10-30 11:05:19,0.011s,PASSED
+navigateToUrl,Firefox 62.0,Network Content,2018-10-30 11:05:19,2018-10-30 11:05:23,3.380s,PASSED
+waitForAngularLoad,Firefox 62.0,"10 second Threshold: Waits for all angular elements on the landing page to load in 10 seconds or less
+",2018-10-30 11:05:23,2018-10-30 11:05:28,4.982s,PASSED
+waitForPageLoad,Firefox 62.0,,2018-10-30 11:05:28,2018-10-30 11:05:28,0.006s,PASSED
+navigateToUrl,Firefox 62.0,Network Locality,2018-10-30 11:05:28,2018-10-30 11:05:30,2.288s,PASSED
+waitForAngularLoad,Firefox 62.0,"10 second Threshold: Waits for all angular elements on the landing page to load in 10 seconds or less
+",2018-10-30 11:05:30,2018-10-30 11:05:36,5.713s,PASSED
+waitForPageLoad,Firefox 62.0,,2018-10-30 11:05:36,2018-10-30 11:05:36,0.042s,PASSED
+navigateToUrl,Firefox 62.0,Live Event Summary,2018-10-30 11:05:36,2018-10-30 11:05:37,1.342s,PASSED
+waitForAngularLoad,Firefox 62.0,"10 second Threshold: Waits for all angular elements on the landing page to load in 10 seconds or less
+",2018-10-30 11:05:37,2018-10-30 11:05:41,3.766s,PASSED
+waitForPageLoad,Firefox 62.0,,2018-10-30 11:05:41,2018-10-30 11:05:41,0.015s,PASSED
+navigateToUrl,Firefox 62.0,Live Event,2018-10-30 11:05:41,2018-10-30 11:05:43,1.881s,PASSED
+waitForAngularLoad,Firefox 62.0,"10 second Threshold: Waits for all angular elements on the landing page to load in 10 seconds or less
+",2018-10-30 11:05:43,2018-10-30 11:05:48,5.255s,PASSED
+waitForPageLoad,Firefox 62.0,,2018-10-30 11:05:48,2018-10-30 11:05:48,0.031s,PASSED
+navigateToUrl,Firefox 62.0,Live (in progress) Event (filtered on last 2 weeks),2018-10-30 11:05:48,2018-10-30 11:05:50,2.321s,PASSED
+waitForAngularLoad,Firefox 62.0,"10 second Threshold: Waits for all angular elements on the landing page to load in 10 seconds or less
+",2018-10-30 11:05:50,2018-10-30 11:05:57,7.123s,PASSED
+waitForPageLoad,Firefox 62.0,,2018-10-30 11:05:57,2018-10-30 11:05:57,0.005s,PASSED
+navigateToUrl,Firefox 62.0,VoD Summary,2018-10-30 11:05:57,2018-10-30 11:05:59,2.077s,PASSED
+waitForAngularLoad,Firefox 62.0,"10 second Threshold: Waits for all angular elements on the landing page to load in 10 seconds or less
+",2018-10-30 11:05:59,2018-10-30 11:06:02,2.840s,PASSED
+waitForPageLoad,Firefox 62.0,,2018-10-30 11:06:02,2018-10-30 11:06:02,0.006s,PASSED
+verifyTextNotPresent,Firefox 62.0,"Ensure that ""No Results"" does not appear anywhere on the page.  This can happen on certain widgets but should NEVER happen in the table data.",2018-10-30 11:06:02,2018-10-30 11:06:07,4.745s,PASSED
+navigateToUrl,Firefox 62.0,"Navigate to a VoD Content page to ensure ""No Results"" does not appear in the table data",2018-10-30 11:06:07,2018-10-30 11:06:09,2.103s,PASSED
+waitForAngularLoad,Firefox 62.0,"10 second Threshold: Waits for all angular elements on the landing page to load in 10 seconds or less
+",2018-10-30 11:06:09,2018-10-30 11:06:13,3.752s,PASSED
+waitForPageLoad,Firefox 62.0,,2018-10-30 11:06:13,2018-10-30 11:06:13,0.032s,PASSED
+verifyTextNotPresent,Firefox 62.0,"Ensure that ""No Results"" does not appear anywhere on the page.  This can happen on certain widgets but should NEVER happen in the table data.",2018-10-30 11:06:13,2018-10-30 11:07:18,1m - 4.646s,PASSED
+navigateToUrl,Firefox 62.0,Video on Demand,2018-10-30 11:07:18,2018-10-30 11:07:21,3.667s,PASSED
+waitForAngularLoad,Firefox 62.0,"10 second Threshold: Waits for all angular elements on the landing page to load in 10 seconds or less
+",2018-10-30 11:07:21,2018-10-30 11:07:25,3.541s,PASSED
+waitForPageLoad,Firefox 62.0,,2018-10-30 11:07:25,2018-10-30 11:07:25,0.118s,PASSED
+navigateToUrl,Firefox 62.0,SCCM,2018-10-30 11:07:25,2018-10-30 11:07:27,2.266s,PASSED
+waitForAngularLoad,Firefox 62.0,"10 second Threshold: Waits for all angular elements on the landing page to load in 10 seconds or less
+",2018-10-30 11:07:27,2018-10-30 11:07:32,4.457s,PASSED
+waitForPageLoad,Firefox 62.0,,2018-10-30 11:07:32,2018-10-30 11:07:32,0.008s,PASSED
+click,Firefox 62.0,,2018-10-30 11:07:32,2018-10-30 11:07:34,2.350s,PASSED
+click,Firefox 62.0,,2018-10-30 11:07:34,2018-10-30 11:07:36,2.037s,PASSED
+waitForAngularLoad,Firefox 62.0,"10 second Threshold: Waits for all angular elements on the landing page to load in 10 seconds or less
+",2018-10-30 11:07:36,2018-10-30 11:07:36,0.011s,PASSED
+waitForPageLoad,Firefox 62.0,,2018-10-30 11:07:36,2018-10-30 11:07:36,0.006s,PASSED
+verifyElementPresent,Firefox 62.0,,2018-10-30 11:07:36,2018-10-30 11:07:36,0.009s,PASSED
+verifyTextPresent,Firefox 62.0,,2018-10-30 11:07:36,2018-10-30 11:07:36,0.067s,PASSED
+closeBrowser,Firefox 62.0,,2018-10-30 11:07:36,2018-10-30 11:07:36,0.267s,PASSED
+,,,,,,
+Test Cases/Eval/Eval - Navigation and CTAs,Firefox 62.0,"This will cover testing of Paul's new navigation and dropdown menus, as well as the three main Calls To Action on the Overview page",2018-10-30 11:07:36,2018-10-30 11:08:56,1m - 19.807s,PASSED
+openBrowser,Firefox 62.0,"Fires up the browser
+",2018-10-30 11:07:36,2018-10-30 11:07:43,6.111s,PASSED
+setText,Firefox 62.0,Filling out login info (username),2018-10-30 11:07:43,2018-10-30 11:07:43,0.117s,PASSED
+setEncryptedText,Firefox 62.0,Filling out login info (password),2018-10-30 11:07:43,2018-10-30 11:07:43,0.049s,PASSED
+click,Firefox 62.0,Clicks the Stay Logged In button,2018-10-30 11:07:43,2018-10-30 11:07:43,0.234s,PASSED
+click,Firefox 62.0,Clicks the Submit button to login,2018-10-30 11:07:43,2018-10-30 11:07:46,3.486s,PASSED
+waitForAngularLoad,Firefox 62.0,"10 second Threshold: Waits for all angular elements on the landing page to load in 10 seconds or less
+",2018-10-30 11:07:46,2018-10-30 11:07:48,1.533s,PASSED
+waitForPageLoad,Firefox 62.0,,2018-10-30 11:07:48,2018-10-30 11:07:48,0.158s,PASSED
+verifyElementVisible,Firefox 62.0,,2018-10-30 11:07:48,2018-10-30 11:07:48,0.287s,PASSED
+verifyElementVisible,Firefox 62.0,,2018-10-30 11:07:48,2018-10-30 11:07:49,0.171s,PASSED
+click,Firefox 62.0,"Use the Live Event Summary CTA
+",2018-10-30 11:07:49,2018-10-30 11:07:51,2.588s,PASSED
+waitForAngularLoad,Firefox 62.0,"10 second Threshold: Waits for all angular elements on the landing page to load in 10 seconds or less
+",2018-10-30 11:07:51,2018-10-30 11:07:54,3.002s,PASSED
+verifyElementText,Firefox 62.0,Verify we are on the Live Event Summary page by looking for the Live Event Summary title,2018-10-30 11:07:54,2018-10-30 11:07:54,0.055s,PASSED
+click,Firefox 62.0,"Go back to the Landing page via Overview in the nav
+",2018-10-30 11:07:54,2018-10-30 11:07:57,2.582s,PASSED
+waitForAngularLoad,Firefox 62.0,"10 second Threshold: Waits for all angular elements on the landing page to load in 10 seconds or less
+",2018-10-30 11:07:57,2018-10-30 11:07:59,2.377s,PASSED
+verifyElementVisible,Firefox 62.0,,2018-10-30 11:07:59,2018-10-30 11:07:59,0.141s,PASSED
+click,Firefox 62.0,Use the VoD Summary CTA,2018-10-30 11:07:59,2018-10-30 11:08:02,2.147s,PASSED
+waitForAngularLoad,Firefox 62.0,"10 second Threshold: Waits for all angular elements on the landing page to load in 10 seconds or less
+",2018-10-30 11:08:02,2018-10-30 11:08:04,2.316s,PASSED
+verifyElementText,Firefox 62.0,Verify we are on the Video on Demand Summary page by looking for the Video on Demand Summary title,2018-10-30 11:08:04,2018-10-30 11:08:04,0.033s,PASSED
+click,Firefox 62.0,"Go back to the Landing page via Overview in the nav
+",2018-10-30 11:08:04,2018-10-30 11:08:06,2.187s,PASSED
+waitForAngularLoad,Firefox 62.0,"10 second Threshold: Waits for all angular elements on the landing page to load in 10 seconds or less
+",2018-10-30 11:08:06,2018-10-30 11:08:08,2.207s,PASSED
+verifyElementVisible,Firefox 62.0,,2018-10-30 11:08:08,2018-10-30 11:08:08,0.114s,PASSED
+click,Firefox 62.0,Use the Network Summary CTA,2018-10-30 11:08:08,2018-10-30 11:08:11,2.428s,PASSED
+waitForAngularLoad,Firefox 62.0,"10 second Threshold: Waits for all angular elements on the landing page to load in 10 seconds or less
+",2018-10-30 11:08:11,2018-10-30 11:08:16,4.878s,PASSED
+verifyElementText,Firefox 62.0,Verify we are on the Network Summary page by looking for the Network Summary title,2018-10-30 11:08:16,2018-10-30 11:08:16,0.475s,PASSED
+click,Firefox 62.0,"Go back to the Landing page via Overview in the nav
+",2018-10-30 11:08:16,2018-10-30 11:08:20,4.159s,PASSED
+waitForAngularLoad,Firefox 62.0,"10 second Threshold: Waits for all angular elements on the landing page to load in 10 seconds or less
+",2018-10-30 11:08:20,2018-10-30 11:08:23,2.292s,PASSED
+click,Firefox 62.0,Interact with the Network dropdown and verify all elements are present and clickable,2018-10-30 11:08:23,2018-10-30 11:08:23,0.245s,PASSED
+verifyElementPresent,Firefox 62.0,,2018-10-30 11:08:23,2018-10-30 11:08:23,0.014s,PASSED
+verifyElementClickable,Firefox 62.0,,2018-10-30 11:08:23,2018-10-30 11:08:23,0.025s,PASSED
+click,Firefox 62.0,Use the Network Summary element within the Network dropdown,2018-10-30 11:08:23,2018-10-30 11:08:25,2.148s,PASSED
+waitForAngularLoad,Firefox 62.0,"10 second Threshold: Waits for all angular elements on the landing page to load in 10 seconds or less
+",2018-10-30 11:08:25,2018-10-30 11:08:30,4.888s,PASSED
+click,Firefox 62.0,Interact with the Network dropdown and verify all elements are present and clickable,2018-10-30 11:08:30,2018-10-30 11:08:33,2.575s,PASSED
+verifyElementPresent,Firefox 62.0,,2018-10-30 11:08:33,2018-10-30 11:08:33,0.017s,PASSED
+verifyElementClickable,Firefox 62.0,,2018-10-30 11:08:33,2018-10-30 11:08:33,0.040s,PASSED
+click,Firefox 62.0,Use the Network Content element within the Network dropdown,2018-10-30 11:08:33,2018-10-30 11:08:35,2.428s,PASSED
+waitForAngularLoad,Firefox 62.0,"10 second Threshold: Waits for all angular elements on the landing page to load in 10 seconds or less
+",2018-10-30 11:08:35,2018-10-30 11:08:38,2.822s,PASSED
+click,Firefox 62.0,Interact with the Network dropdown and verify all elements are present and clickable,2018-10-30 11:08:38,2018-10-30 11:08:38,0.658s,PASSED
+verifyElementPresent,Firefox 62.0,,2018-10-30 11:08:38,2018-10-30 11:08:39,0.016s,PASSED
+verifyElementClickable,Firefox 62.0,,2018-10-30 11:08:39,2018-10-30 11:08:39,0.015s,PASSED
+click,Firefox 62.0,Use the Network Locality element within the Network dropdown,2018-10-30 11:08:39,2018-10-30 11:08:41,2.022s,PASSED
+waitForAngularLoad,Firefox 62.0,"10 second Threshold: Waits for all angular elements on the landing page to load in 10 seconds or less
+",2018-10-30 11:08:41,2018-10-30 11:08:44,3.601s,PASSED
+click,Firefox 62.0,Interact with the Live Events dropdown and verify all elements are present and clickable,2018-10-30 11:08:44,2018-10-30 11:08:44,0.296s,PASSED
+verifyElementPresent,Firefox 62.0,,2018-10-30 11:08:44,2018-10-30 11:08:44,0.031s,PASSED
+verifyElementClickable,Firefox 62.0,,2018-10-30 11:08:44,2018-10-30 11:08:44,0.026s,PASSED
+verifyElementPresent,Firefox 62.0,,2018-10-30 11:08:44,2018-10-30 11:08:45,0.017s,PASSED
+verifyElementClickable,Firefox 62.0,,2018-10-30 11:08:45,2018-10-30 11:08:45,0.021s,PASSED
+verifyElementPresent,Firefox 62.0,,2018-10-30 11:08:45,2018-10-30 11:08:45,0.014s,PASSED
+verifyElementClickable,Firefox 62.0,,2018-10-30 11:08:45,2018-10-30 11:08:45,0.036s,PASSED
+click,Firefox 62.0,Interact with the Video on Demand dropdown and verify all elements are present and clickable,2018-10-30 11:08:45,2018-10-30 11:08:45,0.232s,PASSED
+verifyElementPresent,Firefox 62.0,,2018-10-30 11:08:45,2018-10-30 11:08:45,0.017s,PASSED
+verifyElementClickable,Firefox 62.0,,2018-10-30 11:08:45,2018-10-30 11:08:45,0.022s,PASSED
+verifyElementPresent,Firefox 62.0,,2018-10-30 11:08:45,2018-10-30 11:08:45,0.011s,PASSED
+verifyElementClickable,Firefox 62.0,,2018-10-30 11:08:45,2018-10-30 11:08:45,0.018s,PASSED
+verifyElementPresent,Firefox 62.0,,2018-10-30 11:08:45,2018-10-30 11:08:45,0.015s,PASSED
+verifyElementClickable,Firefox 62.0,,2018-10-30 11:08:45,2018-10-30 11:08:45,0.022s,PASSED
+click,Firefox 62.0,Interact with the SCCM dropdown and verify all elements are present and clickable,2018-10-30 11:08:45,2018-10-30 11:08:48,2.659s,PASSED
+waitForAngularLoad,Firefox 62.0,"20 second Threshold: Waits for all angular elements on the landing page to load in 10 seconds or less
+",2018-10-30 11:08:48,2018-10-30 11:08:51,3.230s,PASSED
+waitForPageLoad,Firefox 62.0,,2018-10-30 11:08:51,2018-10-30 11:08:51,0.155s,PASSED
+click,Firefox 62.0,,2018-10-30 11:08:51,2018-10-30 11:08:54,2.896s,PASSED
+click,Firefox 62.0,Logout process,2018-10-30 11:08:54,2018-10-30 11:08:56,1.942s,PASSED
+verifyElementPresent,Firefox 62.0,Verify logout was successfull by targeting some elements on the log out page,2018-10-30 11:08:56,2018-10-30 11:08:56,0.025s,PASSED
+verifyTextPresent,Firefox 62.0,Verify logout was successfull by targeting some elements on the log out page,2018-10-30 11:08:56,2018-10-30 11:08:56,0.061s,PASSED
+closeBrowser,Firefox 62.0,Close session,2018-10-30 11:08:56,2018-10-30 11:08:56,0.260s,PASSED
+,,,,,,
+"Test Cases/Eval/Eval - Overview, or Landing Page",Firefox 62.0,"This will cover the Overview page, and if this is used on a DMS with no Overview page (Pre Analytics 10.7) if will test the Landing page after logging in.",2018-10-30 11:08:56,2018-10-30 11:09:20,23.702s,PASSED
+openBrowser,Firefox 62.0,"Fires up the browser
+",2018-10-30 11:08:56,2018-10-30 11:09:03,6.206s,PASSED
+setText,Firefox 62.0,Filling out login info (username),2018-10-30 11:09:03,2018-10-30 11:09:03,0.120s,PASSED
+setEncryptedText,Firefox 62.0,Filling out login info (password),2018-10-30 11:09:03,2018-10-30 11:09:03,0.048s,PASSED
+click,Firefox 62.0,Clicks the Stay Logged In button,2018-10-30 11:09:03,2018-10-30 11:09:03,0.246s,PASSED
+click,Firefox 62.0,Clicks the Submit button to login,2018-10-30 11:09:03,2018-10-30 11:09:06,3.573s,PASSED
+waitForAngularLoad,Firefox 62.0,"10 second Threshold: Waits for all angular elements on the landing page to load in 10 seconds or less
+",2018-10-30 11:09:06,2018-10-30 11:09:08,1.657s,PASSED
+click,Firefox 62.0,Clicks the filter to access options,2018-10-30 11:09:08,2018-10-30 11:09:09,0.772s,PASSED
+selectOptionByValue,Firefox 62.0,"Use the filter dropdown to set a Time Filter of ""Is in the year""",2018-10-30 11:09:09,2018-10-30 11:09:10,0.878s,PASSED
+setText,Firefox 62.0,"Set 2017 in the ""Is in the year"" field",2018-10-30 11:09:10,2018-10-30 11:09:10,0.160s,PASSED
+waitForAngularLoad,Firefox 62.0,"10 second Threshold: Waits for all angular elements on the landing page to load in 10 seconds or less
+",2018-10-30 11:09:10,2018-10-30 11:09:10,0.017s,PASSED
+click,Firefox 62.0,Clicks the Run button,2018-10-30 11:09:10,2018-10-30 11:09:11,0.547s,PASSED
+waitForAngularLoad,Firefox 62.0,"10 second Threshold: Waits for all angular elements on the landing page to load in 10 seconds or less
+",2018-10-30 11:09:11,2018-10-30 11:09:13,2.916s,PASSED
+click,Firefox 62.0,Clicks the gear icon to access Clear Cache and Refresh option,2018-10-30 11:09:13,2018-10-30 11:09:14,0.791s,PASSED
+click,Firefox 62.0,Clear cache and refresh to get clean data,2018-10-30 11:09:14,2018-10-30 11:09:15,0.467s,PASSED
+waitForAngularLoad,Firefox 62.0,"10 second Threshold: Waits for all angular elements on the landing page to load in 10 seconds or less
+",2018-10-30 11:09:15,2018-10-30 11:09:19,3.920s,PASSED
+waitForPageLoad,Firefox 62.0,,2018-10-30 11:09:19,2018-10-30 11:09:19,0.011s,PASSED
+verifyElementText,Firefox 62.0,"Verify ""Total Live Events"" widget is on the page",2018-10-30 11:09:19,2018-10-30 11:09:19,0.053s,PASSED
+verifyElementText,Firefox 62.0,"FIXTURE DATA - Verify Total Live Events widget has a value of 2,563",2018-10-30 11:09:19,2018-10-30 11:09:19,0.066s,PASSED
+verifyElementText,Firefox 62.0,"Verify ""Average Monthly Events"" widget is on the page",2018-10-30 11:09:19,2018-10-30 11:09:19,0.045s,PASSED
+verifyElementText,Firefox 62.0,FIXTURE DATA - Verify Average Monthly Events widget has a value of 226,2018-10-30 11:09:19,2018-10-30 11:09:19,0.037s,PASSED
+verifyElementText,Firefox 62.0,"Verify ""Unique Viewers"" widget is on the page",2018-10-30 11:09:19,2018-10-30 11:09:19,0.028s,PASSED
+verifyElementText,Firefox 62.0,"FIXTURE DATA - Verify Unique Viewers widget has a value of 10,079",2018-10-30 11:09:19,2018-10-30 11:09:19,0.035s,PASSED
+verifyElementText,Firefox 62.0,Verify Average Monthly Viewers widget exists on page,2018-10-30 11:09:19,2018-10-30 11:09:19,0.028s,PASSED
+verifyElementText,Firefox 62.0,"FIXTURE DATA - Verify Average Monthly Views widget has a value of 7,762",2018-10-30 11:09:19,2018-10-30 11:09:19,0.034s,PASSED
+verifyElementText,Firefox 62.0,Verify Total Videos widget exists on page,2018-10-30 11:09:19,2018-10-30 11:09:19,0.031s,PASSED
+verifyElementText,Firefox 62.0,"FIXTURE DATA - Verify Total Videos widget has a value of 1,585",2018-10-30 11:09:19,2018-10-30 11:09:19,0.033s,PASSED
+verifyElementText,Firefox 62.0,Verify Total Views widget exists on page,2018-10-30 11:09:19,2018-10-30 11:09:19,0.035s,PASSED
+verifyElementText,Firefox 62.0,"FIXTURE DATA - Verify Unique Viewers widget has a value of 17,443",2018-10-30 11:09:19,2018-10-30 11:09:19,0.033s,PASSED
+verifyElementText,Firefox 62.0,Verify Unique Viewers widget exists on page,2018-10-30 11:09:19,2018-10-30 11:09:19,0.026s,PASSED
+verifyElementText,Firefox 62.0,"FIXTURE DATA - Verify Total Views widget has a value of 8,261",2018-10-30 11:09:19,2018-10-30 11:09:19,0.035s,PASSED
+verifyElementText,Firefox 62.0,Verify Total Hours Watched widget exists on page,2018-10-30 11:09:19,2018-10-30 11:09:19,0.026s,PASSED
+verifyElementText,Firefox 62.0,"FIXTURE DATA - Verify Total Hours Watched widget has a value of 1,404",2018-10-30 11:09:19,2018-10-30 11:09:19,0.031s,PASSED
+verifyElementText,Firefox 62.0,Verify Unique Agent widget exists on page,2018-10-30 11:09:19,2018-10-30 11:09:19,0.035s,PASSED
+verifyElementText,Firefox 62.0,"FIXTURE DATA - Verify Unique Agents widget has a value of 10,905",2018-10-30 11:09:19,2018-10-30 11:09:19,0.031s,PASSED
+verifyElementText,Firefox 62.0,Verify Deliveries widget exists on page,2018-10-30 11:09:19,2018-10-30 11:09:19,0.033s,PASSED
+verifyElementText,Firefox 62.0,"FIXTURE DATA - Verify Delivery widget has a value of 67,512",2018-10-30 11:09:19,2018-10-30 11:09:19,0.030s,PASSED
+verifyElementText,Firefox 62.0,Verify Saved GB widget exists on page,2018-10-30 11:09:19,2018-10-30 11:09:19,0.031s,PASSED
+verifyElementText,Firefox 62.0,"FIXTURE DATA - Verify Saved GB widget has a value of 1,573",2018-10-30 11:09:19,2018-10-30 11:09:19,0.032s,PASSED
+verifyElementText,Firefox 62.0,Verify Total GB widget exists on page,2018-10-30 11:09:19,2018-10-30 11:09:19,0.030s,PASSED
+verifyElementText,Firefox 62.0,"FIXTURE DATA - Verify Total GB widget has a value of 3,865",2018-10-30 11:09:19,2018-10-30 11:09:19,0.032s,PASSED
+verifyElementPresent,Firefox 62.0,Verify the Peering Efficiency widget appears on page,2018-10-30 11:09:19,2018-10-30 11:09:19,0.013s,PASSED
+verifyElementPresent,Firefox 62.0,Verify the Peering Efficiency widget appears on page and has a value of 41%,2018-10-30 11:09:19,2018-10-30 11:09:19,0.011s,PASSED
+verifyElementPresent,Firefox 62.0,Verify the VoD Summary Peering Efficiency widget appears on page,2018-10-30 11:09:19,2018-10-30 11:09:20,0.013s,PASSED
+verifyElementPresent,Firefox 62.0,Verify the VoD Summary widget appears on page,2018-10-30 11:09:20,2018-10-30 11:09:20,0.010s,PASSED
+verifyElementPresent,Firefox 62.0,Verify the Peering Efficiency donut chart appears on page,2018-10-30 11:09:20,2018-10-30 11:09:20,0.013s,PASSED
+verifyElementPresent,Firefox 62.0,Verify the Peering Efficiency widget appears on page and has a value of 66% in the donut chart,2018-10-30 11:09:20,2018-10-30 11:09:20,0.012s,PASSED
+verifyElementPresent,Firefox 62.0,Verify the Live Views widget appears on page,2018-10-30 11:09:20,2018-10-30 11:09:20,0.012s,PASSED
+verifyElementPresent,Firefox 62.0,Verify the Live Events widget appears on page,2018-10-30 11:09:20,2018-10-30 11:09:20,0.019s,PASSED
+verifyElementPresent,Firefox 62.0,Verify the VoD Views widget appears on page,2018-10-30 11:09:20,2018-10-30 11:09:20,0.014s,PASSED
+verifyElementPresent,Firefox 62.0,Verify the VoD over time widget appears on page,2018-10-30 11:09:20,2018-10-30 11:09:20,0.017s,PASSED
+verifyElementPresent,Firefox 62.0,Verify the Deliveries by Month widget appears on page,2018-10-30 11:09:20,2018-10-30 11:09:20,0.012s,PASSED
+verifyElementPresent,Firefox 62.0,Verify the Live Event Summary CTA appears on page,2018-10-30 11:09:20,2018-10-30 11:09:20,0.009s,PASSED
+verifyElementPresent,Firefox 62.0,Verify the VoD Summary CTA appears on page,2018-10-30 11:09:20,2018-10-30 11:09:20,0.011s,PASSED
+verifyElementPresent,Firefox 62.0,Verify the Network Summary CTA appears on page,2018-10-30 11:09:20,2018-10-30 11:09:20,0.009s,PASSED
+closeBrowser,Firefox 62.0,,2018-10-30 11:09:20,2018-10-30 11:09:20,0.210s,PASSED

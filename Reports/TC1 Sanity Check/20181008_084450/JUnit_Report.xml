@@ -1,0 +1,548 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TC1 Sanity Check" time="40" tests="0" failures="1" errors="0">
+   <testsuite name="TC1 Sanity Check" tests="0" failures="1" errors="0" time="40" timestamp="2018-10-08 08:44:52" hostname="alahley - 172.16.168.46" id="Test Suites/TC1 Sanity Check">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/alahley/Katalon Studio/Analytics/Reports/TC1 Sanity Check/20181008_084450"/>
+         <property name="logFiles" value="/Users/alahley/Katalon Studio/Analytics/Reports/TC1 Sanity Check/20181008_084450/execution0.log"/>
+         <property name="attachments" value="/Users/alahley/Katalon Studio/Analytics/Reports/TC1 Sanity Check/20181008_084450/1539013506732.png, /Users/alahley/Katalon Studio/Analytics/Reports/TC1 Sanity Check/20181008_084450/1539013531471.png"/>
+         <property name="hostName" value="alahley - 172.16.168.46"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="5.7.0.1"/>
+         <property name="browser" value="Firefox 62.0"/>
+         <property name="hostAddress" value="172.16.168.46"/>
+         <property name="sessionId" value="83c95c26-f37f-4849-8f29-d33979711e70"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/TC1 - Fixture Data Validation" classname="Test Cases/TC1 - Fixture Data Validation" status="FAILED">
+         <failure type="FAILED" message="(Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to wait for Angular to load. (Root cause: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for com.kms.katalon.core.webui.keyword.builtin.WaitForAngularLoadKeyword$1@648ee871 (tried for 2 second(s) with 500 MILLISECONDS interval)
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Adams-MacBook-Right.local', ip: 'fe80:0:0:0:105f:a069:7b01:739b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 62.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 60404, moz:profile: /var/folders/jr/7vywd_6j2l1..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 17.7.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 83c95c26-f37f-4849-8f29-d33979711e70)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:32)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.WaitForAngularLoadKeyword.waitForAgularLoad(WaitForAngularLoadKeyword.groovy:51)
+	at com.kms.katalon.core.webui.keyword.builtin.WaitForAngularLoadKeyword$waitForAgularLoad.callCurrent(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:52)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:154)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:174)
+	at com.kms.katalon.core.webui.keyword.builtin.WaitForAngularLoadKeyword.execute(WaitForAngularLoadKeyword.groovy:32)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForAngularLoad(WebUiBuiltInKeywords.groovy:2441)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$waitForAngularLoad$3.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at Script1538587271633.run(Script1538587271633.groovy:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1539013490585.run(TempTestSuite1539013490585.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)"/>
+         <system-out><![CDATA[2018-10-08 08:44:52 - [TEST_CASE][FAILED] - Test Cases/TC1 - Fixture Data Validation: Test Cases/TC1 - Fixture Data Validation FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to wait for Angular to load. (Root cause: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for com.kms.katalon.core.webui.keyword.builtin.WaitForAngularLoadKeyword$1@648ee871 (tried for 2 second(s) with 500 MILLISECONDS interval)
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Adams-MacBook-Right.local', ip: 'fe80:0:0:0:105f:a069:7b01:739b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 62.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 60404, moz:profile: /var/folders/jr/7vywd_6j2l1..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 17.7.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 83c95c26-f37f-4849-8f29-d33979711e70)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:32)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.WaitForAngularLoadKeyword.waitForAgularLoad(WaitForAngularLoadKeyword.groovy:51)
+	at com.kms.katalon.core.webui.keyword.builtin.WaitForAngularLoadKeyword$waitForAgularLoad.callCurrent(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:52)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:154)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:174)
+	at com.kms.katalon.core.webui.keyword.builtin.WaitForAngularLoadKeyword.execute(WaitForAngularLoadKeyword.groovy:32)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForAngularLoad(WebUiBuiltInKeywords.groovy:2441)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$waitForAngularLoad$3.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at Script1538587271633.run(Script1538587271633.groovy:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1539013490585.run(TempTestSuite1539013490585.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)
+
+2018-10-08 08:44:53 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'https://stats.tc1.kontiki.com/login/email'
+
+2018-10-08 08:45:00 - [MESSAGE][PASSED] - Browser is opened with url: 'https://stats.tc1.kontiki.com/login/email'
+
+2018-10-08 08:45:00 - [TEST_STEP][PASSED] - setText: Text 'alahley@kollective.com' is set on object 'Object Repository/Page_Log in/input_email'
+
+2018-10-08 08:45:00 - [MESSAGE][PASSED] - Text 'alahley@kollective.com' is set on object 'Object Repository/Page_Log in/input_email'
+
+2018-10-08 08:45:00 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Page_Log in/input_password'
+
+2018-10-08 08:45:00 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Log in/input_password'
+
+2018-10-08 08:45:00 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Log in/input_remember' is clicked on
+
+2018-10-08 08:45:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Log in/input_remember' is clicked on
+
+2018-10-08 08:45:01 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Log in/input_login-submit' is clicked on
+
+2018-10-08 08:45:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Log in/input_login-submit' is clicked on
+
+2018-10-08 08:45:04 - [TEST_STEP][FAILED] - waitForAngularLoad: Unable to wait for Angular to load. (Root cause: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for com.kms.katalon.core.webui.keyword.builtin.WaitForAngularLoadKeyword$1@648ee871 (tried for 2 second(s) with 500 MILLISECONDS interval)
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Adams-MacBook-Right.local', ip: 'fe80:0:0:0:105f:a069:7b01:739b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 62.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 60404, moz:profile: /var/folders/jr/7vywd_6j2l1..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 17.7.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 83c95c26-f37f-4849-8f29-d33979711e70)
+
+2018-10-08 08:45:06 - [MESSAGE][FAILED] - Unable to wait for Angular to load. (Root cause: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for com.kms.katalon.core.webui.keyword.builtin.WaitForAngularLoadKeyword$1@648ee871 (tried for 2 second(s) with 500 MILLISECONDS interval)
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Adams-MacBook-Right.local', ip: 'fe80:0:0:0:105f:a069:7b01:739b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 62.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 60404, moz:profile: /var/folders/jr/7vywd_6j2l1..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 17.7.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 83c95c26-f37f-4849-8f29-d33979711e70)
+[[ATTACHMENT|/Users/alahley/Katalon Studio/Analytics/Reports/TC1 Sanity Check/20181008_084450/1539013506732.png]]
+
+2018-10-08 08:45:06 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Overview/strong_Filters' is clicked on
+
+2018-10-08 08:45:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Overview/strong_Filters' is clicked on
+
+2018-10-08 08:45:07 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'string:year' are selected in object 'Object Repository/Page_Overview/select_is in the pastis on the'  using regular expression
+
+2018-10-08 08:45:08 - [MESSAGE][PASSED] - All options with value 'string:year' are selected in object 'Object Repository/Page_Overview/select_is in the pastis on the'  using regular expression
+
+2018-10-08 08:45:08 - [TEST_STEP][PASSED] - setText: Text '2017' is set on object 'Object Repository/Page_Overview/input_Time Filter_form-control'
+
+2018-10-08 08:45:09 - [MESSAGE][PASSED] - Text '2017' is set on object 'Object Repository/Page_Overview/input_Time Filter_form-control'
+
+2018-10-08 08:45:09 - [TEST_STEP][PASSED] - waitForAngularLoad: Angular is ready.
+
+2018-10-08 08:45:13 - [MESSAGE][PASSED] - Angular is ready.
+
+2018-10-08 08:45:13 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Overview/button_Run' is clicked on
+
+2018-10-08 08:45:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Overview/button_Run' is clicked on
+
+2018-10-08 08:45:13 - [TEST_STEP][PASSED] - waitForAngularLoad: Angular is ready.
+
+2018-10-08 08:45:22 - [MESSAGE][PASSED] - Angular is ready.
+
+2018-10-08 08:45:22 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Overview/i_Stop_lk-icon-gear' is clicked on
+
+2018-10-08 08:45:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Overview/i_Stop_lk-icon-gear' is clicked on
+
+2018-10-08 08:45:22 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Overview/a_Clear Cache  Refresh' is clicked on
+
+2018-10-08 08:45:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Overview/a_Clear Cache  Refresh' is clicked on
+
+2018-10-08 08:45:23 - [TEST_STEP][PASSED] - waitForAngularLoad: Angular is ready.
+
+2018-10-08 08:45:31 - [MESSAGE][PASSED] - Angular is ready.
+
+2018-10-08 08:45:31 - [TEST_STEP][PASSED] - waitForAngularLoad: Angular is ready.
+
+2018-10-08 08:45:31 - [MESSAGE][PASSED] - Angular is ready.
+
+2018-10-08 08:45:31 - [TEST_STEP][FAILED] - verifyElementText: Actual text 'Total Live Events' and expected text 'Total Live EXents' of test object 'Object Repository/Page_Overview/div_Total Live Events' are NOT matched.
+
+2018-10-08 08:45:31 - [MESSAGE][FAILED] - Actual text 'Total Live Events' and expected text 'Total Live EXents' of test object 'Object Repository/Page_Overview/div_Total Live Events' are NOT matched.
+[[ATTACHMENT|/Users/alahley/Katalon Studio/Analytics/Reports/TC1 Sanity Check/20181008_084450/1539013531471.png]]
+
+2018-10-08 08:45:31 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page_Overview/div_2563' are matched.
+
+2018-10-08 08:45:31 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Overview/div_2563' are matched.
+
+2018-10-08 08:45:31 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page_Live Event Summary/div_Average Monthly Events' are matched.
+
+2018-10-08 08:45:31 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Live Event Summary/div_Average Monthly Events' are matched.
+
+2018-10-08 08:45:31 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page_Overview/div_226' are matched.
+
+2018-10-08 08:45:31 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Overview/div_226' are matched.
+
+2018-10-08 08:45:31 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page_Overview/div_Unique Viewers' are matched.
+
+2018-10-08 08:45:31 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Overview/div_Unique Viewers' are matched.
+
+2018-10-08 08:45:31 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page_Overview/div_10079' are matched.
+
+2018-10-08 08:45:31 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Overview/div_10079' are matched.
+
+2018-10-08 08:45:31 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page_Live Event Summary/div_Average Monthly Views' are matched.
+
+2018-10-08 08:45:31 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Live Event Summary/div_Average Monthly Views' are matched.
+
+2018-10-08 08:45:31 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page_Overview/div_7762' are matched.
+
+2018-10-08 08:45:31 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Overview/div_7762' are matched.
+
+2018-10-08 08:45:31 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page_Overview/div_Total Videos' are matched.
+
+2018-10-08 08:45:31 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Overview/div_Total Videos' are matched.
+
+2018-10-08 08:45:31 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page_Overview/div_1585' are matched.
+
+2018-10-08 08:45:31 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Overview/div_1585' are matched.
+
+2018-10-08 08:45:31 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page_Overview/div_Total Views' are matched.
+
+2018-10-08 08:45:32 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Overview/div_Total Views' are matched.
+
+2018-10-08 08:45:32 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page_Overview/div_17443' are matched.
+
+2018-10-08 08:45:32 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Overview/div_17443' are matched.
+
+2018-10-08 08:45:32 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page_Overview/div_Unique Viewers' are matched.
+
+2018-10-08 08:45:32 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Overview/div_Unique Viewers' are matched.
+
+2018-10-08 08:45:32 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page_Overview/div_8261' are matched.
+
+2018-10-08 08:45:32 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Overview/div_8261' are matched.
+
+2018-10-08 08:45:32 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page_Overview/div_Total Hours Watched' are matched.
+
+2018-10-08 08:45:32 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Overview/div_Total Hours Watched' are matched.
+
+2018-10-08 08:45:32 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page_Overview/div_1404' are matched.
+
+2018-10-08 08:45:32 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Overview/div_1404' are matched.
+
+2018-10-08 08:45:32 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page_Overview/div_Unique Agents' are matched.
+
+2018-10-08 08:45:32 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Overview/div_Unique Agents' are matched.
+
+2018-10-08 08:45:32 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page_Overview/div_10905' are matched.
+
+2018-10-08 08:45:32 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Overview/div_10905' are matched.
+
+2018-10-08 08:45:32 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page_Overview/div_Deliveries' are matched.
+
+2018-10-08 08:45:32 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Overview/div_Deliveries' are matched.
+
+2018-10-08 08:45:32 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page_Overview/div_67512' are matched.
+
+2018-10-08 08:45:32 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Overview/div_67512' are matched.
+
+2018-10-08 08:45:32 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page_Overview/div_Saved GB' are matched.
+
+2018-10-08 08:45:32 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Overview/div_Saved GB' are matched.
+
+2018-10-08 08:45:32 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page_Overview/div_1573' are matched.
+
+2018-10-08 08:45:32 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Overview/div_1573' are matched.
+
+2018-10-08 08:45:32 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page_Overview/div_Total GB' are matched.
+
+2018-10-08 08:45:32 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Overview/div_Total GB' are matched.
+
+2018-10-08 08:45:32 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page_Overview/div_3865' are matched.
+
+2018-10-08 08:45:32 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Overview/div_3865' are matched.
+
+2018-10-08 08:45:32 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_Overview/div_Peering Efficiency' is present
+
+2018-10-08 08:45:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-10-08 08:45:32 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Overview/div_Peering Efficiency' is present
+
+2018-10-08 08:45:32 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_Overview/div_41' is present
+
+2018-10-08 08:45:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-10-08 08:45:32 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Overview/div_41' is present
+
+2018-10-08 08:45:32 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_Overview/div_VoD Summary Peering Effici' is present
+
+2018-10-08 08:45:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-10-08 08:45:32 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Overview/div_VoD Summary Peering Effici' is present
+
+2018-10-08 08:45:32 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_Overview/a_Go to VoD Summary (1)' is present
+
+2018-10-08 08:45:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-10-08 08:45:32 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Overview/a_Go to VoD Summary (1)' is present
+
+2018-10-08 08:45:32 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_Overview/div_Peering Efficiency' is present
+
+2018-10-08 08:45:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-10-08 08:45:32 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Overview/div_Peering Efficiency' is present
+
+2018-10-08 08:45:32 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_Overview/div_Peering Efficiency (1)' is present
+
+2018-10-08 08:45:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-10-08 08:45:32 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Overview/div_Peering Efficiency (1)' is present
+
+2018-10-08 08:45:32 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_Overview/div_Live Views' is present
+
+2018-10-08 08:45:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-10-08 08:45:32 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Overview/div_Live Views' is present
+
+2018-10-08 08:45:32 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_Overview/div_Live Events' is present
+
+2018-10-08 08:45:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-10-08 08:45:32 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Overview/div_Live Events' is present
+
+2018-10-08 08:45:32 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_Overview/span_VoD Views' is present
+
+2018-10-08 08:45:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-10-08 08:45:32 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Overview/span_VoD Views' is present
+
+2018-10-08 08:45:32 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_Overview/div_VoD over time' is present
+
+2018-10-08 08:45:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-10-08 08:45:32 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Overview/div_VoD over time' is present
+
+2018-10-08 08:45:32 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_Overview/span_Deliveries by Month' is present
+
+2018-10-08 08:45:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-10-08 08:45:32 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Overview/span_Deliveries by Month' is present
+
+2018-10-08 08:45:32 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_Overview/a_Go to Live Event Summary' is present
+
+2018-10-08 08:45:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-10-08 08:45:32 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Overview/a_Go to Live Event Summary' is present
+
+2018-10-08 08:45:32 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_Overview/a_Go to VoD Summary' is present
+
+2018-10-08 08:45:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-10-08 08:45:32 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Overview/a_Go to VoD Summary' is present
+
+2018-10-08 08:45:32 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_Overview/a_Go to Network Summary' is present
+
+2018-10-08 08:45:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-10-08 08:45:32 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Overview/a_Go to Network Summary' is present
+
+2018-10-08 08:45:32 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-10-08 08:45:33 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[2018-10-08 08:44:52 - [TEST_CASE][FAILED] - Test Cases/TC1 - Fixture Data Validation: Test Cases/TC1 - Fixture Data Validation FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to wait for Angular to load. (Root cause: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for com.kms.katalon.core.webui.keyword.builtin.WaitForAngularLoadKeyword$1@648ee871 (tried for 2 second(s) with 500 MILLISECONDS interval)
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Adams-MacBook-Right.local', ip: 'fe80:0:0:0:105f:a069:7b01:739b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 62.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 60404, moz:profile: /var/folders/jr/7vywd_6j2l1..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 17.7.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 83c95c26-f37f-4849-8f29-d33979711e70)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:32)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.WaitForAngularLoadKeyword.waitForAgularLoad(WaitForAngularLoadKeyword.groovy:51)
+	at com.kms.katalon.core.webui.keyword.builtin.WaitForAngularLoadKeyword$waitForAgularLoad.callCurrent(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:52)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:154)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:174)
+	at com.kms.katalon.core.webui.keyword.builtin.WaitForAngularLoadKeyword.execute(WaitForAngularLoadKeyword.groovy:32)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForAngularLoad(WebUiBuiltInKeywords.groovy:2441)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$waitForAngularLoad$3.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at Script1538587271633.run(Script1538587271633.groovy:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1539013490585.run(TempTestSuite1539013490585.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-10-08 08:44:52 - [TEST_SUITE][FAILED] - TC1 Sanity Check: Test Cases/TC1 - Fixture Data Validation FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to wait for Angular to load. (Root cause: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for com.kms.katalon.core.webui.keyword.builtin.WaitForAngularLoadKeyword$1@648ee871 (tried for 2 second(s) with 500 MILLISECONDS interval)
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Adams-MacBook-Right.local', ip: 'fe80:0:0:0:105f:a069:7b01:739b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 62.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 60404, moz:profile: /var/folders/jr/7vywd_6j2l1..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 17.7.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 83c95c26-f37f-4849-8f29-d33979711e70)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:32)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.WaitForAngularLoadKeyword.waitForAgularLoad(WaitForAngularLoadKeyword.groovy:51)
+	at com.kms.katalon.core.webui.keyword.builtin.WaitForAngularLoadKeyword$waitForAgularLoad.callCurrent(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:52)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:154)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:174)
+	at com.kms.katalon.core.webui.keyword.builtin.WaitForAngularLoadKeyword.execute(WaitForAngularLoadKeyword.groovy:32)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForAngularLoad(WebUiBuiltInKeywords.groovy:2441)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$waitForAngularLoad$3.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at Script1538587271633.run(Script1538587271633.groovy:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1539013490585.run(TempTestSuite1539013490585.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)]]></system-out>
+      <system-err><![CDATA[2018-10-08 08:44:52 - [TEST_SUITE][FAILED] - TC1 Sanity Check: Test Cases/TC1 - Fixture Data Validation FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to wait for Angular to load. (Root cause: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for com.kms.katalon.core.webui.keyword.builtin.WaitForAngularLoadKeyword$1@648ee871 (tried for 2 second(s) with 500 MILLISECONDS interval)
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Adams-MacBook-Right.local', ip: 'fe80:0:0:0:105f:a069:7b01:739b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 62.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 60404, moz:profile: /var/folders/jr/7vywd_6j2l1..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 17.7.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 83c95c26-f37f-4849-8f29-d33979711e70)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:32)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.WaitForAngularLoadKeyword.waitForAgularLoad(WaitForAngularLoadKeyword.groovy:51)
+	at com.kms.katalon.core.webui.keyword.builtin.WaitForAngularLoadKeyword$waitForAgularLoad.callCurrent(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:52)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:154)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:174)
+	at com.kms.katalon.core.webui.keyword.builtin.WaitForAngularLoadKeyword.execute(WaitForAngularLoadKeyword.groovy:32)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForAngularLoad(WebUiBuiltInKeywords.groovy:2441)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$waitForAngularLoad$3.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at Script1538587271633.run(Script1538587271633.groovy:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1539013490585.run(TempTestSuite1539013490585.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)]]></system-err>
+   </testsuite>
+</testsuites>
