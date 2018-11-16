@@ -30,24 +30,6 @@
       <testCaseId>Test Cases/Prod 3/Prod 3 - Summary and Detail pages</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>da44be2e-fa90-4436-8b19-752ac8e07fef</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Prod 3/Prod 3 - Logging In and Out</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>11965c11-b16c-4d22-8329-a45686cf01c9</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Prod 3/Prod 3 - Navigation and CTAs</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>2f99c5af-621c-4484-b68a-5b87bb59bbd6</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Prod 3/Prod 3 - Summary and Detail pages</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
       <guid>d4d39361-7b1f-42e7-8514-4dd31ac3c4f0</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
