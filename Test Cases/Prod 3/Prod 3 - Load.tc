@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description>This test will hit roughly 50 pages and clear the cache each time to simulate some minor load on the system.</description>
-   <name>TC1 - Load</name>
+   <name>Prod 3 - Load</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>e5cdc6ee-4202-4bad-b2f8-d0d89ad9e63e</testCaseGuid>
