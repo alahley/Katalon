@@ -3,13 +3,7 @@
    <description></description>
    <name>i_Run_lk-icon-gear</name>
    <tag></tag>
-   <elementGuidId>5edc3dc5-c0d5-4370-a6bc-918b0eb599ff</elementGuidId>
-   <selectorCollection>
-      <entry>
-         <key>BASIC</key>
-         <value>div#lk-title > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(3) > div > i</value>
-      </entry>
-   </selectorCollection>
+   <elementGuidId>b96d461d-bb0b-4a03-a551-daba43999a7e</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -27,18 +21,11 @@
       <value>lk-icon-gear</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;lk-title&quot;)/div[@class=&quot;lk-title-controls-container&quot;]/div[@class=&quot;lk-title-controls ng-scope&quot;]/div[@class=&quot;dashboard-dropdown ng-scope dropdown&quot;]/div[@class=&quot;dropdown-toggle button-xs&quot;]/i[@class=&quot;lk-icon-gear&quot;]</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>css</name>
-      <type>Main</type>
-      <value>div#lk-title > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(3) > div > i</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

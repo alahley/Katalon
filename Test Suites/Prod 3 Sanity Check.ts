@@ -4,7 +4,7 @@
    <name>Prod 3 Sanity Check</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-11-16T11:39:19</lastRun>
+   <lastRun>2018-11-16T18:03:41</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
@@ -12,33 +12,39 @@
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <testSuiteGuid>d18484e3-a215-4f83-9489-4bfedda9db0f</testSuiteGuid>
    <testCaseLink>
-      <guid>089819c0-8296-4965-b1cd-dab172b45592</guid>
+      <guid>11b97710-ebde-463a-8485-f70bde66aaf6</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Prod 3/Prod 3 - Logging In and Out</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>5c456f55-6745-4499-87a1-2abdbc91a6fe</guid>
+      <guid>566fa664-be58-4588-a0ad-a490352460c9</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Prod 3/Prod 3 - Navigation and CTAs</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>8bd90700-fb89-4f20-a550-7a09820f51a6</guid>
+      <guid>c6fd2ce1-e0a8-48ca-8b41-23a7c95a0b9e</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Prod 3/Prod 3 - Overview, or Landing Page</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>88ebafaa-c522-4cf0-aa77-1077ab2996f3</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Prod 3/Prod 3 - Summary and Detail pages</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>d4d39361-7b1f-42e7-8514-4dd31ac3c4f0</guid>
+      <guid>a3ec9801-969a-472e-a57e-b7d0d9062871</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Prod 3/Prod 3 - Fixture Data Validation</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>7f8f3914-50c6-49ac-934f-e0443038ba25</guid>
+      <guid>c087b8c6-c2a6-4892-ad02-40b3018049a4</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Prod 3/Prod 3 - Overview, or Landing Page</testCaseId>
+      <testCaseId>Test Cases/Prod 3/Prod 3 - Load</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>
