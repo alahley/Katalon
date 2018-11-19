@@ -41,14 +41,21 @@
       <value>false</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
       <value>Toggle Dropdown</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;lk-title&quot;)/div[@class=&quot;lk-title-controls-container&quot;]/div[@class=&quot;lk-title-controls ng-scope&quot;]/div[@class=&quot;dashboard-dropdown ng-scope dropdown&quot;]/div[@class=&quot;dropdown-toggle button-xs&quot;]</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>css</name>
       <type>Main</type>

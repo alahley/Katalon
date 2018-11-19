@@ -136,7 +136,7 @@ WebUI.verifyElementText(findTestObject('Page_Overview/div_21067.65'), '21,067.65
 WebUI.verifyElementPresent(findTestObject('Page_Overview/div_Peering Efficiency'), 0)
 
 'Verify the Peering Efficiency widget appears on page and has a value of 41%'
-WebUI.verifyElementPresent(findTestObject('Page_Overview/div_41'), 41)
+WebUI.verifyElementPresent(findTestObject('Page_Overview/div_74'), 74)
 
 'Verify the VoD Summary Peering Efficiency widget appears on page'
 WebUI.verifyElementPresent(findTestObject('Page_Overview/div_VoD Summary Peering Effici'), 0)

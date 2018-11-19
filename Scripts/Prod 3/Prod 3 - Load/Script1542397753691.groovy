@@ -415,7 +415,7 @@ WebUI.waitForAngularLoad(0)
 
 WebUI.waitForPageLoad(0)
 
-WebUI.click(findTestObject('Page_Network Content/i_Run_lk-icon-gear'))
+WebUI.click(findTestObject('Page_Network Content/div_Toggle Dropdown'))
 
 WebUI.click(findTestObject('Page_Network Content/a_Clear Cache  Refresh'))
 
@@ -430,7 +430,7 @@ WebUI.waitForAngularLoad(0)
 
 WebUI.waitForPageLoad(0)
 
-WebUI.click(findTestObject('Page_Network Content/i_Run_lk-icon-gear'))
+WebUI.click(findTestObject('Page_Network Content/div_Toggle Dropdown'))
 
 WebUI.click(findTestObject('Page_Network Content/a_Clear Cache  Refresh'))
 
