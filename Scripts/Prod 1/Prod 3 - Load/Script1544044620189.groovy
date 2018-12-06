@@ -14,7 +14,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
 'Fires up the browser\n'
-WebUI.openBrowser('https://stats.ac1.kontiki.com/login/email')
+WebUI.openBrowser('https://stats.kontiki.com/login/email')
 
 'Filling out login info (username)'
 WebUI.setText(findTestObject('Object Repository/Page_Log in/input_email (2)'), 'alahley@kollective.com')
