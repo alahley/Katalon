@@ -20,7 +20,7 @@
       <value>a</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
@@ -34,14 +34,14 @@
       <value>post</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>lk-track-attrs</name>
       <type>Main</type>
       <value>{&quot;sudo_as_user_id&quot;: user.id}</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>lk-track-name</name>
       <type>Main</type>
@@ -52,7 +52,7 @@
       <matchCondition>equals</matchCondition>
       <name>ng-href</name>
       <type>Main</type>
-      <value>/admin/sudo/login/809</value>
+      <value>/admin/sudo/login/785</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -73,7 +73,7 @@
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
-      <value>/admin/sudo/login/809</value>
+      <value>/admin/sudo/login/785</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -83,14 +83,14 @@
       <value>Sudo</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;lk-content&quot;)/lk-users-section[@class=&quot;ng-isolate-scope&quot;]/table[@class=&quot;table table-striped users-table&quot;]/tbody[1]/tr[@class=&quot;ng-scope&quot;]/td[@class=&quot;admin-connection-tools&quot;]/a[@class=&quot;btn btn-default btn-xs ng-scope&quot;]</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>css</name>
       <type>Main</type>
@@ -112,7 +112,7 @@
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Basic User, Field Engineer, Pro User, SCCM User'])[1]/following::a[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Basic User, Field Engineer, Pro User'])[1]/following::a[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -136,13 +136,25 @@
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:href</name>
-      <value>//a[contains(@href, '/admin/sudo/login/809')]</value>
+      <value>//a[contains(@href, '/admin/sudo/login/785')]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <value>//td[6]/a</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Basic User, Field Engineer, Pro User, SCCM User'])[1]/following::a[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <value>//a[contains(@href, '/admin/sudo/login/809')]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

@@ -18,14 +18,14 @@
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>clause-type-select form-control ng-pristine ng-untouched ng-valid ng-not-empty</value>
+      <value>clause-type-select form-control ng-untouched ng-valid ng-not-empty ng-dirty ng-valid-parse</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>ng-change</name>
       <type>Main</type>
-      <value>$ctrl.setClauseValuesOrDefault(clause, 'past')</value>
+      <value>$ctrl.setClauseValuesOrDefault(clause, 'anytime')</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -74,7 +74,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;dashboard-filter-section&quot;)/div[@class=&quot;filters clearfix&quot;]/table[@class=&quot;explore-filters clearfix&quot;]/tbody[1]/tr[@class=&quot;ng-scope&quot;]/td[@class=&quot;filter-editor&quot;]/lk-dashboard-filter[@class=&quot;ng-isolate-scope&quot;]/lk-filter[@class=&quot;ng-isolate-scope&quot;]/table[@class=&quot;filter-clauses&quot;]/tbody[1]/tr[@class=&quot;clause ng-scope&quot;]/td[@class=&quot;clause-filter&quot;]/select[@class=&quot;clause-type-select form-control ng-pristine ng-untouched ng-valid ng-not-empty&quot;]</value>
+      <value>id(&quot;dashboard-filter-section&quot;)/div[@class=&quot;filters clearfix&quot;]/table[@class=&quot;explore-filters clearfix&quot;]/tbody[1]/tr[@class=&quot;ng-scope&quot;]/td[@class=&quot;filter-editor&quot;]/lk-dashboard-filter[@class=&quot;ng-isolate-scope&quot;]/lk-filter[@class=&quot;ng-isolate-scope&quot;]/table[@class=&quot;filter-clauses&quot;]/tbody[1]/tr[@class=&quot;clause ng-scope&quot;]/td[@class=&quot;clause-filter&quot;]/select[@class=&quot;clause-type-select form-control ng-untouched ng-valid ng-not-empty ng-dirty ng-valid-parse&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -98,6 +98,24 @@
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Editing Dashboard'])[1]/preceding::select[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Live Events'])[2]/preceding::select[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <value>//td[2]/select</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Editing Dashboard'])[1]/preceding::select[2]</value>
    </webElementXpaths>
    <webElementXpaths>
@@ -105,11 +123,5 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Live Events'])[2]/preceding::select[2]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:position</name>
-      <value>//td[2]/select</value>
    </webElementXpaths>
 </WebElementEntity>

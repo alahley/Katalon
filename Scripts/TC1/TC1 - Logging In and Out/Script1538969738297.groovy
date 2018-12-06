@@ -35,9 +35,11 @@ WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Overview/a'), 
 
 WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Overview/div_Release Notes_flyout-backg (1)'), 0)
 
+WebUI.verifyElementPresent(findTestObject('Page_Video on Demand/a_Video on Demand_1'), 0)
+
 WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Overview/div_Admin_real-image'), 0)
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Overview/div_Release Notes_flyout-backg (1)'), 0)
+WebUI.verifyElementPresent(findTestObject('Page_Video on Demand/a_Video on Demand_1'), 0)
 
 WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Overview/i_Admin_lk-icon-arrow-down-car'), 0)
 
