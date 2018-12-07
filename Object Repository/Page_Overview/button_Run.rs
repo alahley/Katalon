@@ -18,7 +18,7 @@
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>btn run-button btn-primary</value>
+      <value>btn run-button btn-default</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -74,7 +74,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;lk-title&quot;)/div[@class=&quot;lk-title-controls-container&quot;]/div[@class=&quot;lk-title-controls ng-scope&quot;]/div[@class=&quot;button-wrapper ng-scope&quot;]/div[@class=&quot;button-wrapper ng-scope&quot;]/button[@class=&quot;btn run-button btn-primary&quot;]</value>
+      <value>id(&quot;lk-title&quot;)/div[@class=&quot;lk-title-controls-container&quot;]/div[@class=&quot;lk-title-controls ng-scope&quot;]/div[@class=&quot;button-wrapper ng-scope&quot;]/div[@class=&quot;button-wrapper ng-scope&quot;]/button[@class=&quot;btn run-button btn-default&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

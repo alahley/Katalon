@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>This will cover testing of Paul's new navigation and dropdown menus, as well as the three main Calls To Action on the Overview page</description>
+   <name>Intel - Navigation and CTAs</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9de5e894-2f8e-41da-ba11-94fdb19ab3e3</testCaseGuid>
+</TestCaseEntity>

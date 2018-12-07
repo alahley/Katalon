@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>div#dashboard > div > div:nth-of-type(2) > div > div > div > div:nth-of-type(2) > div:nth-of-type(8) > div > lk-vis-element > div > div > div:nth-of-type(2) > div > div > div > lk-visualization-container > div > div > div > div > div > div:nth-of-type(2) > div > span</value>
+         <value>div#dashboard > div > div:nth-of-type(2) > div > div > div > div:nth-of-type(2) > div:nth-of-type(8) > div > lk-vis-element > div > div > div:nth-of-type(2) > div > div > div > lk-visualization-container > div > div > div > div > div > div:nth-of-type(2) > div</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -45,7 +45,7 @@
       <matchCondition>equals</matchCondition>
       <name>css</name>
       <type>Main</type>
-      <value>div#dashboard > div > div:nth-of-type(2) > div > div > div > div:nth-of-type(2) > div:nth-of-type(8) > div > lk-vis-element > div > div > div:nth-of-type(2) > div > div > div > lk-visualization-container > div > div > div > div > div > div:nth-of-type(2) > div > span</value>
+      <value>div#dashboard > div > div:nth-of-type(2) > div > div > div > div:nth-of-type(2) > div:nth-of-type(8) > div > lk-vis-element > div > div > div:nth-of-type(2) > div > div > div > lk-visualization-container > div > div > div > div > div > div:nth-of-type(2) > div</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

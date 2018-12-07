@@ -18,7 +18,7 @@
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>form-control suggest-picker single-input ng-pristine ng-untouched ng-valid ng-not-empty</value>
+      <value>form-control suggest-picker single-input ng-valid ng-not-empty ng-dirty ng-valid-parse ng-touched</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -67,7 +67,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;dashboard-filter-section&quot;)/div[@class=&quot;filters clearfix&quot;]/table[@class=&quot;explore-filters clearfix&quot;]/tbody[1]/tr[@class=&quot;ng-scope&quot;]/td[@class=&quot;filter-editor&quot;]/lk-dashboard-filter[@class=&quot;ng-isolate-scope&quot;]/lk-filter[@class=&quot;ng-isolate-scope&quot;]/table[@class=&quot;filter-clauses&quot;]/tbody[1]/tr[@class=&quot;clause ng-scope&quot;]/td[@class=&quot;clause-filter&quot;]/span[@class=&quot;ng-scope&quot;]/span[@class=&quot;outer-span ng-scope&quot;]/span[@class=&quot;ng-scope&quot;]/lk-suggest-picker[@class=&quot;ng-pristine ng-untouched ng-valid ng-isolate-scope ng-not-empty&quot;]/div[@class=&quot;explore-filter-field ng-scope has-error&quot;]/input[@class=&quot;form-control suggest-picker single-input ng-pristine ng-untouched ng-valid ng-not-empty&quot;]</value>
+      <value>id(&quot;dashboard-filter-section&quot;)/div[@class=&quot;filters clearfix&quot;]/table[@class=&quot;explore-filters clearfix&quot;]/tbody[1]/tr[@class=&quot;ng-scope&quot;]/td[@class=&quot;filter-editor&quot;]/lk-dashboard-filter[@class=&quot;ng-isolate-scope&quot;]/lk-filter[@class=&quot;ng-isolate-scope&quot;]/table[@class=&quot;filter-clauses&quot;]/tbody[1]/tr[@class=&quot;clause ng-scope&quot;]/td[@class=&quot;clause-filter&quot;]/span[@class=&quot;ng-scope&quot;]/span[@class=&quot;outer-span ng-scope&quot;]/span[@class=&quot;ng-scope&quot;]/lk-suggest-picker[@class=&quot;ng-untouched ng-valid ng-isolate-scope ng-not-empty ng-dirty ng-valid-parse&quot;]/div[@class=&quot;explore-filter-field ng-scope&quot;]/input[@class=&quot;form-control suggest-picker single-input ng-valid ng-not-empty ng-dirty ng-valid-parse ng-touched&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

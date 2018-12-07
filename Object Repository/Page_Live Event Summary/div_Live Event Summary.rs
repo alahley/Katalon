@@ -4,6 +4,12 @@
    <name>div_Live Event Summary</name>
    <tag></tag>
    <elementGuidId>75a24ae9-c97d-4477-9b77-d468899495eb</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>div#lk-title > div > div > lk-title-editor > div</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -42,11 +48,11 @@
       <value>Live Event Summary</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath</name>
+      <name>css</name>
       <type>Main</type>
-      <value>id(&quot;lk-title&quot;)/div[@class=&quot;lk-title-block&quot;]/div[@class=&quot;lk-title-main&quot;]/lk-title-editor[@class=&quot;dark ng-scope ng-isolate-scope&quot;]/div[@class=&quot;title-main&quot;]</value>
+      <value>div#lk-title > div > div > lk-title-editor > div</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

@@ -4,6 +4,12 @@
    <name>div_Network Summary</name>
    <tag></tag>
    <elementGuidId>d6e7fb28-c4f2-4b1e-8c0c-64ededd8ae2b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>div#lk-title > div > div > lk-title-editor > div</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -42,11 +48,11 @@
       <value>Network Summary</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath</name>
+      <name>css</name>
       <type>Main</type>
-      <value>id(&quot;lk-title&quot;)/div[@class=&quot;lk-title-block&quot;]/div[@class=&quot;lk-title-main&quot;]/lk-title-editor[@class=&quot;dark ng-scope ng-isolate-scope&quot;]/div[@class=&quot;title-main&quot;]</value>
+      <value>div#lk-title > div > div > lk-title-editor > div</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

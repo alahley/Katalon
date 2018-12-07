@@ -14,7 +14,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
 'Fires up the browser\n'
-WebUI.openBrowser('https://stats.wg1.kontiki.com/login/email')
+WebUI.openBrowser('https://stats.kontiki.com/login/email')
 
 'Filling out login info (username)'
 WebUI.setText(findTestObject('Page_Log in/input_email'), 'alahley@kollective.com')
@@ -179,7 +179,7 @@ not_run: WebUI.verifyElementPresent(findTestObject('Page_Overview/a_Go to Networ
 'Waits for all angular elements on the landing page to load'
 not_run: WebUI.waitForAngularLoad(10)
 
-WebUI.navigateToUrl('https://stats.wg1.kontiki.com/admin/users?sorts=last_name%20asc&name=demo')
+WebUI.navigateToUrl('https://stats.kontiki.com/admin/users?sorts=last_name%20asc&name=demo')
 
 'Waits for all angular elements on the landing page to load'
 WebUI.waitForAngularLoad(30)
@@ -193,18 +193,18 @@ WebUI.waitForAngularLoad(30)
 
 WebUI.verifyElementText(findTestObject('Page_Overview/span_You are sudoing as Demo U'), 'You are sudoing as Demo User.')
 
-WebUI.navigateToUrl('https://stats.wg1.kontiki.com/dashboards/analytics_external::Overview?time_filter=&filter_config=%7B%22time_filter%22:%5B%7B%22type%22:%22anytime%22,%22values%22:%5B%7B%22constant%22:%226%22,%22unit%22:%22mo%22%7D,%7B%7D%5D,%22id%22:2%7D%5D%7D')
+WebUI.navigateToUrl('https://stats.kontiki.com/dashboards/analytics_external::Overview?time_filter=&filter_config=%7B%22time_filter%22:%5B%7B%22type%22:%22anytime%22,%22values%22:%5B%7B%22constant%22:%226%22,%22unit%22:%22mo%22%7D,%7B%7D%5D,%22id%22:2%7D%5D%7D')
 
 WebUI.waitForPageLoad(0)
 
 'Waits for all angular elements on the landing page to load'
-WebUI.waitForAngularLoad(30)
+WebUI.waitForAngularLoad(45)
 
 WebUI.click(findTestObject('Page_Overview/i_Run_lk-icon-gear'))
 
 WebUI.click(findTestObject('Page_Overview/a_Clear Cache  Refresh'))
 
-WebUI.waitForAngularLoad(30)
+WebUI.waitForAngularLoad(45)
 
 WebUI.waitForPageLoad(0)
 

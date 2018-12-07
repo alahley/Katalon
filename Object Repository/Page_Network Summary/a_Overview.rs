@@ -4,6 +4,12 @@
    <name>a_Overview</name>
    <tag></tag>
    <elementGuidId>09da1292-303f-4efb-b6cd-fc27250ee043</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>ul#kollective-nav > div > li > a</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -28,11 +34,11 @@
       <value>Overview</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath</name>
+      <name>css</name>
       <type>Main</type>
-      <value>id(&quot;kollective-nav&quot;)/div[@class=&quot;nav-content&quot;]/li[1]/a[1]</value>
+      <value>ul#kollective-nav > div > li > a</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Project>
-   <description>This will test Paul's fixture data</description>
+   <description>A place to keep automated tests for Kollective IQ on Looker</description>
    <name>Analytics</name>
    <tag></tag>
    <UUID>5f59665d-4781-4153-aba5-46cda64802d8</UUID>
@@ -21,4 +21,5 @@
          </systemFolderConfiguration>
       </systemFolderList>
    </sourceContent>
+   <type>GENERIC</type>
 </Project>

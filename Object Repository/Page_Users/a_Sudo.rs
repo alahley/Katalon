@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>div#lk-content > lk-users-section > table > tbody > tr:nth-of-type(4) > td:nth-of-type(6) > a</value>
+         <value>div#lk-content > lk-users-section > table > tbody > tr > td:nth-of-type(6) > a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -52,7 +52,7 @@
       <matchCondition>equals</matchCondition>
       <name>ng-href</name>
       <type>Main</type>
-      <value>/admin/sudo/login/785</value>
+      <value>/admin/sudo/login/1377</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -73,7 +73,7 @@
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
-      <value>/admin/sudo/login/785</value>
+      <value>/admin/sudo/login/1377</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -136,13 +136,19 @@
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:href</name>
-      <value>//a[contains(@href, '/admin/sudo/login/785')]</value>
+      <value>//a[contains(@href, '/admin/sudo/login/1377')]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <value>//td[6]/a</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <value>//a[contains(@href, '/admin/sudo/login/785')]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>This will cover primarily the log in process and validation of Sudoing as a different user</description>
+   <name>Intel - Logging In and Out</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f3bf6ee1-d55f-41ea-8d68-c45a58909a6a</testCaseGuid>
+</TestCaseEntity>
