@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_</name>
+   <tag></tag>
+   <elementGuidId>1f091786-5d2e-4e57-812d-d9de28e952e9</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>close ui-select-match-close</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-hide</name>
+      <type>Main</type>
+      <value>$select.disabled</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-click</name>
+      <type>Main</type>
+      <value>$selectMultiple.removeChoice($index)</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>button</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tabindex</name>
+      <type>Main</type>
+      <value>0</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-hidden</name>
+      <type>Main</type>
+      <value>false</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> ×</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;dashboard-filter-section&quot;)/div[@class=&quot;filters clearfix&quot;]/table[@class=&quot;explore-filters clearfix&quot;]/tbody[1]/tr[@class=&quot;ng-scope&quot;]/td[@class=&quot;filter-editor&quot;]/lk-dashboard-filter[@class=&quot;ng-isolate-scope&quot;]/lk-filter[@class=&quot;ng-isolate-scope&quot;]/table[@class=&quot;filter-clauses&quot;]/tbody[1]/tr[@class=&quot;clause ng-scope&quot;]/td[@class=&quot;clause-filter&quot;]/span[@class=&quot;ng-scope&quot;]/span[@class=&quot;outer-span ng-scope&quot;]/span[@class=&quot;ng-scope&quot;]/lk-suggest-picker[@class=&quot;ng-pristine ng-untouched ng-valid ng-isolate-scope ng-not-empty&quot;]/div[@class=&quot;explore-filter-field ng-scope&quot;]/div[@class=&quot;suggest-picker multiple-select ui-select-container ui-select-multiple ui-select-bootstrap dropdown form-control ng-not-empty ng-valid&quot;]/div[1]/span[@class=&quot;ui-select-match&quot;]/span[@class=&quot;ng-scope&quot;]/span[@class=&quot;ui-select-match-item btn btn-default btn-xs&quot;]/span[@class=&quot;close ui-select-match-close&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <value>//div[@id='dashboard-filter-section']/div[2]/table/tbody/tr/td[2]/lk-dashboard-filter/lk-filter/table/tbody/tr/td[2]/span[2]/span/span/lk-suggest-picker/div/div/div/span/span/span/span</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Content Moid'])[1]/following::span[8]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Filters'])[2]/following::span[9]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='None'])[1]/preceding::span[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='No suggestions found.'])[1]/preceding::span[4]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <value>//lk-suggest-picker/div/div/div/span/span/span/span</value>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,15 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>div_Video on Demand Summary</name>
+   <name>div_Deliveries</name>
    <tag></tag>
-   <elementGuidId>bfdff2e6-9775-4716-95aa-ffc39aac8836</elementGuidId>
-   <selectorCollection>
-      <entry>
-         <key>BASIC</key>
-         <value>div#lk-title > div > div > lk-title-editor > div</value>
-      </entry>
-   </selectorCollection>
+   <elementGuidId>dcc6e978-2665-44eb-a8e5-aaa43477b899</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -24,71 +18,52 @@
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>title-main</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>ng-hide</name>
-      <type>Main</type>
-      <value>inEditingMode</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>aria-hidden</name>
-      <type>Main</type>
-      <value>false</value>
+      <value>looker-vis-context-title</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Video on Demand Summary</value>
+      <value>Deliveries
+  
+</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;lk-title&quot;)/div[@class=&quot;lk-title-block&quot;]/div[@class=&quot;lk-title-main&quot;]/lk-title-editor[@class=&quot;dark ng-scope ng-isolate-scope&quot;]/div[@class=&quot;title-main&quot;]</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>css</name>
-      <type>Main</type>
-      <value>div#lk-title > div > div > lk-title-editor > div</value>
+      <value>id(&quot;dashboard&quot;)/div[1]/div[@class=&quot;dashboard-elements&quot;]/div[@class=&quot;grid-layout dashboard-layout ng-scope&quot;]/div[@class=&quot;container-relative&quot;]/div[@class=&quot;row ng-scope&quot;]/div[@class=&quot;dashboard-element col-md-3&quot;]/lk-vis-element[@class=&quot;ng-scope&quot;]/div[@class=&quot;vis title-hidden&quot;]/div[@class=&quot;vis-header-note-and-wrapper&quot;]/div[@class=&quot;vis-wrapper-container&quot;]/div[@class=&quot;vis-wrapper-inner-container&quot;]/div[@class=&quot;vis-wrapper&quot;]/div[1]/lk-visualization-container[@class=&quot;vis-element ng-scope ng-isolate-scope&quot;]/div[1]/div[@class=&quot;vis-container&quot;]/div[@class=&quot;vis-single-value-wrapper&quot;]/div[@class=&quot;vis-single-value&quot;]/div[@class=&quot;centered&quot;]/div[@class=&quot;vis-single-value-title&quot;]/div[@class=&quot;looker-vis-context-title&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
-      <value>//div[@id='lk-title']/div/div/lk-title-editor/div</value>
+      <value>//div[@id='dashboard']/div/div[2]/div/div/div[2]/div[3]/lk-vis-element/div/div/div[2]/div/div/div/lk-visualization-container/div/div/div/div/div/div[2]/div</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='View Space ”LookML Dashboards“'])[1]/following::div[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='An Error Occurred'])[3]/following::div[9]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Video on Demand Summary'])[3]/following::div[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Deliveries'])[3]/following::div[16]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Video on Demand Summary'])[5]/preceding::div[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Views'])[3]/preceding::div[6]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
-      <value>//lk-title-editor/div</value>
+      <value>//div[3]/lk-vis-element/div/div/div[2]/div/div/div/lk-visualization-container/div/div/div/div/div/div[2]/div</value>
    </webElementXpaths>
 </WebElementEntity>
