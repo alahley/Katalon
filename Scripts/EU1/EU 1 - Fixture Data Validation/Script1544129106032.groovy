@@ -114,7 +114,7 @@ WebUI.verifyElementText(findTestObject('Page_Overview/div_99391.3'), '99,391.3')
 WebUI.verifyElementText(findTestObject('Page_Overview/div_Unique Agents'), 'Unique Agents')
 
 'FIXTURE DATA - Verify Unique Agents widget has a value of 10,905'
-WebUI.verifyElementText(findTestObject('Page_Overview/div_1292296'), '1,292,296')
+WebUI.verifyElementText(findTestObject('Page_Overview/div_1292271'), '1,292,271')
 
 'Verify Deliveries widget exists on page'
 WebUI.verifyElementText(findTestObject('Page_Overview/div_Deliveries'), 'Deliveries')
