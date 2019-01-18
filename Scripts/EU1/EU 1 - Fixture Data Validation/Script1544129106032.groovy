@@ -78,7 +78,7 @@ WebUI.verifyElementText(findTestObject('Page_Overview/div_293'), '293')
 WebUI.verifyElementText(findTestObject('Page_Overview/div_Unique Viewers'), 'Unique Viewers')
 
 'FIXTURE DATA - Verify Unique Viewers widget has a value of 14,388'
-WebUI.verifyElementText(findTestObject('Page_Overview/div_411890'), '411,890')
+WebUI.verifyElementText(findTestObject('Page_Overview/div_410188'), '410,188')
 
 'Verify Average Monthly Viewers widget exists on page'
 WebUI.verifyElementText(findTestObject('Page_Live Event Summary/div_Average Monthly Views'), 'Average Monthly Views')
@@ -102,25 +102,25 @@ WebUI.verifyElementText(findTestObject('Page_Overview/div_1512829'), '1,512,829'
 WebUI.verifyElementText(findTestObject('Page_Overview/div_Unique Viewers'), 'Unique Viewers')
 
 'FIXTURE DATA - Verify Unique Viewers widget has a value of 11,413'
-WebUI.verifyElementText(findTestObject('Page_Overview/div_470144'), '470,144')
+WebUI.verifyElementText(findTestObject('Page_Overview/div_476639'), '476,639')
 
 'Verify Total Hours Watched widget exists on page'
 WebUI.verifyElementText(findTestObject('Page_Overview/div_Total Hours Watched'), 'Total Hours Watched')
 
 'FIXTURE DATA - Verify Total Hours Watched widget has a value of 1,404.1'
-WebUI.verifyElementText(findTestObject('Page_Overview/div_99391'), '99,391')
+WebUI.verifyElementText(findTestObject('Page_Overview/div_99391.3'), '99,391.3')
 
 'Verify Unique Agent widget exists on page'
 WebUI.verifyElementText(findTestObject('Page_Overview/div_Unique Agents'), 'Unique Agents')
 
 'FIXTURE DATA - Verify Unique Agents widget has a value of 10,905'
-WebUI.verifyElementText(findTestObject('Page_Overview/div_1293220'), '1,293,220')
+WebUI.verifyElementText(findTestObject('Page_Overview/div_1292296'), '1,292,296')
 
 'Verify Deliveries widget exists on page'
 WebUI.verifyElementText(findTestObject('Page_Overview/div_Deliveries'), 'Deliveries')
 
 'FIXTURE DATA - Verify Delivery widget has a value of 67,512'
-WebUI.verifyElementText(findTestObject('Page_Overview/div_12674359'), '12,674,359')
+WebUI.verifyElementText(findTestObject('Page_Overview/div_12674363'), '12,674,363')
 
 'Verify Saved GB widget exists on page'
 WebUI.verifyElementText(findTestObject('Page_Overview/div_Saved GB'), 'Saved GB')
@@ -132,7 +132,7 @@ WebUI.verifyElementText(findTestObject('Page_Overview/div_431857'), '431,857')
 WebUI.verifyElementText(findTestObject('Page_Overview/div_Total GB'), 'Total GB')
 
 'FIXTURE DATA - Verify Total GB widget has a value of 3,865.08'
-WebUI.verifyElementText(findTestObject('Page_Overview/div_527671'), '527,671')
+WebUI.verifyElementText(findTestObject('Page_Overview/div_527671.36'), '527,671.36')
 
 'Verify the Peering Efficiency widget appears on page'
 WebUI.verifyElementPresent(findTestObject('Page_Overview/div_Peering Efficiency'), 0)
