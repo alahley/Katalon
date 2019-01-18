@@ -43,13 +43,13 @@ WebUI.selectOptionByValue(findTestObject('Page_Overview/select_is in the pastis 
 WebUI.setText(findTestObject('Page_Overview/input_Time Filter_form-control'), '2017')
 
 '10 second Threshold: Waits for all angular elements on the landing page to load in 10 seconds or less\n'
-WebUI.waitForAngularLoad(45)
+WebUI.waitForAngularLoad(60)
 
 'Clicks the Run button'
 WebUI.click(findTestObject('Page_Overview/button_Run'))
 
 '10 second Threshold: Waits for all angular elements on the landing page to load in 10 seconds or less\n'
-WebUI.waitForAngularLoad(45)
+WebUI.waitForAngularLoad(60)
 
 'Clicks the gear icon to access Clear Cache and Refresh option'
 WebUI.click(findTestObject('Page_Overview/i_Stop_lk-icon-gear'))
@@ -58,7 +58,7 @@ WebUI.click(findTestObject('Page_Overview/i_Stop_lk-icon-gear'))
 WebUI.click(findTestObject('Page_Overview/a_Clear Cache  Refresh'))
 
 '10 second Threshold: Waits for all angular elements on the landing page to load in 10 seconds or less\n'
-WebUI.waitForAngularLoad(45)
+WebUI.waitForAngularLoad(60)
 
 WebUI.waitForPageLoad(0)
 
@@ -177,7 +177,7 @@ WebUI.verifyElementPresent(findTestObject('Page_Overview/a_Go to VoD Summary'), 
 WebUI.verifyElementPresent(findTestObject('Page_Overview/a_Go to Network Summary'), 0)
 
 'Waits for all angular elements on the landing page to load'
-WebUI.waitForAngularLoad(45)
+WebUI.waitForAngularLoad(60)
 
 not_run: WebUI.navigateToUrl('https://stats.kontiki.com/admin/users?sorts=last_name%20asc&name=demo')
 
