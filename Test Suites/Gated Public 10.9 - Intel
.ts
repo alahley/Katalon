@@ -1,44 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>10.9 - EU1 Sanity Check</name>
+   <name>Gated Public 10.9 - Intel
+</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2019-01-18T14:25:24</lastRun>
+   <lastRun>2018-12-07T13:48:03</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
-   <testSuiteGuid>f212a0b5-63ca-4dca-a165-92d495022845</testSuiteGuid>
+   <testSuiteGuid>4e0990f1-238a-43e5-9227-9ba5149da245</testSuiteGuid>
    <testCaseLink>
-      <guid>553ec141-b33d-4b8e-8420-ac41414cf8fa</guid>
+      <guid>2036e51c-4d8b-42ea-aaae-ab2aada25f2c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/EU1/EU 1 - Overview, or Landing Page</testCaseId>
+      <testCaseId>Test Cases/Intel/Intel - Logging In and Out</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>bec42fa5-6c3d-4e78-a932-4bfc969ff70b</guid>
+      <guid>ac425704-d150-4a18-af9e-6915993ef253</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/EU1/EU 1 - Logging In and Out</testCaseId>
+      <testCaseId>Test Cases/Intel/Intel - Overview, or Landing Page</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>20ae49b0-058a-4b2e-a892-74d924bf0453</guid>
+      <guid>61e96b7f-8b0e-40b5-8514-8185d9e092a1</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/EU1/EU 1 - Fixture Data Validation</testCaseId>
+      <testCaseId>Test Cases/Intel/Intel - Navigation and CTAs</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>6788c768-c39c-4730-a0af-a4f97fb399f4</guid>
+      <guid>1e755e56-d851-4c8e-89a4-c752fedf53e0</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/EU1/EU 1 - Navigation and CTAs</testCaseId>
+      <testCaseId>Test Cases/Intel/Intel - Summary and Detail pages</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>940fb146-2938-4a6a-963e-a4b2c7704a57</guid>
+      <guid>d4897933-bef6-44ff-ad64-09deada159f6</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/EU1/EU 1 - Summary and Detail pages</testCaseId>
+      <testCaseId>Test Cases/Intel/Intel - Fixture Data Validation</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>10.9 - Prod2 Sanity</name>
+   <name>Gated Public 10.9 - Prod2</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <lastRun>2018-12-04T14:02:38</lastRun>
