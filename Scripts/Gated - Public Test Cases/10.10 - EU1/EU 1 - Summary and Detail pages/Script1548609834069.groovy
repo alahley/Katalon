@@ -29,7 +29,7 @@ WebUI.click(findTestObject('Object Repository/Page_Log in/input_remember (2)'))
 WebUI.click(findTestObject('Object Repository/Page_Log in/input_login-submit (2)'))
 
 'Overview / Landing Page: 10 second Threshold: Waits for all angular elements on the landing page to load in 10 seconds or less\n'
-WebUI.waitForAngularLoad(30)
+WebUI.waitForAngularLoad(60)
 
 WebUI.waitForPageLoad(0)
 
@@ -104,16 +104,6 @@ WebUI.navigateToUrl('https://stats.kontiki.com/dashboards/sccm_users::sccm_summa
 WebUI.waitForAngularLoad(60)
 
 WebUI.waitForPageLoad(0)
-
-not_run: WebUI.click(findTestObject('Object Repository/Page_Overview/a'), FailureHandling.CONTINUE_ON_FAILURE)
-
-not_run: WebUI.click(findTestObject('Page_Overview/a_Log Out'), FailureHandling.CONTINUE_ON_FAILURE)
-
-not_run: WebUI.waitForPageLoad(0)
-
-not_run: WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Log in/div_Logout Successful.'), 0)
-
-not_run: WebUI.verifyTextPresent('Logout Successful.', false)
 
 WebUI.closeBrowser()
 
