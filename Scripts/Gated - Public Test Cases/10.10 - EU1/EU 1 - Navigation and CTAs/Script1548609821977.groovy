@@ -28,7 +28,7 @@ WebUI.click(findTestObject('Page_Log in/input_remember (2)'))
 'Clicks the Submit button to login'
 WebUI.click(findTestObject('Page_Log in/input_login-submit (2)'))
 
-'10 second Threshold: Waits for all angular elements on the landing page to load in 10 seconds or less\n'
+'60 second Threshold: Waits for all angular elements on the landing page to load in 10 seconds or less\n'
 WebUI.waitForAngularLoad(60)
 
 WebUI.waitForPageLoad(0)
@@ -39,28 +39,28 @@ WebUI.verifyElementVisible(findTestObject('Page_Overview/a_Go to Live Event Summ
 
 WebUI.click(findTestObject('Page_Overview/a_Go to Live Event Summary'))
 
-'10 second Threshold: Waits for all angular elements on the landing page to load in 10 seconds or less\n'
+'60 second Threshold: Waits for all angular elements on the landing page to load in 10 seconds or less\n'
 WebUI.waitForAngularLoad(60)
 
 WebUI.verifyElementText(findTestObject('Page_Live Event Summary/div_Live Event Summary'), 'Live Event Summary')
 
 WebUI.click(findTestObject('Page_Network Summary/a_Overview'))
 
-'10 second Threshold: Waits for all angular elements on the landing page to load in 10 seconds or less\n'
+'60 second Threshold: Waits for all angular elements on the landing page to load in 10 seconds or less\n'
 WebUI.waitForAngularLoad(60)
 
 WebUI.verifyElementVisible(findTestObject('Page_Overview/a_Go to VoD Summary'))
 
 WebUI.click(findTestObject('Page_Overview/a_Go to VoD Summary'))
 
-'10 second Threshold: Waits for all angular elements on the landing page to load in 10 seconds or less\n'
+'60 second Threshold: Waits for all angular elements on the landing page to load in 10 seconds or less\n'
 WebUI.waitForAngularLoad(60)
 
 WebUI.verifyElementText(findTestObject('Page_Video on Demand Summary/div_Video on Demand Summary'), 'Video on Demand Summary')
 
 WebUI.click(findTestObject('Page_Network Summary/a_Overview'))
 
-'10 second Threshold: Waits for all angular elements on the landing page to load in 10 seconds or less\n'
+'60 second Threshold: Waits for all angular elements on the landing page to load in 10 seconds or less\n'
 WebUI.waitForAngularLoad(60)
 
 WebUI.verifyElementVisible(findTestObject('Page_Overview/a_Go to Network Summary'))
@@ -69,14 +69,14 @@ WebUI.click(findTestObject('Page_Overview/a_Go to Network Summary'))
 
 WebUI.waitForPageLoad(0)
 
-'10 second Threshold: Waits for all angular elements on the landing page to load in 10 seconds or less\n'
+'60 second Threshold: Waits for all angular elements on the landing page to load in 10 seconds or less\n'
 WebUI.waitForAngularLoad(90)
 
 WebUI.verifyElementText(findTestObject('Page_Network Summary/div_Network Summary'), 'Network Summary')
 
 WebUI.click(findTestObject('Page_Network Summary/a_Overview'))
 
-'10 second Threshold: Waits for all angular elements on the landing page to load in 10 seconds or less\n'
+'60 second Threshold: Waits for all angular elements on the landing page to load in 10 seconds or less\n'
 WebUI.waitForAngularLoad(60)
 
 WebUI.click(findTestObject('Page_Overview/a_Network'))
@@ -87,7 +87,7 @@ WebUI.verifyElementClickable(findTestObject('Page_Overview/a_Network Summary'))
 
 WebUI.click(findTestObject('Page_Overview/a_Network Summary'))
 
-'10 second Threshold: Waits for all angular elements on the landing page to load in 10 seconds or less\n'
+'60 second Threshold: Waits for all angular elements on the landing page to load in 10 seconds or less\n'
 WebUI.waitForAngularLoad(60)
 
 WebUI.click(findTestObject('Page_Overview/a_Network'))
@@ -96,13 +96,17 @@ WebUI.verifyElementPresent(findTestObject('Page_Network Summary/a_Network Conten
 
 WebUI.verifyElementClickable(findTestObject('Page_Network Summary/a_Network Content'), FailureHandling.CONTINUE_ON_FAILURE)
 
+WebUI.verifyElementPresent(findTestObject('Page_Overview/a_Event Analyzer'), 0)
+
+WebUI.verifyElementClickable(findTestObject('Page_Overview/a_Event Analyzer'), FailureHandling.CONTINUE_ON_FAILURE)
+
 WebUI.verifyElementPresent(findTestObject('Page_Network Content/a_Network Locality'), 0)
 
 WebUI.verifyElementClickable(findTestObject('Page_Network Content/a_Network Locality'), FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.click(findTestObject('Page_Network Content/a_Network Locality'), FailureHandling.CONTINUE_ON_FAILURE)
 
-'10 second Threshold: Waits for all angular elements on the landing page to load in 10 seconds or less\n'
+'60 second Threshold: Waits for all angular elements on the landing page to load in 10 seconds or less\n'
 WebUI.waitForAngularLoad(60)
 
 WebUI.click(findTestObject('Page_Network Locality/a_Live Events'))
@@ -135,7 +139,7 @@ WebUI.verifyElementClickable(findTestObject('Page_Video on Demand/a_SCCM'))
 
 WebUI.click(findTestObject('Page_Video on Demand/a_SCCM'))
 
-'10 second Threshold: Waits for all angular elements on the landing page to load in 10 seconds or less\n'
+'60 second Threshold: Waits for all angular elements on the landing page to load in 10 seconds or less\n'
 WebUI.waitForAngularLoad(60)
 
 WebUI.closeBrowser()

@@ -105,15 +105,15 @@ not_run: WebUI.waitForAngularLoad(60)
 
 WebUI.waitForPageLoad(60)
 
-WebUI.click(findTestObject('Object Repository/Page_Overview/a'), FailureHandling.CONTINUE_ON_FAILURE)
+not_run: WebUI.click(findTestObject('Object Repository/Page_Overview/a'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.click(findTestObject('Page_Overview/a_Log Out'), FailureHandling.CONTINUE_ON_FAILURE)
+not_run: WebUI.click(findTestObject('Page_Overview/a_Log Out'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.waitForPageLoad(60)
+not_run: WebUI.waitForPageLoad(60)
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Log in/div_Logout Successful.'), 60)
+not_run: WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Log in/div_Logout Successful.'), 60)
 
-WebUI.verifyTextPresent('Logout Successful.', false)
+not_run: WebUI.verifyTextPresent('Logout Successful.', false)
 
 WebUI.closeBrowser()
 

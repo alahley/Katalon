@@ -1,0 +1,146 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Gated Public 10.10 - EU1,Chrome 71.0.3578.98,,2019-01-29 10:36:09,2019-01-29 10:40:03,3m - 53.369s,FAILED
+,,,,,,
+Test Cases/Gated - Public Test Cases/10.10 - EU1/EU 1 - Logging In and Out,Chrome 71.0.3578.98,This will cover primarily the log in process and validation of Sudoing as a different user,2019-01-29 10:36:10,2019-01-29 10:36:27,16.831s,PASSED
+openBrowser,Chrome 71.0.3578.98,"Fires up the browser
+",2019-01-29 10:36:10,2019-01-29 10:36:18,7.681s,PASSED
+setText,Chrome 71.0.3578.98,Filling out login info (username),2019-01-29 10:36:18,2019-01-29 10:36:18,0.214s,PASSED
+setEncryptedText,Chrome 71.0.3578.98,Filling out login info (password),2019-01-29 10:36:18,2019-01-29 10:36:18,0.138s,PASSED
+click,Chrome 71.0.3578.98,Clicks the Stay Logged In button,2019-01-29 10:36:18,2019-01-29 10:36:18,0.078s,PASSED
+click,Chrome 71.0.3578.98,Clicks the Submit button to login,2019-01-29 10:36:18,2019-01-29 10:36:22,4.095s,PASSED
+waitForAngularLoad,Chrome 71.0.3578.98,"10 second Threshold: Waits for all angular elements on the landing page to load in 10 seconds or less
+",2019-01-29 10:36:22,2019-01-29 10:36:25,2.881s,PASSED
+verifyElementPresent,Chrome 71.0.3578.98,,2019-01-29 10:36:25,2019-01-29 10:36:25,0.032s,PASSED
+verifyElementPresent,Chrome 71.0.3578.98,,2019-01-29 10:36:25,2019-01-29 10:36:25,0.023s,PASSED
+verifyElementPresent,Chrome 71.0.3578.98,,2019-01-29 10:36:25,2019-01-29 10:36:25,0.020s,PASSED
+verifyElementPresent,Chrome 71.0.3578.98,,2019-01-29 10:36:25,2019-01-29 10:36:25,0.017s,PASSED
+verifyElementPresent,Chrome 71.0.3578.98,,2019-01-29 10:36:25,2019-01-29 10:36:25,0.021s,PASSED
+verifyElementPresent,Chrome 71.0.3578.98,,2019-01-29 10:36:25,2019-01-29 10:36:25,0.022s,PASSED
+verifyElementPresent,Chrome 71.0.3578.98,,2019-01-29 10:36:25,2019-01-29 10:36:25,0.021s,PASSED
+verifyElementPresent,Chrome 71.0.3578.98,,2019-01-29 10:36:25,2019-01-29 10:36:25,0.020s,PASSED
+verifyElementPresent,Chrome 71.0.3578.98,,2019-01-29 10:36:25,2019-01-29 10:36:25,0.019s,PASSED
+click,Chrome 71.0.3578.98,,2019-01-29 10:36:25,2019-01-29 10:36:25,0.098s,PASSED
+click,Chrome 71.0.3578.98,,2019-01-29 10:36:25,2019-01-29 10:36:26,0.922s,PASSED
+verifyElementPresent,Chrome 71.0.3578.98,,2019-01-29 10:36:26,2019-01-29 10:36:26,0.022s,PASSED
+verifyTextPresent,Chrome 71.0.3578.98,,2019-01-29 10:36:26,2019-01-29 10:36:26,0.044s,PASSED
+closeBrowser,Chrome 71.0.3578.98,,2019-01-29 10:36:26,2019-01-29 10:36:27,0.134s,PASSED
+,,,,,,
+Test Cases/Gated - Public Test Cases/10.10 - EU1/EU 1 - Navigation and CTAs,Chrome 71.0.3578.98,"This will cover testing of Paul's new navigation and dropdown menus, as well as the three main Calls To Action on the Overview page",2019-01-29 10:36:27,2019-01-29 10:39:19,2m - 52.681s,FAILED
+openBrowser,Chrome 71.0.3578.98,"Fires up the browser
+",2019-01-29 10:36:27,2019-01-29 10:36:33,6.287s,PASSED
+setText,Chrome 71.0.3578.98,Filling out login info (username),2019-01-29 10:36:33,2019-01-29 10:36:33,0.167s,PASSED
+setEncryptedText,Chrome 71.0.3578.98,Filling out login info (password),2019-01-29 10:36:33,2019-01-29 10:36:33,0.091s,PASSED
+click,Chrome 71.0.3578.98,Clicks the Stay Logged In button,2019-01-29 10:36:33,2019-01-29 10:36:33,0.075s,PASSED
+click,Chrome 71.0.3578.98,Clicks the Submit button to login,2019-01-29 10:36:33,2019-01-29 10:36:37,3.484s,PASSED
+waitForAngularLoad,Chrome 71.0.3578.98,"10 second Threshold: Waits for all angular elements on the landing page to load in 10 seconds or less
+",2019-01-29 10:36:37,2019-01-29 10:36:39,2.097s,PASSED
+waitForPageLoad,Chrome 71.0.3578.98,,2019-01-29 10:36:39,2019-01-29 10:36:39,0.018s,PASSED
+verifyElementVisible,Chrome 71.0.3578.98,,2019-01-29 10:36:39,2019-01-29 10:36:39,0.044s,PASSED
+verifyElementVisible,Chrome 71.0.3578.98,,2019-01-29 10:36:39,2019-01-29 10:36:39,0.032s,PASSED
+click,Chrome 71.0.3578.98,,2019-01-29 10:36:39,2019-01-29 10:36:41,1.574s,PASSED
+waitForAngularLoad,Chrome 71.0.3578.98,"10 second Threshold: Waits for all angular elements on the landing page to load in 10 seconds or less
+",2019-01-29 10:36:41,2019-01-29 10:36:43,2.837s,PASSED
+verifyElementText,Chrome 71.0.3578.98,,2019-01-29 10:36:43,2019-01-29 10:36:43,0.052s,PASSED
+click,Chrome 71.0.3578.98,,2019-01-29 10:36:43,2019-01-29 10:36:45,1.164s,PASSED
+waitForAngularLoad,Chrome 71.0.3578.98,"10 second Threshold: Waits for all angular elements on the landing page to load in 10 seconds or less
+",2019-01-29 10:36:45,2019-01-29 10:36:50,5.084s,PASSED
+verifyElementVisible,Chrome 71.0.3578.98,,2019-01-29 10:36:50,2019-01-29 10:36:58,7.898s,PASSED
+click,Chrome 71.0.3578.98,,2019-01-29 10:36:58,2019-01-29 10:37:04,6.232s,PASSED
+waitForAngularLoad,Chrome 71.0.3578.98,"10 second Threshold: Waits for all angular elements on the landing page to load in 10 seconds or less
+",2019-01-29 10:37:04,2019-01-29 10:37:11,6.728s,PASSED
+verifyElementText,Chrome 71.0.3578.98,,2019-01-29 10:37:11,2019-01-29 10:37:11,0.055s,PASSED
+click,Chrome 71.0.3578.98,,2019-01-29 10:37:11,2019-01-29 10:37:44,33.807s,FAILED
+waitForAngularLoad,Chrome 71.0.3578.98,"10 second Threshold: Waits for all angular elements on the landing page to load in 10 seconds or less
+",2019-01-29 10:37:44,2019-01-29 10:37:45,0.326s,PASSED
+verifyElementVisible,Chrome 71.0.3578.98,,2019-01-29 10:37:45,2019-01-29 10:38:20,35.389s,FAILED
+click,Chrome 71.0.3578.98,,2019-01-29 10:38:20,2019-01-29 10:38:56,35.748s,FAILED
+waitForPageLoad,Chrome 71.0.3578.98,,2019-01-29 10:38:56,2019-01-29 10:38:56,0.006s,PASSED
+waitForAngularLoad,Chrome 71.0.3578.98,"10 second Threshold: Waits for all angular elements on the landing page to load in 10 seconds or less
+",2019-01-29 10:38:56,2019-01-29 10:38:56,0.013s,PASSED
+verifyElementText,Chrome 71.0.3578.98,,2019-01-29 10:38:56,2019-01-29 10:38:56,0.279s,FAILED
+click,Chrome 71.0.3578.98,,2019-01-29 10:38:56,2019-01-29 10:38:59,2.702s,PASSED
+waitForAngularLoad,Chrome 71.0.3578.98,"10 second Threshold: Waits for all angular elements on the landing page to load in 10 seconds or less
+",2019-01-29 10:38:59,2019-01-29 10:39:02,3.488s,PASSED
+click,Chrome 71.0.3578.98,,2019-01-29 10:39:02,2019-01-29 10:39:03,0.087s,PASSED
+verifyElementPresent,Chrome 71.0.3578.98,,2019-01-29 10:39:03,2019-01-29 10:39:03,0.026s,PASSED
+verifyElementClickable,Chrome 71.0.3578.98,,2019-01-29 10:39:03,2019-01-29 10:39:03,0.031s,PASSED
+click,Chrome 71.0.3578.98,,2019-01-29 10:39:03,2019-01-29 10:39:04,1.899s,PASSED
+waitForAngularLoad,Chrome 71.0.3578.98,"10 second Threshold: Waits for all angular elements on the landing page to load in 10 seconds or less
+",2019-01-29 10:39:04,2019-01-29 10:39:08,3.246s,PASSED
+click,Chrome 71.0.3578.98,,2019-01-29 10:39:08,2019-01-29 10:39:09,1.483s,PASSED
+verifyElementPresent,Chrome 71.0.3578.98,,2019-01-29 10:39:09,2019-01-29 10:39:09,0.060s,PASSED
+verifyElementClickable,Chrome 71.0.3578.98,,2019-01-29 10:39:09,2019-01-29 10:39:09,0.083s,PASSED
+verifyElementPresent,Chrome 71.0.3578.98,,2019-01-29 10:39:09,2019-01-29 10:39:09,0.029s,PASSED
+verifyElementClickable,Chrome 71.0.3578.98,,2019-01-29 10:39:09,2019-01-29 10:39:09,0.032s,PASSED
+click,Chrome 71.0.3578.98,,2019-01-29 10:39:09,2019-01-29 10:39:11,2.044s,PASSED
+waitForAngularLoad,Chrome 71.0.3578.98,"10 second Threshold: Waits for all angular elements on the landing page to load in 10 seconds or less
+",2019-01-29 10:39:11,2019-01-29 10:39:14,2.741s,PASSED
+click,Chrome 71.0.3578.98,,2019-01-29 10:39:14,2019-01-29 10:39:15,0.914s,PASSED
+verifyElementPresent,Chrome 71.0.3578.98,,2019-01-29 10:39:15,2019-01-29 10:39:15,0.051s,PASSED
+verifyElementClickable,Chrome 71.0.3578.98,,2019-01-29 10:39:15,2019-01-29 10:39:15,0.032s,PASSED
+verifyElementPresent,Chrome 71.0.3578.98,,2019-01-29 10:39:15,2019-01-29 10:39:15,0.064s,PASSED
+verifyElementClickable,Chrome 71.0.3578.98,,2019-01-29 10:39:15,2019-01-29 10:39:15,0.031s,PASSED
+verifyElementPresent,Chrome 71.0.3578.98,,2019-01-29 10:39:15,2019-01-29 10:39:15,0.032s,PASSED
+verifyElementClickable,Chrome 71.0.3578.98,,2019-01-29 10:39:15,2019-01-29 10:39:15,0.032s,PASSED
+click,Chrome 71.0.3578.98,,2019-01-29 10:39:15,2019-01-29 10:39:15,0.065s,PASSED
+verifyElementPresent,Chrome 71.0.3578.98,,2019-01-29 10:39:15,2019-01-29 10:39:15,0.043s,PASSED
+verifyElementClickable,Chrome 71.0.3578.98,,2019-01-29 10:39:15,2019-01-29 10:39:15,0.034s,PASSED
+verifyElementPresent,Chrome 71.0.3578.98,,2019-01-29 10:39:15,2019-01-29 10:39:16,0.028s,PASSED
+verifyElementClickable,Chrome 71.0.3578.98,,2019-01-29 10:39:16,2019-01-29 10:39:16,0.031s,PASSED
+verifyElementPresent,Chrome 71.0.3578.98,,2019-01-29 10:39:16,2019-01-29 10:39:16,0.027s,PASSED
+verifyElementClickable,Chrome 71.0.3578.98,,2019-01-29 10:39:16,2019-01-29 10:39:16,0.030s,PASSED
+click,Chrome 71.0.3578.98,,2019-01-29 10:39:16,2019-01-29 10:39:17,1.583s,PASSED
+waitForAngularLoad,Chrome 71.0.3578.98,"10 second Threshold: Waits for all angular elements on the landing page to load in 10 seconds or less
+",2019-01-29 10:39:17,2019-01-29 10:39:19,1.962s,PASSED
+closeBrowser,Chrome 71.0.3578.98,,2019-01-29 10:39:19,2019-01-29 10:39:19,0.145s,PASSED
+,,,,,,
+Test Cases/Gated - Public Test Cases/10.10 - EU1/EU 1 - Summary and Detail pages,Chrome 71.0.3578.98,"This will cover all ""main"" Summary pages
+-Live Events Summary
+-Network Summary
+-VoD Summary",2019-01-29 10:39:19,2019-01-29 10:40:03,43.455s,PASSED
+openBrowser,Chrome 71.0.3578.98,"Fires up the browser
+",2019-01-29 10:39:19,2019-01-29 10:39:30,10.369s,PASSED
+setText,Chrome 71.0.3578.98,Filling out login info (username),2019-01-29 10:39:30,2019-01-29 10:39:30,0.156s,PASSED
+setEncryptedText,Chrome 71.0.3578.98,Filling out login info (password),2019-01-29 10:39:30,2019-01-29 10:39:30,0.088s,PASSED
+click,Chrome 71.0.3578.98,Clicks the Stay Logged In button,2019-01-29 10:39:30,2019-01-29 10:39:30,0.075s,PASSED
+click,Chrome 71.0.3578.98,Clicks the Submit button to login,2019-01-29 10:39:30,2019-01-29 10:39:34,3.711s,PASSED
+waitForAngularLoad,Chrome 71.0.3578.98,"Overview / Landing Page: 10 second Threshold: Waits for all angular elements on the landing page to load in 10 seconds or less
+",2019-01-29 10:39:34,2019-01-29 10:39:36,2.678s,PASSED
+waitForPageLoad,Chrome 71.0.3578.98,,2019-01-29 10:39:36,2019-01-29 10:39:36,0.006s,PASSED
+navigateToUrl,Chrome 71.0.3578.98,Network Summary,2019-01-29 10:39:36,2019-01-29 10:39:38,1.538s,PASSED
+waitForAngularLoad,Chrome 71.0.3578.98,"10 second Threshold: Waits for all angular elements on the landing page to load in 10 seconds or less
+",2019-01-29 10:39:38,2019-01-29 10:39:41,3.123s,PASSED
+waitForPageLoad,Chrome 71.0.3578.98,,2019-01-29 10:39:41,2019-01-29 10:39:42,1.136s,PASSED
+navigateToUrl,Chrome 71.0.3578.98,Network Content,2019-01-29 10:39:42,2019-01-29 10:39:44,1.779s,PASSED
+waitForAngularLoad,Chrome 71.0.3578.98,"10 second Threshold: Waits for all angular elements on the landing page to load in 10 seconds or less
+",2019-01-29 10:39:44,2019-01-29 10:39:47,2.979s,PASSED
+waitForPageLoad,Chrome 71.0.3578.98,,2019-01-29 10:39:47,2019-01-29 10:39:47,0.006s,PASSED
+navigateToUrl,Chrome 71.0.3578.98,Network Locality,2019-01-29 10:39:47,2019-01-29 10:39:49,1.477s,PASSED
+waitForAngularLoad,Chrome 71.0.3578.98,"10 second Threshold: Waits for all angular elements on the landing page to load in 10 seconds or less
+",2019-01-29 10:39:49,2019-01-29 10:39:50,1.814s,PASSED
+waitForPageLoad,Chrome 71.0.3578.98,,2019-01-29 10:39:50,2019-01-29 10:39:50,0.009s,PASSED
+navigateToUrl,Chrome 71.0.3578.98,Live Event Summary,2019-01-29 10:39:50,2019-01-29 10:39:52,1.496s,PASSED
+waitForAngularLoad,Chrome 71.0.3578.98,"10 second Threshold: Waits for all angular elements on the landing page to load in 10 seconds or less
+",2019-01-29 10:39:52,2019-01-29 10:39:54,2.552s,PASSED
+waitForPageLoad,Chrome 71.0.3578.98,,2019-01-29 10:39:54,2019-01-29 10:39:54,0.006s,PASSED
+navigateToUrl,Chrome 71.0.3578.98,Live Event,2019-01-29 10:39:54,2019-01-29 10:39:56,1.500s,PASSED
+waitForAngularLoad,Chrome 71.0.3578.98,"10 second Threshold: Waits for all angular elements on the landing page to load in 10 seconds or less
+",2019-01-29 10:39:56,2019-01-29 10:39:59,3.240s,PASSED
+waitForPageLoad,Chrome 71.0.3578.98,,2019-01-29 10:39:59,2019-01-29 10:39:59,0.044s,PASSED
+navigateToUrl,Chrome 71.0.3578.98,Live (in progress) Event (filtered on last 2 weeks),2019-01-29 10:39:59,2019-01-29 10:40:01,1.794s,PASSED
+waitForAngularLoad,Chrome 71.0.3578.98,"10 second Threshold: Waits for all angular elements on the landing page to load in 10 seconds or less
+",2019-01-29 10:40:01,2019-01-29 10:40:01,0.010s,PASSED
+waitForPageLoad,Chrome 71.0.3578.98,,2019-01-29 10:40:01,2019-01-29 10:40:01,0.005s,PASSED
+navigateToUrl,Chrome 71.0.3578.98,VoD Summary,2019-01-29 10:40:01,2019-01-29 10:40:02,0.668s,PASSED
+waitForAngularLoad,Chrome 71.0.3578.98,"10 second Threshold: Waits for all angular elements on the landing page to load in 10 seconds or less
+",2019-01-29 10:40:02,2019-01-29 10:40:02,0.015s,PASSED
+waitForPageLoad,Chrome 71.0.3578.98,,2019-01-29 10:40:02,2019-01-29 10:40:02,0.008s,PASSED
+navigateToUrl,Chrome 71.0.3578.98,Video on Demand,2019-01-29 10:40:02,2019-01-29 10:40:02,0.417s,PASSED
+waitForAngularLoad,Chrome 71.0.3578.98,"10 second Threshold: Waits for all angular elements on the landing page to load in 10 seconds or less
+",2019-01-29 10:40:02,2019-01-29 10:40:02,0.018s,PASSED
+waitForPageLoad,Chrome 71.0.3578.98,,2019-01-29 10:40:02,2019-01-29 10:40:02,0.005s,PASSED
+navigateToUrl,Chrome 71.0.3578.98,SCCM,2019-01-29 10:40:02,2019-01-29 10:40:03,0.440s,PASSED
+waitForAngularLoad,Chrome 71.0.3578.98,"10 second Threshold: Waits for all angular elements on the landing page to load in 10 seconds or less
+",2019-01-29 10:40:03,2019-01-29 10:40:03,0.027s,PASSED
+waitForPageLoad,Chrome 71.0.3578.98,,2019-01-29 10:40:03,2019-01-29 10:40:03,0.005s,PASSED
+closeBrowser,Chrome 71.0.3578.98,,2019-01-29 10:40:03,2019-01-29 10:40:03,0.147s,PASSED

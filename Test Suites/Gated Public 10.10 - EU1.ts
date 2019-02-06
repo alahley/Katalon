@@ -4,8 +4,8 @@
    <name>Gated Public 10.10 - EU1</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2019-01-28T14:05:01</lastRun>
-   <mailRecipient></mailRecipient>
+   <lastRun>2019-01-29T10:36:07</lastRun>
+   <mailRecipient>alahley@kollective.com;</mailRecipient>
    <numberOfRerun>3</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>

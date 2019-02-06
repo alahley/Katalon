@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>This is a trial to see if it's worth the time to invest for Pauls project in Looker and setting up the API config variables.</description>
+   <name>Looker API Config</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e3529479-cd08-4a7c-8a37-149e52d6d887</testCaseGuid>
+</TestCaseEntity>
