@@ -41,7 +41,7 @@
       <value>id(&quot;kollective-nav&quot;)/div[@class=&quot;nav-content&quot;]/li[@class=&quot;dropdown&quot;]/div[@class=&quot;dropdown-content&quot;]/a[4]</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>css</name>
       <type>Main</type>

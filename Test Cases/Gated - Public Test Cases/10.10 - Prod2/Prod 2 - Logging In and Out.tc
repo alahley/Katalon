@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>This will cover primarily the log in process and validation of Sudoing as a different user</description>
+   <name>Prod 2 - Logging In and Out</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e97b02e1-4eae-40f7-b2cd-35553c07af15</testCaseGuid>
+</TestCaseEntity>

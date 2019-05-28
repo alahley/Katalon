@@ -29,7 +29,7 @@ WebUI.click(findTestObject('Object Repository/Page_Log in/input_remember (2)'))
 WebUI.click(findTestObject('Object Repository/Page_Log in/input_login-submit (2)'))
 
 '10 second Threshold: Waits for all angular elements on the landing page to load in 10 seconds or less\n'
-WebUI.waitForAngularLoad(10)
+WebUI.waitForAngularLoad(60)
 
 WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Overview/a'), 0)
 

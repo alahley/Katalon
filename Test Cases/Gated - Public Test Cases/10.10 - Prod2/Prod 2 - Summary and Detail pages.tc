@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>This will cover all &quot;main&quot; Summary pages
+-Live Events Summary
+-Network Summary
+-VoD Summary</description>
+   <name>Prod 2 - Summary and Detail pages</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c9516834-22e7-428c-85f8-5041df762da9</testCaseGuid>
+</TestCaseEntity>

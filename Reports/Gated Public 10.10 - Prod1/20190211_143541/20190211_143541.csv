@@ -1,0 +1,166 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Gated Public 10.10 - Prod1,Firefox 65.0,,2019-02-11 14:35:42,2019-02-11 14:46:39,10m - 56.896s,FAILED
+,,,,,,
+Test Cases/Gated - Public Test Cases/10.10 - Prod1/Prod 1 - Summary and Detail pages,Firefox 65.0,"This will cover all ""main"" Summary pages
+-Live Events Summary
+-Network Summary
+-VoD Summary",2019-02-11 14:35:42,2019-02-11 14:41:29,5m - 47.207s,FAILED
+openBrowser,Firefox 65.0,"Fires up the browser
+",2019-02-11 14:35:42,2019-02-11 14:35:50,7.816s,PASSED
+setText,Firefox 65.0,Filling out login info (username),2019-02-11 14:35:50,2019-02-11 14:35:50,0.149s,PASSED
+setEncryptedText,Firefox 65.0,Filling out login info (password),2019-02-11 14:35:50,2019-02-11 14:35:50,0.114s,PASSED
+click,Firefox 65.0,Clicks the Stay Logged In button,2019-02-11 14:35:50,2019-02-11 14:35:51,0.375s,PASSED
+click,Firefox 65.0,Clicks the Submit button to login,2019-02-11 14:35:51,2019-02-11 14:35:54,3.572s,PASSED
+waitForAngularLoad,Firefox 65.0,"Overview / Landing Page: 10 second Threshold: Waits for all angular elements on the landing page to load in 10 seconds or less
+",2019-02-11 14:35:54,2019-02-11 14:35:56,2.292s,PASSED
+waitForPageLoad,Firefox 65.0,,2019-02-11 14:35:56,2019-02-11 14:35:57,0.173s,PASSED
+navigateToUrl,Firefox 65.0,Network Summary,2019-02-11 14:35:57,2019-02-11 14:35:59,2.511s,PASSED
+waitForAngularLoad,Firefox 65.0,"60 second Threshold: Waits for all angular elements on the landing page to load in 10 seconds or less
+",2019-02-11 14:35:59,2019-02-11 14:37:00,1m - 0.562s,FAILED
+waitForPageLoad,Firefox 65.0,,2019-02-11 14:37:00,2019-02-11 14:37:00,0.064s,PASSED
+navigateToUrl,Firefox 65.0,Network Content,2019-02-11 14:37:00,2019-02-11 14:37:03,3.196s,PASSED
+waitForAngularLoad,Firefox 65.0,"60 second Threshold: Waits for all angular elements on the landing page to load in 10 seconds or less
+",2019-02-11 14:37:03,2019-02-11 14:37:03,0.002s,NOT_RUN
+waitForPageLoad,Firefox 65.0,,2019-02-11 14:37:03,2019-02-11 14:37:03,0.169s,PASSED
+navigateToUrl,Firefox 65.0,Network Locality,2019-02-11 14:37:03,2019-02-11 14:37:06,2.829s,PASSED
+waitForAngularLoad,Firefox 65.0,"60 second Threshold: Waits for all angular elements on the landing page to load in 10 seconds or less
+",2019-02-11 14:37:06,2019-02-11 14:38:06,1m - 0.348s,FAILED
+waitForPageLoad,Firefox 65.0,,2019-02-11 14:38:06,2019-02-11 14:38:06,0.008s,PASSED
+navigateToUrl,Firefox 65.0,Live Event Summary,2019-02-11 14:38:06,2019-02-11 14:38:09,2.452s,PASSED
+waitForAngularLoad,Firefox 65.0,"60 second Threshold: Waits for all angular elements on the landing page to load in 10 seconds or less
+",2019-02-11 14:38:09,2019-02-11 14:38:11,1.918s,PASSED
+waitForPageLoad,Firefox 65.0,,2019-02-11 14:38:11,2019-02-11 14:38:11,0.164s,PASSED
+navigateToUrl,Firefox 65.0,Live Event,2019-02-11 14:38:11,2019-02-11 14:38:15,4.159s,PASSED
+waitForAngularLoad,Firefox 65.0,"60 second Threshold: Waits for all angular elements on the landing page to load in 10 seconds or less
+",2019-02-11 14:38:15,2019-02-11 14:39:15,1m - 0.332s,FAILED
+waitForPageLoad,Firefox 65.0,,2019-02-11 14:39:15,2019-02-11 14:39:15,0.009s,PASSED
+navigateToUrl,Firefox 65.0,Live (in progress) Event (filtered on last 2 weeks),2019-02-11 14:39:15,2019-02-11 14:39:18,2.304s,PASSED
+waitForAngularLoad,Firefox 65.0,"60 second Threshold: Waits for all angular elements on the landing page to load in 10 seconds or less
+",2019-02-11 14:39:18,2019-02-11 14:40:18,1m - 0.671s,FAILED
+waitForPageLoad,Firefox 65.0,,2019-02-11 14:40:18,2019-02-11 14:40:18,0.028s,PASSED
+navigateToUrl,Firefox 65.0,VoD Summary,2019-02-11 14:40:18,2019-02-11 14:40:21,2.852s,PASSED
+waitForAngularLoad,Firefox 65.0,"60 second Threshold: Waits for all angular elements on the landing page to load in 10 seconds or less
+",2019-02-11 14:40:21,2019-02-11 14:40:24,2.342s,PASSED
+waitForPageLoad,Firefox 65.0,,2019-02-11 14:40:24,2019-02-11 14:40:24,0.007s,PASSED
+navigateToUrl,Firefox 65.0,Video on Demand,2019-02-11 14:40:24,2019-02-11 14:40:26,2.235s,PASSED
+waitForAngularLoad,Firefox 65.0,"60 second Threshold: Waits for all angular elements on the landing page to load in 10 seconds or less
+",2019-02-11 14:40:26,2019-02-11 14:41:26,1m - 0.325s,FAILED
+waitForPageLoad,Firefox 65.0,,2019-02-11 14:41:26,2019-02-11 14:41:26,0.021s,PASSED
+navigateToUrl,Firefox 65.0,SCCM,2019-02-11 14:41:26,2019-02-11 14:41:28,2.288s,PASSED
+waitForAngularLoad,Firefox 65.0,"60 second Threshold: Waits for all angular elements on the landing page to load in 10 seconds or less
+",2019-02-11 14:41:28,2019-02-11 14:41:28,0.001s,NOT_RUN
+waitForPageLoad,Firefox 65.0,,2019-02-11 14:41:28,2019-02-11 14:41:29,0.157s,PASSED
+click,Firefox 65.0,,2019-02-11 14:41:29,2019-02-11 14:41:29,0.001s,NOT_RUN
+click,Firefox 65.0,,2019-02-11 14:41:29,2019-02-11 14:41:29,0.001s,NOT_RUN
+waitForPageLoad,Firefox 65.0,,2019-02-11 14:41:29,2019-02-11 14:41:29,0.001s,NOT_RUN
+verifyElementPresent,Firefox 65.0,,2019-02-11 14:41:29,2019-02-11 14:41:29,0.001s,NOT_RUN
+verifyTextPresent,Firefox 65.0,,2019-02-11 14:41:29,2019-02-11 14:41:29,0.000s,NOT_RUN
+closeBrowser,Firefox 65.0,,2019-02-11 14:41:29,2019-02-11 14:41:29,0.499s,PASSED
+,,,,,,
+Test Cases/Gated - Public Test Cases/10.10 - Prod1/Prod 1 - Logging In and Out,Firefox 65.0,This will cover primarily the log in process and validation of Sudoing as a different user,2019-02-11 14:41:29,2019-02-11 14:41:42,13.104s,PASSED
+openBrowser,Firefox 65.0,"Fires up the browser
+",2019-02-11 14:41:29,2019-02-11 14:41:35,5.528s,PASSED
+setText,Firefox 65.0,Filling out login info (username),2019-02-11 14:41:35,2019-02-11 14:41:35,0.098s,PASSED
+setEncryptedText,Firefox 65.0,Filling out login info (password),2019-02-11 14:41:35,2019-02-11 14:41:35,0.039s,PASSED
+click,Firefox 65.0,Clicks the Stay Logged In button,2019-02-11 14:41:35,2019-02-11 14:41:35,0.233s,PASSED
+click,Firefox 65.0,Clicks the Submit button to login,2019-02-11 14:41:35,2019-02-11 14:41:38,2.882s,PASSED
+waitForAngularLoad,Firefox 65.0,"10 second Threshold: Waits for all angular elements on the landing page to load in 10 seconds or less
+",2019-02-11 14:41:38,2019-02-11 14:41:40,2.026s,PASSED
+verifyElementPresent,Firefox 65.0,,2019-02-11 14:41:40,2019-02-11 14:41:40,0.153s,PASSED
+verifyElementPresent,Firefox 65.0,,2019-02-11 14:41:40,2019-02-11 14:41:40,0.083s,PASSED
+verifyElementPresent,Firefox 65.0,,2019-02-11 14:41:40,2019-02-11 14:41:40,0.013s,PASSED
+verifyElementPresent,Firefox 65.0,,2019-02-11 14:41:40,2019-02-11 14:41:40,0.014s,PASSED
+verifyElementPresent,Firefox 65.0,,2019-02-11 14:41:40,2019-02-11 14:41:40,0.012s,PASSED
+verifyElementPresent,Firefox 65.0,,2019-02-11 14:41:40,2019-02-11 14:41:40,0.021s,PASSED
+verifyElementPresent,Firefox 65.0,,2019-02-11 14:41:40,2019-02-11 14:41:40,0.017s,PASSED
+verifyElementPresent,Firefox 65.0,,2019-02-11 14:41:40,2019-02-11 14:41:40,0.017s,PASSED
+verifyElementPresent,Firefox 65.0,,2019-02-11 14:41:40,2019-02-11 14:41:40,0.011s,PASSED
+click,Firefox 65.0,,2019-02-11 14:41:40,2019-02-11 14:41:41,0.348s,PASSED
+click,Firefox 65.0,,2019-02-11 14:41:41,2019-02-11 14:41:42,0.897s,PASSED
+verifyElementPresent,Firefox 65.0,,2019-02-11 14:41:42,2019-02-11 14:41:42,0.012s,PASSED
+verifyTextPresent,Firefox 65.0,,2019-02-11 14:41:42,2019-02-11 14:41:42,0.057s,PASSED
+closeBrowser,Firefox 65.0,,2019-02-11 14:41:42,2019-02-11 14:41:42,0.486s,PASSED
+,,,,,,
+Test Cases/Gated - Public Test Cases/10.10 - Prod1/Prod 1 - Navigation and CTAs,Firefox 65.0,"This will cover testing of Paul's new navigation and dropdown menus, as well as the three main Calls To Action on the Overview page",2019-02-11 14:41:42,2019-02-11 14:46:39,4m - 56.316s,FAILED
+openBrowser,Firefox 65.0,"Fires up the browser
+",2019-02-11 14:41:42,2019-02-11 14:41:51,8.991s,PASSED
+setText,Firefox 65.0,Filling out login info (username),2019-02-11 14:41:51,2019-02-11 14:41:52,0.146s,PASSED
+setEncryptedText,Firefox 65.0,Filling out login info (password),2019-02-11 14:41:52,2019-02-11 14:41:52,0.076s,PASSED
+click,Firefox 65.0,Clicks the Stay Logged In button,2019-02-11 14:41:52,2019-02-11 14:41:52,0.397s,PASSED
+click,Firefox 65.0,Clicks the Submit button to login,2019-02-11 14:41:52,2019-02-11 14:41:55,3.433s,PASSED
+waitForAngularLoad,Firefox 65.0,"60 second Threshold: Waits for all angular elements on the landing page to load in 10 seconds or less
+",2019-02-11 14:41:55,2019-02-11 14:41:58,2.187s,PASSED
+waitForPageLoad,Firefox 65.0,,2019-02-11 14:41:58,2019-02-11 14:41:58,0.008s,PASSED
+verifyElementVisible,Firefox 65.0,,2019-02-11 14:41:58,2019-02-11 14:41:58,0.069s,PASSED
+verifyElementVisible,Firefox 65.0,,2019-02-11 14:41:58,2019-02-11 14:41:58,0.037s,PASSED
+click,Firefox 65.0,,2019-02-11 14:41:58,2019-02-11 14:42:00,2.643s,PASSED
+waitForAngularLoad,Firefox 65.0,"60 second Threshold: Waits for all angular elements on the landing page to load in 10 seconds or less
+",2019-02-11 14:42:00,2019-02-11 14:42:03,2.475s,PASSED
+verifyElementText,Firefox 65.0,,2019-02-11 14:42:03,2019-02-11 14:42:03,0.219s,PASSED
+click,Firefox 65.0,,2019-02-11 14:42:03,2019-02-11 14:42:05,1.803s,PASSED
+waitForAngularLoad,Firefox 65.0,"60 second Threshold: Waits for all angular elements on the landing page to load in 10 seconds or less
+",2019-02-11 14:42:05,2019-02-11 14:42:08,3.250s,PASSED
+verifyElementVisible,Firefox 65.0,,2019-02-11 14:42:08,2019-02-11 14:42:08,0.029s,PASSED
+click,Firefox 65.0,,2019-02-11 14:42:08,2019-02-11 14:42:10,2.267s,PASSED
+waitForAngularLoad,Firefox 65.0,"60 second Threshold: Waits for all angular elements on the landing page to load in 10 seconds or less
+",2019-02-11 14:42:10,2019-02-11 14:42:12,2.035s,PASSED
+verifyElementText,Firefox 65.0,,2019-02-11 14:42:12,2019-02-11 14:42:12,0.034s,PASSED
+click,Firefox 65.0,,2019-02-11 14:42:12,2019-02-11 14:42:14,1.932s,PASSED
+waitForAngularLoad,Firefox 65.0,"60 second Threshold: Waits for all angular elements on the landing page to load in 10 seconds or less
+",2019-02-11 14:42:14,2019-02-11 14:42:16,2.036s,PASSED
+verifyElementVisible,Firefox 65.0,,2019-02-11 14:42:16,2019-02-11 14:42:16,0.035s,PASSED
+click,Firefox 65.0,,2019-02-11 14:42:16,2019-02-11 14:42:19,2.582s,PASSED
+waitForPageLoad,Firefox 65.0,,2019-02-11 14:42:19,2019-02-11 14:42:19,0.129s,PASSED
+waitForAngularLoad,Firefox 65.0,"60 second Threshold: Waits for all angular elements on the landing page to load in 10 seconds or less
+",2019-02-11 14:42:19,2019-02-11 14:43:21,1m - 2.025s,PASSED
+verifyElementText,Firefox 65.0,,2019-02-11 14:43:21,2019-02-11 14:43:21,0.030s,PASSED
+click,Firefox 65.0,,2019-02-11 14:43:21,2019-02-11 14:43:23,2.184s,PASSED
+waitForAngularLoad,Firefox 65.0,"60 second Threshold: Waits for all angular elements on the landing page to load in 10 seconds or less
+",2019-02-11 14:43:23,2019-02-11 14:43:25,1.880s,PASSED
+click,Firefox 65.0,,2019-02-11 14:43:25,2019-02-11 14:43:26,0.253s,PASSED
+verifyElementPresent,Firefox 65.0,,2019-02-11 14:43:26,2019-02-11 14:43:26,0.024s,PASSED
+verifyElementClickable,Firefox 65.0,,2019-02-11 14:43:26,2019-02-11 14:43:26,0.032s,PASSED
+click,Firefox 65.0,,2019-02-11 14:43:26,2019-02-11 14:43:28,2.197s,PASSED
+waitForAngularLoad,Firefox 65.0,"60 second Threshold: Waits for all angular elements on the landing page to load in 10 seconds or less
+",2019-02-11 14:43:28,2019-02-11 14:44:29,1m - 1.648s,PASSED
+click,Firefox 65.0,,2019-02-11 14:44:29,2019-02-11 14:44:30,0.420s,PASSED
+verifyElementPresent,Firefox 65.0,,2019-02-11 14:44:30,2019-02-11 14:44:30,0.038s,PASSED
+verifyElementClickable,Firefox 65.0,,2019-02-11 14:44:30,2019-02-11 14:44:30,0.074s,PASSED
+verifyElementPresent,Firefox 65.0,,2019-02-11 14:44:30,2019-02-11 14:44:30,0.027s,PASSED
+verifyElementClickable,Firefox 65.0,,2019-02-11 14:44:30,2019-02-11 14:44:30,0.030s,PASSED
+click,Firefox 65.0,,2019-02-11 14:44:30,2019-02-11 14:44:30,0.001s,NOT_RUN
+waitForAngularLoad,Firefox 65.0,"60 second Threshold: Waits for all angular elements on the landing page to load in 10 seconds or less
+",2019-02-11 14:44:30,2019-02-11 14:44:30,0.001s,NOT_RUN
+waitForPageLoad,Firefox 65.0,,2019-02-11 14:44:30,2019-02-11 14:44:30,0.000s,NOT_RUN
+click,Firefox 65.0,,2019-02-11 14:44:30,2019-02-11 14:44:30,0.001s,NOT_RUN
+verifyElementPresent,Firefox 65.0,,2019-02-11 14:44:30,2019-02-11 14:44:30,0.015s,PASSED
+verifyElementClickable,Firefox 65.0,,2019-02-11 14:44:30,2019-02-11 14:44:30,0.022s,PASSED
+click,Firefox 65.0,,2019-02-11 14:44:30,2019-02-11 14:44:33,2.893s,PASSED
+waitForAngularLoad,Firefox 65.0,"60 second Threshold: Waits for all angular elements on the landing page to load in 10 seconds or less
+",2019-02-11 14:44:33,2019-02-11 14:45:34,1m - 0.663s,FAILED
+click,Firefox 65.0,,2019-02-11 14:45:34,2019-02-11 14:45:34,0.239s,PASSED
+verifyElementPresent,Firefox 65.0,,2019-02-11 14:45:34,2019-02-11 14:45:34,0.016s,PASSED
+verifyElementClickable,Firefox 65.0,,2019-02-11 14:45:34,2019-02-11 14:45:34,0.097s,PASSED
+verifyElementPresent,Firefox 65.0,,2019-02-11 14:45:34,2019-02-11 14:45:34,0.096s,PASSED
+verifyElementClickable,Firefox 65.0,,2019-02-11 14:45:34,2019-02-11 14:45:34,0.063s,PASSED
+verifyElementPresent,Firefox 65.0,,2019-02-11 14:45:34,2019-02-11 14:45:34,0.040s,PASSED
+verifyElementClickable,Firefox 65.0,,2019-02-11 14:45:34,2019-02-11 14:45:34,0.076s,PASSED
+click,Firefox 65.0,,2019-02-11 14:45:34,2019-02-11 14:45:35,0.355s,PASSED
+verifyElementPresent,Firefox 65.0,,2019-02-11 14:45:35,2019-02-11 14:45:35,0.016s,PASSED
+verifyElementClickable,Firefox 65.0,,2019-02-11 14:45:35,2019-02-11 14:45:35,0.027s,PASSED
+verifyElementPresent,Firefox 65.0,,2019-02-11 14:45:35,2019-02-11 14:45:35,0.014s,PASSED
+verifyElementClickable,Firefox 65.0,,2019-02-11 14:45:35,2019-02-11 14:45:35,0.022s,PASSED
+verifyElementPresent,Firefox 65.0,,2019-02-11 14:45:35,2019-02-11 14:45:35,0.011s,PASSED
+verifyElementClickable,Firefox 65.0,,2019-02-11 14:45:35,2019-02-11 14:45:35,0.017s,PASSED
+click,Firefox 65.0,,2019-02-11 14:45:35,2019-02-11 14:45:37,2.567s,PASSED
+waitForAngularLoad,Firefox 65.0,"60 second Threshold: Waits for all angular elements on the landing page to load in 10 seconds or less
+",2019-02-11 14:45:37,2019-02-11 14:46:38,1m - 0.794s,FAILED
+click,Firefox 65.0,,2019-02-11 14:46:38,2019-02-11 14:46:38,0.000s,NOT_RUN
+waitForAngularLoad,Firefox 65.0,"60 second Threshold: Waits for all angular elements on the landing page to load in 10 seconds or less
+",2019-02-11 14:46:38,2019-02-11 14:46:38,0.001s,NOT_RUN
+click,Firefox 65.0,,2019-02-11 14:46:38,2019-02-11 14:46:38,0.000s,NOT_RUN
+verifyElementPresent,Firefox 65.0,,2019-02-11 14:46:38,2019-02-11 14:46:38,0.000s,NOT_RUN
+click,Firefox 65.0,,2019-02-11 14:46:38,2019-02-11 14:46:38,0.001s,NOT_RUN
+verifyElementPresent,Firefox 65.0,,2019-02-11 14:46:38,2019-02-11 14:46:38,0.000s,NOT_RUN
+verifyTextPresent,Firefox 65.0,,2019-02-11 14:46:38,2019-02-11 14:46:38,0.000s,NOT_RUN
+closeBrowser,Firefox 65.0,,2019-02-11 14:46:38,2019-02-11 14:46:39,0.441s,PASSED

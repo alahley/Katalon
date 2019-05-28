@@ -4,6 +4,12 @@
    <name>a_Agent Details</name>
    <tag></tag>
    <elementGuidId>6751d3b1-1946-4cc2-8e7c-c0c457987308</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>ul#kollective-nav > div > li:nth-of-type(4) > div > a:nth-of-type(5)</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -28,11 +34,11 @@
       <value>Agent Details</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath</name>
+      <name>css</name>
       <type>Main</type>
-      <value>id(&quot;kollective-nav&quot;)/div[@class=&quot;nav-content&quot;]/li[@class=&quot;dropdown&quot;]/div[@class=&quot;dropdown-content&quot;]/a[5]</value>
+      <value>ul#kollective-nav > div > li:nth-of-type(4) > div > a:nth-of-type(5)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>false</isSelected>

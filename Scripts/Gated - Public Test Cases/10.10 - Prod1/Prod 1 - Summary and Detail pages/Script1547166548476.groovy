@@ -36,7 +36,7 @@ WebUI.waitForPageLoad(60)
 'Network Summary'
 WebUI.navigateToUrl('https://stats.kontiki.com/dashboards/analytics_external::network_summary?time_filter=6%20months&filter_config=%7B%22time_filter%22:%5B%7B%22type%22:%22past%22,%22values%22:%5B%7B%22constant%22:%226%22,%22unit%22:%22mo%22%7D,%7B%7D%5D,%22id%22:2%7D%5D%7D')
 
-'10 second Threshold: Waits for all angular elements on the landing page to load in 10 seconds or less\n'
+'60 second Threshold: Waits for all angular elements on the landing page to load in 10 seconds or less\n'
 WebUI.waitForAngularLoad(60)
 
 WebUI.waitForPageLoad(60)
@@ -44,7 +44,7 @@ WebUI.waitForPageLoad(60)
 'Network Content'
 WebUI.navigateToUrl('https://stats.kontiki.com/dashboards/analytics_external::network_content?content_moid_filter=5f5345c1-6c69-4e5a-9155-b0877d3ca341&format_moid_filter=&time_filter=&filter_config=%7B%22content_moid_filter%22:%5B%7B%22type%22:%22%3D%22,%22values%22:%5B%7B%22constant%22:%225f5345c1-6c69-4e5a-9155-b0877d3ca341%22%7D,%7B%7D%5D,%22id%22:0%7D%5D,%22format_moid_filter%22:%5B%7B%22type%22:%22%3D%22,%22values%22:%5B%7B%22constant%22:%22%22%7D,%7B%7D%5D,%22id%22:1%7D%5D,%22time_filter%22:%5B%7B%22type%22:%22advanced%22,%22values%22:%5B%7B%22constant%22:null%7D,%7B%7D%5D,%22id%22:2%7D%5D%7D')
 
-'10 second Threshold: Waits for all angular elements on the landing page to load in 10 seconds or less\n'
+'60 second Threshold: Waits for all angular elements on the landing page to load in 10 seconds or less\n'
 not_run: WebUI.waitForAngularLoad(60)
 
 WebUI.waitForPageLoad(60)
@@ -52,7 +52,7 @@ WebUI.waitForPageLoad(60)
 'Network Locality'
 WebUI.navigateToUrl('https://stats.kontiki.com/dashboards/analytics_external::network_locality?Locality=211%20Main&Last%20Delivery%20Time=6%20months&Last%20Report%20Time=&External%20IP=&filter_config=%7B%22Last%20Delivery%20Time%22:%5B%7B%22type%22:%22past%22,%22values%22:%5B%7B%22constant%22:%226%22,%22unit%22:%22mo%22%7D,%7B%7D%5D,%22id%22:0%7D%5D,%22Last%20Report%20Time%22:%5B%7B%22type%22:%22anytime%22,%22values%22:%5B%7B%7D,%7B%7D%5D,%22id%22:1%7D%5D,%22Locality%22:%5B%7B%22type%22:%22%3D%22,%22values%22:%5B%7B%22constant%22:%22211%20Main%22%7D,%7B%7D%5D,%22id%22:2%7D%5D,%22External%20IP%22:%5B%7B%22type%22:%22%3D%22,%22values%22:%5B%7B%22constant%22:%22%22%7D,%7B%7D%5D,%22id%22:3%7D%5D%7D')
 
-'10 second Threshold: Waits for all angular elements on the landing page to load in 10 seconds or less\n'
+'60 second Threshold: Waits for all angular elements on the landing page to load in 10 seconds or less\n'
 WebUI.waitForAngularLoad(60)
 
 WebUI.waitForPageLoad(60)
@@ -60,7 +60,7 @@ WebUI.waitForPageLoad(60)
 'Live Event Summary'
 WebUI.navigateToUrl('https://stats.kontiki.com/dashboards/analytics_external::live_event_summary?time_filter=6%20months&title_filter=&filter_config=%7B%22time_filter%22:%5B%7B%22type%22:%22past%22,%22values%22:%5B%7B%22constant%22:%226%22,%22unit%22:%22mo%22%7D,%7B%7D%5D,%22id%22:4%7D%5D,%22title_filter%22:%5B%7B%22type%22:%22%3D%22,%22values%22:%5B%7B%22constant%22:%22%22%7D,%7B%7D%5D,%22id%22:5%7D%5D%7D')
 
-'10 second Threshold: Waits for all angular elements on the landing page to load in 10 seconds or less\n'
+'60 second Threshold: Waits for all angular elements on the landing page to load in 10 seconds or less\n'
 WebUI.waitForAngularLoad(60)
 
 WebUI.waitForPageLoad(60)
@@ -68,7 +68,7 @@ WebUI.waitForPageLoad(60)
 'Live Event'
 WebUI.navigateToUrl('https://stats.kontiki.com/dashboards/analytics_external::live_event?content_moid_filter=d1bb2b4d-2c59-44ff-816e-73ea41b41490&time_filter=&filter_config=%7B%22content_moid_filter%22:%5B%7B%22type%22:%22%3D%22,%22values%22:%5B%7B%22constant%22:%22d1bb2b4d-2c59-44ff-816e-73ea41b41490%22%7D,%7B%7D%5D,%22id%22:0%7D%5D,%22time_filter%22:%5B%7B%22type%22:%22advanced%22,%22values%22:%5B%7B%22constant%22:null%7D,%7B%7D%5D,%22id%22:1%7D%5D%7D')
 
-'10 second Threshold: Waits for all angular elements on the landing page to load in 10 seconds or less\n'
+'60 second Threshold: Waits for all angular elements on the landing page to load in 10 seconds or less\n'
 WebUI.waitForAngularLoad(60)
 
 WebUI.waitForPageLoad(60)
@@ -76,7 +76,7 @@ WebUI.waitForPageLoad(60)
 'Live (in progress) Event (filtered on last 2 weeks)'
 WebUI.navigateToUrl('https://stats.kontiki.com/dashboards/analytics_external::live_event_in_progress?content_moid_filter=&time_filter=2%20weeks&filter_config=%7B%22content_moid_filter%22:%5B%7B%22type%22:%22%3D%22,%22values%22:%5B%7B%22constant%22:%22%22%7D,%7B%7D%5D,%22id%22:4%7D%5D,%22time_filter%22:%5B%7B%22type%22:%22past%22,%22values%22:%5B%7B%22constant%22:%222%22,%22unit%22:%22wk%22%7D%5D,%22id%22:5%7D%5D%7D')
 
-'10 second Threshold: Waits for all angular elements on the landing page to load in 10 seconds or less\n'
+'60 second Threshold: Waits for all angular elements on the landing page to load in 10 seconds or less\n'
 WebUI.waitForAngularLoad(60)
 
 WebUI.waitForPageLoad(60)
@@ -84,7 +84,7 @@ WebUI.waitForPageLoad(60)
 'VoD Summary'
 WebUI.navigateToUrl('https://stats.kontiki.com/dashboards/analytics_external::vod_summary?time_filter=6%20months&event_filter=&filter_config=%7B%22time_filter%22:%5B%7B%22type%22:%22past%22,%22values%22:%5B%7B%22constant%22:%226%22,%22unit%22:%22mo%22%7D,%7B%7D%5D,%22id%22:4%7D%5D,%22event_filter%22:%5B%7B%22type%22:%22%3D%22,%22values%22:%5B%7B%22constant%22:%22%22%7D,%7B%7D%5D,%22id%22:5%7D%5D%7D')
 
-'10 second Threshold: Waits for all angular elements on the landing page to load in 10 seconds or less\n'
+'60 second Threshold: Waits for all angular elements on the landing page to load in 10 seconds or less\n'
 WebUI.waitForAngularLoad(60)
 
 WebUI.waitForPageLoad(60)
@@ -92,7 +92,7 @@ WebUI.waitForPageLoad(60)
 'Video on Demand'
 WebUI.navigateToUrl('https://stats.kontiki.com/dashboards/analytics_external::vod_performance?content_moid_filter=28338714-dd3f-43b1-9272-9eb3df6b4145&time_filter=&filter_config=%7B%22content_moid_filter%22:%5B%7B%22type%22:%22%3D%22,%22values%22:%5B%7B%22constant%22:%2228338714-dd3f-43b1-9272-9eb3df6b4145%22%7D,%7B%7D%5D,%22id%22:0%7D%5D,%22time_filter%22:%5B%7B%22type%22:%22advanced%22,%22values%22:%5B%7B%22constant%22:null%7D,%7B%7D%5D,%22id%22:1%7D%5D%7D')
 
-'10 second Threshold: Waits for all angular elements on the landing page to load in 10 seconds or less\n'
+'60 second Threshold: Waits for all angular elements on the landing page to load in 10 seconds or less\n'
 WebUI.waitForAngularLoad(60)
 
 WebUI.waitForPageLoad(60)
@@ -100,7 +100,7 @@ WebUI.waitForPageLoad(60)
 'SCCM'
 WebUI.navigateToUrl('https://stats.kontiki.com/dashboards/sccm_users::sccm_summary?time_filter=6%20months&filter_config=%7B%22time_filter%22:%5B%7B%22type%22:%22past%22,%22values%22:%5B%7B%22constant%22:%226%22,%22unit%22:%22mo%22%7D,%7B%7D%5D,%22id%22:2%7D%5D%7D')
 
-'10 second Threshold: Waits for all angular elements on the landing page to load in 10 seconds or less\n'
+'60 second Threshold: Waits for all angular elements on the landing page to load in 10 seconds or less\n'
 not_run: WebUI.waitForAngularLoad(60)
 
 WebUI.waitForPageLoad(60)
