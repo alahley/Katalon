@@ -4,6 +4,12 @@
    <name>a_1293261</name>
    <tag></tag>
    <elementGuidId>627df738-61ff-484b-a4f4-30a236623bdd</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>div#dashboard > div > div:nth-of-type(2) > div > div > div > div:nth-of-type(2) > div:nth-of-type(20) > div > lk-vis-element > div > div > div:nth-of-type(2) > div > div > div > lk-visualization-container > div > div > div > div > div > div > span > span > a</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -35,11 +41,11 @@
       <value>1,293,261</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath</name>
+      <name>css</name>
       <type>Main</type>
-      <value>id(&quot;dashboard&quot;)/div[1]/div[@class=&quot;dashboard-elements&quot;]/div[@class=&quot;newspaper-layout dashboard-layout ng-scope&quot;]/div[@class=&quot;container-relative&quot;]/div[@class=&quot;jsnewspaper&quot;]/div[@class=&quot;grid&quot;]/div[@class=&quot;grid-element ng-scope&quot;]/div[@class=&quot;dashboard-element ng-isolate-scope&quot;]/lk-vis-element[@class=&quot;ng-scope&quot;]/div[@class=&quot;vis title-hidden&quot;]/div[@class=&quot;vis-header-note-and-wrapper&quot;]/div[@class=&quot;vis-wrapper-container&quot;]/div[@class=&quot;vis-wrapper-inner-container&quot;]/div[@class=&quot;vis-wrapper&quot;]/div[1]/lk-visualization-container[@class=&quot;vis-element ng-scope ng-isolate-scope&quot;]/div[1]/div[@class=&quot;vis-container&quot;]/div[@class=&quot;vis-single-value-wrapper&quot;]/div[@class=&quot;vis-single-value&quot;]/div[@class=&quot;centered&quot;]/div[@class=&quot;vis-single-value-value with-text&quot;]/span[@class=&quot;drillable-item&quot;]/span[@class=&quot;drillable-item-content&quot;]/a[1]</value>
+      <value>div#dashboard > div > div:nth-of-type(2) > div > div > div > div:nth-of-type(2) > div:nth-of-type(20) > div > lk-vis-element > div > div > div:nth-of-type(2) > div > div > div > lk-visualization-container > div > div > div > div > div > div > span > span > a</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

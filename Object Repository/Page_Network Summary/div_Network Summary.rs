@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>div#lk-title > div > div > lk-title-editor > div</value>
+         <value>div#lk-title > div > div > lk-title-editor > div > span</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -52,7 +52,7 @@
       <matchCondition>equals</matchCondition>
       <name>css</name>
       <type>Main</type>
-      <value>div#lk-title > div > div > lk-title-editor > div</value>
+      <value>div#lk-title > div > div > lk-title-editor > div > span</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

@@ -167,13 +167,5 @@ WebUI.waitForAngularLoad(60)
 
 WebUI.click(findTestObject('Page_SCCM Summary/a'), FailureHandling.CONTINUE_ON_FAILURE)
 
-not_run: WebUI.verifyElementPresent(findTestObject('Page_SCCM Summary/a_Log Out'), 0)
-
-not_run: WebUI.click(findTestObject('Page_SCCM Summary/a_Log Out'))
-
-not_run: WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Log in/div_Logout Successful.'), 0)
-
-not_run: WebUI.verifyTextPresent('Logout Successful.', false)
-
 WebUI.closeBrowser()
 

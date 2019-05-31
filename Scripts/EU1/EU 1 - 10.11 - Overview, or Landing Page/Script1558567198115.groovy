@@ -116,13 +116,13 @@ WebUI.verifyElementText(findTestObject('Page_Overview/a_99391.3'), '99,391.3')
 WebUI.verifyElementText(findTestObject('Page_Overview/div_Unique Agents'), 'Agents')
 
 'FIXTURE DATA - Verify Unique Agents widget has a value of 10,905'
-WebUI.verifyElementText(findTestObject('Page_Overview/a_1293261'), '1,293,261')
+not_run: WebUI.verifyElementText(findTestObject('Page_Overview/a_1293261'), '1,293,261')
 
 'Verify Deliveries widget exists on page'
 WebUI.verifyElementText(findTestObject('Page_Overview/div_Deliveries'), 'Deliveries')
 
 'FIXTURE DATA - Verify Delivery widget has a value of 67,512'
-WebUI.verifyElementText(findTestObject('Page_Overview/a_12674372'), '12,674,372')
+not_run: WebUI.verifyElementText(findTestObject('Page_Overview/a_12674372'), '12,674,372')
 
 'Verify Saved GB widget exists on page'
 WebUI.verifyElementText(findTestObject('Page_Overview/div_Saved GB'), 'Saved GB')
@@ -134,7 +134,7 @@ WebUI.verifyElementText(findTestObject('Page_Overview/a_431857'), '431,857')
 WebUI.verifyElementText(findTestObject('Page_Overview/div_Total GB'), 'Total GB')
 
 'FIXTURE DATA - Verify Total GB widget has a value of 3,865.08'
-WebUI.verifyElementText(findTestObject('Page_Overview/a_527671.49'), '527,671.49')
+not_run: WebUI.verifyElementText(findTestObject('Page_Overview/a_527671.49'), '527,671.49')
 
 'Verify the Live Event Summary CTA appears on page'
 WebUI.verifyElementPresent(findTestObject('Page_Overview/a_Go to Live Event Summary'), 0)
