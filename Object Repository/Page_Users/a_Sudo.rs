@@ -90,7 +90,7 @@
       <value>id(&quot;lk-content&quot;)/lk-users-section[@class=&quot;ng-isolate-scope&quot;]/table[@class=&quot;table table-striped users-table&quot;]/tbody[1]/tr[@class=&quot;ng-scope&quot;]/td[@class=&quot;admin-connection-tools&quot;]/a[@class=&quot;btn btn-default btn-xs ng-scope&quot;]</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>css</name>
       <type>Main</type>

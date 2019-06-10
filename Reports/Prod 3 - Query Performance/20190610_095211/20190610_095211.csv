@@ -1,0 +1,67 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Prod 3 - Query Performance,Firefox 67.0,,2019-06-10 09:52:12,2019-06-10 10:01:32,9m - 20.074s,FAILED
+,,,,,,
+Test Cases/Prod 3 - Query Performance,Firefox 67.0,,2019-06-10 09:52:13,2019-06-10 10:01:32,9m - 19.794s,FAILED
+openBrowser,Firefox 67.0,"Fires up the browser
+",2019-06-10 09:52:13,2019-06-10 09:52:21,7.809s,PASSED
+setText,Firefox 67.0,Filling out login info (username),2019-06-10 09:52:21,2019-06-10 09:52:21,0.152s,PASSED
+setEncryptedText,Firefox 67.0,Filling out login info (password),2019-06-10 09:52:21,2019-06-10 09:52:21,0.100s,PASSED
+click,Firefox 67.0,Clicks the Stay Logged In button,2019-06-10 09:52:21,2019-06-10 09:52:21,0.375s,PASSED
+click,Firefox 67.0,Clicks the Submit button to login,2019-06-10 09:52:21,2019-06-10 09:52:24,3.086s,PASSED
+waitForAngularLoad,Firefox 67.0,Waits for all angular elements on the landing page and throws an exception after 90 seconds,2019-06-10 09:52:24,2019-06-10 09:52:27,2.528s,PASSED
+verifyElementPresent,Firefox 67.0,,2019-06-10 09:52:27,2019-06-10 09:52:27,0.053s,PASSED
+navigateToUrl,Firefox 67.0,OVERVIEW DASHBOARD,2019-06-10 09:52:27,2019-06-10 09:52:29,1.911s,PASSED
+waitForAngularLoad,Firefox 67.0,Waits for all angular elements on the landing page and throws an exception after 90 seconds,2019-06-10 09:52:29,2019-06-10 09:52:32,2.649s,PASSED
+waitForPageLoad,Firefox 67.0,,2019-06-10 09:52:32,2019-06-10 09:52:32,0.033s,PASSED
+navigateToUrl,Firefox 67.0,"LIVE EVENT DETAIL | ~10k agents
+Moid: d8f27777-0956-45c2-a5fa-c206baccebf3",2019-06-10 09:52:32,2019-06-10 09:52:35,3.523s,PASSED
+waitForAngularLoad,Firefox 67.0,Waits for all angular elements on the landing page and throws an exception after 90 seconds,2019-06-10 09:52:35,2019-06-10 09:55:06,2m - 30.687s,FAILED
+waitForPageLoad,Firefox 67.0,,2019-06-10 09:55:06,2019-06-10 09:55:06,0.006s,PASSED
+navigateToUrl,Firefox 67.0,"LIVE (In Progress) EVENT | ~10k Agents, filtered by the past 1 Month",2019-06-10 09:55:06,2019-06-10 09:55:08,2.129s,PASSED
+waitForAngularLoad,Firefox 67.0,Waits for all angular elements on the landing page and throws an exception after 90 seconds,2019-06-10 09:55:08,2019-06-10 09:57:38,2m - 30.361s,FAILED
+waitForPageLoad,Firefox 67.0,,2019-06-10 09:57:38,2019-06-10 09:57:38,0.007s,PASSED
+navigateToUrl,Firefox 67.0,VIDEO ON DEMAND SUMMARY,2019-06-10 09:57:38,2019-06-10 09:57:41,2.268s,PASSED
+waitForAngularLoad,Firefox 67.0,Waits for all angular elements on the landing page and throws an exception after 90 seconds,2019-06-10 09:57:41,2019-06-10 09:57:47,6.506s,PASSED
+waitForPageLoad,Firefox 67.0,,2019-06-10 09:57:47,2019-06-10 09:57:47,0.010s,PASSED
+navigateToUrl,Firefox 67.0,"VIDEO ON DEMAND DETAIL | ~1k agents
+Moid: bd9e0a4f-8517-4101-ae16-223bad8adc2d",2019-06-10 09:57:47,2019-06-10 09:57:50,2.573s,PASSED
+waitForAngularLoad,Firefox 67.0,Waits for all angular elements on the landing page and throws an exception after 90 seconds,2019-06-10 09:57:50,2019-06-10 09:57:53,3.607s,PASSED
+waitForPageLoad,Firefox 67.0,,2019-06-10 09:57:53,2019-06-10 09:57:53,0.008s,PASSED
+navigateToUrl,Firefox 67.0,NETWORK SUMMARY,2019-06-10 09:57:53,2019-06-10 09:57:56,2.191s,PASSED
+waitForAngularLoad,Firefox 67.0,Waits for all angular elements on the landing page and throws an exception after 90 seconds,2019-06-10 09:57:56,2019-06-10 09:58:04,8.149s,PASSED
+waitForPageLoad,Firefox 67.0,,2019-06-10 09:58:04,2019-06-10 09:58:04,0.006s,PASSED
+navigateToUrl,Firefox 67.0,"NETWORK CONTENT | ~17K agents
+Moid: d8f27777-0956-45c2-a5fa-c206baccebf3",2019-06-10 09:58:04,2019-06-10 09:58:05,1.570s,PASSED
+waitForAngularLoad,Firefox 67.0,Waits for all angular elements on the landing page and throws an exception after 90 seconds,2019-06-10 09:58:05,2019-06-10 09:58:11,5.450s,PASSED
+waitForPageLoad,Firefox 67.0,,2019-06-10 09:58:11,2019-06-10 09:58:11,0.006s,PASSED
+navigateToUrl,Firefox 67.0,NETWORK LOCALITY | ~300 agents,2019-06-10 09:58:11,2019-06-10 09:58:13,2.232s,PASSED
+waitForAngularLoad,Firefox 67.0,Waits for all angular elements on the landing page and throws an exception after 90 seconds,2019-06-10 09:58:13,2019-06-10 09:58:18,4.600s,PASSED
+waitForPageLoad,Firefox 67.0,,2019-06-10 09:58:18,2019-06-10 09:58:18,0.007s,PASSED
+navigateToUrl,Firefox 67.0,AGENT SUMMARY | ~1.1MM agents,2019-06-10 09:58:18,2019-06-10 09:58:19,1.502s,PASSED
+waitForAngularLoad,Firefox 67.0,Waits for all angular elements on the landing page and throws an exception after 90 seconds,2019-06-10 09:58:19,2019-06-10 09:58:26,7.161s,PASSED
+waitForPageLoad,Firefox 67.0,,2019-06-10 09:58:26,2019-06-10 09:58:26,0.006s,PASSED
+navigateToUrl,Firefox 67.0,"AGENT DETAILS
+Agent ID: 9A038BWapvZejoti",2019-06-10 09:58:26,2019-06-10 09:58:28,1.597s,PASSED
+waitForAngularLoad,Firefox 67.0,Waits for all angular elements on the landing page and throws an exception after 90 seconds,2019-06-10 09:58:28,2019-06-10 09:58:33,5.327s,PASSED
+waitForPageLoad,Firefox 67.0,,2019-06-10 09:58:33,2019-06-10 09:58:33,0.007s,PASSED
+navigateToUrl,Firefox 67.0,"EVENT ANALYZER | ~16k agents
+Moid: d8f27777-0956-45c2-a5fa-c206baccebf3",2019-06-10 09:58:33,2019-06-10 09:58:36,3.015s,PASSED
+waitForAngularLoad,Firefox 67.0,Waits for all angular elements on the landing page and throws an exception after 90 seconds,2019-06-10 09:58:36,2019-06-10 10:01:07,2m - 30.364s,FAILED
+waitForPageLoad,Firefox 67.0,,2019-06-10 10:01:07,2019-06-10 10:01:07,0.006s,PASSED
+navigateToUrl,Firefox 67.0,"SCCM SUMMARY | ~8k agents, filtered in the past 6 Months",2019-06-10 10:01:07,2019-06-10 10:01:09,2.205s,PASSED
+waitForAngularLoad,Firefox 67.0,Waits for all angular elements on the landing page and throws an exception after 90 seconds,2019-06-10 10:01:09,2019-06-10 10:01:15,6.763s,PASSED
+waitForPageLoad,Firefox 67.0,,2019-06-10 10:01:15,2019-06-10 10:01:16,0.007s,PASSED
+navigateToUrl,Firefox 67.0,"EXPLORE HISTORY | Table data of all queries that just completed
+Filters: Created in the last ten minutes; Runtime is not Null; Source is not a Saved Look; Status is not Running; Email is alahley@kollective.com",2019-06-10 10:01:16,2019-06-10 10:01:17,1.568s,PASSED
+waitForAngularLoad,Firefox 67.0,Waits for all angular elements on the landing page and throws an exception after 90 seconds,2019-06-10 10:01:17,2019-06-10 10:01:19,2.221s,PASSED
+waitForPageLoad,Firefox 67.0,,2019-06-10 10:01:19,2019-06-10 10:01:19,0.007s,PASSED
+click,Firefox 67.0,Clicks the gear icon,2019-06-10 10:01:19,2019-06-10 10:01:19,0.173s,FAILED
+click,Firefox 67.0,Clear Cache & Refresh,2019-06-10 10:01:19,2019-06-10 10:01:28,8.295s,FAILED
+waitForAngularLoad,Firefox 67.0,Waits for all angular elements on the landing page and throws an exception after 90 seconds,2019-06-10 10:01:28,2019-06-10 10:01:28,0.021s,PASSED
+waitForPageLoad,Firefox 67.0,,2019-06-10 10:01:28,2019-06-10 10:01:28,0.006s,PASSED
+click,Firefox 67.0,Clicks the gear icon,2019-06-10 10:01:28,2019-06-10 10:01:29,0.732s,PASSED
+click,Firefox 67.0,,2019-06-10 10:01:29,2019-06-10 10:01:29,0.736s,PASSED
+click,Firefox 67.0,Expands the Advanced Options to make sure that Results In Table radio button is selected.,2019-06-10 10:01:29,2019-06-10 10:01:30,0.726s,PASSED
+click,Firefox 67.0,Send,2019-06-10 10:01:30,2019-06-10 10:01:31,0.727s,PASSED
+waitForPageLoad,Firefox 67.0,,2019-06-10 10:01:31,2019-06-10 10:01:31,0.007s,PASSED
+closeBrowser,Firefox 67.0,,2019-06-10 10:01:31,2019-06-10 10:01:32,1.751s,PASSED
