@@ -41,6 +41,14 @@ WebUI.waitForAngularLoad(90)
 
 WebUI.waitForPageLoad(0)
 
+'LIVE EVENT SUMMARY DASHBOARD'
+WebUI.navigateToUrl('https://stats.ac1.kontiki.com/dashboards/analytics_external::live_event_summary?time_filter=6%20months&title_filter=&filter_config=%7B%22time_filter%22:%5B%7B%22type%22:%22past%22,%22values%22:%5B%7B%22constant%22:%226%22,%22unit%22:%22mo%22%7D,%7B%7D%5D,%22id%22:4%7D%5D,%22title_filter%22:%5B%7B%22type%22:%22%3D%22,%22values%22:%5B%7B%22constant%22:%22%22%7D,%7B%7D%5D,%22id%22:5%7D%5D%7D')
+
+'Waits for all angular elements on the landing page and throws an exception after 90 seconds'
+WebUI.waitForAngularLoad(90)
+
+WebUI.waitForPageLoad(0)
+
 'LIVE EVENT DETAIL | ~10k agents\nMoid: d8f27777-0956-45c2-a5fa-c206baccebf3'
 WebUI.navigateToUrl('https://stats.ac1.kontiki.com/dashboards/analytics_external::live_event?content_moid_filter=d8f27777-0956-45c2-a5fa-c206baccebf3&time_filter=&filter_config=%7B%22content_moid_filter%22:%5B%7B%22type%22:%22%3D%22,%22values%22:%5B%7B%22constant%22:%22d8f27777-0956-45c2-a5fa-c206baccebf3%22%7D,%7B%7D%5D,%22id%22:0%7D%5D,%22time_filter%22:%5B%7B%22type%22:%22advanced%22,%22values%22:%5B%7B%22constant%22:null%7D,%7B%7D%5D,%22id%22:1%7D%5D%7D')
 
