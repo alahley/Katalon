@@ -129,6 +129,14 @@ WebUI.waitForAngularLoad(150)
 
 WebUI.waitForPageLoad(0)
 
+'GEO EXPLORER | ~1k agents\nMoid: aa143c4c-d288-404b-b2d3-a7e4dd870baa'
+WebUI.navigateToUrl('https://stats.ac1.kontiki.com/dashboards/analytics_external::geo_explorer?content_moid_filter=02db3516-d793-49cd-ab08-deefa8fc30da&Browser=&Buffer%20Count=&Buffer%20Time%20(ms)=&Context=&OS=&Format%20Moid%20Filter=&Peering%20Percent=&filter_config=%7B%22Browser%22:%5B%7B%22type%22:%22%3D%22,%22values%22:%5B%7B%22constant%22:%22%22%7D,%7B%7D%5D,%22id%22:0%7D%5D,%22Buffer%20Count%22:%5B%7B%22type%22:%22%3D%22,%22values%22:%5B%7B%22constant%22:%22%22%7D,%7B%7D%5D,%22id%22:1%7D%5D,%22Buffer%20Time%20(ms)%22:%5B%7B%22type%22:%22%3D%22,%22values%22:%5B%7B%22constant%22:%22%22%7D,%7B%7D%5D,%22id%22:2%7D%5D,%22content_moid_filter%22:%5B%7B%22type%22:%22%3D%22,%22values%22:%5B%7B%22constant%22:%2202db3516-d793-49cd-ab08-deefa8fc30da%22%7D,%7B%7D%5D,%22id%22:3%7D%5D,%22Context%22:%5B%7B%22type%22:%22%3D%22,%22values%22:%5B%7B%22constant%22:%22%22%7D,%7B%7D%5D,%22id%22:4%7D%5D,%22OS%22:%5B%7B%22type%22:%22%3D%22,%22values%22:%5B%7B%22constant%22:%22%22%7D,%7B%7D%5D,%22id%22:5%7D%5D,%22Format%20Moid%20Filter%22:%5B%7B%22type%22:%22%3D%22,%22values%22:%5B%7B%22constant%22:%22%22%7D,%7B%7D%5D,%22id%22:6%7D%5D,%22Peering%20Percent%22:%5B%7B%22type%22:%22%3D%22,%22values%22:%5B%7B%22constant%22:%22%22%7D,%7B%7D%5D,%22id%22:7%7D%5D%7D')
+
+'Waits for all angular elements on the landing page and throws an exception after 90 seconds'
+WebUI.waitForAngularLoad(150)
+
+WebUI.waitForPageLoad(0)
+
 'SCCM SUMMARY | ~8k agents, filtered in the past 6 Months'
 WebUI.navigateToUrl('https://stats.ac1.kontiki.com/dashboards/sccm_users::sccm_summary?time_filter=6%20months&filter_config=%7B%22time_filter%22:%5B%7B%22type%22:%22past%22,%22values%22:%5B%7B%22constant%22:%226%22,%22unit%22:%22mo%22%7D,%7B%7D%5D,%22id%22:2%7D%5D%7D')
 
