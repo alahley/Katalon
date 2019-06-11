@@ -7,7 +7,8 @@
    <name>Hobin Smoke Test</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <mailRecipient></mailRecipient>
+   <lastRun>2019-06-11T16:41:16</lastRun>
+   <mailRecipient>khobin@kollective.com;</mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
