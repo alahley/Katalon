@@ -61,76 +61,76 @@ WebUI.waitForPageLoad(0)
 WebUI.waitForAngularLoad(45)
 
 'Verify "Total Live Events" widget is on the page'
-WebUI.verifyElementText(findTestObject('Page_Overview/div_Total Live Events'), 'Total Live Events')
+not_run: WebUI.verifyElementText(findTestObject('Page_Overview/div_Total Live Events'), 'Total Live Events')
 
 'FIXTURE DATA - Verify Total Live Events widget has a value of 2,563'
-WebUI.verifyElementText(findTestObject('Page_Overview/div_172'), '172')
+not_run: WebUI.verifyElementText(findTestObject('Page_Overview/div_172'), '172')
 
 'Verify "Average Monthly Events" widget is on the page'
-WebUI.verifyElementText(findTestObject('Page_Live Event Summary/div_Average Monthly Events'), 'Average Monthly Events')
+not_run: WebUI.verifyElementText(findTestObject('Page_Live Event Summary/div_Average Monthly Events'), 'Average Monthly Events')
 
 'FIXTURE DATA - Verify Average Monthly Events widget has a value of 226'
-WebUI.verifyElementText(findTestObject('Page_Overview/div_30'), '30')
+not_run: WebUI.verifyElementText(findTestObject('Page_Overview/div_30'), '30')
 
 'Verify "Unique Viewers" widget is on the page'
-WebUI.verifyElementText(findTestObject('Page_Overview/div_Unique Viewers'), 'Unique Viewers')
+not_run: WebUI.verifyElementText(findTestObject('Page_Overview/div_Unique Viewers'), 'Unique Viewers')
 
 'FIXTURE DATA - Verify Unique Viewers widget has a value of 14,388'
-WebUI.verifyElementText(findTestObject('Page_Overview/div_22673'), '22,673')
+not_run: WebUI.verifyElementText(findTestObject('Page_Overview/div_22673'), '22,673')
 
 'Verify Average Monthly Viewers widget exists on page'
-WebUI.verifyElementText(findTestObject('Page_Live Event Summary/div_Average Monthly Views'), 'Average Monthly Views')
+not_run: WebUI.verifyElementText(findTestObject('Page_Live Event Summary/div_Average Monthly Views'), 'Average Monthly Views')
 
 'FIXTURE DATA - Verify Average Monthly Views widget has a value of 7,762'
-WebUI.verifyElementText(findTestObject('Page_Overview/div_4767'), '4,767')
+not_run: WebUI.verifyElementText(findTestObject('Page_Overview/div_4767'), '4,767')
 
 'Verify Total Videos widget exists on page'
-WebUI.verifyElementText(findTestObject('Page_Overview/div_Total Videos'), 'Total Videos')
+not_run: WebUI.verifyElementText(findTestObject('Page_Overview/div_Total Videos'), 'Total Videos')
 
 'FIXTURE DATA - Verify Total Videos widget has a value of 1,585'
-WebUI.verifyElementText(findTestObject('Page_Overview/div_36'), '36')
+not_run: WebUI.verifyElementText(findTestObject('Page_Overview/div_36'), '36')
 
 'Verify Total Views widget exists on page'
-WebUI.verifyElementText(findTestObject('Page_Overview/div_Total Views'), 'Total Views')
+not_run: WebUI.verifyElementText(findTestObject('Page_Overview/div_Total Views'), 'Total Views')
 
 'FIXTURE DATA - Verify Total views widget has a value of 17,443'
-WebUI.verifyElementText(findTestObject('Page_Overview/div_176'), '176')
+not_run: WebUI.verifyElementText(findTestObject('Page_Overview/div_176'), '176')
 
 'Verify Unique Viewers widget exists on page'
-WebUI.verifyElementText(findTestObject('Page_Overview/div_Unique Viewers'), 'Unique Viewers')
+not_run: WebUI.verifyElementText(findTestObject('Page_Overview/div_Unique Viewers'), 'Unique Viewers')
 
 'FIXTURE DATA - Verify Unique Viewers widget has a value of 11,413'
-WebUI.verifyElementText(findTestObject('Page_Overview/div_61'), '61')
+not_run: WebUI.verifyElementText(findTestObject('Page_Overview/div_61'), '61')
 
 'Verify Total Hours Watched widget exists on page'
-WebUI.verifyElementText(findTestObject('Page_Overview/div_Total Hours Watched'), 'Total Hours Watched')
+not_run: WebUI.verifyElementText(findTestObject('Page_Overview/div_Total Hours Watched'), 'Total Hours Watched')
 
 'FIXTURE DATA - Verify Total Hours Watched widget has a value of 1,404.1'
-WebUI.verifyElementText(findTestObject('Page_Overview/div_9'), '9')
+not_run: WebUI.verifyElementText(findTestObject('Page_Overview/div_9'), '9')
 
 'Verify Unique Agent widget exists on page'
-WebUI.verifyElementText(findTestObject('Page_Overview/div_Unique Agents'), 'Unique Agents')
+not_run: WebUI.verifyElementText(findTestObject('Page_Overview/div_Unique Agents'), 'Unique Agents')
 
 'FIXTURE DATA - Verify Unique Agents widget has a value of 10,905'
-WebUI.verifyElementText(findTestObject('Page_Overview/div_23985'), '23,985')
+not_run: WebUI.verifyElementText(findTestObject('Page_Overview/div_23985'), '23,985')
 
 'Verify Deliveries widget exists on page'
-WebUI.verifyElementText(findTestObject('Page_Overview/div_Deliveries'), 'Deliveries')
+not_run: WebUI.verifyElementText(findTestObject('Page_Overview/div_Deliveries'), 'Deliveries')
 
 'FIXTURE DATA - Verify Delivery widget has a value of 67,512'
-WebUI.verifyElementText(findTestObject('Page_Overview/div_31864'), '31,864')
+not_run: WebUI.verifyElementText(findTestObject('Page_Overview/div_31864'), '31,864')
 
 'Verify Saved GB widget exists on page'
-WebUI.verifyElementText(findTestObject('Page_Overview/div_Saved GB'), 'Saved GB')
+not_run: WebUI.verifyElementText(findTestObject('Page_Overview/div_Saved GB'), 'Saved GB')
 
 'FIXTURE DATA - Verify Saved GB widget has a value of 1,573'
-WebUI.verifyElementText(findTestObject('Page_Overview/div_4382'), '4,382')
+not_run: WebUI.verifyElementText(findTestObject('Page_Overview/div_4382'), '4,382')
 
 'Verify Total GB widget exists on page'
-WebUI.verifyElementText(findTestObject('Page_Overview/div_Total GB'), 'Total GB')
+not_run: WebUI.verifyElementText(findTestObject('Page_Overview/div_Total GB'), 'Total GB')
 
 'FIXTURE DATA - Verify Total GB widget has a value of 3,865.08'
-WebUI.verifyElementText(findTestObject('Page_Overview/div_5413'), '5,413')
+not_run: WebUI.verifyElementText(findTestObject('Page_Overview/div_5413'), '5,413')
 
 'Verify the Peering Efficiency widget appears on page'
 WebUI.verifyElementPresent(findTestObject('Page_Overview/div_Peering Efficiency'), 0)
