@@ -4,7 +4,7 @@
    <name>Gated Public - 10.11 - Intel</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2019-06-21T09:24:48</lastRun>
+   <lastRun>2019-06-21T11:15:31</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
@@ -12,19 +12,25 @@
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <testSuiteGuid>63a1db26-2977-4fec-993a-7e6896227d38</testSuiteGuid>
    <testCaseLink>
-      <guid>46de64ba-597c-4c71-bcf9-4c2b69121124</guid>
+      <guid>d657c384-4438-4834-a042-9ea6d92122d0</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Intel/Intel - Overview, or Landing Page</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>2a6a3ae3-1954-4085-95ba-b1bf7240874d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Intel/Intel - Logging In and Out</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>2e4f8035-47cb-4b37-bb39-3ea780d4c661</guid>
+      <guid>999a932d-6a03-4d31-8915-56eb10d1c354</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Intel/Intel - Navigation and CTAs</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>7afc265d-dd51-4096-9c6b-4956aec88d7c</guid>
+      <guid>5fdda692-c7b7-4a34-968c-e74fabaabd8e</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Intel/Intel - Summary and Detail pages</testCaseId>
