@@ -1,20 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>Prod 3 - Query Performance</name>
+   <name>Prod 1 - Query Performance</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2019-06-24T09:41:38</lastRun>
    <mailRecipient></mailRecipient>
-   <numberOfRerun>1</numberOfRerun>
+   <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
-   <testSuiteGuid>fbf67f5f-ac98-4c4b-9ad5-5a8cc3dec6c7</testSuiteGuid>
+   <testSuiteGuid>c6af515a-3355-4df4-98c0-b9594530e381</testSuiteGuid>
    <testCaseLink>
-      <guid>c8d9ba47-a959-4b27-b4d7-eaf02514096d</guid>
+      <guid>6c82d22a-cf14-47e0-99c3-3e324e2b1d96</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Prod 3/Prod 3 - Query Performance</testCaseId>
+      <testCaseId>Test Cases/Prod 1/Prod 1 - Query Performance</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

@@ -1,20 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>Prod 3 - Query Performance</name>
+   <name>Intel - Query Performance</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2019-06-24T09:41:38</lastRun>
    <mailRecipient></mailRecipient>
-   <numberOfRerun>1</numberOfRerun>
+   <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
-   <testSuiteGuid>fbf67f5f-ac98-4c4b-9ad5-5a8cc3dec6c7</testSuiteGuid>
+   <testSuiteGuid>a2930329-60e9-49b9-804a-7eabc642904a</testSuiteGuid>
    <testCaseLink>
-      <guid>c8d9ba47-a959-4b27-b4d7-eaf02514096d</guid>
+      <guid>a9e4458e-e3ca-4a64-983d-50f2f8c632fb</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Prod 3/Prod 3 - Query Performance</testCaseId>
+      <testCaseId>Test Cases/Intel/Intel - Query Performance</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>
