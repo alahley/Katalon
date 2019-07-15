@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="EU1 - Query Performance" time="76" tests="0" failures="0" errors="0">
+   <testsuite name="EU1 - Query Performance" tests="0" failures="0" errors="0" time="76" timestamp="2019-07-12 15:36:53" hostname="alahley - 172.16.168.38" id="Test Suites/EU1 - Query Performance">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/alahley/Katalon Studio/Analytics/Reports/EU1 - Query Performance/20190712_153651"/>
+         <property name="logFiles" value="/Users/alahley/Katalon Studio/Analytics/Reports/EU1 - Query Performance/20190712_153651/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="alahley - 172.16.168.38"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="4.1.0.2"/>
+         <property name="browser" value="Firefox 67.0"/>
+         <property name="hostAddress" value="172.16.168.38"/>
+         <property name="sessionId" value="ab1bb0f7-328d-3440-93df-86217c1c7ec5"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/EU1/EU 1 - Query Performance" classname="Test Cases/EU1/EU 1 - Query Performance" status="INCOMPLETE">
+         <system-out><![CDATA[2019-07-12 15:36:53 - [TEST_CASE][INCOMPLETE] - Test Cases/EU1/EU 1 - Query Performance: null
+
+2019-07-12 15:36:54 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'https://stats.eu1.kontiki.com/login/email'
+
+2019-07-12 15:37:05 - [MESSAGE][PASSED] - Browser is opened with url: 'https://stats.eu1.kontiki.com/login/email'
+
+2019-07-12 15:37:05 - [TEST_STEP][PASSED] - setText: Text 'alahley@kollective.com' is set on object 'Object Repository/Page_Log in/input_email (2)'
+
+2019-07-12 15:37:05 - [MESSAGE][PASSED] - Text 'alahley@kollective.com' is set on object 'Object Repository/Page_Log in/input_email (2)'
+
+2019-07-12 15:37:05 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Page_Log in/input_password (2)'
+
+2019-07-12 15:37:05 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Log in/input_password (2)'
+
+2019-07-12 15:37:05 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Log in/input_remember (2)' is clicked on
+
+2019-07-12 15:37:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Log in/input_remember (2)' is clicked on
+
+2019-07-12 15:37:06 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Log in/input_login-submit (2)' is clicked on
+
+2019-07-12 15:37:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Log in/input_login-submit (2)' is clicked on
+
+2019-07-12 15:37:10 - [TEST_STEP][PASSED] - waitForAngularLoad: Angular is ready.
+
+2019-07-12 15:37:19 - [MESSAGE][PASSED] - Angular is ready.
+
+2019-07-12 15:37:19 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_Overview/a' is present
+
+2019-07-12 15:37:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-07-12 15:37:19 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Overview/a' is present
+
+2019-07-12 15:37:19 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://stats.eu1.kontiki.com/dashboards/analytics_external::Overview?time_filter=6%20months&filter_config=%7B%22time_filter%22:%5B%7B%22type%22:%22past%22,%22values%22:%5B%7B%22constant%22:%226%22,%22unit%22:%22mo%22%7D,%7B%7D%5D,%22id%22:2%7D%5D%7D' successfully
+
+2019-07-12 15:37:23 - [MESSAGE][PASSED] - Navigate to 'https://stats.eu1.kontiki.com/dashboards/analytics_external::Overview?time_filter=6%20months&filter_config=%7B%22time_filter%22:%5B%7B%22type%22:%22past%22,%22values%22:%5B%7B%22constant%22:%226%22,%22unit%22:%22mo%22%7D,%7B%7D%5D,%22id%22:2%7D%5D%7D' successfully
+
+2019-07-12 15:37:23 - [TEST_STEP][PASSED] - waitForAngularLoad: Angular is ready.
+
+2019-07-12 15:37:26 - [MESSAGE][PASSED] - Angular is ready.
+
+2019-07-12 15:37:26 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2019-07-12 15:37:26 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-07-12 15:37:26 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-07-12 15:37:26 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://stats.eu1.kontiki.com/dashboards/analytics_external::live_event_summary?time_filter=6%20months&title_filter=&filter_config=%7B%22time_filter%22:%5B%7B%22type%22:%22past%22,%22values%22:%5B%7B%22constant%22:%226%22,%22unit%22:%22mo%22%7D,%7B%7D%5D,%22id%22:4%7D%5D,%22title_filter%22:%5B%7B%22type%22:%22%3D%22,%22values%22:%5B%7B%22constant%22:%22%22%7D,%7B%7D%5D,%22id%22:5%7D%5D%7D' successfully
+
+2019-07-12 15:37:29 - [MESSAGE][PASSED] - Navigate to 'https://stats.eu1.kontiki.com/dashboards/analytics_external::live_event_summary?time_filter=6%20months&title_filter=&filter_config=%7B%22time_filter%22:%5B%7B%22type%22:%22past%22,%22values%22:%5B%7B%22constant%22:%226%22,%22unit%22:%22mo%22%7D,%7B%7D%5D,%22id%22:4%7D%5D,%22title_filter%22:%5B%7B%22type%22:%22%3D%22,%22values%22:%5B%7B%22constant%22:%22%22%7D,%7B%7D%5D,%22id%22:5%7D%5D%7D' successfully
+
+2019-07-12 15:37:29 - [TEST_STEP][PASSED] - waitForAngularLoad: Angular is ready.
+
+2019-07-12 15:37:37 - [MESSAGE][PASSED] - Angular is ready.
+
+2019-07-12 15:37:37 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2019-07-12 15:37:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-07-12 15:37:37 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-07-12 15:37:37 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://stats.eu1.kontiki.com/dashboards/analytics_external::live_event?content_moid_filter=d8f27777-0956-45c2-a5fa-c206baccebf3&time_filter=&filter_config=%7B%22content_moid_filter%22:%5B%7B%22type%22:%22%3D%22,%22values%22:%5B%7B%22constant%22:%22d8f27777-0956-45c2-a5fa-c206baccebf3%22%7D,%7B%7D%5D,%22id%22:0%7D%5D,%22time_filter%22:%5B%7B%22type%22:%22advanced%22,%22values%22:%5B%7B%22constant%22:null%7D,%7B%7D%5D,%22id%22:1%7D%5D%7D' successfully
+
+2019-07-12 15:37:40 - [MESSAGE][PASSED] - Navigate to 'https://stats.eu1.kontiki.com/dashboards/analytics_external::live_event?content_moid_filter=d8f27777-0956-45c2-a5fa-c206baccebf3&time_filter=&filter_config=%7B%22content_moid_filter%22:%5B%7B%22type%22:%22%3D%22,%22values%22:%5B%7B%22constant%22:%22d8f27777-0956-45c2-a5fa-c206baccebf3%22%7D,%7B%7D%5D,%22id%22:0%7D%5D,%22time_filter%22:%5B%7B%22type%22:%22advanced%22,%22values%22:%5B%7B%22constant%22:null%7D,%7B%7D%5D,%22id%22:1%7D%5D%7D' successfully
+
+2019-07-12 15:37:40 - [TEST_STEP][PASSED] - waitForAngularLoad: Angular is ready.
+
+2019-07-12 15:38:06 - [MESSAGE][PASSED] - Angular is ready.
+
+2019-07-12 15:38:06 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2019-07-12 15:38:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-07-12 15:38:06 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-07-12 15:38:06 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://stats.eu1.kontiki.com/dashboards/analytics_external::live_event_in_progress?content_moid_filter=&time_filter=1%20months&filter_config=%7B%22content_moid_filter%22:%5B%7B%22type%22:%22%3D%22,%22values%22:%5B%7B%22constant%22:%22%22%7D,%7B%7D%5D,%22id%22:4%7D%5D,%22time_filter%22:%5B%7B%22type%22:%22past%22,%22values%22:%5B%7B%22constant%22:%221%22,%22unit%22:%22mo%22%7D%5D,%22id%22:5%7D%5D%7D' successfully
+
+2019-07-12 15:38:09 - [MESSAGE][PASSED] - Navigate to 'https://stats.eu1.kontiki.com/dashboards/analytics_external::live_event_in_progress?content_moid_filter=&time_filter=1%20months&filter_config=%7B%22content_moid_filter%22:%5B%7B%22type%22:%22%3D%22,%22values%22:%5B%7B%22constant%22:%22%22%7D,%7B%7D%5D,%22id%22:4%7D%5D,%22time_filter%22:%5B%7B%22type%22:%22past%22,%22values%22:%5B%7B%22constant%22:%221%22,%22unit%22:%22mo%22%7D%5D,%22id%22:5%7D%5D%7D' successfully
+
+2019-07-12 15:38:09 - [TEST_STEP][INCOMPLETE] - waitForAngularLoad: Checking timeout]]></system-out>
+         <system-err><![CDATA[2019-07-12 15:36:53 - [TEST_CASE][INCOMPLETE] - Test Cases/EU1/EU 1 - Query Performance: null]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-07-12 15:36:53 - [TEST_SUITE][INCOMPLETE] - EU1 - Query Performance: null]]></system-out>
+      <system-err><![CDATA[2019-07-12 15:36:53 - [TEST_SUITE][INCOMPLETE] - EU1 - Query Performance: null]]></system-err>
+   </testsuite>
+</testsuites>

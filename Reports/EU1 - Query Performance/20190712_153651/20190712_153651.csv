@@ -1,0 +1,24 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+EU1 - Query Performance,Firefox 67.0,,2019-07-12 15:36:53,2019-07-12 15:38:10,1m - 16.811s,INCOMPLETE
+,,,,,,
+Test Cases/EU1/EU 1 - Query Performance,Firefox 67.0,,2019-07-12 15:36:53,2019-07-12 15:38:10,1m - 16.510s,INCOMPLETE
+openBrowser,Firefox 67.0,"Fires up the browser
+",2019-07-12 15:36:54,2019-07-12 15:37:05,11.238s,PASSED
+setText,Firefox 67.0,Filling out login info (username),2019-07-12 15:37:05,2019-07-12 15:37:05,0.236s,PASSED
+setEncryptedText,Firefox 67.0,Filling out login info (password),2019-07-12 15:37:05,2019-07-12 15:37:05,0.207s,PASSED
+click,Firefox 67.0,Clicks the Stay Logged In button,2019-07-12 15:37:05,2019-07-12 15:37:06,0.560s,PASSED
+click,Firefox 67.0,Clicks the Submit button to login,2019-07-12 15:37:06,2019-07-12 15:37:10,4.315s,PASSED
+waitForAngularLoad,Firefox 67.0,Waits for all angular elements on the landing page and throws an exception after 90 seconds,2019-07-12 15:37:10,2019-07-12 15:37:19,8.648s,PASSED
+verifyElementPresent,Firefox 67.0,,2019-07-12 15:37:19,2019-07-12 15:37:19,0.024s,PASSED
+navigateToUrl,Firefox 67.0,OVERVIEW DASHBOARD,2019-07-12 15:37:19,2019-07-12 15:37:23,3.962s,PASSED
+waitForAngularLoad,Firefox 67.0,Waits for all angular elements on the landing page and throws an exception after 90 seconds,2019-07-12 15:37:23,2019-07-12 15:37:26,2.586s,PASSED
+waitForPageLoad,Firefox 67.0,,2019-07-12 15:37:26,2019-07-12 15:37:26,0.124s,PASSED
+navigateToUrl,Firefox 67.0,LIVE EVENT SUMMARY DASHBOARD,2019-07-12 15:37:26,2019-07-12 15:37:29,3.605s,PASSED
+waitForAngularLoad,Firefox 67.0,Waits for all angular elements on the landing page and throws an exception after 90 seconds,2019-07-12 15:37:29,2019-07-12 15:37:37,8.161s,PASSED
+waitForPageLoad,Firefox 67.0,,2019-07-12 15:37:37,2019-07-12 15:37:37,0.028s,PASSED
+navigateToUrl,Firefox 67.0,"LIVE EVENT DETAIL | ~10k agents
+Moid: d8f27777-0956-45c2-a5fa-c206baccebf3",2019-07-12 15:37:37,2019-07-12 15:37:40,2.517s,PASSED
+waitForAngularLoad,Firefox 67.0,Waits for all angular elements on the landing page and throws an exception after 90 seconds,2019-07-12 15:37:40,2019-07-12 15:38:06,25.969s,PASSED
+waitForPageLoad,Firefox 67.0,,2019-07-12 15:38:06,2019-07-12 15:38:06,0.008s,PASSED
+navigateToUrl,Firefox 67.0,"LIVE (In Progress) EVENT | ~10k Agents, filtered by the past 1 Month",2019-07-12 15:38:06,2019-07-12 15:38:09,3.389s,PASSED
+waitForAngularLoad,Firefox 67.0,Waits for all angular elements on the landing page and throws an exception after 90 seconds,2019-07-12 15:38:09,2019-07-12 15:38:10,0.549s,INCOMPLETE
