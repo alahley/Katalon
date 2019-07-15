@@ -14,6 +14,6 @@
       <guid>6c82d22a-cf14-47e0-99c3-3e324e2b1d96</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Prod 1/Prod 1 - Query Performance</testCaseId>
+      <testCaseId>Test Cases/Prod 1/10.10 - Prod 1/Prod 1 - Query Performance</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

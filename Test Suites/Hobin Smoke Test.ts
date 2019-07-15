@@ -18,18 +18,18 @@
       <guid>bd9c88b4-c07d-49d0-8f6e-a44c0510a328</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Prod 2/Prod 2 - 10.11 - Logging In and Out</testCaseId>
+      <testCaseId>Test Cases/Prod 2/10.11 - Prod 2/Prod 2 - 10.11 - Logging In and Out</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>111647e7-7a8c-4c90-87a0-fe7c044d0ac8</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Prod 2/Prod 2 - 10.11 - Summary and Detail pages</testCaseId>
+      <testCaseId>Test Cases/Prod 2/10.11 - Prod 2/Prod 2 - 10.11 - Summary and Detail pages</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>6c074602-95b0-4e2a-8930-1e4bf3f7ca99</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Prod 2/Prod 2 - 10.11 - Navigation and CTAs</testCaseId>
+      <testCaseId>Test Cases/Prod 2/10.11 - Prod 2/Prod 2 - 10.11 - Navigation and CTAs</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>
