@@ -151,12 +151,12 @@ WebUI.verifyElementPresent(findTestObject('Page_Video on Demand Summary/a_Video 
 
 WebUI.verifyElementClickable(findTestObject('Page_Video on Demand Summary/a_Video on Demand_1'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.verifyElementPresent(findTestObject('Page_Video on Demand/a_SCCM'), 0)
+WebUI.verifyElementPresent(findTestObject('Page_Overview/a_ConfigMgr'), 0)
 
-WebUI.verifyElementClickable(findTestObject('Page_Video on Demand/a_SCCM'))
+WebUI.verifyElementClickable(findTestObject('Page_Overview/a_ConfigMgr'))
 
 'Interact with the SCCM dropdown and verify all elements are present and clickable'
-WebUI.click(findTestObject('Page_Video on Demand/a_SCCM'))
+WebUI.click(findTestObject('Page_Overview/a_ConfigMgr'))
 
 '10 second Threshold: Waits for all angular elements on the landing page to load in 10 seconds or less\n'
 WebUI.waitForAngularLoad(30)
