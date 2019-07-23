@@ -28,64 +28,64 @@ WebUI.click(findTestObject('Object Repository/Page_Log in/input_remember (2)'))
 'Clicks the Submit button to login'
 WebUI.click(findTestObject('Object Repository/Page_Log in/input_login-submit (2)'))
 
-'Overview / Landing Page: 10 second Threshold: Waits for all angular elements on the landing page to load in 10 seconds or less\n'
-WebUI.waitForAngularLoad(20)
+'Waits for all angular elements on the page to load in 60 seconds or less\n'
+WebUI.waitForAngularLoad(60)
 
 WebUI.waitForPageLoad(0)
 
 'Network Summary'
 WebUI.navigateToUrl('https://stats.eval.kontiki.com/dashboards/analytics_external::network_summary?time_filter=6%20months&filter_config=%7B%22time_filter%22:%5B%7B%22type%22:%22past%22,%22values%22:%5B%7B%22constant%22:%226%22,%22unit%22:%22mo%22%7D,%7B%7D%5D,%22id%22:1%7D%5D%7D')
 
-'10 second Threshold: Waits for all angular elements on the landing page to load in 10 seconds or less\n'
-WebUI.waitForAngularLoad(20)
+'Waits for all angular elements on the page to load in 60 seconds or less\n'
+WebUI.waitForAngularLoad(60)
 
 WebUI.waitForPageLoad(0)
 
 'Network Content'
 WebUI.navigateToUrl('https://stats.eval.kontiki.com/dashboards/analytics_external::network_content?content_moid_filter=f1baef84-b596-4931-bf4d-412956c0e805&format_moid_filter=&time_filter=&filter_config=%7B%22content_moid_filter%22:%5B%7B%22type%22:%22%3D%22,%22values%22:%5B%7B%22constant%22:%22f1baef84-b596-4931-bf4d-412956c0e805%22%7D,%7B%7D%5D,%22id%22:0%7D%5D,%22format_moid_filter%22:%5B%7B%22type%22:%22%3D%22,%22values%22:%5B%7B%22constant%22:%22%22%7D,%7B%7D%5D,%22id%22:1%7D%5D,%22time_filter%22:%5B%7B%22type%22:%22advanced%22,%22values%22:%5B%7B%22constant%22:null%7D,%7B%7D%5D,%22id%22:2%7D%5D%7D')
 
-'10 second Threshold: Waits for all angular elements on the landing page to load in 10 seconds or less\n'
-WebUI.waitForAngularLoad(20)
+'Waits for all angular elements on the page to load in 60 seconds or less\n'
+WebUI.waitForAngularLoad(60)
 
 WebUI.waitForPageLoad(0)
 
 'Network Locality'
 WebUI.navigateToUrl('https://stats.eval.kontiki.com/dashboards/analytics_external::network_locality?Last%20Delivery%20Time=6%20months&Last%20Report%20Time=&Locality=&External%20IP=&filter_config=%7B%22Last%20Delivery%20Time%22:%5B%7B%22type%22:%22past%22,%22values%22:%5B%7B%22constant%22:%226%22,%22unit%22:%22mo%22%7D,%7B%7D%5D,%22id%22:8%7D%5D,%22Last%20Report%20Time%22:%5B%7B%22type%22:%22anytime%22,%22values%22:%5B%7B%7D,%7B%7D%5D,%22id%22:9%7D%5D,%22Locality%22:%5B%7B%22type%22:%22%3D%22,%22values%22:%5B%7B%22constant%22:%22%22%7D,%7B%7D%5D,%22id%22:10%7D%5D,%22External%20IP%22:%5B%7B%22type%22:%22%3D%22,%22values%22:%5B%7B%22constant%22:%22%22%7D,%7B%7D%5D,%22id%22:11%7D%5D%7D')
 
-'10 second Threshold: Waits for all angular elements on the landing page to load in 10 seconds or less\n'
-WebUI.waitForAngularLoad(20)
+'Waits for all angular elements on the page to load in 60 seconds or less\n'
+WebUI.waitForAngularLoad(60)
 
 WebUI.waitForPageLoad(0)
 
 'Live Event Summary'
 WebUI.navigateToUrl('https://stats.eval.kontiki.com/dashboards/analytics_external::live_event_summary?time_filter=6%20months&title_filter=&filter_config=%7B%22time_filter%22:%5B%7B%22type%22:%22past%22,%22values%22:%5B%7B%22constant%22:%226%22,%22unit%22:%22mo%22%7D,%7B%7D%5D,%22id%22:4%7D%5D,%22title_filter%22:%5B%7B%22type%22:%22%3D%22,%22values%22:%5B%7B%22constant%22:%22%22%7D,%7B%7D%5D,%22id%22:5%7D%5D%7D')
 
-'10 second Threshold: Waits for all angular elements on the landing page to load in 10 seconds or less\n'
-WebUI.waitForAngularLoad(20)
+'Waits for all angular elements on the page to load in 60 seconds or less\n'
+WebUI.waitForAngularLoad(60)
 
 WebUI.waitForPageLoad(0)
 
 'Live Event'
 WebUI.navigateToUrl('https://stats.eval.kontiki.com/dashboards/analytics_external::live_event?content_moid_filter=3725f032-f9cf-4df4-96ed-674be4ab0938&format_moid_filter=&time_filter=&filter_config=%7B%22content_moid_filter%22:%5B%7B%22type%22:%22%3D%22,%22values%22:%5B%7B%22constant%22:%223725f032-f9cf-4df4-96ed-674be4ab0938%22%7D,%7B%7D%5D,%22id%22:0%7D%5D,%22format_moid_filter%22:%5B%7B%22type%22:%22%3D%22,%22values%22:%5B%7B%22constant%22:%22%22%7D,%7B%7D%5D,%22id%22:1%7D%5D,%22time_filter%22:%5B%7B%22type%22:%22advanced%22,%22values%22:%5B%7B%22constant%22:null%7D,%7B%7D%5D,%22id%22:2%7D%5D%7D')
 
-'10 second Threshold: Waits for all angular elements on the landing page to load in 10 seconds or less\n'
-WebUI.waitForAngularLoad(20)
+'90 second Threshold: Waits for all angular elements on the landing page to load in 10 seconds or less\n'
+WebUI.waitForAngularLoad(90)
 
 WebUI.waitForPageLoad(0)
 
 'Live (in progress) Event (filtered on last 2 weeks)'
 WebUI.navigateToUrl('https://stats.eval.kontiki.com/dashboards/analytics_external::live_event_in_progress?content_moid_filter=&format_moid_filter=&time_filter=2%20weeks&filter_config=%7B%22content_moid_filter%22:%5B%7B%22type%22:%22%3D%22,%22values%22:%5B%7B%22constant%22:%22%22%7D,%7B%7D%5D,%22id%22:6%7D%5D,%22format_moid_filter%22:%5B%7B%22type%22:%22%3D%22,%22values%22:%5B%7B%22constant%22:%22%22%7D,%7B%7D%5D,%22id%22:7%7D%5D,%22time_filter%22:%5B%7B%22type%22:%22past%22,%22values%22:%5B%7B%22constant%22:%222%22,%22unit%22:%22wk%22%7D%5D,%22id%22:8%7D%5D%7D')
 
-'10 second Threshold: Waits for all angular elements on the landing page to load in 10 seconds or less\n'
-WebUI.waitForAngularLoad(20)
+'Waits for all angular elements on the page to load in 60 seconds or less\n'
+WebUI.waitForAngularLoad(60)
 
 WebUI.waitForPageLoad(0)
 
 'VoD Summary'
 WebUI.navigateToUrl('https://stats.eval.kontiki.com/dashboards/analytics_external::vod_summary?time_filter=6%20months&event_filter=&filter_config=%7B%22time_filter%22:%5B%7B%22type%22:%22past%22,%22values%22:%5B%7B%22constant%22:%226%22,%22unit%22:%22mo%22%7D,%7B%7D%5D,%22id%22:4%7D%5D,%22event_filter%22:%5B%7B%22type%22:%22%3D%22,%22values%22:%5B%7B%22constant%22:%22%22%7D,%7B%7D%5D,%22id%22:5%7D%5D%7D')
 
-'10 second Threshold: Waits for all angular elements on the landing page to load in 10 seconds or less\n'
-WebUI.waitForAngularLoad(20)
+'Waits for all angular elements on the page to load in 60 seconds or less\n'
+WebUI.waitForAngularLoad(60)
 
 WebUI.waitForPageLoad(0)
 
@@ -95,8 +95,8 @@ WebUI.verifyTextNotPresent('No Results', false)
 'Navigate to a VoD Content page to ensure "No Results" does not appear in the table data'
 WebUI.navigateToUrl('https://stats.eval.kontiki.com/dashboards/analytics_external::vod_performance?content_moid_filter=18110261-0fdc-40c1-8996-5c30d7f4c2a6&time_filter=&filter_config=%7B%22content_moid_filter%22:%5B%7B%22type%22:%22%3D%22,%22values%22:%5B%7B%22constant%22:%2218110261-0fdc-40c1-8996-5c30d7f4c2a6%22%7D,%7B%7D%5D,%22id%22:0%7D%5D,%22time_filter%22:%5B%7B%22type%22:%22advanced%22,%22values%22:%5B%7B%22constant%22:null%7D,%7B%7D%5D,%22id%22:1%7D%5D%7D')
 
-'10 second Threshold: Waits for all angular elements on the landing page to load in 10 seconds or less\n'
-WebUI.waitForAngularLoad(20)
+'Waits for all angular elements on the page to load in 60 seconds or less\n'
+WebUI.waitForAngularLoad(60)
 
 WebUI.waitForPageLoad(0)
 
@@ -106,16 +106,16 @@ WebUI.verifyTextNotPresent('No Results', false)
 'Video on Demand'
 WebUI.navigateToUrl('https://stats.eval.kontiki.com/dashboards/analytics_external::vod_performance?content_moid_filter=c3605b39-9d22-4413-8718-98abacc81044&time_filter=&filter_config=%7B%22content_moid_filter%22:%5B%7B%22type%22:%22%3D%22,%22values%22:%5B%7B%22constant%22:%22c3605b39-9d22-4413-8718-98abacc81044%22%7D,%7B%7D%5D,%22id%22:0%7D%5D,%22time_filter%22:%5B%7B%22type%22:%22advanced%22,%22values%22:%5B%7B%22constant%22:null%7D,%7B%7D%5D,%22id%22:1%7D%5D%7D')
 
-'10 second Threshold: Waits for all angular elements on the landing page to load in 10 seconds or less\n'
-WebUI.waitForAngularLoad(20)
+'Waits for all angular elements on the page to load in 60 seconds or less\n'
+WebUI.waitForAngularLoad(90)
 
 WebUI.waitForPageLoad(0)
 
 'SCCM'
 WebUI.navigateToUrl('https://stats.eval.kontiki.com/dashboards/sccm_users::sccm_summary?time_filter=6%20months&filter_config=%7B%22time_filter%22:%5B%7B%22type%22:%22past%22,%22values%22:%5B%7B%22constant%22:%226%22,%22unit%22:%22mo%22%7D,%7B%7D%5D,%22id%22:2%7D%5D%7D')
 
-'10 second Threshold: Waits for all angular elements on the landing page to load in 10 seconds or less\n'
-WebUI.waitForAngularLoad(20)
+'Waits for all angular elements on the page to load in 60 seconds or less\n'
+WebUI.waitForAngularLoad(60)
 
 WebUI.waitForPageLoad(0)
 

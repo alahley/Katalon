@@ -35,36 +35,6 @@ WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Overview/a'), 
 
 WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Overview/div_Release Notes_flyout-backg (1)'), 0)
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Overview/div_Admin_real-image'), 0)
-
-WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Overview/div_Release Notes_flyout-backg (1)'), 0)
-
-WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Overview/i_Admin_lk-icon-arrow-down-car'), 0)
-
-WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Overview/a'), 0)
-
-WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Overview/div_Release Notes_flyout-backg (1)'), 0)
-
-WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Overview/div_Admin_real-image'), 0)
-
-WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Overview/div_Release Notes_flyout-backg (1)'), 0)
-
-WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Overview/i_Admin_lk-icon-arrow-down-car'), 0)
-
-WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Overview/div_Release Notes_flyout-backg (1)'), 0)
-
-WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Overview/div_OverviewNetworkNetwork Sum (1)'), 0)
-
-WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Overview/div_Live EventsOverview'), 0)
-
-WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Overview/div_View your detailed Network (1)'), 0)
-
-WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Overview/div_NetworkOverview'), 0)
-
-WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Overview/img_Home_img-logo'), 0)
-
-WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Overview/div_Release Notes_flyout-backg (1)'), 0)
-
 WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Overview/div_OverviewNetworkNetwork Sum (1)'), 0)
 
 WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Overview/div_LookML Dashboards  Dashboa'), 0)

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>span_Deliveries by Month</name>
+   <name>span_Deliveries by Month (1)</name>
    <tag></tag>
-   <elementGuidId>741f9078-a740-45e1-9647-bb1d030c6a70</elementGuidId>
+   <elementGuidId>9e793409-db3f-46b5-9fc4-ce983305a1b9</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -72,23 +72,5 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <value>//div[23]/div/lk-vis-element/div/div/div/div/span</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Peering Efficiency'])[3]/following::span[2]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='An Error Occurred'])[19]/following::span[5]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='An Error Occurred'])[20]/preceding::span[3]</value>
    </webElementXpaths>
 </WebElementEntity>

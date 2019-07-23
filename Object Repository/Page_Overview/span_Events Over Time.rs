@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>div_89</name>
+   <name>span_Events Over Time</name>
    <tag></tag>
-   <elementGuidId>8970406d-388b-4da1-9469-138ae82bae6a</elementGuidId>
+   <elementGuidId>3ff04e9b-8b20-4a47-88f2-0e1bd882f316</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>div#dashboard > div > div:nth-of-type(2) > div > div > div > div:nth-of-type(2) > div:nth-of-type(22) > div > lk-vis-element > div > div > div:nth-of-type(2) > div > div > div > lk-visualization-container > div > div > div > svg > g > g > g > path</value>
+         <key>CSS</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,63 +17,66 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>div</value>
+      <value>span</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>vis-single-value-value with-text custom-color</value>
+      <value>title-text ng-scope</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-if</name>
+      <type>Main</type>
+      <value>element.title != null</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>89%</value>
+      <value>Events Over Time
+  
+</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>css</name>
+      <name>xpath</name>
       <type>Main</type>
-      <value>div#dashboard > div > div:nth-of-type(2) > div > div > div > div:nth-of-type(2) > div:nth-of-type(22) > div > lk-vis-element > div > div > div:nth-of-type(2) > div > div > div > lk-visualization-container > div > div > div > svg > g > g > g > path</value>
+      <value>id(&quot;dashboard&quot;)/div[1]/div[@class=&quot;dashboard-elements&quot;]/div[@class=&quot;newspaper-layout dashboard-layout ng-scope&quot;]/div[@class=&quot;container-relative&quot;]/div[@class=&quot;jsnewspaper&quot;]/div[@class=&quot;grid&quot;]/div[@class=&quot;grid-element ng-scope&quot;]/div[@class=&quot;dashboard-element ng-isolate-scope&quot;]/lk-vis-element[@class=&quot;ng-scope&quot;]/div[@class=&quot;vis&quot;]/div[@class=&quot;vis-header-note-and-wrapper&quot;]/div[@class=&quot;vis-header ng-scope&quot;]/div[@class=&quot;title&quot;]/span[@class=&quot;title-text ng-scope&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
-      <value>//div[@id='dashboard']/div/div[2]/div/div/div/div[2]/div[22]/div/lk-vis-element/div/div/div[2]/div/div/div/lk-visualization-container/div/div/div/div/div/div</value>
+      <value>//div[@id='dashboard']/div/div[2]/div/div/div/div[2]/div[6]/div/lk-vis-element/div/div/div/div/span</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='An Error Occurred'])[19]/following::div[7]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='December'])[2]/following::span[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Peering Efficiency'])[2]/following::div[14]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='November'])[2]/following::span[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Peering Efficiency'])[3]/preceding::div[1]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Deliveries by Month'])[1]/preceding::div[8]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='An Error Occurred'])[5]/preceding::span[4]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
-      <value>//div[22]/div/lk-vis-element/div/div/div[2]/div/div/div/lk-visualization-container/div/div/div/div/div/div</value>
+      <value>//div[6]/div/lk-vis-element/div/div/div/div/span</value>
    </webElementXpaths>
 </WebElementEntity>

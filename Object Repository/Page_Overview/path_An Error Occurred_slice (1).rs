@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>path_An Error Occurred_slice</name>
+   <name>path_An Error Occurred_slice (1)</name>
    <tag></tag>
-   <elementGuidId>6cc6d50b-860b-4721-bb91-49c03df23d5c</elementGuidId>
+   <elementGuidId>348d4d65-1f9f-4fda-a104-51289e041dbb</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>

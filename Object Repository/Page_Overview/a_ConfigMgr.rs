@@ -4,6 +4,12 @@
    <name>a_ConfigMgr</name>
    <tag></tag>
    <elementGuidId>ca1c364f-8201-48cb-9129-7a0a10dc0e66</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;kollective-nav&quot;)/div[@class=&quot;nav-content&quot;]/li[@class=&quot;dropdown&quot;]/a[@class=&quot;dropbtn&quot;]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -35,11 +41,11 @@
       <value>ConfigMgr</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath</name>
+      <name>css</name>
       <type>Main</type>
-      <value>id(&quot;kollective-nav&quot;)/div[@class=&quot;nav-content&quot;]/li[@class=&quot;dropdown&quot;]/a[@class=&quot;dropbtn&quot;]</value>
+      <value>ul#kollective-nav > div > li:nth-of-type(5) > a</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

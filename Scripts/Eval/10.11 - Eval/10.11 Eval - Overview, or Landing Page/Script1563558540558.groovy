@@ -61,111 +61,113 @@ WebUI.waitForAngularLoad(15)
 WebUI.waitForPageLoad(0)
 
 'Verify "Total Live Events" widget is on the page'
-WebUI.verifyElementText(findTestObject('Page_Overview/div_Total Live Events'), 'Total Live Events')
+WebUI.verifyElementText(findTestObject('Page_Overview/div_Events'), 'Events')
 
 'FIXTURE DATA - Verify Total Live Events widget has a value of 2,563'
-WebUI.verifyElementText(findTestObject('Page_Overview/div_724'), '724')
+WebUI.verifyElementText(findTestObject('Page_Overview/div_707'), '707')
 
 'Verify "Average Monthly Events" widget is on the page'
-WebUI.verifyElementText(findTestObject('Page_Live Event Summary/div_Average Monthly Events'), 'Average Monthly Events')
+WebUI.verifyElementText(findTestObject('Page_Overview/div_Avg. Monthly Events'), 'Avg. Monthly Events')
 
 'FIXTURE DATA - Verify Average Monthly Events widget has a value of 226'
-WebUI.verifyElementText(findTestObject('Page_Overview/div_64'), '64')
+WebUI.verifyElementText(findTestObject('Page_Overview/div_62'), '62')
 
 'Verify "Unique Viewers" widget is on the page'
-WebUI.verifyElementText(findTestObject('Page_Overview/div_Unique Viewers'), 'Unique Viewers')
+WebUI.verifyElementText(findTestObject('Page_Overview/div_Views'), 'Views')
 
 'FIXTURE DATA - Verify Unique Viewers widget has a value of 10,079'
-WebUI.verifyElementText(findTestObject('Page_Overview/div_831'), '831')
+WebUI.verifyElementText(findTestObject('Page_Overview/div_1934'), '1,934')
 
 'Verify Average Monthly Viewers widget exists on page'
-WebUI.verifyElementText(findTestObject('Page_Live Event Summary/div_Average Monthly Views'), 'Average Monthly Views')
+WebUI.verifyElementText(findTestObject('Page_Overview/div_Avg. Monthly Views'), 'Avg. Monthly Views')
 
 'FIXTURE DATA - Verify Average Monthly Views widget has a value of 7,762'
-WebUI.verifyElementText(findTestObject('Page_Overview/div_169'), '169')
+WebUI.verifyElementText(findTestObject('Page_Overview/div_161'), '161')
 
 'Verify Total Videos widget exists on page'
-WebUI.verifyElementText(findTestObject('Page_Overview/div_Total Videos'), 'Total Videos')
+WebUI.verifyElementText(findTestObject('Page_Overview/div_Videos'), 'Videos')
 
 'FIXTURE DATA - Verify Total Videos widget has a value of 1,585'
-WebUI.verifyElementText(findTestObject('Page_Overview/div_321'), '321')
+WebUI.verifyElementText(findTestObject('Page_Overview/div_255'), '255')
 
 'Verify Total Views widget exists on page'
-WebUI.verifyElementText(findTestObject('Page_Overview/div_Total Views'), 'Total Views')
+WebUI.verifyElementText(findTestObject('Page_Overview/div_Views'), 'Views')
 
 'FIXTURE DATA - Verify Unique Viewers widget has a value of 17,443'
-WebUI.verifyElementText(findTestObject('Page_Overview/div_143040'), '143,040')
+WebUI.verifyElementText(findTestObject('Page_Overview/div_142854'), '142,854')
 
 'Verify Unique Viewers widget exists on page'
-WebUI.verifyElementText(findTestObject('Page_Overview/div_Unique Viewers'), 'Unique Viewers')
+WebUI.verifyElementText(findTestObject('Page_Overview/div_Agents'), 'Agents')
 
 'FIXTURE DATA - Verify Total Views widget has a value of 8,261'
-WebUI.verifyElementText(findTestObject('Page_Overview/div_96392'), '96,392')
+WebUI.verifyElementText(findTestObject('Page_Overview/div_86214'), '86,214')
 
 'Verify Total Hours Watched widget exists on page'
-WebUI.verifyElementText(findTestObject('Page_Overview/div_Total Hours Watched'), 'Total Hours Watched')
+WebUI.verifyElementText(findTestObject('Page_Overview/div_Hours Viewed'), 'Hours Viewed')
 
 'FIXTURE DATA - Verify Total Hours Watched widget has a value of 1,404'
-WebUI.verifyElementText(findTestObject('Page_Overview/div_11742.5'), '11,742.5')
+WebUI.verifyElementText(findTestObject('Page_Overview/div_11737.9'), '11,737.9')
 
 'Verify Unique Agent widget exists on page'
-WebUI.verifyElementText(findTestObject('Page_Overview/div_Unique Agents'), 'Unique Agents')
+WebUI.verifyElementText(findTestObject('Page_Overview/div_Agents'), 'Agents')
 
 'FIXTURE DATA - Verify Unique Agents widget has a value of 10,905'
-WebUI.verifyElementText(findTestObject('Page_Overview/div_126372'), '126,372')
+WebUI.verifyElementText(findTestObject('Page_Overview/div_126342'), '126,342')
 
 'Verify Deliveries widget exists on page'
-WebUI.verifyElementText(findTestObject('Page_Overview/div_Deliveries'), 'Deliveries')
+WebUI.verifyElementText(findTestObject('Page_Overview/div_Deliveries (1)'), 'Deliveries')
 
 'FIXTURE DATA - Verify Delivery widget has a value of 67,512'
-WebUI.verifyElementText(findTestObject('Page_Overview/div_304621'), '304,621')
+WebUI.verifyElementText(findTestObject('Page_Overview/div_304119'), '304,119')
 
 'Verify Saved GB widget exists on page'
 WebUI.verifyElementText(findTestObject('Page_Overview/div_Saved GB'), 'Saved GB')
 
 'FIXTURE DATA - Verify Saved GB widget has a value of 1,573'
-WebUI.verifyElementText(findTestObject('Page_Overview/div_5541'), '5,541')
+WebUI.verifyElementText(findTestObject('Page_Overview/div_5537'), '5,537')
 
 'Verify Total GB widget exists on page'
 WebUI.verifyElementText(findTestObject('Page_Overview/div_Total GB'), 'Total GB')
 
 'FIXTURE DATA - Verify Total GB widget has a value of 3,865'
-WebUI.verifyElementText(findTestObject('Page_Overview/div_6349.25'), '6,349.25')
+WebUI.verifyElementText(findTestObject('Page_Overview/div_6334.92'), '6,334.92')
 
 'Verify the Peering Efficiency widget appears on page'
-WebUI.verifyElementPresent(findTestObject('Page_Overview/div_Peering Efficiency'), 0)
+WebUI.verifyElementPresent(findTestObject('Page_Overview/span_Peering by Delivery Type'), 0)
 
 'Verify the Peering Efficiency widget appears on page and has a value of 41%'
-WebUI.verifyElementPresent(findTestObject('Page_Overview/div_87'), 0)
+WebUI.verifyElementPresent(findTestObject('Page_Overview/div_89'), 0)
 
 'Verify the VoD Summary Peering Efficiency widget appears on page'
-WebUI.verifyElementPresent(findTestObject('Page_Overview/div_VoD Summary Peering Effici'), 0)
+not_run: WebUI.verifyElementPresent(findTestObject('Page_Overview/div_VoD Summary Peering Effici'), 0)
 
 'Verify the VoD Summary widget appears on page'
 WebUI.verifyElementPresent(findTestObject('Page_Overview/a_Go to VoD Summary (1)'), 0)
 
 'Verify the Peering Efficiency donut chart appears on page'
-WebUI.verifyElementPresent(findTestObject('Page_Overview/div_Peering Efficiency'), 0)
+WebUI.verifyElementPresent(findTestObject('Page_Overview/span_Peering by Delivery Type'), 0)
 
 'Verify the Peering Efficiency widget appears on page and has a value of 66% in the donut chart'
-WebUI.verifyElementPresent(findTestObject('Page_Overview/div_Peering Efficiency (1)'), 0)
-
-'Verify the Live Views widget appears on page'
-WebUI.verifyElementPresent(findTestObject('Page_Overview/div_Live Views'), 0)
-
-'Verify the Live Events widget appears on page'
-WebUI.verifyElementPresent(findTestObject('Page_Overview/div_Live Events'), 0)
-
-'Verify the VoD Views widget appears on page'
-WebUI.verifyElementPresent(findTestObject('Page_Overview/span_VoD Views'), 0)
-
-'Verify the VoD over time widget appears on page'
-WebUI.verifyElementPresent(findTestObject('Page_Overview/div_VoD over time'), 0)
-
-'Verify the Deliveries by Month widget appears on page'
 WebUI.verifyElementPresent(findTestObject('Page_Overview/span_Deliveries by Month'), 0)
 
+'Verify the Live Views widget appears on page'
+WebUI.verifyElementPresent(findTestObject('Page_Overview/span_Agents Over Time'), 0)
+
+'Verify the Live Events widget appears on page'
+WebUI.verifyElementPresent(findTestObject('Page_Overview/span_Views Over Time'), 0)
+
+'Verify the VoD Views widget appears on page'
+WebUI.verifyElementPresent(findTestObject('Page_Overview/span_Content Over Time'), 0)
+
+'Verify the VoD over time widget appears on page'
+WebUI.verifyElementPresent(findTestObject('Page_Overview/span_Agents Over Time'), 0)
+
+'Verify the Deliveries by Month widget appears on page'
+WebUI.verifyElementPresent(findTestObject('Page_Overview/span_Views Over Time'), 0)
+
 'Verify the Live Event Summary CTA appears on page'
+WebUI.verifyElementPresent(findTestObject('Page_Overview/span_Events Over Time'), 0)
+
 WebUI.verifyElementPresent(findTestObject('Page_Overview/a_Go to Live Event Summary'), 0)
 
 'Verify the VoD Summary CTA appears on page'
