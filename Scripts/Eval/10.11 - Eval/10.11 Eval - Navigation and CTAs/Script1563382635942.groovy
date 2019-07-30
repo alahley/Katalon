@@ -174,7 +174,7 @@ WebUI.verifyElementClickable(findTestObject('Page_Overview/a_Agent Summary'), Fa
 WebUI.click(findTestObject('Page_Overview/a_Agent Summary'), FailureHandling.CONTINUE_ON_FAILURE)
 
 '10 second Threshold: Waits for all angular elements on the landing page to load in 10 seconds or less\n'
-WebUI.waitForAngularLoad(30)
+WebUI.waitForAngularLoad(60)
 
 WebUI.waitForPageLoad(0)
 
@@ -189,7 +189,7 @@ WebUI.verifyElementClickable(findTestObject('Page_Agent Summary/a_Agent Details'
 WebUI.click(findTestObject('Page_Agent Summary/a_Agent Details'), FailureHandling.CONTINUE_ON_FAILURE)
 
 '10 second Threshold: Waits for all angular elements on the landing page to load in 10 seconds or less\n'
-WebUI.waitForAngularLoad(30)
+WebUI.waitForAngularLoad(60)
 
 WebUI.waitForPageLoad(0)
 
@@ -204,7 +204,7 @@ WebUI.verifyElementClickable(findTestObject('Page_Agent/a_Event Analyzer'), Fail
 WebUI.click(findTestObject('Page_Agent/a_Event Analyzer'), FailureHandling.CONTINUE_ON_FAILURE)
 
 '10 second Threshold: Waits for all angular elements on the landing page to load in 10 seconds or less\n'
-WebUI.waitForAngularLoad(30)
+WebUI.waitForAngularLoad(60)
 
 WebUI.waitForPageLoad(0)
 
