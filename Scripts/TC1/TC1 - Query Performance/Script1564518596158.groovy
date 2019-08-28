@@ -33,9 +33,6 @@ WebUI.waitForAngularLoad(90)
 
 WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Overview/a'), 0)
 
-'OVERVIEW DASHBOARD'
-WebUI.navigateToUrl('https://stats.tc1.kontiki.com/dashboards/analytics_external::Overview?time_filter=6%20months&filter_config=%7B%22time_filter%22:%5B%7B%22type%22:%22past%22,%22values%22:%5B%7B%22constant%22:%226%22,%22unit%22:%22mo%22%7D,%7B%7D%5D,%22id%22:2%7D%5D%7D')
-
 'Waits for all angular elements on the landing page and throws an exception after 90 seconds'
 WebUI.waitForAngularLoad(90)
 
@@ -49,15 +46,15 @@ WebUI.waitForAngularLoad(90)
 
 WebUI.waitForPageLoad(0)
 
-'LIVE EVENT DETAIL | ~10k agents\nMoid: d8f27777-0956-45c2-a5fa-c206baccebf3'
-WebUI.navigateToUrl('https://stats.tc1.kontiki.com/dashboards/analytics_external::live_event?content_moid_filter=d8f27777-0956-45c2-a5fa-c206baccebf3&time_filter=&filter_config=%7B%22content_moid_filter%22:%5B%7B%22type%22:%22%3D%22,%22values%22:%5B%7B%22constant%22:%22d8f27777-0956-45c2-a5fa-c206baccebf3%22%7D,%7B%7D%5D,%22id%22:0%7D%5D,%22time_filter%22:%5B%7B%22type%22:%22advanced%22,%22values%22:%5B%7B%22constant%22:null%7D,%7B%7D%5D,%22id%22:1%7D%5D%7D')
+'LIVE EVENT DETAIL | ~1k agents\nMoid: 99884aee-9238-4acc-a4e8-0edad712b2f4'
+WebUI.navigateToUrl('https://stats.tc1.kontiki.com/dashboards/analytics_external::live_event?content_moid_filter=99884aee-9238-4acc-a4e8-0edad712b2f4&time_filter=&filter_config=%7B%22content_moid_filter%22:%5B%7B%22type%22:%22%3D%22,%22values%22:%5B%7B%22constant%22:%2299884aee-9238-4acc-a4e8-0edad712b2f4%22%7D,%7B%7D%5D,%22id%22:0%7D%5D,%22time_filter%22:%5B%7B%22type%22:%22advanced%22,%22values%22:%5B%7B%22constant%22:null%7D,%7B%7D%5D,%22id%22:1%7D%5D%7D')
 
 'Waits for all angular elements on the landing page and throws an exception after 90 seconds'
 WebUI.waitForAngularLoad(150)
 
 WebUI.waitForPageLoad(0)
 
-'LIVE (In Progress) EVENT | ~10k Agents, filtered by the past 1 Month'
+'LIVE (In Progress) EVENT | ~2.5k Agents, filtered by the past 1 Month'
 WebUI.navigateToUrl('https://stats.tc1.kontiki.com/dashboards/analytics_external::live_event_in_progress?content_moid_filter=&time_filter=1%20months&filter_config=%7B%22content_moid_filter%22:%5B%7B%22type%22:%22%3D%22,%22values%22:%5B%7B%22constant%22:%22%22%7D,%7B%7D%5D,%22id%22:4%7D%5D,%22time_filter%22:%5B%7B%22type%22:%22past%22,%22values%22:%5B%7B%22constant%22:%221%22,%22unit%22:%22mo%22%7D%5D,%22id%22:5%7D%5D%7D')
 
 'Waits for all angular elements on the landing page and throws an exception after 90 seconds'
@@ -73,8 +70,8 @@ WebUI.waitForAngularLoad(90)
 
 WebUI.waitForPageLoad(0)
 
-'VIDEO ON DEMAND DETAIL | ~1k agents\nMoid: bd9e0a4f-8517-4101-ae16-223bad8adc2d'
-WebUI.navigateToUrl('https://stats.tc1.kontiki.com/dashboards/analytics_external::vod_performance?content_moid_filter=bd9e0a4f-8517-4101-ae16-223bad8adc2d&time_filter=&filter_config=%7B%22content_moid_filter%22:%5B%7B%22type%22:%22%3D%22,%22values%22:%5B%7B%22constant%22:%22bd9e0a4f-8517-4101-ae16-223bad8adc2d%22%7D,%7B%7D%5D,%22id%22:0%7D%5D,%22time_filter%22:%5B%7B%22type%22:%22advanced%22,%22values%22:%5B%7B%22constant%22:null%7D,%7B%7D%5D,%22id%22:1%7D%5D%7D')
+'VIDEO ON DEMAND DETAIL | ~70 agents\nMoid: ab0c7c44-3776-4f62-94d1-d9c39f34aa61'
+WebUI.navigateToUrl('https://stats.tc1.kontiki.com/dashboards/analytics_external::vod_performance?content_moid_filter=ab0c7c44-3776-4f62-94d1-d9c39f34aa61&time_filter=&filter_config=%7B%22content_moid_filter%22:%5B%7B%22type%22:%22%3D%22,%22values%22:%5B%7B%22constant%22:%22ab0c7c44-3776-4f62-94d1-d9c39f34aa61%22%7D,%7B%7D%5D,%22id%22:0%7D%5D,%22time_filter%22:%5B%7B%22type%22:%22advanced%22,%22values%22:%5B%7B%22constant%22:null%7D,%7B%7D%5D,%22id%22:1%7D%5D%7D')
 
 'Waits for all angular elements on the landing page and throws an exception after 90 seconds'
 WebUI.waitForAngularLoad(90)
@@ -89,24 +86,27 @@ WebUI.waitForAngularLoad(90)
 
 WebUI.waitForPageLoad(0)
 
-'NETWORK CONTENT | ~17K agents\nMoid: d8f27777-0956-45c2-a5fa-c206baccebf3'
-WebUI.navigateToUrl('https://stats.tc1.kontiki.com/dashboards/analytics_external::network_content?content_moid_filter=d8f27777-0956-45c2-a5fa-c206baccebf3&time_filter=&locality_filter=&external_ip_filter=&filter_config=%7B%22content_moid_filter%22:%5B%7B%22type%22:%22%3D%22,%22values%22:%5B%7B%22constant%22:%22d8f27777-0956-45c2-a5fa-c206baccebf3%22%7D,%7B%7D%5D,%22id%22:0%7D%5D,%22time_filter%22:%5B%7B%22type%22:%22advanced%22,%22values%22:%5B%7B%22constant%22:null%7D,%7B%7D%5D,%22id%22:1%7D%5D,%22locality_filter%22:%5B%7B%22type%22:%22%3D%22,%22values%22:%5B%7B%22constant%22:%22%22%7D,%7B%7D%5D,%22id%22:2%7D%5D,%22external_ip_filter%22:%5B%7B%22type%22:%22%3D%22,%22values%22:%5B%7B%22constant%22:%22%22%7D,%7B%7D%5D,%22id%22:3%7D%5D%7D')
+'NETWORK CONTENT | ~750 agents\nMoid: 99884aee-9238-4acc-a4e8-0edad712b2f4'
+WebUI.navigateToUrl('https://stats.tc1.kontiki.com/dashboards/analytics_external::network_content?content_moid_filter=99884aee-9238-4acc-a4e8-0edad712b2f4&time_filter=&filter_config=%7B%22content_moid_filter%22:%5B%7B%22type%22:%22%3D%22,%22values%22:%5B%7B%22constant%22:%2299884aee-9238-4acc-a4e8-0edad712b2f4%22%7D,%7B%7D%5D,%22id%22:0%7D%5D,%22time_filter%22:%5B%7B%22type%22:%22advanced%22,%22values%22:%5B%7B%22constant%22:null%7D,%7B%7D%5D,%22id%22:1%7D%5D%7D')
 
 'Waits for all angular elements on the landing page and throws an exception after 90 seconds'
 WebUI.waitForAngularLoad(90)
 
 WebUI.waitForPageLoad(0)
 
-'NETWORK LOCALITY | ~300 agents'
-WebUI.navigateToUrl('https://stats.tc1.kontiki.com/dashboards/analytics_external::network_locality?Locality=SCE_Preferred_Lower_Kbps&Last%20Delivery%20Time=6%20months&Last%20Report%20Time=&External%20IP=&filter_config=%7B%22Last%20Delivery%20Time%22:%5B%7B%22type%22:%22past%22,%22values%22:%5B%7B%22constant%22:%226%22,%22unit%22:%22mo%22%7D,%7B%7D%5D,%22id%22:0%7D%5D,%22Last%20Report%20Time%22:%5B%7B%22type%22:%22anytime%22,%22values%22:%5B%7B%7D,%7B%7D%5D,%22id%22:1%7D%5D,%22Locality%22:%5B%7B%22type%22:%22advanced%22,%22values%22:%5B%7B%22constant%22:%22SCE_Preferred_Lower_Kbps%22%7D,%7B%7D%5D,%22id%22:2%7D%5D,%22External%20IP%22:%5B%7B%22type%22:%22%3D%22,%22values%22:%5B%7B%22constant%22:%22%22%7D,%7B%7D%5D,%22id%22:3%7D%5D%7D')
+'NETWORK LOCALITY | ~1k agents\nNo locality + 6 Month filter'
+WebUI.navigateToUrl('https://stats.tc1.kontiki.com/dashboards/analytics_external::network_locality?Locality=&Last%20Delivery%20Time=6%20months&Last%20Report%20Time=&External%20IP=&filter_config=%7B%22Last%20Delivery%20Time%22:%5B%7B%22type%22:%22past%22,%22values%22:%5B%7B%22constant%22:%226%22,%22unit%22:%22mo%22%7D,%7B%7D%5D,%22id%22:0%7D%5D,%22Last%20Report%20Time%22:%5B%7B%22type%22:%22anytime%22,%22values%22:%5B%7B%7D,%7B%7D%5D,%22id%22:1%7D%5D,%22Locality%22:%5B%7B%22type%22:%22%3D%22,%22values%22:%5B%7B%22constant%22:%22%22%7D,%7B%7D%5D,%22id%22:2%7D%5D,%22External%20IP%22:%5B%7B%22type%22:%22%3D%22,%22values%22:%5B%7B%22constant%22:%22%22%7D,%7B%7D%5D,%22id%22:3%7D%5D%7D')
 
 'Waits for all angular elements on the landing page and throws an exception after 90 seconds'
 WebUI.waitForAngularLoad(90)
 
 WebUI.waitForPageLoad(0)
 
-'AGENT SUMMARY | ~1.1MM agents'
+'AGENT SUMMARY | ~22k agents'
 WebUI.navigateToUrl('https://stats.tc1.kontiki.com/dashboards/analytics_external::agent_summary?Last%20Report%20Time=6%20months&Last%20Delivery%20Time=&Internal%20IP=&CIDR%20Prefix%20Length=&External%20IP=&Locality=&Policy%20Profile=&Agent%20Version=&filter_config=%7B%22Last%20Report%20Time%22:%5B%7B%22type%22:%22past%22,%22values%22:%5B%7B%22constant%22:%226%22,%22unit%22:%22mo%22%7D,%7B%7D%5D,%22id%22:16%7D%5D,%22Last%20Delivery%20Time%22:%5B%7B%22type%22:%22anytime%22,%22values%22:%5B%7B%7D,%7B%7D%5D,%22id%22:17%7D%5D,%22Internal%20IP%22:%5B%7B%22type%22:%22%3D%22,%22values%22:%5B%7B%22constant%22:%22%22%7D,%7B%7D%5D,%22id%22:18%7D%5D,%22CIDR%20Prefix%20Length%22:%5B%7B%22type%22:%22%3D%22,%22values%22:%5B%7B%22constant%22:%22%22%7D,%7B%7D%5D,%22id%22:19%7D%5D,%22External%20IP%22:%5B%7B%22type%22:%22%3D%22,%22values%22:%5B%7B%22constant%22:%22%22%7D,%7B%7D%5D,%22id%22:20%7D%5D,%22Locality%22:%5B%7B%22type%22:%22%3D%22,%22values%22:%5B%7B%22constant%22:%22%22%7D,%7B%7D%5D,%22id%22:21%7D%5D,%22Policy%20Profile%22:%5B%7B%22type%22:%22%3D%22,%22values%22:%5B%7B%22constant%22:%22%22%7D,%7B%7D%5D,%22id%22:22%7D%5D,%22Agent%20Version%22:%5B%7B%22type%22:%22%3D%22,%22values%22:%5B%7B%22constant%22:%22%22%7D,%7B%7D%5D,%22id%22:23%7D%5D%7D')
+
+'OVERVIEW DASHBOARD'
+WebUI.navigateToUrl('https://stats.tc1.kontiki.com/dashboards/analytics_external::Overview?time_filter=6%20months&filter_config=%7B%22time_filter%22:%5B%7B%22type%22:%22past%22,%22values%22:%5B%7B%22constant%22:%226%22,%22unit%22:%22mo%22%7D,%7B%7D%5D,%22id%22:2%7D%5D%7D')
 
 'Waits for all angular elements on the landing page and throws an exception after 90 seconds'
 WebUI.waitForAngularLoad(90)
@@ -114,15 +114,15 @@ WebUI.waitForAngularLoad(90)
 WebUI.waitForPageLoad(0)
 
 'AGENT DETAILS\nAgent ID: 9A038BWapvZejoti'
-WebUI.navigateToUrl('https://stats.tc1.kontiki.com/dashboards/analytics_external::agent?Agent%20ID=9A038BWapvZejoti&Delivery%20Time=&Delivery%20Type=&filter_config=%7B%22Agent%20ID%22:%5B%7B%22type%22:%22%3D%22,%22values%22:%5B%7B%22constant%22:%229A038BWapvZejoti%22%7D,%7B%7D%5D,%22id%22:0%7D%5D,%22Delivery%20Time%22:%5B%7B%22type%22:%22advanced%22,%22values%22:%5B%7B%22constant%22:null%7D,%7B%7D%5D,%22id%22:1%7D%5D,%22Delivery%20Type%22:%5B%7B%22type%22:%22%3D%22,%22values%22:%5B%7B%22constant%22:%22%22%7D,%7B%7D%5D,%22id%22:2%7D%5D%7D')
+WebUI.navigateToUrl('https://stats.tc1.kontiki.com/dashboards/analytics_external::agent?Agent%20ID=1%2FaQHwySXdBdcI%2FD&Delivery%20Time=&Delivery%20Type=&filter_config=%7B%22Agent%20ID%22:%5B%7B%22type%22:%22%3D%22,%22values%22:%5B%7B%22constant%22:%221%2FaQHwySXdBdcI%2FD%22%7D,%7B%7D%5D,%22id%22:0%7D%5D,%22Delivery%20Time%22:%5B%7B%22type%22:%22advanced%22,%22values%22:%5B%7B%22constant%22:null%7D,%7B%7D%5D,%22id%22:1%7D%5D,%22Delivery%20Type%22:%5B%7B%22type%22:%22%3D%22,%22values%22:%5B%7B%22constant%22:%22%22%7D,%7B%7D%5D,%22id%22:2%7D%5D%7D')
 
 'Waits for all angular elements on the landing page and throws an exception after 90 seconds'
 WebUI.waitForAngularLoad(90)
 
 WebUI.waitForPageLoad(0)
 
-'EVENT ANALYZER | ~16k agents\nMoid: d8f27777-0956-45c2-a5fa-c206baccebf3'
-WebUI.navigateToUrl('https://stats.tc1.kontiki.com/dashboards/analytics_external::event_analyzer?content_moid=d8f27777-0956-45c2-a5fa-c206baccebf3&format_moid=&start_time=&internal_ip=&external_ip=&subnet_mask=&locality=&filter_config=%7B%22content_moid%22:%5B%7B%22type%22:%22%3D%22,%22values%22:%5B%7B%22constant%22:%22d8f27777-0956-45c2-a5fa-c206baccebf3%22%7D,%7B%7D%5D,%22id%22:14%7D%5D,%22format_moid%22:%5B%7B%22type%22:%22%3D%22,%22values%22:%5B%7B%22constant%22:%22%22%7D,%7B%7D%5D,%22id%22:15%7D%5D,%22start_time%22:%5B%7B%22type%22:%22anytime%22,%22values%22:%5B%7B%22constant%22:%226%22,%22unit%22:%22mo%22%7D,%7B%7D%5D,%22id%22:16%7D%5D,%22internal_ip%22:%5B%7B%22type%22:%22%3D%22,%22values%22:%5B%7B%22constant%22:%22%22%7D,%7B%7D%5D,%22id%22:17%7D%5D,%22external_ip%22:%5B%7B%22type%22:%22%3D%22,%22values%22:%5B%7B%22constant%22:%22%22%7D,%7B%7D%5D,%22id%22:18%7D%5D,%22subnet_mask%22:%5B%7B%22type%22:%22%3D%22,%22values%22:%5B%7B%22constant%22:%22%22%7D,%7B%7D%5D,%22id%22:19%7D%5D,%22locality%22:%5B%7B%22type%22:%22%3D%22,%22values%22:%5B%7B%22constant%22:%22%22%7D,%7B%7D%5D,%22id%22:20%7D%5D%7D')
+'EVENT ANALYZER | ~1k agents\nMoid: 99884aee-9238-4acc-a4e8-0edad712b2f4'
+WebUI.navigateToUrl('https://stats.tc1.kontiki.com/dashboards/analytics_external::event_analyzer?content_moid=99884aee-9238-4acc-a4e8-0edad712b2f4&format_moid=&start_time=&internal_ip=&external_ip=&subnet_mask=&locality=&filter_config=%7B%22content_moid%22:%5B%7B%22type%22:%22%3D%22,%22values%22:%5B%7B%22constant%22:%2299884aee-9238-4acc-a4e8-0edad712b2f4%22%7D,%7B%7D%5D,%22id%22:14%7D%5D,%22format_moid%22:%5B%7B%22type%22:%22%3D%22,%22values%22:%5B%7B%22constant%22:%22%22%7D,%7B%7D%5D,%22id%22:15%7D%5D,%22start_time%22:%5B%7B%22type%22:%22anytime%22,%22values%22:%5B%7B%22constant%22:%226%22,%22unit%22:%22mo%22%7D,%7B%7D%5D,%22id%22:16%7D%5D,%22internal_ip%22:%5B%7B%22type%22:%22%3D%22,%22values%22:%5B%7B%22constant%22:%22%22%7D,%7B%7D%5D,%22id%22:17%7D%5D,%22external_ip%22:%5B%7B%22type%22:%22%3D%22,%22values%22:%5B%7B%22constant%22:%22%22%7D,%7B%7D%5D,%22id%22:18%7D%5D,%22subnet_mask%22:%5B%7B%22type%22:%22%3D%22,%22values%22:%5B%7B%22constant%22:%22%22%7D,%7B%7D%5D,%22id%22:19%7D%5D,%22locality%22:%5B%7B%22type%22:%22%3D%22,%22values%22:%5B%7B%22constant%22:%22%22%7D,%7B%7D%5D,%22id%22:20%7D%5D%7D')
 
 'Waits for all angular elements on the landing page and throws an exception after 90 seconds'
 WebUI.waitForAngularLoad(150)
@@ -137,7 +137,7 @@ WebUI.waitForAngularLoad(150)
 
 WebUI.waitForPageLoad(0)
 
-'SCCM SUMMARY | ~8k agents, filtered in the past 6 Months'
+'SCCM SUMMARY | ~245 agents, filtered in the past 6 Months'
 WebUI.navigateToUrl('https://stats.tc1.kontiki.com/dashboards/sccm_users::sccm_summary?time_filter=6%20months&filter_config=%7B%22time_filter%22:%5B%7B%22type%22:%22past%22,%22values%22:%5B%7B%22constant%22:%226%22,%22unit%22:%22mo%22%7D,%7B%7D%5D,%22id%22:2%7D%5D%7D')
 
 'Waits for all angular elements on the landing page and throws an exception after 90 seconds'

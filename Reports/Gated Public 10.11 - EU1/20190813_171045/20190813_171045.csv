@@ -1,0 +1,213 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Gated Public 10.11 - EU1,Firefox 68.0,,2019-08-13 17:10:47,2019-08-13 17:26:31,15m - 43.936s,FAILED
+,,,,,,
+Test Cases/EU1/10.11 - EU1/EU 1 - 10.11 - Summary and Detail pages ,Firefox 68.0,"This will cover all ""main"" Summary pages
+-Live Events Summary
+-Network Summary
+-VoD Summary",2019-08-13 17:10:47,2019-08-13 17:14:08,3m - 20.422s,PASSED
+openBrowser,Firefox 68.0,"Fires up the browser
+",2019-08-13 17:10:47,2019-08-13 17:11:00,12.527s,PASSED
+setText,Firefox 68.0,Filling out login info (username),2019-08-13 17:11:00,2019-08-13 17:11:00,0.189s,PASSED
+setEncryptedText,Firefox 68.0,Filling out login info (password),2019-08-13 17:11:00,2019-08-13 17:11:00,0.139s,PASSED
+click,Firefox 68.0,Clicks the Stay Logged In button,2019-08-13 17:11:00,2019-08-13 17:11:01,0.453s,PASSED
+click,Firefox 68.0,Clicks the Submit button to login,2019-08-13 17:11:01,2019-08-13 17:11:06,4.980s,PASSED
+waitForAngularLoad,Firefox 68.0,"Overview / Landing Page: 10 second Threshold: Waits for all angular elements on the landing page to load in 10 seconds or less
+",2019-08-13 17:11:06,2019-08-13 17:11:14,8.211s,PASSED
+waitForPageLoad,Firefox 68.0,,2019-08-13 17:11:14,2019-08-13 17:11:14,0.019s,PASSED
+navigateToUrl,Firefox 68.0,Network Summary,2019-08-13 17:11:14,2019-08-13 17:11:19,4.904s,PASSED
+waitForAngularLoad,Firefox 68.0,Waits for all angular elements to load.  Throws an execption if this takes longer than 60 seconds.,2019-08-13 17:11:19,2019-08-13 17:11:40,20.791s,PASSED
+waitForPageLoad,Firefox 68.0,,2019-08-13 17:11:40,2019-08-13 17:11:40,0.032s,PASSED
+navigateToUrl,Firefox 68.0,Network Content,2019-08-13 17:11:40,2019-08-13 17:11:44,3.968s,PASSED
+waitForAngularLoad,Firefox 68.0,Waits for all angular elements to load.  Throws an execption if this takes longer than 60 seconds.,2019-08-13 17:11:44,2019-08-13 17:11:53,9.473s,PASSED
+waitForPageLoad,Firefox 68.0,,2019-08-13 17:11:53,2019-08-13 17:11:53,0.017s,PASSED
+navigateToUrl,Firefox 68.0,Network Locality,2019-08-13 17:11:53,2019-08-13 17:11:56,2.794s,PASSED
+waitForAngularLoad,Firefox 68.0,Waits for all angular elements to load.  Throws an execption if this takes longer than 60 seconds.,2019-08-13 17:11:56,2019-08-13 17:12:04,8.150s,PASSED
+waitForPageLoad,Firefox 68.0,,2019-08-13 17:12:04,2019-08-13 17:12:04,0.033s,PASSED
+navigateToUrl,Firefox 68.0,Live Event Summary,2019-08-13 17:12:04,2019-08-13 17:12:08,4.104s,PASSED
+waitForAngularLoad,Firefox 68.0,Waits for all angular elements to load.  Throws an execption if this takes longer than 60 seconds.,2019-08-13 17:12:08,2019-08-13 17:12:20,12.123s,PASSED
+waitForPageLoad,Firefox 68.0,,2019-08-13 17:12:20,2019-08-13 17:12:20,0.042s,PASSED
+navigateToUrl,Firefox 68.0,Live Event,2019-08-13 17:12:20,2019-08-13 17:12:26,5.171s,PASSED
+waitForAngularLoad,Firefox 68.0,"10 second Threshold: Waits for all angular elements on the landing page to load in 10 seconds or less
+",2019-08-13 17:12:26,2019-08-13 17:12:59,33.476s,PASSED
+waitForPageLoad,Firefox 68.0,,2019-08-13 17:12:59,2019-08-13 17:12:59,0.008s,PASSED
+navigateToUrl,Firefox 68.0,Live (in progress) Event (filtered on last 2 weeks),2019-08-13 17:12:59,2019-08-13 17:13:02,2.577s,PASSED
+waitForAngularLoad,Firefox 68.0,Waits for all angular elements to load.  Throws an execption if this takes longer than 60 seconds.,2019-08-13 17:13:02,2019-08-13 17:13:02,0.017s,PASSED
+waitForPageLoad,Firefox 68.0,,2019-08-13 17:13:02,2019-08-13 17:13:02,0.009s,PASSED
+navigateToUrl,Firefox 68.0,VoD Summary,2019-08-13 17:13:02,2019-08-13 17:13:03,1.599s,PASSED
+waitForAngularLoad,Firefox 68.0,Waits for all angular elements to load.  Throws an execption if this takes longer than 60 seconds.,2019-08-13 17:13:03,2019-08-13 17:13:03,0.014s,PASSED
+waitForPageLoad,Firefox 68.0,,2019-08-13 17:13:03,2019-08-13 17:13:03,0.010s,PASSED
+navigateToUrl,Firefox 68.0,Video on Demand,2019-08-13 17:13:03,2019-08-13 17:13:04,0.869s,PASSED
+waitForAngularLoad,Firefox 68.0,Waits for all angular elements to load.  Throws an execption if this takes longer than 60 seconds.,2019-08-13 17:13:04,2019-08-13 17:13:04,0.015s,PASSED
+waitForPageLoad,Firefox 68.0,,2019-08-13 17:13:04,2019-08-13 17:13:04,0.007s,PASSED
+navigateToUrl,Firefox 68.0,SCCM,2019-08-13 17:13:04,2019-08-13 17:13:05,1.140s,PASSED
+waitForAngularLoad,Firefox 68.0,Waits for all angular elements to load.  Throws an execption if this takes longer than 60 seconds.,2019-08-13 17:13:05,2019-08-13 17:13:05,0.016s,PASSED
+waitForPageLoad,Firefox 68.0,,2019-08-13 17:13:05,2019-08-13 17:13:05,0.007s,PASSED
+navigateToUrl,Firefox 68.0,Agent Summary,2019-08-13 17:13:05,2019-08-13 17:13:08,2.934s,PASSED
+waitForAngularLoad,Firefox 68.0,Waits for all angular elements to load.  Throws an execption if this takes longer than 60 seconds.,2019-08-13 17:13:08,2019-08-13 17:13:25,16.571s,PASSED
+waitForPageLoad,Firefox 68.0,,2019-08-13 17:13:25,2019-08-13 17:13:25,0.018s,PASSED
+navigateToUrl,Firefox 68.0,Agent Detail,2019-08-13 17:13:25,2019-08-13 17:13:27,2.297s,PASSED
+waitForAngularLoad,Firefox 68.0,Waits for all angular elements to load.  Throws an execption if this takes longer than 60 seconds.,2019-08-13 17:13:27,2019-08-13 17:13:36,9.012s,PASSED
+waitForPageLoad,Firefox 68.0,,2019-08-13 17:13:36,2019-08-13 17:13:36,0.011s,PASSED
+navigateToUrl,Firefox 68.0,Event Analyzer,2019-08-13 17:13:36,2019-08-13 17:13:39,2.841s,PASSED
+waitForAngularLoad,Firefox 68.0,Waits for all angular elements to load.  Throws an execption if this takes longer than 60 seconds.,2019-08-13 17:13:39,2019-08-13 17:14:07,28.021s,PASSED
+waitForPageLoad,Firefox 68.0,,2019-08-13 17:14:07,2019-08-13 17:14:07,0.011s,PASSED
+closeBrowser,Firefox 68.0,,2019-08-13 17:14:07,2019-08-13 17:14:08,0.466s,PASSED
+,,,,,,
+Test Cases/EU1/10.11 - EU1/EU 1 - 10.11 - Navigation and CTAs,Firefox 68.0,"This will cover testing of Paul's new navigation and dropdown menus, as well as the three main Calls To Action on the Overview page",2019-08-13 17:14:08,2019-08-13 17:19:35,5m - 27.431s,FAILED
+openBrowser,Firefox 68.0,"Fires up the browser
+",2019-08-13 17:14:08,2019-08-13 17:14:27,19.632s,PASSED
+setText,Firefox 68.0,Filling out login info (username),2019-08-13 17:14:27,2019-08-13 17:14:27,0.143s,PASSED
+setEncryptedText,Firefox 68.0,Filling out login info (password),2019-08-13 17:14:27,2019-08-13 17:14:28,0.053s,PASSED
+click,Firefox 68.0,Clicks the Stay Logged In button,2019-08-13 17:14:28,2019-08-13 17:14:28,0.241s,PASSED
+click,Firefox 68.0,Clicks the Submit button to login,2019-08-13 17:14:28,2019-08-13 17:14:33,5.637s,PASSED
+waitForAngularLoad,Firefox 68.0,"10 second Threshold: Waits for all angular elements on the landing page to load in 10 seconds or less
+",2019-08-13 17:14:33,2019-08-13 17:14:37,3.640s,PASSED
+waitForPageLoad,Firefox 68.0,,2019-08-13 17:14:37,2019-08-13 17:14:37,0.154s,PASSED
+verifyElementVisible,Firefox 68.0,,2019-08-13 17:14:37,2019-08-13 17:14:37,0.200s,PASSED
+verifyElementVisible,Firefox 68.0,,2019-08-13 17:14:37,2019-08-13 17:14:37,0.047s,PASSED
+click,Firefox 68.0,,2019-08-13 17:14:37,2019-08-13 17:14:41,3.818s,PASSED
+waitForAngularLoad,Firefox 68.0,"10 second Threshold: Waits for all angular elements on the landing page to load in 10 seconds or less
+",2019-08-13 17:14:41,2019-08-13 17:14:48,6.778s,PASSED
+verifyElementText,Firefox 68.0,,2019-08-13 17:14:48,2019-08-13 17:14:48,0.111s,PASSED
+click,Firefox 68.0,,2019-08-13 17:14:48,2019-08-13 17:14:53,4.603s,PASSED
+waitForAngularLoad,Firefox 68.0,"10 second Threshold: Waits for all angular elements on the landing page to load in 10 seconds or less
+",2019-08-13 17:14:53,2019-08-13 17:14:55,2.667s,PASSED
+verifyElementVisible,Firefox 68.0,,2019-08-13 17:14:55,2019-08-13 17:14:56,0.746s,PASSED
+click,Firefox 68.0,,2019-08-13 17:14:56,2019-08-13 17:15:04,7.705s,PASSED
+waitForAngularLoad,Firefox 68.0,"10 second Threshold: Waits for all angular elements on the landing page to load in 10 seconds or less
+",2019-08-13 17:15:04,2019-08-13 17:15:13,9.069s,PASSED
+verifyElementText,Firefox 68.0,,2019-08-13 17:15:13,2019-08-13 17:15:13,0.058s,PASSED
+click,Firefox 68.0,,2019-08-13 17:15:13,2019-08-13 17:15:17,4.395s,PASSED
+waitForAngularLoad,Firefox 68.0,"10 second Threshold: Waits for all angular elements on the landing page to load in 10 seconds or less
+",2019-08-13 17:15:17,2019-08-13 17:15:20,2.654s,PASSED
+verifyElementVisible,Firefox 68.0,,2019-08-13 17:15:20,2019-08-13 17:15:21,0.740s,PASSED
+click,Firefox 68.0,,2019-08-13 17:15:21,2019-08-13 17:15:26,5.281s,PASSED
+waitForPageLoad,Firefox 68.0,,2019-08-13 17:15:26,2019-08-13 17:15:27,0.690s,PASSED
+waitForAngularLoad,Firefox 68.0,"10 second Threshold: Waits for all angular elements on the landing page to load in 10 seconds or less
+",2019-08-13 17:15:27,2019-08-13 17:15:35,8.631s,PASSED
+verifyElementText,Firefox 68.0,,2019-08-13 17:15:35,2019-08-13 17:15:35,0.100s,PASSED
+click,Firefox 68.0,,2019-08-13 17:15:35,2019-08-13 17:15:41,5.066s,PASSED
+waitForAngularLoad,Firefox 68.0,"10 second Threshold: Waits for all angular elements on the landing page to load in 10 seconds or less
+",2019-08-13 17:15:41,2019-08-13 17:15:43,2.808s,PASSED
+click,Firefox 68.0,,2019-08-13 17:15:43,2019-08-13 17:15:44,0.503s,PASSED
+verifyElementPresent,Firefox 68.0,,2019-08-13 17:15:44,2019-08-13 17:15:44,0.024s,PASSED
+verifyElementClickable,Firefox 68.0,,2019-08-13 17:15:44,2019-08-13 17:15:44,0.037s,PASSED
+click,Firefox 68.0,,2019-08-13 17:15:44,2019-08-13 17:15:47,3.462s,PASSED
+waitForAngularLoad,Firefox 68.0,"10 second Threshold: Waits for all angular elements on the landing page to load in 10 seconds or less
+",2019-08-13 17:15:47,2019-08-13 17:15:53,6.066s,PASSED
+click,Firefox 68.0,,2019-08-13 17:15:53,2019-08-13 17:15:54,0.724s,PASSED
+verifyElementPresent,Firefox 68.0,,2019-08-13 17:15:54,2019-08-13 17:15:55,1.062s,PASSED
+verifyElementClickable,Firefox 68.0,,2019-08-13 17:15:55,2019-08-13 17:15:55,0.188s,PASSED
+verifyElementPresent,Firefox 68.0,,2019-08-13 17:15:55,2019-08-13 17:15:57,1.504s,PASSED
+verifyElementClickable,Firefox 68.0,,2019-08-13 17:15:57,2019-08-13 17:15:57,0.194s,PASSED
+verifyElementPresent,Firefox 68.0,,2019-08-13 17:15:57,2019-08-13 17:15:57,0.017s,PASSED
+verifyElementClickable,Firefox 68.0,,2019-08-13 17:15:57,2019-08-13 17:15:57,0.035s,PASSED
+verifyElementPresent,Firefox 68.0,,2019-08-13 17:15:57,2019-08-13 17:15:57,0.016s,PASSED
+verifyElementClickable,Firefox 68.0,,2019-08-13 17:15:57,2019-08-13 17:15:57,0.031s,PASSED
+verifyElementPresent,Firefox 68.0,,2019-08-13 17:15:57,2019-08-13 17:15:57,0.027s,PASSED
+verifyElementClickable,Firefox 68.0,,2019-08-13 17:15:57,2019-08-13 17:15:57,0.024s,PASSED
+click,Firefox 68.0,,2019-08-13 17:15:57,2019-08-13 17:16:01,3.389s,PASSED
+waitForAngularLoad,Firefox 68.0,"10 second Threshold: Waits for all angular elements on the landing page to load in 10 seconds or less
+",2019-08-13 17:16:01,2019-08-13 17:16:15,14.476s,PASSED
+click,Firefox 68.0,,2019-08-13 17:16:15,2019-08-13 17:16:15,0.268s,PASSED
+verifyElementPresent,Firefox 68.0,,2019-08-13 17:16:15,2019-08-13 17:16:15,0.019s,PASSED
+verifyElementClickable,Firefox 68.0,,2019-08-13 17:16:15,2019-08-13 17:16:15,0.030s,PASSED
+verifyElementPresent,Firefox 68.0,,2019-08-13 17:16:15,2019-08-13 17:16:15,0.018s,PASSED
+verifyElementClickable,Firefox 68.0,,2019-08-13 17:16:15,2019-08-13 17:16:16,0.031s,PASSED
+verifyElementPresent,Firefox 68.0,,2019-08-13 17:16:16,2019-08-13 17:16:16,0.018s,PASSED
+verifyElementClickable,Firefox 68.0,,2019-08-13 17:16:16,2019-08-13 17:16:16,0.022s,PASSED
+click,Firefox 68.0,,2019-08-13 17:16:16,2019-08-13 17:16:16,0.244s,PASSED
+verifyElementPresent,Firefox 68.0,,2019-08-13 17:16:16,2019-08-13 17:16:16,0.021s,PASSED
+verifyElementClickable,Firefox 68.0,,2019-08-13 17:16:16,2019-08-13 17:16:16,0.020s,PASSED
+verifyElementPresent,Firefox 68.0,,2019-08-13 17:16:16,2019-08-13 17:16:16,0.014s,PASSED
+verifyElementClickable,Firefox 68.0,,2019-08-13 17:16:16,2019-08-13 17:16:16,0.020s,PASSED
+navigateToUrl,Firefox 68.0,,2019-08-13 17:16:16,2019-08-13 17:16:21,4.877s,PASSED
+waitForPageLoad,Firefox 68.0,,2019-08-13 17:16:21,2019-08-13 17:16:21,0.032s,PASSED
+waitForAngularLoad,Firefox 68.0,,2019-08-13 17:16:21,2019-08-13 17:16:48,27.223s,PASSED
+verifyElementPresent,Firefox 68.0,,2019-08-13 17:16:48,2019-08-13 17:16:48,0.097s,PASSED
+verifyElementPresent,Firefox 68.0,,2019-08-13 17:16:48,2019-08-13 17:16:48,0.019s,PASSED
+verifyElementPresent,Firefox 68.0,,2019-08-13 17:16:48,2019-08-13 17:17:43,55.080s,FAILED
+verifyElementClickable,Firefox 68.0,,2019-08-13 17:17:43,2019-08-13 17:18:35,52.192s,FAILED
+click,Firefox 68.0,,2019-08-13 17:18:35,2019-08-13 17:19:27,51.206s,FAILED
+waitForAngularLoad,Firefox 68.0,"10 second Threshold: Waits for all angular elements on the landing page to load in 10 seconds or less
+",2019-08-13 17:19:27,2019-08-13 17:19:27,0.010s,PASSED
+click,Firefox 68.0,,2019-08-13 17:19:27,2019-08-13 17:19:31,4.559s,PASSED
+waitForAngularLoad,Firefox 68.0,"10 second Threshold: Waits for all angular elements on the landing page to load in 10 seconds or less
+",2019-08-13 17:19:31,2019-08-13 17:19:34,2.530s,PASSED
+click,Firefox 68.0,,2019-08-13 17:19:34,2019-08-13 17:19:35,0.803s,PASSED
+closeBrowser,Firefox 68.0,,2019-08-13 17:19:35,2019-08-13 17:19:35,0.445s,PASSED
+,,,,,,
+Test Cases/EU1/10.11 - EU1/EU 1 - 10.11 - Logging In and Out,Firefox 68.0,This will cover primarily the log in process and validation of Sudoing as a different user,2019-08-13 17:19:35,2019-08-13 17:20:08,32.738s,PASSED
+openBrowser,Firefox 68.0,"Fires up the browser
+",2019-08-13 17:19:35,2019-08-13 17:19:52,16.998s,PASSED
+setText,Firefox 68.0,Filling out login info (username),2019-08-13 17:19:52,2019-08-13 17:19:52,0.148s,PASSED
+setEncryptedText,Firefox 68.0,Filling out login info (password),2019-08-13 17:19:52,2019-08-13 17:19:52,0.058s,PASSED
+click,Firefox 68.0,Clicks the Stay Logged In button,2019-08-13 17:19:52,2019-08-13 17:19:53,0.340s,PASSED
+click,Firefox 68.0,Clicks the Submit button to login,2019-08-13 17:19:53,2019-08-13 17:19:58,4.920s,PASSED
+waitForAngularLoad,Firefox 68.0,"10 second Threshold: Waits for all angular elements on the landing page to load in 10 seconds or less
+",2019-08-13 17:19:58,2019-08-13 17:20:03,5.319s,PASSED
+verifyElementPresent,Firefox 68.0,,2019-08-13 17:20:03,2019-08-13 17:20:03,0.174s,PASSED
+verifyElementPresent,Firefox 68.0,,2019-08-13 17:20:03,2019-08-13 17:20:03,0.011s,PASSED
+verifyElementPresent,Firefox 68.0,,2019-08-13 17:20:03,2019-08-13 17:20:03,0.010s,PASSED
+verifyElementPresent,Firefox 68.0,,2019-08-13 17:20:03,2019-08-13 17:20:03,0.012s,PASSED
+verifyElementPresent,Firefox 68.0,,2019-08-13 17:20:03,2019-08-13 17:20:03,0.010s,PASSED
+verifyElementPresent,Firefox 68.0,,2019-08-13 17:20:03,2019-08-13 17:20:03,0.026s,PASSED
+verifyElementPresent,Firefox 68.0,,2019-08-13 17:20:03,2019-08-13 17:20:03,0.025s,PASSED
+verifyElementPresent,Firefox 68.0,,2019-08-13 17:20:03,2019-08-13 17:20:03,0.024s,PASSED
+verifyElementPresent,Firefox 68.0,,2019-08-13 17:20:03,2019-08-13 17:20:03,0.011s,PASSED
+click,Firefox 68.0,,2019-08-13 17:20:03,2019-08-13 17:20:03,0.330s,PASSED
+click,Firefox 68.0,,2019-08-13 17:20:03,2019-08-13 17:20:05,1.527s,PASSED
+verifyElementPresent,Firefox 68.0,,2019-08-13 17:20:05,2019-08-13 17:20:05,0.010s,PASSED
+verifyTextPresent,Firefox 68.0,,2019-08-13 17:20:05,2019-08-13 17:20:05,0.059s,PASSED
+closeBrowser,Firefox 68.0,,2019-08-13 17:20:05,2019-08-13 17:20:08,2.639s,PASSED
+,,,,,,
+"Test Cases/EU1/10.11 - EU1/EU 1 - 10.11 - Overview, or Landing Page",Firefox 68.0,"This will cover the Overview page, and if this is used on a DMS with no Overview page (Pre Analytics 10.7) if will test the Landing page after logging in.",2019-08-13 17:20:08,2019-08-13 17:26:31,6m - 23.021s,FAILED
+openBrowser,Firefox 68.0,"Fires up the browser
+",2019-08-13 17:20:08,2019-08-13 17:20:28,20.046s,PASSED
+setText,Firefox 68.0,Filling out login info (username),2019-08-13 17:20:28,2019-08-13 17:20:28,0.137s,PASSED
+setEncryptedText,Firefox 68.0,Filling out login info (password),2019-08-13 17:20:28,2019-08-13 17:20:28,0.058s,PASSED
+click,Firefox 68.0,Clicks the Stay Logged In button,2019-08-13 17:20:28,2019-08-13 17:20:28,0.228s,PASSED
+click,Firefox 68.0,Clicks the Submit button to login,2019-08-13 17:20:28,2019-08-13 17:20:36,8.170s,PASSED
+waitForAngularLoad,Firefox 68.0,Waits for all angular elements to load.  Throws an exception if it takes longer than 60 seconds.,2019-08-13 17:20:36,2019-08-13 17:20:39,2.945s,PASSED
+waitForPageLoad,Firefox 68.0,,2019-08-13 17:20:39,2019-08-13 17:20:39,0.084s,PASSED
+click,Firefox 68.0,Clicks the filter to access options,2019-08-13 17:20:39,2019-08-13 17:20:40,0.705s,PASSED
+selectOptionByValue,Firefox 68.0,"Use the filter dropdown to set a Time Filter of ""Is in the year""",2019-08-13 17:20:40,2019-08-13 17:20:41,0.637s,PASSED
+setText,Firefox 68.0,"Set 2017 in the ""Is in the year"" field",2019-08-13 17:20:41,2019-08-13 17:20:41,0.106s,PASSED
+waitForAngularLoad,Firefox 68.0,Waits for all angular elements to load.  Throws an exception if it takes longer than 60 seconds.,2019-08-13 17:20:41,2019-08-13 17:20:41,0.013s,PASSED
+waitForPageLoad,Firefox 68.0,,2019-08-13 17:20:41,2019-08-13 17:20:41,0.006s,PASSED
+click,Firefox 68.0,Clicks the Run button,2019-08-13 17:20:41,2019-08-13 17:20:41,0.304s,PASSED
+waitForAngularLoad,Firefox 68.0,Waits for all angular elements to load.  Throws an exception if it takes longer than 60 seconds.,2019-08-13 17:20:41,2019-08-13 17:21:02,20.840s,PASSED
+click,Firefox 68.0,Clicks the gear icon to access Clear Cache and Refresh option,2019-08-13 17:21:02,2019-08-13 17:21:02,0.271s,PASSED
+click,Firefox 68.0,Clear cache and refresh to get clean data,2019-08-13 17:21:02,2019-08-13 17:21:03,0.365s,PASSED
+waitForPageLoad,Firefox 68.0,,2019-08-13 17:21:03,2019-08-13 17:21:03,0.027s,PASSED
+waitForAngularLoad,Firefox 68.0,Waits for all angular elements to load.  Throws an exception if it takes longer than 60 seconds.,2019-08-13 17:21:03,2019-08-13 17:21:10,7.322s,PASSED
+verifyElementText,Firefox 68.0,"Verify ""Total Live Events"" widget is on the page",2019-08-13 17:21:10,2019-08-13 17:21:10,0.058s,PASSED
+verifyElementText,Firefox 68.0,"FIXTURE DATA - Verify Total Live Events widget has a value of 2,563",2019-08-13 17:21:10,2019-08-13 17:21:46,35.940s,FAILED
+verifyElementText,Firefox 68.0,"Verify ""Average Monthly Events"" widget is on the page",2019-08-13 17:21:46,2019-08-13 17:21:46,0.044s,PASSED
+verifyElementText,Firefox 68.0,FIXTURE DATA - Verify Average Monthly Events widget has a value of 226,2019-08-13 17:21:46,2019-08-13 17:22:22,35.388s,FAILED
+verifyElementText,Firefox 68.0,"Verify ""Unique Viewers"" widget is on the page",2019-08-13 17:22:22,2019-08-13 17:22:22,0.035s,PASSED
+verifyElementText,Firefox 68.0,"FIXTURE DATA - Verify Unique Viewers widget has a value of 14,388",2019-08-13 17:22:22,2019-08-13 17:22:57,35.457s,FAILED
+verifyElementText,Firefox 68.0,Verify Average Monthly Viewers widget exists on page,2019-08-13 17:22:57,2019-08-13 17:22:57,0.036s,PASSED
+verifyElementText,Firefox 68.0,"FIXTURE DATA - Verify Average Monthly Views widget has a value of 7,762",2019-08-13 17:22:57,2019-08-13 17:23:33,35.914s,FAILED
+verifyElementText,Firefox 68.0,Verify Total Videos widget exists on page,2019-08-13 17:23:33,2019-08-13 17:23:33,0.049s,PASSED
+verifyElementText,Firefox 68.0,"FIXTURE DATA - Verify Total Videos widget has a value of 1,585",2019-08-13 17:23:33,2019-08-13 17:24:08,35.433s,FAILED
+verifyElementText,Firefox 68.0,Verify Total Views widget exists on page,2019-08-13 17:24:08,2019-08-13 17:24:08,0.038s,PASSED
+verifyElementText,Firefox 68.0,"FIXTURE DATA - Verify Total views widget has a value of 17,443",2019-08-13 17:24:08,2019-08-13 17:24:44,35.536s,FAILED
+verifyElementText,Firefox 68.0,Verify Unique Viewers widget exists on page,2019-08-13 17:24:44,2019-08-13 17:24:44,0.042s,PASSED
+verifyElementText,Firefox 68.0,"FIXTURE DATA - Verify Unique Viewers widget has a value of 11,413",2019-08-13 17:24:44,2019-08-13 17:25:19,35.226s,FAILED
+verifyElementText,Firefox 68.0,Verify Total Hours Watched widget exists on page,2019-08-13 17:25:19,2019-08-13 17:25:19,0.033s,PASSED
+verifyElementText,Firefox 68.0,"FIXTURE DATA - Verify Total Hours Watched widget has a value of 1,404.1",2019-08-13 17:25:19,2019-08-13 17:25:55,35.325s,FAILED
+verifyElementText,Firefox 68.0,Verify Unique Agent widget exists on page,2019-08-13 17:25:55,2019-08-13 17:25:55,0.045s,PASSED
+verifyElementText,Firefox 68.0,"FIXTURE DATA - Verify Unique Agents widget has a value of 10,905",2019-08-13 17:25:55,2019-08-13 17:25:55,0.001s,NOT_RUN
+verifyElementText,Firefox 68.0,Verify Deliveries widget exists on page,2019-08-13 17:25:55,2019-08-13 17:25:55,0.227s,FAILED
+verifyElementText,Firefox 68.0,"FIXTURE DATA - Verify Delivery widget has a value of 67,512",2019-08-13 17:25:55,2019-08-13 17:25:55,0.000s,NOT_RUN
+verifyElementText,Firefox 68.0,Verify Saved GB widget exists on page,2019-08-13 17:25:55,2019-08-13 17:25:55,0.030s,PASSED
+verifyElementText,Firefox 68.0,"FIXTURE DATA - Verify Saved GB widget has a value of 1,573",2019-08-13 17:25:55,2019-08-13 17:26:30,35.307s,FAILED
+verifyElementText,Firefox 68.0,Verify Total GB widget exists on page,2019-08-13 17:26:30,2019-08-13 17:26:30,0.030s,PASSED
+verifyElementText,Firefox 68.0,"FIXTURE DATA - Verify Total GB widget has a value of 3,865.08",2019-08-13 17:26:30,2019-08-13 17:26:30,0.000s,NOT_RUN
+verifyElementPresent,Firefox 68.0,Verify the Live Event Summary CTA appears on page,2019-08-13 17:26:30,2019-08-13 17:26:30,0.016s,PASSED
+verifyElementPresent,Firefox 68.0,Verify the VoD Summary CTA appears on page,2019-08-13 17:26:30,2019-08-13 17:26:30,0.008s,PASSED
+verifyElementPresent,Firefox 68.0,Verify the Network Summary CTA appears on page,2019-08-13 17:26:30,2019-08-13 17:26:30,0.009s,PASSED
+waitForAngularLoad,Firefox 68.0,Waits for all angular elements to load.  Throws an exception if it takes longer than 60 seconds.,2019-08-13 17:26:30,2019-08-13 17:26:30,0.011s,PASSED
+waitForPageLoad,Firefox 68.0,,2019-08-13 17:26:30,2019-08-13 17:26:30,0.005s,PASSED
+closeBrowser,Firefox 68.0,,2019-08-13 17:26:30,2019-08-13 17:26:31,0.383s,PASSED
