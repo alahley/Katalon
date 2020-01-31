@@ -4,7 +4,6 @@
    <name>Gated Public 10.9 - BofA</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-11-05T10:13:51</lastRun>
    <mailRecipient>alahley@kollective.com;</mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>

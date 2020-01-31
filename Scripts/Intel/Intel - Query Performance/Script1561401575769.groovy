@@ -49,16 +49,16 @@ WebUI.waitForAngularLoad(90)
 
 WebUI.waitForPageLoad(0)
 
-'LIVE EVENT DETAIL | ~10k agents\nMoid: d8f27777-0956-45c2-a5fa-c206baccebf3'
-WebUI.navigateToUrl('https://stats.us2.kontiki.com/dashboards/analytics_external::live_event?content_moid_filter=d8f27777-0956-45c2-a5fa-c206baccebf3&time_filter=&filter_config=%7B%22content_moid_filter%22:%5B%7B%22type%22:%22%3D%22,%22values%22:%5B%7B%22constant%22:%22d8f27777-0956-45c2-a5fa-c206baccebf3%22%7D,%7B%7D%5D,%22id%22:0%7D%5D,%22time_filter%22:%5B%7B%22type%22:%22advanced%22,%22values%22:%5B%7B%22constant%22:null%7D,%7B%7D%5D,%22id%22:1%7D%5D%7D')
+'LIVE EVENT DETAIL | ~18k agents\nMoid: 4429a882-a7e1-476c-a420-819f47f5f968'
+WebUI.navigateToUrl('https://stats.us2.kontiki.com/dashboards/analytics_external::live_event?content_moid_filter=4429a882-a7e1-476c-a420-819f47f5f968&time_filter=6%20months&filter_config=%7B%22content_moid_filter%22:%5B%7B%22type%22:%22%3D%22,%22values%22:%5B%7B%22constant%22:%224429a882-a7e1-476c-a420-819f47f5f968%22%7D,%7B%7D%5D,%22id%22:0%7D%5D,%22time_filter%22:%5B%7B%22type%22:%22past%22,%22values%22:%5B%7B%22constant%22:%226%22,%22unit%22:%22mo%22%7D,%7B%7D%5D,%22id%22:1%7D%5D%7D')
 
 'Waits for all angular elements on the landing page and throws an exception after 90 seconds'
 WebUI.waitForAngularLoad(150)
 
 WebUI.waitForPageLoad(0)
 
-'LIVE (In Progress) EVENT | ~10k Agents, filtered by the past 1 Month'
-WebUI.navigateToUrl('https://stats.us2.kontiki.com/dashboards/analytics_external::live_event_in_progress?content_moid_filter=&time_filter=1%20months&filter_config=%7B%22content_moid_filter%22:%5B%7B%22type%22:%22%3D%22,%22values%22:%5B%7B%22constant%22:%22%22%7D,%7B%7D%5D,%22id%22:4%7D%5D,%22time_filter%22:%5B%7B%22type%22:%22past%22,%22values%22:%5B%7B%22constant%22:%221%22,%22unit%22:%22mo%22%7D%5D,%22id%22:5%7D%5D%7D')
+'LIVE (In Progress) EVENT | ~1k Agents, filtered by the past 1 Month'
+WebUI.navigateToUrl('https://stats.us2.kontiki.com/dashboards/analytics_external::live_event_in_progress?content_moid_filter=&time_filter=1%20months&filter_config=%7B%22content_moid_filter%22:%5B%7B%22type%22:%22%3D%22,%22values%22:%5B%7B%22constant%22:%22%22%7D,%7B%7D%5D,%22id%22:4%7D%5D,%22time_filter%22:%5B%7B%22type%22:%22past%22,%22values%22:%5B%7B%22constant%22:%221%22,%22unit%22:%22mo%22%7D,%7B%7D%5D,%22id%22:5%7D%5D%7D')
 
 'Waits for all angular elements on the landing page and throws an exception after 90 seconds'
 WebUI.waitForAngularLoad(150)
@@ -73,8 +73,8 @@ WebUI.waitForAngularLoad(90)
 
 WebUI.waitForPageLoad(0)
 
-'VIDEO ON DEMAND DETAIL | ~1k agents\nMoid: bd9e0a4f-8517-4101-ae16-223bad8adc2d'
-WebUI.navigateToUrl('https://stats.us2.kontiki.com/dashboards/analytics_external::vod_performance?content_moid_filter=bd9e0a4f-8517-4101-ae16-223bad8adc2d&time_filter=&filter_config=%7B%22content_moid_filter%22:%5B%7B%22type%22:%22%3D%22,%22values%22:%5B%7B%22constant%22:%22bd9e0a4f-8517-4101-ae16-223bad8adc2d%22%7D,%7B%7D%5D,%22id%22:0%7D%5D,%22time_filter%22:%5B%7B%22type%22:%22advanced%22,%22values%22:%5B%7B%22constant%22:null%7D,%7B%7D%5D,%22id%22:1%7D%5D%7D')
+'VIDEO ON DEMAND DETAIL | ~2 agents\nMoid: c0e41aa3-7394-4716-bda5-7598a8b752ba'
+WebUI.navigateToUrl('https://stats.us2.kontiki.com/dashboards/analytics_external::vod_performance?content_moid_filter=c0e41aa3-7394-4716-bda5-7598a8b752ba&time_filter=6%20months&filter_config=%7B%22content_moid_filter%22:%5B%7B%22type%22:%22%3D%22,%22values%22:%5B%7B%22constant%22:%22c0e41aa3-7394-4716-bda5-7598a8b752ba%22%7D,%7B%7D%5D,%22id%22:0%7D%5D,%22time_filter%22:%5B%7B%22type%22:%22past%22,%22values%22:%5B%7B%22constant%22:%226%22,%22unit%22:%22mo%22%7D,%7B%7D%5D,%22id%22:1%7D%5D%7D')
 
 'Waits for all angular elements on the landing page and throws an exception after 90 seconds'
 WebUI.waitForAngularLoad(90)
@@ -146,7 +146,7 @@ WebUI.waitForAngularLoad(90)
 WebUI.waitForPageLoad(0)
 
 'EXPLORE HISTORY | Table data of all queries that just completed\nFilters: Created in the last ten minutes; Runtime is not Null; Source is not a Saved Look; Status is not Running; Email is alahley@kollective.com'
-WebUI.navigateToUrl('https://stats.us2.kontiki.com/explore/i__looker/history?toggle=fil&qid=M8AQhhdq0MlEOYvGCKR4q8')
+WebUI.navigateToUrl('https://stats.us2.kontiki.com/explore/i__looker/history?toggle=fil&qid=F0EghPX1G7wSx5lXt8NOVP')
 
 'Waits for all angular elements on the landing page and throws an exception after 90 seconds'
 WebUI.waitForAngularLoad(90)

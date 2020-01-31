@@ -25,7 +25,12 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>1,404.1</value>
+      <value>
+    1,404.1
+    
+    
+    
+    </value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,13 +55,13 @@
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Total Hours Watched'])[1]/following::div[14]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Hours Viewed'])[1]/following::div[14]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Total Hours Watched'])[2]/preceding::div[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Hours Viewed'])[2]/preceding::div[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,5 +74,17 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <value>//div[17]/div/lk-vis-element/div/div/div[2]/div/div/div/lk-visualization-container/div/div/div/div/div/div</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Total Hours Watched'])[1]/following::div[14]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Total Hours Watched'])[2]/preceding::div[1]</value>
    </webElementXpaths>
 </WebElementEntity>

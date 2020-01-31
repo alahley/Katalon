@@ -41,7 +41,14 @@
       <value>ConfigMgr</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;kollective-nav&quot;)/div[@class=&quot;nav-content&quot;]/li[@class=&quot;dropdown&quot;]/a[@class=&quot;dropbtn&quot;]</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>css</name>
       <type>Main</type>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>This test will hit roughly 50 pages and clear the cache each time to simulate some minor load on the system.</description>
+   <name>VC14 - Load</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>bd8eccd4-69d6-42d4-a109-375428ce9a2c</testCaseGuid>
+</TestCaseEntity>

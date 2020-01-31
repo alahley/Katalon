@@ -29,14 +29,14 @@ WebUI.click(findTestObject('Page_Log in/input_remember'))
 WebUI.click(findTestObject('Page_Log in/input_login-submit'))
 
 '10 second Threshold: Waits for all angular elements on the landing page to load in 10 seconds or less\n'
-WebUI.waitForAngularLoad(10)
+not_run: WebUI.waitForAngularLoad(60)
 
 WebUI.waitForPageLoad(0)
 
 WebUI.navigateToUrl('https://stats.us1.kontiki.com/admin/users?sorts=last_name%20asc&name=demo')
 
 'Waits for all angular elements on the landing page to load'
-WebUI.waitForAngularLoad(10)
+not_run: WebUI.waitForAngularLoad(60)
 
 WebUI.click(findTestObject('Page_Users/a_Sudo'))
 

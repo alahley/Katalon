@@ -29,14 +29,14 @@ WebUI.click(findTestObject('Object Repository/Page_Log in/input_remember (2)'))
 WebUI.click(findTestObject('Object Repository/Page_Log in/input_login-submit (2)'))
 
 '10 second Threshold: Waits for all angular elements on the landing page to load in 10 seconds or less\n'
-WebUI.waitForAngularLoad(10)
+WebUI.waitForAngularLoad(60)
 
 WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Overview/a'), 0)
 
 'Live In Progress Event'
 WebUI.navigateToUrl('https://stats.kontiki.com/dashboards/analytics_external::live_event_in_progress?content_moid_filter=90bbccdd-b669-4de0-8ddd-f0ce7521640f&format_moid_filter=&time_filter=&filter_config=%7B%22content_moid_filter%22:%5B%7B%22type%22:%22%3D%22,%22values%22:%5B%7B%22constant%22:%2290bbccdd-b669-4de0-8ddd-f0ce7521640f%22%7D,%7B%7D%5D,%22id%22:0%7D%5D,%22format_moid_filter%22:%5B%7B%22type%22:%22%3D%22,%22values%22:%5B%7B%22constant%22:%22%22%7D,%7B%7D%5D,%22id%22:1%7D%5D,%22time_filter%22:%5B%7B%22type%22:%22advanced%22,%22values%22:%5B%7B%22constant%22:null%7D,%7B%7D%5D,%22id%22:2%7D%5D%7D')
 
-WebUI.waitForAngularLoad(0)
+WebUI.waitForAngularLoad(60)
 
 WebUI.waitForPageLoad(0)
 
@@ -44,12 +44,12 @@ WebUI.click(findTestObject('Page_Live (In Progress) Event/div_Toggle Dropdown'))
 
 WebUI.click(findTestObject('Page_Live (In Progress) Event/a_Clear Cache  Refresh'))
 
-WebUI.waitForAngularLoad(0)
+WebUI.waitForAngularLoad(90)
 
 WebUI.waitForPageLoad(0)
 
 'ACTUAL LIVE EVENT Live In Progress Event\n'
-WebUI.navigateToUrl('https://stats.kontiki.com/dashboards/analytics_external::live_event_in_progress?content_moid_filter=1655562e-ef24-43b6-8d54-bce55c4b9fba&format_moid_filter=&time_filter=&filter_config=%7B%22content_moid_filter%22:%5B%7B%22type%22:%22%3D%22,%22values%22:%5B%7B%22constant%22:%221655562e-ef24-43b6-8d54-bce55c4b9fba%22%7D,%7B%7D%5D,%22id%22:0%7D%5D,%22format_moid_filter%22:%5B%7B%22type%22:%22%3D%22,%22values%22:%5B%7B%22constant%22:%22%22%7D,%7B%7D%5D,%22id%22:1%7D%5D,%22time_filter%22:%5B%7B%22type%22:%22advanced%22,%22values%22:%5B%7B%22constant%22:null%7D,%7B%7D%5D,%22id%22:2%7D%5D%7D')
+WebUI.navigateToUrl('https://stats.kontiki.com/dashboards/analytics_external::live_event_in_progress?content_moid_filter=1655562e-ef24-43b6-8d54-bce55c4b9fba&format_moid_filter=&time_filter=&filter_config=%7B%22content_moid_filter%22:%5B%7B%22type%22:%22%3D%22,%22values%22:%5B%7B%22constant%22:%221655562e-ef24-43b6-8d54-bce55c4b9fba%22%7D,%7B%7D%5D,%22id%22:0%7D%5D,%22start_time_filter%22:%5B%7B%22type%22:%22past%22,%22values%22:%5B%7B%22constant%22:%229%22,%22unit%22:%22qu%22%7D,%7B%7D%5D,%22id%22:5%7D%5D,%22end_time_filter%22:%5B%7B%22type%22:%22advanced%22,%22values%22:%5B%7B%22constant%22:null%7D,%7B%7D%5D,%22id%22:6%7D%5D,%22type_filter%22:%5B%7B%22type%22:%22%3D%22,%22values%22:%5B%7B%22constant%22:%22Live%22%7D,%7B%7D%5D,%22id%22:7%7D%5D,%22play_duration_sec_filter%22:%5B%7B%22type%22:%22%3E%22,%22values%22:%5B%7B%22constant%22:%220%22%7D,%7B%7D%5D,%22id%22:8%7D%5D%7D&start_time_filter=9%20quarters&end_time_filter=&type_filter=Live&play_duration_sec_filter=%3E0')
 
 WebUI.waitForPageLoad(0)
 
@@ -64,7 +64,7 @@ WebUI.waitForAngularLoad(0)
 WebUI.waitForPageLoad(0)
 
 'Live In Progress Event'
-WebUI.navigateToUrl('https://stats.kontiki.com/dashboards/analytics_external::live_event?content_moid_filter=e5adccc3-b8ea-420b-8a97-ac1178a1cd18&format_moid_filter=&time_filter=&filter_config=%7B%22content_moid_filter%22:%5B%7B%22type%22:%22%3D%22,%22values%22:%5B%7B%22constant%22:%22e5adccc3-b8ea-420b-8a97-ac1178a1cd18%22%7D,%7B%7D%5D,%22id%22:0%7D%5D,%22format_moid_filter%22:%5B%7B%22type%22:%22%3D%22,%22values%22:%5B%7B%22constant%22:%22%22%7D,%7B%7D%5D,%22id%22:1%7D%5D,%22time_filter%22:%5B%7B%22type%22:%22advanced%22,%22values%22:%5B%7B%22constant%22:null%7D,%7B%7D%5D,%22id%22:2%7D%5D%7D')
+WebUI.navigateToUrl('https://stats.kontiki.com/dashboards/analytics_external::live_event?content_moid_filter=e5adccc3-b8ea-420b-8a97-ac1178a1cd18&format_moid_filter=&time_filter=&filter_config=%7B%22content_moid_filter%22:%5B%7B%22type%22:%22%3D%22,%22values%22:%5B%7B%22constant%22:%22e5adccc3-b8ea-420b-8a97-ac1178a1cd18%22%7D,%7B%7D%5D,%22id%22:0%7D%5D,%22start_time_filter%22:%5B%7B%22type%22:%22past%22,%22values%22:%5B%7B%22constant%22:%229%22,%22unit%22:%22qu%22%7D,%7B%7D%5D,%22id%22:5%7D%5D,%22end_time_filter%22:%5B%7B%22type%22:%22advanced%22,%22values%22:%5B%7B%22constant%22:null%7D,%7B%7D%5D,%22id%22:6%7D%5D,%22type_filter%22:%5B%7B%22type%22:%22%3D%22,%22values%22:%5B%7B%22constant%22:%22Live%22%7D,%7B%7D%5D,%22id%22:7%7D%5D,%22play_duration_sec_filter%22:%5B%7B%22type%22:%22%3E%22,%22values%22:%5B%7B%22constant%22:%220%22%7D,%7B%7D%5D,%22id%22:8%7D%5D%7D&start_time_filter=9%20quarters&end_time_filter=&type_filter=Live&play_duration_sec_filter=%3E0')
 
 WebUI.waitForPageLoad(0)
 
@@ -79,7 +79,7 @@ WebUI.waitForAngularLoad(0)
 WebUI.waitForPageLoad(0)
 
 'Live In Progress Event'
-WebUI.navigateToUrl('https://stats.kontiki.com/dashboards/analytics_external::live_event?content_moid_filter=8970ff06-347e-4bd8-b584-1287c470ad4a&format_moid_filter=&time_filter=&filter_config=%7B%22content_moid_filter%22:%5B%7B%22type%22:%22%3D%22,%22values%22:%5B%7B%22constant%22:%228970ff06-347e-4bd8-b584-1287c470ad4a%22%7D,%7B%7D%5D,%22id%22:0%7D%5D,%22format_moid_filter%22:%5B%7B%22type%22:%22%3D%22,%22values%22:%5B%7B%22constant%22:%22%22%7D,%7B%7D%5D,%22id%22:1%7D%5D,%22time_filter%22:%5B%7B%22type%22:%22advanced%22,%22values%22:%5B%7B%22constant%22:null%7D,%7B%7D%5D,%22id%22:2%7D%5D%7D')
+WebUI.navigateToUrl('https://stats.kontiki.com/dashboards/analytics_external::live_event?content_moid_filter=8970ff06-347e-4bd8-b584-1287c470ad4a&format_moid_filter=&time_filter=&filter_config=%7B%22content_moid_filter%22:%5B%7B%22type%22:%22%3D%22,%22values%22:%5B%7B%22constant%22:%228970ff06-347e-4bd8-b584-1287c470ad4a%22%7D,%7B%7D%5D,%22id%22:0%7D%5D,%22start_time_filter%22:%5B%7B%22type%22:%22past%22,%22values%22:%5B%7B%22constant%22:%229%22,%22unit%22:%22qu%22%7D,%7B%7D%5D,%22id%22:5%7D%5D,%22end_time_filter%22:%5B%7B%22type%22:%22advanced%22,%22values%22:%5B%7B%22constant%22:null%7D,%7B%7D%5D,%22id%22:6%7D%5D,%22type_filter%22:%5B%7B%22type%22:%22%3D%22,%22values%22:%5B%7B%22constant%22:%22Live%22%7D,%7B%7D%5D,%22id%22:7%7D%5D,%22play_duration_sec_filter%22:%5B%7B%22type%22:%22%3E%22,%22values%22:%5B%7B%22constant%22:%220%22%7D,%7B%7D%5D,%22id%22:8%7D%5D%7D&start_time_filter=9%20quarters&end_time_filter=&type_filter=Live&play_duration_sec_filter=%3E0')
 
 WebUI.waitForAngularLoad(0)
 
@@ -89,14 +89,14 @@ WebUI.click(findTestObject('Page_Live (In Progress) Event/div_Toggle Dropdown'))
 
 WebUI.click(findTestObject('Page_Live Event/a_Clear Cache  Refresh'))
 
-WebUI.waitForAngularLoad(0)
+WebUI.waitForAngularLoad(120)
 
 WebUI.waitForPageLoad(0)
 
 'Live In Progress Event with no Moid, time filter in the past 5 minutes'
 WebUI.navigateToUrl('https://stats.kontiki.com/dashboards/analytics_external::live_event_in_progress?content_moid_filter=&format_moid_filter=&time_filter=2%20weeks&filter_config=%7B%22content_moid_filter%22:%5B%7B%22type%22:%22%3D%22,%22values%22:%5B%7B%22constant%22:%22%22%7D,%7B%7D%5D,%22id%22:0%7D%5D,%22format_moid_filter%22:%5B%7B%22type%22:%22%3D%22,%22values%22:%5B%7B%22constant%22:%22%22%7D,%7B%7D%5D,%22id%22:1%7D%5D,%22time_filter%22:%5B%7B%22type%22:%22past%22,%22values%22:%5B%7B%22constant%22:%222%22,%22unit%22:%22wk%22%7D%5D,%22id%22:2%7D%5D%7D')
 
-WebUI.waitForAngularLoad(0)
+WebUI.waitForAngularLoad(90)
 
 WebUI.waitForPageLoad(0)
 
@@ -104,12 +104,12 @@ WebUI.click(findTestObject('Page_Live (In Progress) Event/div_Toggle Dropdown'))
 
 WebUI.click(findTestObject('Page_Live (In Progress) Event/a_Clear Cache  Refresh'))
 
-WebUI.waitForAngularLoad(0)
+WebUI.waitForAngularLoad(90)
 
 WebUI.waitForPageLoad(0)
 
 'ACTUAL LIVE EVENT Live In Progress Event\n'
-WebUI.navigateToUrl('https://stats.kontiki.com/dashboards/analytics_external::live_event?content_moid_filter=491ea61d-3d7a-4b72-a39e-62a3e497174a&format_moid_filter=&time_filter=&filter_config=%7B%22content_moid_filter%22:%5B%7B%22type%22:%22%3D%22,%22values%22:%5B%7B%22constant%22:%22491ea61d-3d7a-4b72-a39e-62a3e497174a%22%7D,%7B%7D%5D,%22id%22:0%7D%5D,%22format_moid_filter%22:%5B%7B%22type%22:%22%3D%22,%22values%22:%5B%7B%22constant%22:%22%22%7D,%7B%7D%5D,%22id%22:1%7D%5D,%22time_filter%22:%5B%7B%22type%22:%22advanced%22,%22values%22:%5B%7B%22constant%22:null%7D,%7B%7D%5D,%22id%22:2%7D%5D%7D')
+WebUI.navigateToUrl('https://stats.kontiki.com/dashboards/analytics_external::live_event?content_moid_filter=491ea61d-3d7a-4b72-a39e-62a3e497174a&format_moid_filter=&time_filter=&filter_config=%7B%22content_moid_filter%22:%5B%7B%22type%22:%22%3D%22,%22values%22:%5B%7B%22constant%22:%22491ea61d-3d7a-4b72-a39e-62a3e497174a%22%7D,%7B%7D%5D,%22id%22:0%7D%5D,%22start_time_filter%22:%5B%7B%22type%22:%22past%22,%22values%22:%5B%7B%22constant%22:%229%22,%22unit%22:%22qu%22%7D,%7B%7D%5D,%22id%22:5%7D%5D,%22end_time_filter%22:%5B%7B%22type%22:%22advanced%22,%22values%22:%5B%7B%22constant%22:null%7D,%7B%7D%5D,%22id%22:6%7D%5D,%22type_filter%22:%5B%7B%22type%22:%22%3D%22,%22values%22:%5B%7B%22constant%22:%22Live%22%7D,%7B%7D%5D,%22id%22:7%7D%5D,%22play_duration_sec_filter%22:%5B%7B%22type%22:%22%3E%22,%22values%22:%5B%7B%22constant%22:%220%22%7D,%7B%7D%5D,%22id%22:8%7D%5D%7D&start_time_filter=9%20quarters&end_time_filter=&type_filter=Live&play_duration_sec_filter=%3E0')
 
 WebUI.waitForAngularLoad(0)
 
@@ -124,9 +124,9 @@ WebUI.waitForAngularLoad(0)
 WebUI.waitForPageLoad(0)
 
 'Agent Details'
-WebUI.navigateToUrl('https://stats.kontiki.com/dashboards/analytics_external::agent?Short%20Node%20ID=rbAk4MBwhUrSjonT&Delivery%20Time=&Delivery%20Type=&filter_config=%7B%22Short%20Node%20ID%22:%5B%7B%22type%22:%22%3D%22,%22values%22:%5B%7B%22constant%22:%22rbAk4MBwhUrSjonT%22%7D,%7B%7D%5D,%22id%22:0%7D%5D,%22Delivery%20Time%22:%5B%7B%22type%22:%22advanced%22,%22values%22:%5B%7B%22constant%22:null%7D,%7B%7D%5D,%22id%22:1%7D%5D,%22Delivery%20Type%22:%5B%7B%22type%22:%22%3D%22,%22values%22:%5B%7B%22constant%22:%22%22%7D,%7B%7D%5D,%22id%22:2%7D%5D%7D')
+WebUI.navigateToUrl('https://stats.kontiki.com/dashboards/analytics_external::agent?Short%20Node%20ID=rbAk4MBwhUrSjonT&Delivery%20Time=7%20weeks&Delivery%20Type=&filter_config=%7B%22Agent%20ID%22:%5B%7B%22type%22:%22%3D%22,%22values%22:%5B%7B%22constant%22:%22%22%7D,%7B%7D%5D,%22id%22:3%7D%5D,%22Delivery%20Time%22:%5B%7B%22type%22:%22past%22,%22values%22:%5B%7B%22constant%22:%227%22,%22unit%22:%22wk%22%7D%5D,%22id%22:1%7D%5D,%22Delivery%20Type%22:%5B%7B%22type%22:%22%3D%22,%22values%22:%5B%7B%22constant%22:%22%22%7D,%7B%7D%5D,%22id%22:2%7D%5D%7D&Agent%20ID=')
 
-WebUI.waitForAngularLoad(0)
+WebUI.waitForAngularLoad(90)
 
 WebUI.waitForPageLoad(0)
 
@@ -139,7 +139,7 @@ WebUI.waitForAngularLoad(0)
 WebUI.waitForPageLoad(0)
 
 'Live In Progress Event with a Format Moid applied\n'
-WebUI.navigateToUrl('https://stats.kontiki.com/dashboards/analytics_external::live_event?format_moid_filter=000006eb-9a7c-4679-ba0e-0e9c6cd99220&content_moid_filter=9379da06-b35a-44f8-ae88-9ce99872bc49&time_filter=&filter_config=%7B%22content_moid_filter%22:%5B%7B%22type%22:%22%3D%22,%22values%22:%5B%7B%22constant%22:%229379da06-b35a-44f8-ae88-9ce99872bc49%22%7D,%7B%7D%5D,%22id%22:0%7D%5D,%22format_moid_filter%22:%5B%7B%22type%22:%22%3D%22,%22values%22:%5B%7B%22constant%22:%22000006eb-9a7c-4679-ba0e-0e9c6cd99220%22%7D,%7B%7D%5D,%22id%22:1%7D%5D,%22time_filter%22:%5B%7B%22type%22:%22advanced%22,%22values%22:%5B%7B%22constant%22:null%7D,%7B%7D%5D,%22id%22:2%7D%5D%7D')
+WebUI.navigateToUrl('https://stats.kontiki.com/dashboards/analytics_external::live_event?format_moid_filter=000006eb-9a7c-4679-ba0e-0e9c6cd99220&content_moid_filter=&time_filter=&filter_config=%7B%22content_moid_filter%22:%5B%7B%22type%22:%22%3D%22,%22values%22:%5B%7B%22constant%22:%22%22%7D,%7B%7D%5D,%22id%22:0%7D%5D,%22start_time_filter%22:%5B%7B%22type%22:%22past%22,%22values%22:%5B%7B%22constant%22:%226%22,%22unit%22:%22day%22%7D,%7B%7D%5D,%22id%22:5%7D%5D,%22end_time_filter%22:%5B%7B%22type%22:%22advanced%22,%22values%22:%5B%7B%22constant%22:null%7D,%7B%7D%5D,%22id%22:6%7D%5D,%22type_filter%22:%5B%7B%22type%22:%22%3D%22,%22values%22:%5B%7B%22constant%22:%22Live%22%7D,%7B%7D%5D,%22id%22:7%7D%5D,%22play_duration_sec_filter%22:%5B%7B%22type%22:%22%3E%22,%22values%22:%5B%7B%22constant%22:%220%22%7D,%7B%7D%5D,%22id%22:8%7D%5D%7D&start_time_filter=6%20days&end_time_filter=&type_filter=Live&play_duration_sec_filter=%3E0')
 
 WebUI.waitForAngularLoad(0)
 
@@ -179,27 +179,27 @@ WebUI.click(findTestObject('Page_Live (In Progress) Event/i_Run_lk-icon-gear'))
 
 WebUI.click(findTestObject('Page_Live (In Progress) Event/a_Clear Cache  Refresh'))
 
-WebUI.waitForAngularLoad(0)
+WebUI.waitForAngularLoad(90)
 
 WebUI.waitForPageLoad(0)
 
 'ACTUAL LIVE EVENT Live In Progress Event\n'
-WebUI.navigateToUrl('https://stats.kontiki.com/dashboards/analytics_external::live_event?content_moid_filter=91ef1c6c-2210-4ece-8070-7bceecb399f0&format_moid_filter=&time_filter=&filter_config=%7B%22content_moid_filter%22:%5B%7B%22type%22:%22%3D%22,%22values%22:%5B%7B%22constant%22:%2291ef1c6c-2210-4ece-8070-7bceecb399f0%22%7D,%7B%7D%5D,%22id%22:0%7D%5D,%22format_moid_filter%22:%5B%7B%22type%22:%22%3D%22,%22values%22:%5B%7B%22constant%22:%22%22%7D,%7B%7D%5D,%22id%22:1%7D%5D,%22time_filter%22:%5B%7B%22type%22:%22advanced%22,%22values%22:%5B%7B%22constant%22:null%7D,%7B%7D%5D,%22id%22:2%7D%5D%7D')
+not_run: WebUI.navigateToUrl('https://stats.kontiki.com/dashboards/analytics_external::live_event?content_moid_filter=91ef1c6c-2210-4ece-8070-7bceecb399f0&format_moid_filter=&time_filter=&filter_config=%7B%22content_moid_filter%22:%5B%7B%22type%22:%22%3D%22,%22values%22:%5B%7B%22constant%22:%2291ef1c6c-2210-4ece-8070-7bceecb399f0%22%7D,%7B%7D%5D,%22id%22:0%7D%5D,%22format_moid_filter%22:%5B%7B%22type%22:%22%3D%22,%22values%22:%5B%7B%22constant%22:%22%22%7D,%7B%7D%5D,%22id%22:1%7D%5D,%22time_filter%22:%5B%7B%22type%22:%22advanced%22,%22values%22:%5B%7B%22constant%22:null%7D,%7B%7D%5D,%22id%22:2%7D%5D%7D')
 
-WebUI.waitForAngularLoad(0)
+not_run: WebUI.waitForAngularLoad(0)
 
-WebUI.waitForPageLoad(0)
+not_run: WebUI.waitForPageLoad(0)
 
-WebUI.click(findTestObject('Page_Live (In Progress) Event/i_Run_lk-icon-gear'))
+not_run: WebUI.click(findTestObject('Page_Live (In Progress) Event/i_Run_lk-icon-gear'))
 
-WebUI.click(findTestObject('Page_Live (In Progress) Event/a_Clear Cache  Refresh'))
+not_run: WebUI.click(findTestObject('Page_Live (In Progress) Event/a_Clear Cache  Refresh'))
 
-WebUI.waitForAngularLoad(0)
+not_run: WebUI.waitForAngularLoad(0)
 
-WebUI.waitForPageLoad(0)
+not_run: WebUI.waitForPageLoad(0)
 
 'Agent Details'
-WebUI.navigateToUrl('https://stats.kontiki.com/dashboards/analytics_external::agent?Short%20Node%20ID=1MivixMLeS8LpeTu&Delivery%20Time=&Delivery%20Type=&filter_config=%7B%22Short%20Node%20ID%22:%5B%7B%22type%22:%22%3D%22,%22values%22:%5B%7B%22constant%22:%221MivixMLeS8LpeTu%22%7D,%7B%7D%5D,%22id%22:0%7D%5D,%22Delivery%20Time%22:%5B%7B%22type%22:%22advanced%22,%22values%22:%5B%7B%22constant%22:null%7D,%7B%7D%5D,%22id%22:1%7D%5D,%22Delivery%20Type%22:%5B%7B%22type%22:%22%3D%22,%22values%22:%5B%7B%22constant%22:%22%22%7D,%7B%7D%5D,%22id%22:2%7D%5D%7D')
+WebUI.navigateToUrl('https://stats.kontiki.com/dashboards/analytics_external::agent?Short%20Node%20ID=1MivixMLeS8LpeTu&Delivery%20Time=7%20days&Delivery%20Type=&filter_config=%7B%22Agent%20ID%22:%5B%7B%22type%22:%22%3D%22,%22values%22:%5B%7B%22constant%22:%22%22%7D,%7B%7D%5D,%22id%22:3%7D%5D,%22Delivery%20Time%22:%5B%7B%22type%22:%22past%22,%22values%22:%5B%7B%22constant%22:%227%22,%22unit%22:%22day%22%7D%5D,%22id%22:1%7D%5D,%22Delivery%20Type%22:%5B%7B%22type%22:%22%3D%22,%22values%22:%5B%7B%22constant%22:%22%22%7D,%7B%7D%5D,%22id%22:2%7D%5D%7D&Agent%20ID=')
 
 WebUI.waitForAngularLoad(0)
 
@@ -295,13 +295,13 @@ WebUI.waitForAngularLoad(0)
 
 WebUI.waitForPageLoad(0)
 
-WebUI.click(findTestObject('Page_Live Event/i_Run_lk-icon-gear'))
+not_run: WebUI.click(findTestObject('Page_Live Event/i_Run_lk-icon-gear'))
 
-WebUI.click(findTestObject('Page_Live Event/a_Clear Cache  Refresh'))
+not_run: WebUI.click(findTestObject('Page_Live Event/a_Clear Cache  Refresh'))
 
-WebUI.waitForAngularLoad(0)
+not_run: WebUI.waitForAngularLoad(0)
 
-WebUI.waitForPageLoad(0)
+not_run: WebUI.waitForPageLoad(0)
 
 'Agent Details with a Short Node ID applied\n'
 WebUI.navigateToUrl('https://stats.kontiki.com/dashboards/analytics_external::agent?Short%20Node%20ID=5H6AQySk3LLQ7Ixo&Delivery%20Time=&Delivery%20Type=&filter_config=%7B%22Short%20Node%20ID%22:%5B%7B%22type%22:%22%3D%22,%22values%22:%5B%7B%22constant%22:%225H6AQySk3LLQ7Ixo%22%7D,%7B%7D%5D,%22id%22:0%7D%5D,%22Delivery%20Time%22:%5B%7B%22type%22:%22advanced%22,%22values%22:%5B%7B%22constant%22:null%7D,%7B%7D%5D,%22id%22:1%7D%5D,%22Delivery%20Type%22:%5B%7B%22type%22:%22%3D%22,%22values%22:%5B%7B%22constant%22:%22%22%7D,%7B%7D%5D,%22id%22:2%7D%5D%7D')
@@ -336,7 +336,7 @@ WebUI.waitForPageLoad(0)
 'Network Summary'
 WebUI.navigateToUrl('https://stats.kontiki.com/dashboards/analytics_external::network_summary?time_filter=6%20months&filter_config=%7B%22time_filter%22:%5B%7B%22type%22:%22past%22,%22values%22:%5B%7B%22constant%22:%226%22,%22unit%22:%22mo%22%7D,%7B%7D%5D,%22id%22:2%7D%5D%7D')
 
-WebUI.waitForAngularLoad(0)
+WebUI.waitForAngularLoad(90)
 
 WebUI.waitForPageLoad(0)
 
@@ -344,7 +344,7 @@ WebUI.click(findTestObject('Page_Network Content/i_Run_lk-icon-gear'))
 
 WebUI.click(findTestObject('Page_Network Content/a_Clear Cache  Refresh'))
 
-WebUI.waitForAngularLoad(0)
+WebUI.waitForAngularLoad(90)
 
 WebUI.waitForPageLoad(0)
 
@@ -445,17 +445,17 @@ WebUI.waitForAngularLoad(0)
 
 WebUI.waitForPageLoad(0)
 
-WebUI.click(findTestObject('Object Repository/Page_Overview/a'), FailureHandling.CONTINUE_ON_FAILURE)
+not_run: WebUI.click(findTestObject('Object Repository/Page_Overview/a'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.click(findTestObject('Page_Overview/a_Log Out'), FailureHandling.CONTINUE_ON_FAILURE)
+not_run: WebUI.click(findTestObject('Page_Overview/a_Log Out'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.waitForAngularLoad(0)
+not_run: WebUI.waitForAngularLoad(0)
 
-WebUI.waitForPageLoad(0)
+not_run: WebUI.waitForPageLoad(0)
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Log in/div_Logout Successful.'), 0)
+not_run: WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Log in/div_Logout Successful.'), 0)
 
-WebUI.verifyTextPresent('Logout Successful.', false)
+not_run: WebUI.verifyTextPresent('Logout Successful.', false)
 
-WebUI.closeBrowser()
+not_run: WebUI.closeBrowser()
 

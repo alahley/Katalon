@@ -146,7 +146,7 @@ WebUI.waitForAngularLoad(90)
 WebUI.waitForPageLoad(0)
 
 'EXPLORE HISTORY | Table data of all queries that just completed\nFilters: Created in the last ten minutes; Runtime is not Null; Source is not a Saved Look; Status is not Running; Email is alahley@kollective.com'
-WebUI.navigateToUrl('https://stats.tc1.kontiki.com/explore/i__looker/history?toggle=fil&qid=akAjouswN2uxUgVsT6Aox1')
+WebUI.navigateToUrl('https://stats.tc1.kontiki.com/explore/i__looker/history?toggle=fil&qid=72YIesrjpcfdFYOzNKemLY')
 
 'Waits for all angular elements on the landing page and throws an exception after 90 seconds'
 WebUI.waitForAngularLoad(90)

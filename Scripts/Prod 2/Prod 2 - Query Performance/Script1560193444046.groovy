@@ -61,7 +61,7 @@ WebUI.waitForPageLoad(0)
 WebUI.navigateToUrl('https://stats.wg1.kontiki.com/dashboards/analytics_external::live_event_in_progress?content_moid_filter=&time_filter=1%20months&filter_config=%7B%22content_moid_filter%22:%5B%7B%22type%22:%22%3D%22,%22values%22:%5B%7B%22constant%22:%22%22%7D,%7B%7D%5D,%22id%22:4%7D%5D,%22time_filter%22:%5B%7B%22type%22:%22past%22,%22values%22:%5B%7B%22constant%22:%221%22,%22unit%22:%22mo%22%7D%5D,%22id%22:5%7D%5D%7D')
 
 'Waits for all angular elements on the landing page and throws an exception after 90 seconds'
-WebUI.waitForAngularLoad(150)
+WebUI.waitForAngularLoad(240)
 
 WebUI.waitForPageLoad(0)
 
@@ -146,7 +146,7 @@ WebUI.waitForAngularLoad(90)
 WebUI.waitForPageLoad(0)
 
 'EXPLORE HISTORY | Table data of all queries that just completed\nFilters: Created in the last ten minutes; Runtime is not Null; Source is not a Saved Look; Status is not Running; Email is alahley@kollective.com'
-WebUI.navigateToUrl('https://stats.wg1.kontiki.com/explore/i__looker/history?toggle=fil&qid=auAMPfJ84RwItUjO4Ybzy7')
+WebUI.navigateToUrl('https://stats.wg1.kontiki.com/explore/i__looker/history?toggle=fil&qid=i72Mg3IEeZdMOqGBduLoXf')
 
 'Waits for all angular elements on the landing page and throws an exception after 90 seconds'
 WebUI.waitForAngularLoad(90)
